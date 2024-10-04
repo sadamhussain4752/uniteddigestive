@@ -52,7 +52,7 @@ const Home1Header = () => {
               <ul className="main-nav">
                 <li className="has-submenu megamenu active">
                   <Link to="/home-1">
-                    Home 
+                      <i class="fa-solid fa-house fs-6"></i>
                   </Link>
                   {/* <ul className="submenu mega-submenu">
                     <li>
@@ -318,64 +318,15 @@ const Home1Header = () => {
                     </li>
                   </ul> */}
                 </li>
-                <li className="has-submenu">
+                {/* <li className="has-submenu">
                   <Link to="/patient/search-doctor1">
                     Providers 
                   </Link>
-                  {/* <ul className="submenu">
-                    <li>
-                      <Link to="/doctor/doctor-dashboard">
-                        Doctor Dashboard
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/appointments">Appointments</Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/available-timings">
-                        Available Timing
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/my-patients">Patients List</Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/patient-profile">Patients Profile</Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/chat-doctor">Chat</Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/invoices">Invoices</Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/profile-setting">Profile Settings</Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/review">Reviews</Link>
-                    </li>
-                    <li>
-                      <Link to="/doctor/doctor-register">Doctor Register</Link>
-                    </li>
-                    <li className="has-submenu">
-                      <Link to="/doctor-blog">Blog</Link>
-                      <ul className="submenu">
-                        <li>
-                          <Link to="/doctor-blog">Blog</Link>
-                        </li>
-                        <li>
-                          <Link to="/blog/blog-details">Blog view</Link>
-                        </li>
-                        <li>
-                          <Link to="/blog/doctor-add-blog">Add Blog</Link>
-                        </li>
-                      </ul>
-                    </li>
-                  </ul> */}
-                </li>
+                 
+                </li> */}
                 <li className="has-submenu">
                   <Link to="/patient/doctor-list">
-                    Locations 
+                  Providers & Locations 
                   </Link>
                  
                 </li>

@@ -13,6 +13,8 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Calendar } from "primereact/calendar";
 import expertise from "../../JSON/expertise.JSON";
+import {aboutimg1 ,aboutimg2,aboutimg3,phoneicon} from "../../pages/aboutus/img"
+import CountUp from "react-countup";
 
 const Home1 = () => {
   const [date1, setDate1] = useState(null);
@@ -33,7 +35,57 @@ const Home1 = () => {
     };
   }, []);
 
+  const populartestslider = {
+    loop: true,
+    margin: 24,
+    dots: true,
+    nav: false,
+    smartSpeed: 2000,
+    navText: [
+      '<i class="fas fa-chevron-left custom-arrow"></i>',
+      '<i class="fas fa-chevron-right custom-arrow"></i>',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      500: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+      1000: {
+        items: 3,
+      },
+      1300: {
+        items: 4,
+      },
+    },
+  };
 
+  const consultingSlider = {
+    loop: false,
+    margin: 15,
+    dots: false,
+    nav: true,
+    smartSpeed: 2000,
+    navText: [
+      '<i class="fa-solid fa-play"></i>',
+      '<i class="fa-solid fa-play"></i>',
+    ],
+    responsive: {
+      0: {
+        items: 1,
+      },
+      500: {
+        items: 1,
+      },
+      1300: {
+        items: 1,
+      },
+    },
+  };
   const ourNew = {
     loop: true,
     margin: 24,
@@ -185,115 +237,224 @@ const Home1 = () => {
       <Home1Header />
       {/* Home Banner */}
       <section className="banner-section">
-        <div className="container">
-          <div className="row align-items-center">
-            <div className="col-lg-6">
-              <div className="banner-content aos" data-aos="fade-up">
-                <h1>
-                  Comprehensive <span>Digestive</span> Health
-                </h1>
-                <ImageWithBasePath
-                  src="assets/img/icons/header-icon.svg"
-                  className="header-icon"
-                  alt="header-icon"
-                />
-                <p>
-                  We are committed to providing our patients with the most
-                  appropriate and cost-effective healthcare available in a
-                  comfortable and compassionate setting.
-                </p>
-                <Link to="/patient/booking1" className="btn">
-                  Find a Location and Provide
-                </Link>
-                <div className="banner-arrow-img">
-                  <ImageWithBasePath
-                    src="assets/img/down-arrow-img.png"
-                    className="img-fluid"
-                    alt="down-arrow"
-                  />
-                </div>
-              </div>
-              {/* <div className="search-box-one aos" data-aos="fade-up">
-                <form action="search-2.html">
-                  <div className="search-input search-line">
-                    <i className="feather icon-search bficon" />
-                    <div className=" mb-0">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Search doctors, clinics, hospitals, etc"
-                      />
+      <div className="medical-emergency-booking">
+            <div className="doctor-consulting-slider">
+              <OwlCarousel {...consultingSlider}>
+                <div className="medical-emergency-card">
+                  <div className="row align-items-center">
+                    <div className="col-md-6">
+                      <div className="slider-img">
+                        <ImageWithBasePath
+                          src="assets/img/bg/slider-bg-img.png"
+                          className="img-fluid"
+                          alt="Img"
+                        />
+                      </div>
                     </div>
-                  </div>
-                  <div className="search-input search-map-line">
-                    <i className="feather icon-map-pin" />
-                    <div className=" mb-0">
-                      <input
-                        type="text"
-                        className="form-control"
-                        placeholder="Location"
-                      />
-                      <Link
-                        className="current-loc-icon current_location"
-                        to="#"
+                    <div className="col-md-6">
+                      <div
+                        className="slider-content aos"
+                        data-aos="fade-up"
+                        data-aos-delay={600}
                       >
-                        <i className="feather icon-crosshair" />
-                      </Link>
+                        <h3>Chest Pain?</h3>
+                        <span>Check if you are risk at a Heart Attack</span>
+                        <p>
+                          Get a test report in an Hour &amp; care your heart at
+                          our Specialist Advice
+                        </p>
+                        <Link to="/patient/booking2">Book Now</Link>
+                      </div>
                     </div>
                   </div>
-                  <div className="search-input search-calendar-line">
-                    <i className="feather icon-calendar" />
-                    <div className=" mb-0">
-                      <Calendar
-                        value={date1}
-                        onChange={(e) => setDate1(e.value)}
-                        placeholder="From"
-                        className="custom-date-picker"
-                      />
+                </div>
+                <div className="medical-emergency-card">
+                  <div className="row align-items-center">
+                    <div className="col-md-6">
+                      <div className="slider-img">
+                        <ImageWithBasePath
+                          src="assets/img/bg/slider-bg-img.png"
+                          className="img-fluid"
+                          alt="Img"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div className="slider-content">
+                        <h3>Chest Pain?</h3>
+                        <span>Check if you are risk at a Heart Attack</span>
+                        <p>
+                          Get a test report in an Hour &amp; care your heart at
+                          our Specialist Advice
+                        </p>
+                        <Link to="/patient/booking2">Book Now</Link>
+                      </div>
                     </div>
                   </div>
-                  <div className="form-search-btn">
-                    <button className="btn" type="submit">
-                      Search
-                    </button>
+                </div>
+                <div className="medical-emergency-card">
+                  <div className="row align-items-center">
+                    <div className="col-md-6">
+                      <div className="slider-img">
+                        <ImageWithBasePath
+                          src="assets/img/bg/slider-bg-img.png"
+                          className="img-fluid"
+                          alt="Img"
+                        />
+                      </div>
+                    </div>
+                    <div className="col-md-6">
+                      <div
+                        className="slider-content aos"
+                        data-aos="fade-up"
+                        data-aos-delay={600}
+                      >
+                        <h3>Chest Pain?</h3>
+                        <span>Check if you are risk at a Heart Attack</span>
+                        <p>
+                          Get a test report in an Hour &amp; care your heart at
+                          our Specialist Advice
+                        </p>
+                        <Link to="/patient/booking2">Book Now</Link>
+                      </div>
+                    </div>
                   </div>
-                </form>
-              </div> */}
+                </div>
+              </OwlCarousel>
             </div>
-            <div className="col-lg-6">
-              <div className="banner-img aos" data-aos="fade-up">
-                <ImageWithBasePath
+          </div>
+      </section>
+      {/* /Home Banner */}
+      <section className="about-section">
+          <div className="container">
+            <div className="row align-items-center">
+              <div className="col-lg-6 col-md-12">
+              <ImageWithBasePath
                   src="assets/img/ShabeerAhmed.png"
                   className="img-fluid"
                   alt="patient-image"
                 />
-                <div className="banner-img1">
-                  <ImageWithBasePath
-                    src="assets/img/banner/banner-img1.svg"
-                    className="img-fluid"
-                    alt="checkup-image"
-                  />
+              </div>
+              <div className="col-lg-6 col-md-12">
+                <div className="section-inner-header about-inner-header">
+                  <h6> Our About </h6>
+                  <h2>
+                    Dr. Shabeer Ahmed
+                  </h2>
                 </div>
-                <div className="banner-img2">
-                  <ImageWithBasePath
-                    src="assets/img/banner/banner-img2.svg"
-                    className="img-fluid"
-                    alt="doctor-slide"
-                  />
+                <div className="about-content">
+                  <div className="about-content-details">
+                    <p>
+                    Gastrointestinal, Bariatric, Laparoscopic, General & Onco Surgeon
+                    </p>
+                    <p>
+                    An eminent senior consultant Gastrointestinal & Laparoscopic and Bariatric Surgeon with over 30 years of extensive surgical experience. He is also an acknowledged teacher and mentor by Association of Laparoscopic Surgery (ALS), UK. His special expertise lies in advanced laparoscopic surgery especially for gastro-intestinal cancer. He has his passion for Video Assisted Thoracic Surgery (VATS), Bariatric Surgery and Metabolic Surgery.
+                    </p>
+                  </div>
+                  <div className="about-contact">
+                    <div className="about-contact-icon">
+                      <span>
+                        <img src={phoneicon} alt="" />
+                      </span>
+                    </div>
+                    <div className="about-contact-text">
+                      <p>Book An Apponitment</p>
+                      {/* <h4>+1 315 369 5943</h4> */}
+                    </div>
+                  </div>
                 </div>
-                <div className="banner-img3">
+              </div>
+            </div>
+          </div>
+        </section>
+        <section className="counter-section">
+        <div className="ban-bg">
+          <ImageWithBasePath
+            src="assets/img/bg/counter-bg.png"
+            alt="design-image"
+            className="img-fluid bg-06"
+          />
+          <ImageWithBasePath
+            src="assets/img/bg/counter-bg-01.png"
+            alt="eye-image"
+            className="img-fluid bg-07"
+          />
+        </div>
+        <div className="container">
+          <div className="row">
+          <div className="col-lg-3 col-sm-6">
+              <div className="count-box">
+                <span className="count-icon">
                   <ImageWithBasePath
-                    src="assets/img/banner/banner-img3.svg"
+                    src="assets/img/icons/count-02.svg"
+                    alt="stethoscope"
                     className="img-fluid"
-                    alt="doctors-list"
                   />
+                </span>
+                <div className="count-info">
+                  <h3>
+                    <CountUp end={37} duration={5} className="count-digit" />+
+                  </h3>
+                  <p>Experience</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6 ">
+              <div className="count-box">
+                <span className="count-icon">
+                  <ImageWithBasePath
+                    src="assets/img/icons/count-01.svg"
+                    alt="doctor-image"
+                    className="img-fluid"
+                  />
+                </span>
+                <div className="count-info">
+                  <h3>
+                    <CountUp end={3000} duration={5} className="count-digit" />+
+                  </h3>
+                  <p>Laparoscopic Surgeries</p>
+                </div>
+              </div>
+            </div>
+         
+            <div className="col-lg-3 col-sm-6">
+              <div className="count-box">
+                <span className="count-icon">
+                  <ImageWithBasePath
+                    src="assets/img/icons/count-03.svg"
+                    alt="smiley-icon"
+                    className="img-fluid"
+                  />
+                </span>
+                <div className="count-info">
+                  <h3>
+                    <CountUp end={5000} duration={5} className="count-digit" />
+                    +
+                  </h3>
+                  <p>Happy Patientss</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-3 col-sm-6">
+              <div className="count-box">
+                <span className="count-icon">
+                  <ImageWithBasePath
+                    src="assets/img/icons/count-04.svg"
+                    alt="award-icon"
+                    className="img-fluid"
+                  />
+                </span>
+                <div className="count-info">
+                  <h3>
+                    <CountUp end={4000} duration={5} className="count-digit" />+
+                  </h3>
+                  <p>Successful Treatments</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
       </section>
-      {/* /Home Banner */}
 
       <section className="work-section">
         <div className="container">
@@ -328,6 +489,7 @@ const Home1 = () => {
                         <ImageWithBasePath
                           src="assets/img/icons/work-01.svg"
                           alt="search-doctor-icon"
+                          className="rounded"
                         />
                       </span>
                     </div>
@@ -439,383 +601,7 @@ const Home1 = () => {
         </div>
       </section>
       {/* Specialities Section */}
-      <section className="specialities-section-one">
-        <div className="container">
-          {/* <div className="service-sec-one">
-            <div className="row row-cols-7 row-cols-xxl-7 row-cols-xl-4 row-cols-lg-4 rows-cols-md-6 justify-content-center">
-              <div className="col-12 d-flex col-xxl col-lg-3 col-sm-6">
-                <Link to="#" className="serv-wrap blue-bg flex-fill">
-                  <span>
-                    <ImageWithBasePath
-                      src="assets/img/icons/service-01.svg"
-                      alt="heart-image"
-                    />
-                  </span>
-                  <h5>Book Appointment</h5>
-                </Link>
-              </div>
-              <div className="col-12 d-flex col-xxl col-lg-3 col-sm-6">
-                <Link to="#" className="serv-wrap green-bg flex-fill">
-                  <span>
-                    <ImageWithBasePath
-                      src="assets/img/icons/service-02.svg"
-                      alt="heart-image"
-                    />
-                  </span>
-                  <h5>Lab Testing Services</h5>
-                </Link>
-              </div>
-              <div className="col-12 d-flex col-xxl col-lg-3 col-sm-6">
-                <Link to="#" className="serv-wrap info-bg flex-fill">
-                  <span>
-                    <ImageWithBasePath
-                      src="assets/img/icons/service-03.svg"
-                      alt="heart-image"
-                    />
-                  </span>
-                  <h5>Medicines &amp; Supplies</h5>
-                </Link>
-              </div>
-              <div className="col-12 d-flex col-xxl col-lg-3 col-sm-6">
-                <Link to="#" className="serv-wrap red-bg flex-fill">
-                  <span>
-                    <ImageWithBasePath
-                      src="assets/img/icons/service-04.svg"
-                      alt="heart-image"
-                    />
-                  </span>
-                  <h5>Hospitals / Clinics</h5>
-                </Link>
-              </div>
-              <div className="col-12 d-flex col-xxl col-lg-3 col-sm-6">
-                <Link to="#" className="serv-wrap success-bg flex-fill">
-                  <span>
-                    <ImageWithBasePath
-                      src="assets/img/icons/service-05.svg"
-                      alt="heart-image"
-                    />
-                  </span>
-                  <h5>Health Care Services</h5>
-                </Link>
-              </div>
-              <div className="col-12 d-flex col-xxl col-lg-3 col-sm-6">
-                <Link to="#" className="serv-wrap pink-bg flex-fill">
-                  <span>
-                    <ImageWithBasePath
-                      src="assets/img/icons/service-06.svg"
-                      alt="heart-image"
-                    />
-                  </span>
-                  <h5>Talk to Doctor’s</h5>
-                </Link>
-              </div>
-              <div className="col-12 d-flex col-xxl col-lg-3 col-sm-6">
-                <Link to="#" className="serv-wrap danger-bg flex-fill">
-                  <span>
-                    <ImageWithBasePath
-                      src="assets/img/icons/service-07.svg"
-                      alt="heart-image"
-                    />
-                  </span>
-                  <h5>Home Care Services</h5>
-                </Link>
-              </div>
-            </div>
-          </div> */}
-          <div className="row">
-            <div className="col-md-6 col-7 aos" data-aos="fade-up">
-              <div className="section-header-one section-header-slider">
-                <h2 className="section-title">My Expertise Area
-                </h2>
-              </div>
-            </div>
-            <div className="col-md-6 col-5  aos" data-aos="fade-up">
-              <div className="owl-nav slide-nav-1 text-end nav-control" />
-            </div>
-          </div>
-          <div
-            className="specialities-slider-one owl-theme aos"
-            data-aos="fade-up"
-          >
-            <OwlCarousel {...specialitiesSlider}>
-              {expertise.map((item,index) => (
-                <Link to={`specialites/${index +1}`}>
-                 <div className="item">
-                  <div className="specialities-item">
-                    <div className="specialities-img">
-                      <span>
-                        <ImageWithBasePath
-                          src="assets/img/specialities/specialities-01.svg"
-                          alt="heart-image"
-                        />
-                      </span>
-                    </div>
-                    <p>{item.title}</p>
-                  </div>
-                </div>
-                </Link>
-               
-              ))}
-
-              {/* <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Colorectal cancer	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-03.svg"
-                        alt="kidney-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Laser surgery	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-04.svg"
-                        alt="bone-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Stomach surgery	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-05.svg"
-                        alt="dentist"
-                      />
-                    </span>
-                  </div>
-                  <p>Chronic pancreatitis	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-06.svg"
-                        alt="eye-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Liver disease	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Incisional hernia	</p>
-                </div>
-              </div>
-
-
-
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Inguinal hernia		</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Ulcerative colitis surgery	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Anal fissure, anal fistula	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Hemorrhoid	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Gall Bladder stone	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Abdominal pain/ acute and chronic	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Gastroscopy abnormal	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Surgery for reflux disease	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Irritable bowel syndrome	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Constipation, Rectal Bleeding, Rectal Pain and Faecal Incontinence	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Surgery for Cancers	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Stemcells Treatment	</p>
-                </div>
-              </div>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-02.svg"
-                        alt="brain-image"
-                      />
-                    </span>
-                  </div>
-                  <p>Irritable bowel syndrome	</p>
-                </div>
-              </div> */}
-            </OwlCarousel>
-          </div>
-          <div className="specialities-btn aos" data-aos="fade-up">
-            <Link to="/patient/search-doctor1" className="btn">
-              See All Specialities
-            </Link>
-          </div>
-        </div>
-      </section>
+     
 
       <section className="services-section-sixteen">
           <div className="container">
@@ -832,10 +618,10 @@ const Home1 = () => {
                 <Link to={`specialites/${index +1}`}>
                 <div className="discover-you-main">
                 <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-5.svg" alt="Body" />
+                  <ImageWithBasePath src="assets/img/specialities/specialities-03.svg" alt="Body" />
                 </div>
-                <Link to="#">{item.item}</Link>
-                <p>Tailored Body Surgery Solutions for Timeless Beauty</p>
+                <Link to="#">{item.title}</Link>
+                <p>{item.description?.slice(0, 50)}...</p>
                 <Link to="#" className="discov-innner">
                   Read More
                   <i className="fa-solid fa-chevron-right ms-2" />
@@ -845,116 +631,7 @@ const Home1 = () => {
                
               ))}
              
-              {/* <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-4.svg" alt="Face" />
-                </div>
-                <Link to="#">Nose</Link>
-                <p>Elevate Confidence with Precision Nose Surgery</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-3.svg" alt="Breast" />
-                </div>
-                <Link to="#">Breast</Link>
-                <p>Customized Breast Surgery for Timeless Elegance.</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-2.svg" alt="Nose" />
-                </div>
-                <Link to="#">Face</Link>
-                <p> Face Surgery Tailored to Your Unique Beauty.</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-1.svg" alt="Fillers" />
-                </div>
-                <Link to="#">Fillers</Link>
-                <p>Expertly Crafted Fillers Surgery for Natural Radiance</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-2.svg" alt="Breast" />
-                </div>
-                <Link to="#">Face</Link>
-                <p>Face Surgery Tailored to Your Unique Beauty.</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-5.svg" alt="Face" />
-                </div>
-                <Link to="#">Body</Link>
-                <p>Tailored Body Surgery Solutions for Timeless Beauty</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-4.svg" alt="Breast" />
-                </div>
-                <Link to="#">Nose</Link>
-                <p>Elevate Confidence with Precision Nose Surgery</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-1.svg" alt="Nose" />
-                </div>
-                <Link to="#">Fillers</Link>
-                <p>Expertly Crafted Fillers Surgery for Natural Radiance</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-3.svg" alt="Face" />
-                </div>
-                <Link to="#">Breast</Link>
-                <p>Customized Breast Surgery for Timeless Elegance.</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-              <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/icons/discover-5.svg" alt="Nose" />
-                </div>
-                <Link to="#">Body</Link>
-                <p>Tailored Body Surgery Solutions for Timeless Beauty</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div> */}
+             
             </OwlCarousel>
           </div>
           <div className="service-sixteen-icon">
@@ -963,13 +640,263 @@ const Home1 = () => {
               className="bg-img-top"
               alt="Section bg"
             />
-            <ImageWithBasePath
+            {/* <ImageWithBasePath
               src="assets/img/bg/vector-bg-03.png"
               className="bg-img-bottom"
               alt="Section bg"
-            />
+            /> */}
           </div>
         </section>
+
+        <section className="popular-test-section">
+        <div className="section-small-imgs">
+          <ImageWithBasePath
+            src="assets/img/bg/section-bg-01.jpg"
+            className="bg-img-one"
+            alt="Img"
+          />
+          <ImageWithBasePath
+            src="assets/img/bg/section-bg-02.png"
+            className="bg-img-two"
+            alt="Img"
+          />
+        </div>
+        <div className="container">
+          <div className="section-head-twelve">
+            <h2> Gut Health Library</h2>
+            <p>
+              Discover Our Popular Lab Tests, Unlock Key Health Insights with
+              Trusted Diagnostic Services.
+            </p>
+          </div>
+          <div className="row">
+            <div className="col-md-12">
+              <div className="popular-test-slider">
+                <OwlCarousel {...populartestslider}>
+                  <div className="test-slider-card" data-aos="fade-up">
+                    <span className="hexagon">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-01.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Diarrhoea</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card" data-aos="fade-up">
+                    <span className="hexagon liver">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-02.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Liver</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card" data-aos="fade-up">
+                    <span className="hexagon kidney">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-03.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Gastritis</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card" data-aos="fade-up">
+                    <span className="hexagon fever">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-04.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Gastroparesis</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card" data-aos="fade-up">
+                    <span className="hexagon">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-01.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation"> Lactose Intolerance</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card" data-aos="fade-up">
+                    <span className="hexagon liver">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-02.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Rectal Bleeding</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card" data-aos="fade-up">
+                    <span className="hexagon kidney">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-03.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Colon Cancer Screening</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card" data-aos="fade-up">
+                    <span className="hexagon fever">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-04.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Constipation </Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card">
+                    <span className="hexagon">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-01.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Crohn’s Disease</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card">
+                    <span className="hexagon liver">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-02.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">GERD</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card">
+                    <span className="hexagon kidney">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-03.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Irritable Bowel Syndrome</Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                  <div className="test-slider-card">
+                    <span className="hexagon fever">
+                      <ImageWithBasePath
+                        src="assets/img/icons/test-icon-04.svg"
+                        alt="Img"
+                      />
+                    </span>
+                    <h4>
+                      <Link to="/consultation">Lactose Intolerance </Link>
+                    </h4>
+                    <p>
+                      A diabetic foot exam can help find problems that can lead
+                      to serious infection and ...
+                    </p>
+                    <Link to="/consultation" className="read-more-test">
+                      Read More
+                    </Link>
+                  </div>
+                </OwlCarousel>
+              </div>
+            </div>
+          </div>
+        
+         
+        </div>
+      </section>
 
       
       {/* /Specialities Section */}
