@@ -171,6 +171,7 @@ import DoctorProfileTwo from "./client/components/patients/doctorprofile2/index.
 import Patientprotal from "./client/components/pages/PatientPortal/patientprotal.jsx";
 import Specialities from "./admin/components/specialities/index.jsx";
 import SpecialitesDetails from "./client/components/blog/specialities/index.js";
+import BlogDetailsdynimc from "./client/components/blog/blogsdetails/index.jsx";
 const AppContainer = function (props) {
   if (props) {
     const url = props.location.pathname.split("/")[1];
@@ -305,6 +306,7 @@ const AppContainer = function (props) {
               <Route path="/blog/blog-grid" exact component={BlogGrid} />
               <Route path="/blog/blog-details" exact component={BlogDetails} />
               <Route path="/specialites/:id" exact component={SpecialitesDetails} />
+              <Route path="/blog-details/:id" exact component={BlogDetailsdynimc} />
 
 
               <Route path="/doctor-blog" exact component={Doctorblog} />

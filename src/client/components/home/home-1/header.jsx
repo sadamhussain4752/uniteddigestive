@@ -437,54 +437,9 @@ const Home1Header = () => {
                     </li>
                   </ul> */}
                 </li>
-                <li className="has-submenu">
-                  <Link to="#">
-                    Referring Providers 
-                  </Link>
-                  {/* <ul className="submenu">
-                    <li>
-                      <Link to="/Pharmacy/Pharmacy-index">Pharmacy</Link>
-                    </li>
-                    <li>
-                      <Link to="/Pharmacy/Pharmacy-details">
-                        Pharmacy Details
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/Pharmacy/pharmacy-search">
-                        Pharmacy Search
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/Pharmacy/product-all">Product</Link>
-                    </li>
-                    <li>
-                      <Link to="/Pharmacy/product-description">
-                        Product Description
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/Pharmacy/cart">Cart</Link>
-                    </li>
-                    <li>
-                      <Link to="/Pharmacy/product-checkout">
-                        Product Checkout
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/Pharmacy/payment-success">
-                        Payment Success
-                      </Link>
-                    </li>
-                    <li>
-                      <Link to="/Pharmacy/pharmacy-register">
-                        Pharmacy Register
-                      </Link>
-                    </li>
-                  </ul> */}
-                </li>
+             
                 
-                <li className="has-submenu">
+                {/* <li className="has-submenu">
                   <Link to="#">
                     GI Health Library 
                   </Link>
@@ -499,7 +454,7 @@ const Home1Header = () => {
                       <Link to="/blog/blog-details">Blog Details</Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="has-submenu">
                   <Link to="#">
                     About Us <i className="fas fa-chevron-down" />

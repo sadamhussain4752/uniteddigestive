@@ -15,6 +15,7 @@ import { Calendar } from "primereact/calendar";
 import expertise from "../../JSON/expertise.JSON";
 import {aboutimg1 ,aboutimg2,aboutimg3,phoneicon} from "../../pages/aboutus/img"
 import CountUp from "react-countup";
+import Blogslist from "../../JSON/Blogs.json";
 
 const Home1 = () => {
   const [date1, setDate1] = useState(null);
@@ -337,18 +338,22 @@ const Home1 = () => {
               </div>
               <div className="col-lg-6 col-md-12">
                 <div className="section-inner-header about-inner-header">
-                  <h6> Our About </h6>
+                  {/* <h6> Our About </h6> */}
                   <h2>
                     Dr. Shabeer Ahmed
                   </h2>
                 </div>
                 <div className="about-content">
                   <div className="about-content-details">
-                    <p>
+                    <h4>
                     Gastrointestinal, Bariatric, Laparoscopic, General & Onco Surgeon
-                    </p>
+                    </h4>
                     <p>
-                    An eminent senior consultant Gastrointestinal & Laparoscopic and Bariatric Surgeon with over 30 years of extensive surgical experience. He is also an acknowledged teacher and mentor by Association of Laparoscopic Surgery (ALS), UK. His special expertise lies in advanced laparoscopic surgery especially for gastro-intestinal cancer. He has his passion for Video Assisted Thoracic Surgery (VATS), Bariatric Surgery and Metabolic Surgery.
+                    An eminent senior consultant Gastrointestinal & Laparoscopic and Bariatric Surgeon with over 30 years of extensive surgical experience. He is also an acknowledged teacher and mentor by Association of Laparoscopic Surgery (ALS), UK. His special expertise lies in advanced laparoscopic surgery especially for gastro-intestinal cancer. He has his passion for Video Assisted Thoracic Surgery (VATS), Bariatric Surgery and Metabolic Surgery. <span>
+                     <Link to="/pages/aboutus">
+                     <h6 className="text-black mt-2"> Read More </h6>
+                     </Link>
+                    </span>
                     </p>
                   </div>
                   <div className="about-contact">
@@ -381,7 +386,14 @@ const Home1 = () => {
           />
         </div>
         <div className="container">
+          <div className="text-center mb-4">
+          <h3 className="text-white">Driven by a Commitment to Excellence</h3>
+          </div>
+          <div className="text-center mb-5">
+          <h5 className="text-white">I continually strives to improve the health and well-being of every patient, one successful treatment at a time</h5>
+          </div>
           <div className="row">
+             
           <div className="col-lg-3 col-sm-6">
               <div className="count-box">
                 <span className="count-icon">
@@ -1151,7 +1163,8 @@ const Home1 = () => {
             </div>
           </div>
           <div className="row">
-            <div className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-up">
+            {Blogslist.map((i,index)=>(
+              <div  className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-up">
               <div className="articles-grid w-100">
                 <div className="articles-info">
                   <div className="articles-left">
@@ -1169,24 +1182,22 @@ const Home1 = () => {
                     <div className="articles-content">
                       <ul className="articles-list nav">
                         <li>
-                          <i className="feather icon-user" /> John Doe
+                          <i className="feather icon-user" />{i.author}
                         </li>
                         <li>
-                          <i className="feather icon-calendar" /> 13 Aug, 2023
+                          <i className="feather icon-calendar" /> {i.date}
                         </li>
                       </ul>
                       <h4>
                         <Link to="/blog/blog-details">
-                          Navigating Telehealth: A Guide to Virtual Healthcare
-                          Visits
+                        {i.title}
                         </Link>
+
                       </h4>
                       <p>
-                        Explore the benefits &amp; challenges of virtual
-                        healthcare appointments, along with tips for making good
-                        health.
+                      {i.description}
                       </p>
-                      <Link to="/blog/blog-details" className="btn">
+                      <Link to={`blog-details/${index + 1}`} className="btn">
                         Read More
                       </Link>
                     </div>
@@ -1194,135 +1205,9 @@ const Home1 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-up">
-              <div className="articles-grid w-100">
-                <div className="articles-info">
-                  <div className="articles-left">
-                    <Link to="/blog/blog-details">
-                      <div className="articles-img">
-                        <ImageWithBasePath
-                          src="assets/img/blog/blog-24.jpg"
-                          className="img-fluid"
-                          alt="Darren Elder"
-                        />
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="articles-right">
-                    <div className="articles-content">
-                      <ul className="articles-list nav">
-                        <li>
-                          <i className="feather icon-user" /> Darren Elder
-                        </li>
-                        <li>
-                          <i className="feather icon-calendar" /> 10 Sep, 2023
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link to="/blog/blog-details">
-                          Work-Life Harmony: Balancing Career and Personal
-                          Wellness
-                        </Link>
-                      </h4>
-                      <p>
-                        Uncover strategies to achieve a harmonious balance
-                        between professional commitments and personal
-                        well-being.
-                      </p>
-                      <Link to="/blog/blog-details" className="btn">
-                        Read More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-up">
-              <div className="articles-grid w-100">
-                <div className="articles-info">
-                  <div className="articles-left">
-                    <Link to="/blog/blog-details">
-                      <div className="articles-img">
-                        <ImageWithBasePath
-                          src="assets/img/blog/blog-25.jpg"
-                          className="img-fluid"
-                          alt="Ruby Perrin"
-                        />
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="articles-right">
-                    <div className="articles-content">
-                      <ul className="articles-list nav">
-                        <li>
-                          <i className="feather icon-user" /> Ruby Perrin
-                        </li>
-                        <li>
-                          <i className="feather icon-calendar" /> 30 Oct, 2023
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link to="/blog/blog-details">
-                          Sleep Solutions: Unveiling the Secrets to a Restful
-                          Night
-                        </Link>
-                      </h4>
-                      <p>
-                        Explore importance of quality sleep &amp; learn tips to
-                        improve your sleep, ensuring you wake up refreshed &amp;
-                        ready to face the day.
-                      </p>
-                      <Link to="/blog/blog-details" className="btn">
-                        Read More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-            <div className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-up">
-              <div className="articles-grid w-100">
-                <div className="articles-info">
-                  <div className="articles-left">
-                    <Link to="/blog/blog-details">
-                      <div className="articles-img">
-                        <ImageWithBasePath
-                          src="assets/img/blog/blog-12.jpg"
-                          className="img-fluid"
-                          alt="Sofia Brient"
-                        />
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="articles-right">
-                    <div className="articles-content">
-                      <ul className="articles-list nav">
-                        <li>
-                          <i className="feather icon-user" /> Sofia Brient
-                        </li>
-                        <li>
-                          <i className="feather icon-calendar" /> 08 Nov, 2023
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link to="/blog/blog-details">
-                          Mental Wellness in a Digital Age: Strategies for a
-                          Healthy Mind Online
-                        </Link>
-                      </h4>
-                      <p>
-                        Delve into the impact of digital life on mental health
-                        &amp; discover practical strategies to maintain mental
-                        well-being.
-                      </p>
-                      <Link to="/blog/blog-details" className="btn">
-                        Read More
-                      </Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
+            ))}
+            
+          
           </div>
         </div>
       </section>
@@ -1394,20 +1279,15 @@ const Home1 = () => {
                   className="img-fluid"
                   alt="img"
                 />
-                <div className="faq-patients-count">
+                {/* <div className="faq-patients-count">
                   <div className="faq-smile-img">
                     <ImageWithBasePath
                       src="assets/img/icons/smiling-icon.svg"
                       alt="icon"
                     />
                   </div>
-                  <div className="faq-patients-content">
-                    <h4>
-                      <span className="count-digit">95</span>k+
-                    </h4>
-                    <p>Happy Patients</p>
-                  </div>
-                </div>
+                
+                </div> */}
               </div>
             </div>
             <div className="col-lg-6 col-md-12">
@@ -1596,99 +1476,63 @@ const Home1 = () => {
                 <Slider {...testimonialSlider}>
                   <div className="testimonial-grid">
                     <div className="testimonial-info">
-                      <div className="testimonial-img">
-                        <ImageWithBasePath
-                          src="assets/img/clients/client-01.jpg"
-                          className="img-fluid"
-                          alt="John Doe"
-                        />
-                      </div>
+                      
                       <div className="testimonial-content">
                         <div className="section-header-one section-header section-inner-header testimonial-header">
                           <h5>Testimonials</h5>
                           <h2 className="section-title">
-                            What Our Client Says
+                          Arati Sethy
                           </h2>
                         </div>
                         <div className="testimonial-details">
                           <p>
-                            Dr. Shabeer Ahmed exceeded my expectations in
-                            healthcare. The seamless booking process, coupled
-                            with the expertise of the doctors, made my
-                            experience exceptional. Their commitment to quality
-                            care and convenience truly sets them apart. I highly
-                            recommend Dr. Shabeer Ahmed for anyone seeking
-                            reliable and accessible healthcare services.
+                          Amidst of covid pandemic, my aunt got diagnosed with colon tumor. Local doctors diagnosed it as cancer stage-1. As they stay in my native place Odisha, we were clueless what to do. I live in bangalore. One of my colleague referred Dr. Shabeer. With no delay, i took his appointment and rushed to him. After going through the reports without even checking the patient, he said chemo may not be required. He helped a lot to get my aunt here and directly get admitted to Fortis for surgery. Post surgery, biopsy report revealed that its stage 0 and no need for chemo therapy. Everything just happened ontime and perfectly. When i thanked Dr. Sir, he was humble enough to give the credit to Allaha. Sir, you were a blessing to our family in this crisis. My uncle aunt were so happy and pleased by your interaction in entire process. May God always bless you and help you in serving mankind. Thank you very much.
+
+
                           </p>
-                          <h6>
+                          {/* <h6>
                             <span className="d-block">John Doe</span> New York
-                          </h6>
+                          </h6> */}
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="testimonial-grid">
                     <div className="testimonial-info">
-                      <div className="testimonial-img">
-                        <ImageWithBasePath
-                          src="assets/img/clients/client-03.jpg"
-                          className="img-fluid"
-                          alt="Amanda Warren"
-                        />
-                      </div>
+                      
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
                           <h5>Testimonials</h5>
-                          <h2>What Our Client Says</h2>
+                          <h2>Inayathulla Khan Lavani
+                          </h2>
                         </div>
                         <div className="testimonial-details">
                           <p>
-                            As a busy professional, I don't have time to wait on
-                            hold or play phone tag to schedule doctor
-                            appointments. Thanks to Dr. Shabeer Ahmed, booking
-                            appointments has never been easier! The
-                            user-friendly interface allows me to quickly find
-                            available appointment slots that fit my schedule and
-                            book them with just a few clicks. It's a
-                            game-changer for anyone looking to streamline their
-                            healthcare management.
+                          Before visiting Dr. Shabeer Ahmed for my dad's surgery, I had visited other doctors and wasn't satisfied enough, and I must say Dr is very humble person who shows compassion towards patients and also authority in field of laparoscopy, which is rare combination to find in this mundane world. Moreover my dad's surgery was successful and he is recovering. I would definately recommend anyone to visit Dr once before taking final call
                           </p>
-                          <h6>
+                          {/* <h6>
                             <span className="d-block">Andrew Denner</span>{" "}
                             Nevada
-                          </h6>
+                          </h6> */}
                         </div>
                       </div>
                     </div>
                   </div>
                   <div className="testimonial-grid">
                     <div className="testimonial-info">
-                      <div className="testimonial-img">
-                        <ImageWithBasePath
-                          src="assets/img/clients/client-11.jpg"
-                          className="img-fluid"
-                          alt="Betty Carlson"
-                        />
-                      </div>
+                    
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
                           <h5>Testimonials</h5>
-                          <h2>What Our Client Says</h2>
+                          <h2>Mir Nasair Hussain
+                          </h2>
                         </div>
                         <div className="testimonial-details">
                           <p>
-                            As a parent, coordinating doctor appointments for my
-                            family can be overwhelming. Dr. Shabeer Ahmed has
-                            simplified the process and made scheduling
-                            appointments a breeze! I love being able to see all
-                            available appointment times in one place and book
-                            appointments for multiple family members with ease.
-                            Plus, the automatic reminders ensure we never miss
-                            an appointment. I highly recommend Dr. Shabeer Ahmed
-                            to other busy parents!
+                          Best ever Dr.I have seen in Bangalore God has given shiffa in his hand Excellent treatment centre in Bangalore I was suffering piles from 11years He did my operation successful Dr. Shabeer Ahmed has 30 years Excellent Experience God give him Good Health / wealth I salute you sir
                           </p>
                           <h6>
-                            <span className="d-block">Niya Patel</span> New York
+                            {/* <span className="d-block">Niya Patel</span> New York */}
                           </h6>
                         </div>
                       </div>
@@ -1700,137 +1544,7 @@ const Home1 = () => {
           </div>
         </div>
       </section>
-      {/* /Testimonial Section */}
-      {/* Partners Section */}
-      {/* <section className="partners-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div
-                className="section-header-one text-center aos"
-                data-aos="fade-up"
-              >
-                <h2 className="section-title">Our Partners</h2>
-              </div>
-            </div>
-          </div>
-          <div className="partners-info aos" data-aos="fade-up">
-            <ul className="partners-slider d-flex">
-              <OwlCarousel {...partnersSlider}>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-1.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-2.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-3.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-4.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-5.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-6.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-1.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-2.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-3.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-4.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-5.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-                <li>
-                  <Link to="#">
-                    <ImageWithBasePath
-                      className="img-fluid"
-                      src="assets/img/partners/partners-6.svg"
-                      alt="partners"
-                    />
-                  </Link>
-                </li>
-              </OwlCarousel>
-            </ul>
-          </div>
-        </div>
-      </section> */}
-      {/* /Partners Section */}
+     
       <Home1Footer />
     </div>
   );

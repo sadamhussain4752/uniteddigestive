@@ -36,13 +36,7 @@ const Home1Footer = () => {
                       <ImageWithBasePath src="assets/img/logo-010.svg" alt="logo" />
                     </a>
                   </div>
-                  <div className="footer-about-content">
-                    <p>
-                      Effortlessly schedule your medical appointments with
-                      Dr. Shabeer Ahmed. Connect with healthcare professionals, manage
-                      appointments &amp; prioritize your well being{" "}
-                    </p>
-                  </div>
+                 
                 </div>
               </div>
               <div className="col-lg-6">

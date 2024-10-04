@@ -2,7 +2,7 @@
     {
       "id": 1,
       "title": "Gut Care",
-      "description": "Gut Care focuses on maintaining a healthy digestive system, ensuring proper digestion, absorption, and nutrient assimilation. It includes treatment for common issues like bloating, indigestion, and gut infections.",
+      "description": "Frequent and watery bowel movements characterize diarrhoea, which involves an increased fluid content in the stool. This common condition is typically not serious and can arise from various factors. Common causes include viral infections, bacterial infections, food allergies, food poisoning, certain medications, artificial sweeteners, and excessive alcohol consumption. Additionally, diarrhoea may be linked to chronic gastrointestinal conditions such as Crohn’s disease and ulcerative colitis.",
       "services": [
         "Dietary Counseling",
         "Gut Health Evaluation",
@@ -21,6 +21,20 @@
         "Irritable Bowel Syndrome (IBS)",
         "Acid Reflux",
         "Small Intestinal Bacterial Overgrowth (SIBO)"
+      ],
+      "faqs":[
+        {
+            "question":"1. Should I call a doctor if I have diarrhoea?",
+            "answer":"Yes, you should seek medical advice if diarrhoea lasts more than two to three weeks. Additionally, contact a physician if you notice changes in bowel habits after starting a new medication, or if you experience severe cramping, a fever lasting more than 24 hours, or symptoms of dehydration such as vomiting."
+        },
+        {
+            "question":"2. What is the best treatment for diarrhoea?",
+            "answer":"To alleviate diarrhoea symptoms, start by consuming only liquids and avoiding solid foods and dairy products. You can also use over-the-counter treatments such as Pepto-Bismol®, Kaopectate®, or Imodium® to help manage the condition."
+        }, {
+            "question":"3. What if my diarrhoea doesn’t go away after a few days?",
+            "answer":"If your diarrhoea persists for several days, your doctor may recommend tests such as blood and stool samples, X-rays, or ultrasounds. In some cases, a sigmoidoscopy or colonoscopy may be needed to visually examine the colon using a flexible tube. However, most instances of diarrhoea typically resolve on their own within a few days."
+        }
+        
       ],
       "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/stomach.png"
     },
@@ -46,6 +60,20 @@
         "Gastroesophageal Reflux Disease (GERD)",
         "Peptic Ulcer",
         "Liver Cirrhosis"
+      ],
+      "faqs":[
+        {
+            "question":"1. Should I call a doctor if I have diarrhoea?",
+            "answer":"Yes, you should seek medical advice if diarrhoea lasts more than two to three weeks. Additionally, contact a physician if you notice changes in bowel habits after starting a new medication, or if you experience severe cramping, a fever lasting more than 24 hours, or symptoms of dehydration such as vomiting."
+        },
+        {
+            "question":"2. What is the best treatment for diarrhoea?",
+            "answer":"To alleviate diarrhoea symptoms, start by consuming only liquids and avoiding solid foods and dairy products. You can also use over-the-counter treatments such as Pepto-Bismol®, Kaopectate®, or Imodium® to help manage the condition."
+        }, {
+            "question":"3. What if my diarrhoea doesn’t go away after a few days?",
+            "answer":"If your diarrhoea persists for several days, your doctor may recommend tests such as blood and stool samples, X-rays, or ultrasounds. In some cases, a sigmoidoscopy or colonoscopy may be needed to visually examine the colon using a flexible tube. However, most instances of diarrhoea typically resolve on their own within a few days."
+        }
+        
       ],
       "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/intestine-1.png"
     },

@@ -1,0 +1,79 @@
+[
+    { 
+      "id" :1,
+      "author": "John Doe",
+      "date": "13 Aug, 2023",
+      "title": "Life After Gallbladder Removal: What to Expect",
+      "description": "Gallbladder removal, or a cholecystectomy, is a common surgery for people suffering from gallstones or other gallbladder-related issues. While the procedure is routine, many wonder what life will be like afterward. Here’s what to expect and how to adjust to life without a gallbladder.",
+      "image_url": "https://example.com/image1.jpg",
+      "read_more_url": "https://example.com/life-after-gallbladder-removal",
+      "points": [
+        {
+            "question":"1. Changes in Digestion",
+            "answer":"Without a gallbladder, your liver still produces bile, but it flows directly into the intestines instead of being stored. This may cause some people to experience changes in digestion, especially when consuming fatty foods. Common symptoms include bloating, diarrhea, or discomfort after meals. Most people find that these symptoms subside over time as the body adjusts."
+        },
+        {
+            "question":"2. Dietary Adjustments",
+            "answer":"After surgery, it’s important to make some dietary changes to aid digestion and avoid discomfort. A low-fat diet is often recommended, especially in the early recovery period. Foods that are greasy, fried, or high in fat can be harder to digest and may cause bloating or diarrhea. Incorporating fiber-rich foods, lean proteins, and easily digestible fruits and vegetables can help smooth the transition."
+        },{
+            "question":"3. Managing Side Effects",
+            "answer":"Its normal to experience some short-term side effects after gallbladder removal. These may include: Diarrhea: This can occur due to the constant flow of bile into the intestines. Bloating and Gas: Some people report feeling bloated or gassy, especially after eating fatty foods.Abdominal Discomfort: Mild pain or discomfort in the abdomen is common post-surgery and usually subsides as the body heals."
+        },
+        {
+            "question":"4. Returning to Daily Activities",
+            "answer":"Recovery time after gallbladder removal varies from person to person. Most people can return to their normal activities within 1 to 2 weeks for laparoscopic surgery, or a bit longer for open surgery. It’s essential to follow your doctor’s guidelines regarding physical activity, especially in the early stages of recovery."
+        },{
+            "question":"5. Long-Term Outlook",
+            "answer":"For most people, life after gallbladder removal is much improved, especially if they had been dealing with pain from gallstones or infections. While some may need to continue monitoring their diet, the long-term prognosis is generally positive. Over time, the digestive system adapts, and most people return to a normal, healthy lifestyle"
+        }
+      ],
+      "conclusion": "Life without a gallbladder may require some initial adjustments, particularly when it comes to diet and digestion. However, most people go on to live healthy, normal lives, free from the pain and complications they experienced before surgery. With time, your body will adapt, and you’ll find that life after gallbladder removal can be just as fulfilling as before, if not more so."
+    },
+    {
+        "id" :2,
+      "author": "Darren Elder",
+      "date": "10 Sep, 2023",
+      "title": "Does Junk Food Cause Appendicitis?",
+      "description": "There is no direct scientific evidence that junk food causes appendicitis. Appendicitis occurs when the appendix becomes inflamed, usually due to a blockage caused by stool, foreign objects, or infection. While diet plays a role in overall digestive health, junk food alone is not proven to be a specific cause of appendicitis.However, junk food is often high in unhealthy fats, processed ingredients, and low in fiber, which can contribute to poor digestive health. A low-fiber diet may lead to constipation, which increases the risk of blockages in the digestive system, potentially playing a role in the onset of appendicitis in some cases.",
+      "image_url": "https://example.com/image2.jpg",
+      "read_more_url": "https://example.com/work-life-harmony",
+      "points": [
+        {
+            "question":"1. Junk Food and Digestive Health",
+            "answer":"While junk food isn’t directly linked to appendicitis, consuming a diet low in fiber and high in processed foods can contribute to constipation, which may raise the risk of an appendiceal blockage"
+        },
+        {
+            "question":"2. Healthy Diet Choices",
+            "answer":"Eating a balanced diet rich in fruits, vegetables, and fiber can promote better digestive health and reduce the likelihood of complications, such as constipation, that could increase the risk of appendicitis"
+        },{
+            "question":"3. Other Causes of Appendicitis",
+            "answer":"Appendicitis can occur for various reasons, including infections, blockages, or genetic factors. It is important to understand that there is no single cause, and junk food alone is not responsible"
+        }
+      ],
+      "conclusion": "While junk food is not a direct cause of appendicitis, maintaining a healthy diet with sufficient fiber can help promote overall digestive health and potentially reduce the risk of appendicitis and other digestive issues."  
+    },
+    {
+        "id" :3,
+      "author": "Ruby Perrin",
+      "date": "30 Oct, 2023",
+      "title": "What is Bariatric Surgery?",
+      "description": "Bariatric surgery is a medical procedure designed to help people lose weight by making changes to their digestive system. It’s typically recommended for individuals who are severely obese and have struggled to lose weight through diet and exercise. Bariatric surgery can also help improve or resolve weight-related health conditions like diabetes, high blood pressure, and sleep apnea.",
+      "image_url": "https://example.com/image3.jpg",
+      "read_more_url": "https://example.com/sleep-solutions",
+      "points": [
+        {
+            "question":"1. Types of Bariatric Surgery",
+            "answer":"Gastric Bypass: This procedure involves creating a small pouch at the top of the stomach and connecting it directly to the small intestine. This reduces the amount of food you can eat and limits calorie absorption"
+        },
+        {
+            "question":"2. How Bariatric Surgery Works",
+            "answer":"Restricting the amount of food your stomach can hold, so you eat less,Reducing calorie absorption by altering the digestive process"
+        },{
+            "question":"3. Who Is a Candidate for Bariatric Surgery",
+            "answer":"A Body Mass Index (BMI) of 40 or higher, or A BMI of 35 or higher with serious health issues like diabetes or heart disease. Candidates must also be committed to long-term lifestyle changes, including diet and exercise, to maintain weight loss after surgery."
+        }
+      ],
+      "conclusion": "Bariatric surgery is a powerful tool for weight loss and improving health for people struggling with severe obesity. While it’s not a quick fix, it can provide life-changing results for those committed to maintaining healthy lifestyle habits after the procedure."  
+    }
+  ]
+  
