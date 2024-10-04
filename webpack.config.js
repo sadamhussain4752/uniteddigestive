@@ -10,9 +10,9 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const opn = require("opn"); // Import the 'opn' package
 
 // const publicPath = "/"; // To run this file in local
- const publicPath = "./"; // To build the file
+ const publicPath = "/"; // To build the file
 module.exports = {
-  mode: "development",
+  mode: "production",
   entry: path.join(__dirname, "src", "index.js"),
   output: {
     path: path.resolve(__dirname, "dist"),
