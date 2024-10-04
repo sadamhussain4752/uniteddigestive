@@ -33,6 +33,32 @@ const Home1 = () => {
     };
   }, []);
 
+
+  const ourNew = {
+    loop: true,
+    margin: 24,
+    dots: true,
+    freeDrag:true,
+    nav: false,
+    smartSpeed: 2000,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      500: {
+        items: 1,
+      },
+      768: {
+        items: 2,
+      },
+      1000: {
+        items: 4,
+      },
+      1300: {
+        items: 5,
+      },
+    },
+  };  
   const specialitiesSlider = {
     loop: false,
     margin: 24,
@@ -278,7 +304,7 @@ const Home1 = () => {
             >
               <div className="work-img">
                 <ImageWithBasePath
-                  src="assets/img/work-img.png"
+                  src="assets/img/bannerwar.jpg"
                   className="img-fluid"
                   alt="doctor-image"
                 />
@@ -286,8 +312,13 @@ const Home1 = () => {
             </div>
             <div className="col-lg-8 col-md-12 work-details">
               <div className="section-header-one aos" data-aos="fade-up">
-                <h5>How it Works</h5>
-                <h2 className="section-title">GI Health Library</h2>
+                {/* <h5>How it Works</h5> */}
+                <h2 className="section-title">Wide-Ranging Services with a Personal Approach</h2>
+              </div>
+              <div data-aos="fade-up">
+              <p className="mt-4 mb-4">
+              From minor GI complaints to chronic digestive conditions, United Digestive’s partner practices offer patients best-in-class care in safe, convenient environments with top-notch, award-winning providers. Come see what makes United Digestive different. Top services include:
+              </p>
               </div>
               <div className="row">
                 <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
@@ -300,12 +331,13 @@ const Home1 = () => {
                         />
                       </span>
                     </div>
-                    <div className="work-content">
-                      <h5>Save Time and Money on Your Colonoscopy</h5>
-                      <p>
+                    <div className="work-content mt-4">
+                      <h5>
+                      Colonoscopy</h5>
+                      {/* <p>
                         See if you qualify to skip the pre-procedure office
                         visit.{" "}
-                      </p>
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -319,9 +351,9 @@ const Home1 = () => {
                         />
                       </span>
                     </div>
-                    <div className="work-content">
-                      <h5>Experiencing Rectal Bleeding, Itching, or Pain?</h5>
-                      <p>See if you qualify for hemorrhoid banding.</p>
+                    <div className="work-content mt-4">
+                      <h5>Upper GI</h5>
+                      {/* <p>See if you qualify for hemorrhoid banding.</p> */}
                     </div>
                   </div>
                 </div>
@@ -335,12 +367,10 @@ const Home1 = () => {
                         />
                       </span>
                     </div>
-                    <div className="work-content">
-                      <h5>Schedule Appointment</h5>
-                      <p>
-                        After choose your preferred doctor, select a convenient
-                        time slot, &amp; confirm your appointment.
-                      </p>
+                    <div className="work-content mt-4">
+                      <h5>
+                      Hemorrhoid Banding</h5>
+                     
                     </div>
                   </div>
                 </div>
@@ -354,12 +384,52 @@ const Home1 = () => {
                         />
                       </span>
                     </div>
-                    <div className="work-content">
-                      <h5>Get Your Solution</h5>
-                      <p>
+                    <div className="work-content mt-4">
+                      <h5>
+                      Infusion</h5>
+                      {/* <p>
                         Discuss your health concerns with the doctor and receive
                         personalized advice &amp; solution.
-                      </p>
+                      </p> */}
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
+                  <div className="work-info">
+                    <div className="work-icon">
+                      <span>
+                        <ImageWithBasePath
+                          src="assets/img/icons/work-03.svg"
+                          alt="calendar-icon"
+                        />
+                      </span>
+                    </div>
+                    <div className="work-content mt-4">
+                      <h5>
+                      Nutrition Counseling</h5>
+                      {/* <p>
+                        After choose your preferred doctor, select a convenient
+                        time slot, &amp; confirm your appointment.
+                      </p> */}
+                    </div>
+                  </div>
+                </div>
+                <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
+                  <div className="work-info">
+                    <div className="work-icon">
+                      <span>
+                        <ImageWithBasePath
+                          src="assets/img/icons/work-04.svg"
+                          alt="solution-icon"
+                        />
+                      </span>
+                    </div>
+                    <div className="work-content mt-4">
+                      <h5>Abdominal Ultrasound</h5>
+                      {/* <p>
+                        Discuss your health concerns with the doctor and receive
+                        personalized advice &amp; solution.
+                      </p> */}
                     </div>
                   </div>
                 </div>
@@ -455,7 +525,8 @@ const Home1 = () => {
           <div className="row">
             <div className="col-md-6 col-7 aos" data-aos="fade-up">
               <div className="section-header-one section-header-slider">
-                <h2 className="section-title">Specialities</h2>
+                <h2 className="section-title">My Expertise Area
+                </h2>
               </div>
             </div>
             <div className="col-md-6 col-5  aos" data-aos="fade-up">
@@ -745,6 +816,162 @@ const Home1 = () => {
           </div>
         </div>
       </section>
+
+      <section className="services-section-sixteen">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="section-header-sixteen text-center">
+                  {/* <p>Recapture the beauty of self-confidence</p> */}
+                  <h2>My Expertise Area</h2>
+                </div>
+              </div>
+            </div>
+            <OwlCarousel {...ourNew} className="owl-carousel custom-slide discover-slider owl-theme">
+            {expertise.map((item,index) => (
+                <Link to={`specialites/${index +1}`}>
+                <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-5.svg" alt="Body" />
+                </div>
+                <Link to="#">{item.item}</Link>
+                <p>Tailored Body Surgery Solutions for Timeless Beauty</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+                </Link>
+               
+              ))}
+             
+              {/* <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-4.svg" alt="Face" />
+                </div>
+                <Link to="#">Nose</Link>
+                <p>Elevate Confidence with Precision Nose Surgery</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-3.svg" alt="Breast" />
+                </div>
+                <Link to="#">Breast</Link>
+                <p>Customized Breast Surgery for Timeless Elegance.</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-2.svg" alt="Nose" />
+                </div>
+                <Link to="#">Face</Link>
+                <p> Face Surgery Tailored to Your Unique Beauty.</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-1.svg" alt="Fillers" />
+                </div>
+                <Link to="#">Fillers</Link>
+                <p>Expertly Crafted Fillers Surgery for Natural Radiance</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-2.svg" alt="Breast" />
+                </div>
+                <Link to="#">Face</Link>
+                <p>Face Surgery Tailored to Your Unique Beauty.</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-5.svg" alt="Face" />
+                </div>
+                <Link to="#">Body</Link>
+                <p>Tailored Body Surgery Solutions for Timeless Beauty</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-4.svg" alt="Breast" />
+                </div>
+                <Link to="#">Nose</Link>
+                <p>Elevate Confidence with Precision Nose Surgery</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-1.svg" alt="Nose" />
+                </div>
+                <Link to="#">Fillers</Link>
+                <p>Expertly Crafted Fillers Surgery for Natural Radiance</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-3.svg" alt="Face" />
+                </div>
+                <Link to="#">Breast</Link>
+                <p>Customized Breast Surgery for Timeless Elegance.</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div>
+              <div className="discover-you-main">
+                <div className="discover-you-image">
+                  <ImageWithBasePath src="assets/img/icons/discover-5.svg" alt="Nose" />
+                </div>
+                <Link to="#">Body</Link>
+                <p>Tailored Body Surgery Solutions for Timeless Beauty</p>
+                <Link to="#" className="discov-innner">
+                  Read More
+                  <i className="fa-solid fa-chevron-right ms-2" />
+                </Link>
+              </div> */}
+            </OwlCarousel>
+          </div>
+          <div className="service-sixteen-icon">
+            <ImageWithBasePath
+              src="assets/img/service-sixteen-icon.png"
+              className="bg-img-top"
+              alt="Section bg"
+            />
+            <ImageWithBasePath
+              src="assets/img/bg/vector-bg-03.png"
+              className="bg-img-bottom"
+              alt="Section bg"
+            />
+          </div>
+        </section>
+
+      
       {/* /Specialities Section */}
       {/* Doctors Section */}
       {/* <section className="doctors-section">
@@ -1548,7 +1775,7 @@ const Home1 = () => {
       </section>
       {/* /Testimonial Section */}
       {/* Partners Section */}
-      <section className="partners-section">
+      {/* <section className="partners-section">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
@@ -1675,7 +1902,7 @@ const Home1 = () => {
             </ul>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* /Partners Section */}
       <Home1Footer />
     </div>

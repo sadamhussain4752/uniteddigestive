@@ -1005,6 +1005,7 @@
         border: 1px solid $__white_tone;
         border-radius: 8px;
         height: 196px;
+       
         @include margin-padding(0 0 0 10px, 30px);
         cursor: $__pointer;
         @include transition(0.7s);
