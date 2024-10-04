@@ -49,6 +49,7 @@ import {
   faqimg,
 } from "../aboutus/img";
 import CountUp from "react-countup";
+import Home1Header from "../../home/home-1/header";
 
 const Aboutus = (props) => {
   let pathname = props.location.pathname;
@@ -97,7 +98,7 @@ const Aboutus = (props) => {
 
   return (
     <>
-      <Header {...props} />
+      <Home1Header/>
       <>
         {/* Breadcrumb */}
         <div className="breadcrumb-bar-two">
@@ -296,7 +297,7 @@ const Aboutus = (props) => {
               <div className="row align-items-end">
                 <div className="col-lg-7 col-md-12">
                   <div className="section-inner-header way-inner-header mb-0">
-                    <h2>Be on Your Way to Feeling Better with the Doccure</h2>
+                    <h2>Be on Your Way to Feeling Better with the Dr. Shabeer Ahmed</h2>
                     <p>
                       Lorem ipsum dolor sit amet, consectetur adipiscing elit,
                       sed do eiusmod tempor incididunt ut labore et dolore magna

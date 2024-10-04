@@ -1378,7 +1378,7 @@ const Home7 = () => {
           <div className="row">
             <div className="col-lg-12">
               <div className="section-header-fourteen service-inner-fourteen">
-                <h2>Doccure recent Blogs</h2>
+                <h2>Dr. Shabeer Ahmed recent Blogs</h2>
                 <p>
                   Checkout our Latest blogs by our Experts by Month on Month to
                   know more about Petss

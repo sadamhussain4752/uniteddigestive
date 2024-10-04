@@ -756,7 +756,7 @@ const Home5 = () => {
           <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
               <div className="section-header-one section-header-slider">
-                <h2 className="section-title mb-0">Why Choose Doccure?</h2>
+                <h2 className="section-title mb-0">Why Choose Dr. Shabeer Ahmed?</h2>
               </div>
             </div>
           </div>
@@ -1003,7 +1003,7 @@ const Home5 = () => {
                       <h6>“ Awesome Impact ”</h6>
                       <p>
                         After suffering from a heart condition for a number of
-                        years I was very happy to meet Doccure, from the first
+                        years I was very happy to meet Dr. Shabeer Ahmed, from the first
                         consultation where he believed there was a solution...
                       </p>
                     </div>

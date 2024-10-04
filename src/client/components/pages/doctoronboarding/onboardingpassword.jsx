@@ -116,7 +116,7 @@ const Onboardingpassword = () => {
               <div className="onboarding-content-box content-wrap">
                 <div className="onboard-set">
                   <div className="onboarding-title pass-title">
-                    <h2>Create a passcode on your Doccure account</h2>
+                    <h2>Create a passcode on your Dr. Shabeer Ahmed account</h2>
                   </div>
                   <div className="onboarding-content">
                     <div className="row">

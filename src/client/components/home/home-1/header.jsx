@@ -51,10 +51,10 @@ const Home1Header = () => {
               </div>
               <ul className="main-nav">
                 <li className="has-submenu megamenu active">
-                  <Link to="#">
-                    Home <i className="fas fa-chevron-down" />
+                  <Link to="/home-1">
+                    Home 
                   </Link>
-                  <ul className="submenu mega-submenu">
+                  {/* <ul className="submenu mega-submenu">
                     <li>
                       <div className="megamenu-wrapper">
                         <div className="row">
@@ -316,13 +316,13 @@ const Home1Header = () => {
                         </div>
                       </div>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="has-submenu">
-                  <Link to="#">
-                    Doctors <i className="fas fa-chevron-down" />
+                  <Link to="/patient/search-doctor1">
+                    Providers 
                   </Link>
-                  <ul className="submenu">
+                  {/* <ul className="submenu">
                     <li>
                       <Link to="/doctor/doctor-dashboard">
                         Doctor Dashboard
@@ -371,13 +371,46 @@ const Home1Header = () => {
                         </li>
                       </ul>
                     </li>
-                  </ul>
+                  </ul> */}
+                </li>
+                <li className="has-submenu">
+                  <Link to="/patient/doctor-list">
+                    Locations 
+                  </Link>
+                 
                 </li>
                 <li className="has-submenu">
                   <Link to="#">
-                    Patients <i className="fas fa-chevron-down" />
+                    Patients Resources  <i className="fas fa-chevron-down" />
                   </Link>
                   <ul className="submenu">
+                    <li>
+                      <Link to="/pages/patient-portal">
+                       Patient Portal 
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/pharmacyadmin" target="_blank">
+                       Medical Records
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/pharmacyadmin" target="_blank">
+                       Your Visit
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/pharmacyadmin" target="_blank">
+                       Services
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/pharmacyadmin" target="_blank">
+                       Procedure Preparation
+                      </Link>
+                    </li>
+                  </ul>
+                  {/* <ul className="submenu">
                     <li>
                       <Link to="/patient/dashboard">Patient Dashboard</Link>
                     </li>
@@ -451,13 +484,13 @@ const Home1Header = () => {
                     <li>
                       <Link to="/patient/change-password">Change Password</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
                 <li className="has-submenu">
                   <Link to="#">
-                    Pharmacy <i className="fas fa-chevron-down" />
+                    Referring Providers 
                   </Link>
-                  <ul className="submenu">
+                  {/* <ul className="submenu">
                     <li>
                       <Link to="/Pharmacy/Pharmacy-index">Pharmacy</Link>
                     </li>
@@ -497,13 +530,63 @@ const Home1Header = () => {
                         Pharmacy Register
                       </Link>
                     </li>
+                  </ul> */}
+                </li>
+                
+                <li className="has-submenu">
+                  <Link to="#">
+                    GI Health Library 
+                  </Link>
+                  <ul className="submenu">
+                    <li>
+                      <Link to="/blog/blog-list">Blog List</Link>
+                    </li>
+                    <li>
+                      <Link to="/blog/blog-grid">Blog Grid</Link>
+                    </li>
+                    <li>
+                      <Link to="/blog/blog-details">Blog Details</Link>
+                    </li>
                   </ul>
                 </li>
                 <li className="has-submenu">
                   <Link to="#">
-                    Pages <i className="fas fa-chevron-down" />
+                    About Us <i className="fas fa-chevron-down" />
                   </Link>
                   <ul className="submenu">
+                    <li>
+                      <Link to="/pages/aboutus" >
+                      About Us 
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/pages/aboutus">
+                       News & Updates
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/pages/aboutus" >
+                       Corporate Development
+                      </Link>
+                    </li>
+
+                    <li>
+                      <Link to="/pages/aboutus">
+                       Physician Careers
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/pages/aboutus" >
+                      All Careers
+                      </Link>
+                    </li>
+                    <li>
+                      <Link to="/pages/aboutus" >
+                       Contact Us
+                      </Link>
+                    </li>
+                  </ul>
+                  {/* <ul className="submenu">
                     <li>
                       <Link to="/pages/aboutus">About Us</Link>
                     </li>
@@ -600,27 +683,11 @@ const Home1Header = () => {
                     <li>
                       <Link to="/pages/component">Components</Link>
                     </li>
-                  </ul>
+                  </ul> */}
                 </li>
-                <li className="has-submenu">
+                {/* <li className="has-submenu">
                   <Link to="#">
-                    Blog <i className="fas fa-chevron-down" />
-                  </Link>
-                  <ul className="submenu">
-                    <li>
-                      <Link to="/blog/blog-list">Blog List</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog/blog-grid">Blog Grid</Link>
-                    </li>
-                    <li>
-                      <Link to="/blog/blog-details">Blog Details</Link>
-                    </li>
-                  </ul>
-                </li>
-                <li className="has-submenu">
-                  <Link to="#">
-                    Admin <i className="fas fa-chevron-down" />
+                    Admin 
                   </Link>
                   <ul className="submenu">
                     <li>
@@ -634,7 +701,7 @@ const Home1Header = () => {
                       </Link>
                     </li>
                   </ul>
-                </li>
+                </li> */}
                 <li className="searchbar">
                   <Link to="#" onClick={toggleSearch}>
                     <i className="feather icon-search" />
@@ -656,12 +723,12 @@ const Home1Header = () => {
                     </form>
                   </div>
                 </li>
-                <li className="login-link">
+                {/* <li className="login-link">
                   <Link to="/login">Login / Signup</Link>
-                </li>
+                </li> */}
               </ul>
             </div>
-            <ul className="nav header-navbar-rht">
+            {/* <ul className="nav header-navbar-rht">
               <li className="register-btn">
                 <Link to="/register" className="btn reg-btn">
                   <i className="feather icon-user" />
@@ -674,7 +741,7 @@ const Home1Header = () => {
                   Login
                 </Link>
               </li>
-            </ul>
+            </ul> */}
           </nav>
         </div>
       </header>

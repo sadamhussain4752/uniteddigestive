@@ -19,7 +19,8 @@ import MyComponent from "./mycomponent";
 const SearchList = () => {
   return (
     <div>
-      <div className="card">
+      {[1,2,3].map(()=>(
+        <div className="card">
         <div className="card-body">
           <div className="doctor-widget">
             <div className="doc-info-left">
@@ -101,6 +102,8 @@ const SearchList = () => {
           </div>
         </div>
       </div>
+      ))}
+      
       <div className="card">
         <div className="card-body">
           <div className="doctor-widget">

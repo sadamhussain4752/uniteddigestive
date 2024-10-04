@@ -6,7 +6,7 @@ import Header from "../../header";
 import Footer from "../../footer";
 
 const DoctorRegister = (props) => {
-  const config = "/react/template";
+  const config = "";
   // const history = useHistory();
   useEffect(() => {
     document.getElementsByTagName("body")[0].className = "account-page";

@@ -168,6 +168,9 @@ import Home12 from "./client/components/home/home-12/index.jsx";
 import Home13 from "./client/components/home/home-13/index.jsx";
 import Home14 from "./client/components/home/home-14/index.jsx";
 import DoctorProfileTwo from "./client/components/patients/doctorprofile2/index.jsx";
+import Patientprotal from "./client/components/pages/PatientPortal/patientprotal.jsx";
+import Specialities from "./admin/components/specialities/index.jsx";
+import SpecialitesDetails from "./client/components/blog/specialities/index.js";
 const AppContainer = function (props) {
   if (props) {
     const url = props.location.pathname.split("/")[1];
@@ -301,6 +304,9 @@ const AppContainer = function (props) {
               <Route path="/blog/blog-list" exact component={BlogList} />
               <Route path="/blog/blog-grid" exact component={BlogGrid} />
               <Route path="/blog/blog-details" exact component={BlogDetails} />
+              <Route path="/specialites/:id" exact component={SpecialitesDetails} />
+
+
               <Route path="/doctor-blog" exact component={Doctorblog} />
               <Route
                 path="/blog/doctor-add-blog"
@@ -336,6 +342,7 @@ const AppContainer = function (props) {
               <Route path="/doctor/invoices" exact component={Invoice} />
               <Route path="/pages/invoice-view" exact component={InvoiceView} />
               <Route path="/pages/aboutus" exact component={Aboutus} />
+              <Route path="/pages/patient-portal" exact component={Patientprotal} />
               <Route path="/pages/contactus" exact component={Contactus} />
               <Route path="/pages/comingsoon" exact component={Comingsoon} />
               <Route path="/pages/maintenance" exact component={Maintenance} />

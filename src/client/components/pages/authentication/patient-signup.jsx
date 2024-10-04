@@ -8,7 +8,7 @@ import PhoneInput from "react-phone-input-2";
 import "react-phone-input-2/lib/style.css";
 
 const PatientSignup = () => {
-  const config = "/react/template";
+  const config = "";
   return (
     <>
       {/* <Header {...props} /> */}
@@ -74,7 +74,7 @@ const PatientSignup = () => {
                       <div className="form-group form-check-box terms-check-box">
                         <div className="form-group-flex">
                           <label className="custom_check">
-                            I have read and agree to Doccure’s{" "}
+                            I have read and agree to Dr. Shabeer Ahmed’s{" "}
                             <Link to="#">Terms of Service</Link> and{" "}
                             <Link to="#">Privacy Policy.</Link>
                             <input type="checkbox" name="Terms" />

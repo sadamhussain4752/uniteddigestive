@@ -29,13 +29,13 @@ const LoginContainer = (props) => {
                       <img
                         src={loginBanner}
                         className="img-fluid"
-                        alt="Doccure Login"
+                        alt="Dr. Shabeer Ahmed Login"
                       />
                     </div>
                     <div className="col-md-12 col-lg-6 login-right">
                       <div className="login-header">
                         <h3>
-                          Login <span>Doccure</span>
+                          Login <span>Dr. Shabeer Ahmed</span>
                         </h3>
                       </div>
                       <form>

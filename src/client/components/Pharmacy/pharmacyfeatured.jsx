@@ -897,7 +897,7 @@ const PharmacyFeatured = () => {
                       <i className="fa-solid fa-circle-check" /> Healthy life.
                     </h6>
                     <p>
-                      At Doccure, we believe that true well-being extends beyond
+                      At Dr. Shabeer Ahmed, we believe that true well-being extends beyond
                       the prescription counter. Our commitment to your health
                       goes beyond medications, a dedicated space designed to
                       empower you on your journey to a healthier and happier
@@ -910,7 +910,7 @@ const PharmacyFeatured = () => {
                       quality products for you.
                     </h6>
                     <p>
-                      At Doccure, we believe that true well-being extends beyond
+                      At Dr. Shabeer Ahmed, we believe that true well-being extends beyond
                       the prescription counter. Our commitment to your health
                       goes beyond medications, a dedicated space designed to
                       empower you on your journey to a healthier and happier
@@ -1040,7 +1040,7 @@ const PharmacyFeatured = () => {
                       <i className="fas fa-star filled" />
                     </div>
                     <p>
-                      The Doccure has been a game-changer for me. Ordering my
+                      The Dr. Shabeer Ahmed has been a game-changer for me. Ordering my
                       medications is a breeze, and the detailed information
                       provided helps me make informed decisions about my health.
                     </p>
@@ -1061,7 +1061,7 @@ const PharmacyFeatured = () => {
                     </div>
                     <p>
                       The convenience of having my medications delivered to my
-                      doorstep is unparalleled. The Doccure security measures
+                      doorstep is unparalleled. The Dr. Shabeer Ahmed security measures
                       instill confidence in every transaction.
                     </p>
                     <h5>Andrew Morgan</h5>
@@ -1080,7 +1080,7 @@ const PharmacyFeatured = () => {
                       <i className="fas fa-star filled" />
                     </div>
                     <p>
-                      As a busy professional, the Doccure efficient service has
+                      As a busy professional, the Dr. Shabeer Ahmed efficient service has
                       saved me countless hours. The ability to chat with a
                       pharmacist online for quick advice is fantastic, making it
                       so much easier to manage my health.
@@ -1101,7 +1101,7 @@ const PharmacyFeatured = () => {
                       <i className="fas fa-star filled" />
                     </div>
                     <p>
-                      I can't thank the Doccure enough for its user-friendly
+                      I can't thank the Dr. Shabeer Ahmed enough for its user-friendly
                       interface and quick prescription refills. The automatic
                       reminders for medication schedules have been a lifesaver,
                       ensuring I never miss a dose.
@@ -1299,7 +1299,7 @@ const PharmacyFeatured = () => {
                   <div className="app-content">
                     <div className="app-header aos" data-aos="fade-up">
                       <h5>Working for Your Better Health.</h5>
-                      <h2>Download the Doccure App today!</h2>
+                      <h2>Download the Dr. Shabeer Ahmed App today!</h2>
                     </div>
                     <div className="app-scan aos" data-aos="fade-up">
                       <p>Scan the QR code to get the app now</p>
@@ -1323,7 +1323,7 @@ const PharmacyFeatured = () => {
             </div>
             <div className="doccure-info">
               <p>
-                Doccure is one of India’s most trusted pharmacies, dispensing
+                Dr. Shabeer Ahmed is one of India’s most trusted pharmacies, dispensing
                 quality medicines at reasonable prices to over 9 million happy
                 customers
               </p>
@@ -1336,7 +1336,7 @@ const PharmacyFeatured = () => {
                   <h4>Company</h4>
                   <ul className="pages-links">
                     <li>
-                      <Link to="/about-us">About Doccure</Link>
+                      <Link to="/about-us">About Dr. Shabeer Ahmed</Link>
                     </li>
                     <li>
                       <Link to="#">Customers Speak</Link>
@@ -1506,7 +1506,7 @@ const PharmacyFeatured = () => {
         </div>
         <div className="footer-bottom">
           <div className="copy-right text-center">
-            <p>Copyright © 2024 Doccure. All Rights Reserved</p>
+            <p>Copyright © 2024 Dr. Shabeer Ahmed. All Rights Reserved</p>
           </div>
         </div>
       </section>

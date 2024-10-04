@@ -381,7 +381,7 @@ const Home10 = () => {
                 </p>
               </div>
               <p>
-                At Doccure, we are dedicated to providing comprehensive and
+                At Dr. Shabeer Ahmed, we are dedicated to providing comprehensive and
                 compassionate care for all your ENT needs. Our team of
                 experienced and highly skilled ENT specialists is committed to
                 ensuring the well-being of our patients through state-of-the-art
@@ -999,7 +999,7 @@ const Home10 = () => {
                   </div>
                   <p>
                     After struggling with chronic sinus problems, I found relief
-                    at Doccure. The ENT specialists here are not only highly
+                    at Dr. Shabeer Ahmed. The ENT specialists here are not only highly
                     skilled but also genuinely caring. They took the time to
                     understand my concerns, provided a detailed diagnosis, and
                     guided me through a treatment plan that has greatly improved

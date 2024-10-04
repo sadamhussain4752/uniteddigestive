@@ -73,7 +73,7 @@ const Pharmacyregisterstepone = () => {
                     </div>
                   </div>
                   <div className="login-bottom-copyright">
-                    <span>© 2022 Doccure. All rights reserved.</span>
+                    <span>© 2022 Dr. Shabeer Ahmed. All rights reserved.</span>
                   </div>
                 </div>
               </div>

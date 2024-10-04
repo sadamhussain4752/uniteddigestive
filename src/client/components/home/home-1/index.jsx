@@ -12,6 +12,7 @@ import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Calendar } from "primereact/calendar";
+import expertise from "../../JSON/expertise.JSON";
 
 const Home1 = () => {
   const [date1, setDate1] = useState(null);
@@ -32,9 +33,8 @@ const Home1 = () => {
     };
   }, []);
 
-
   const specialitiesSlider = {
-    loop: true,
+    loop: false,
     margin: 24,
     dots: false,
     nav: true,
@@ -171,9 +171,13 @@ const Home1 = () => {
                   className="header-icon"
                   alt="header-icon"
                 />
-                <p>We are committed to providing our patients with the most appropriate and cost-effective healthcare available in a comfortable and compassionate setting.</p>
+                <p>
+                  We are committed to providing our patients with the most
+                  appropriate and cost-effective healthcare available in a
+                  comfortable and compassionate setting.
+                </p>
                 <Link to="/patient/booking1" className="btn">
-                  Find a Location and Provide 
+                  Find a Location and Provide
                 </Link>
                 <div className="banner-arrow-img">
                   <ImageWithBasePath
@@ -183,7 +187,7 @@ const Home1 = () => {
                   />
                 </div>
               </div>
-              <div className="search-box-one aos" data-aos="fade-up">
+              {/* <div className="search-box-one aos" data-aos="fade-up">
                 <form action="search-2.html">
                   <div className="search-input search-line">
                     <i className="feather icon-search bficon" />
@@ -228,7 +232,7 @@ const Home1 = () => {
                     </button>
                   </div>
                 </form>
-              </div>
+              </div> */}
             </div>
             <div className="col-lg-6">
               <div className="banner-img aos" data-aos="fade-up">
@@ -283,9 +287,7 @@ const Home1 = () => {
             <div className="col-lg-8 col-md-12 work-details">
               <div className="section-header-one aos" data-aos="fade-up">
                 <h5>How it Works</h5>
-                <h2 className="section-title">
-                GI Health Library
-                </h2>
+                <h2 className="section-title">GI Health Library</h2>
               </div>
               <div className="row">
                 <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
@@ -301,7 +303,8 @@ const Home1 = () => {
                     <div className="work-content">
                       <h5>Save Time and Money on Your Colonoscopy</h5>
                       <p>
-                      See if you qualify to skip the pre-procedure office visit.{" "}
+                        See if you qualify to skip the pre-procedure office
+                        visit.{" "}
                       </p>
                     </div>
                   </div>
@@ -317,11 +320,8 @@ const Home1 = () => {
                       </span>
                     </div>
                     <div className="work-content">
-                      <h5>Experiencing Rectal Bleeding, Itching, or Pain?
-                      </h5>
-                      <p>
-                      See if you qualify for hemorrhoid banding.
-                      </p>
+                      <h5>Experiencing Rectal Bleeding, Itching, or Pain?</h5>
+                      <p>See if you qualify for hemorrhoid banding.</p>
                     </div>
                   </div>
                 </div>
@@ -371,7 +371,7 @@ const Home1 = () => {
       {/* Specialities Section */}
       <section className="specialities-section-one">
         <div className="container">
-          <div className="service-sec-one">
+          {/* <div className="service-sec-one">
             <div className="row row-cols-7 row-cols-xxl-7 row-cols-xl-4 row-cols-lg-4 rows-cols-md-6 justify-content-center">
               <div className="col-12 d-flex col-xxl col-lg-3 col-sm-6">
                 <Link to="#" className="serv-wrap blue-bg flex-fill">
@@ -451,7 +451,7 @@ const Home1 = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
           <div className="row">
             <div className="col-md-6 col-7 aos" data-aos="fade-up">
               <div className="section-header-one section-header-slider">
@@ -467,20 +467,26 @@ const Home1 = () => {
             data-aos="fade-up"
           >
             <OwlCarousel {...specialitiesSlider}>
-              <div className="item">
-                <div className="specialities-item">
-                  <div className="specialities-img">
-                    <span>
-                      <ImageWithBasePath
-                        src="assets/img/specialities/specialities-01.svg"
-                        alt="heart-image"
-                      />
-                    </span>
+              {expertise.map((item,index) => (
+                <Link to={`specialites/${index +1}`}>
+                 <div className="item">
+                  <div className="specialities-item">
+                    <div className="specialities-img">
+                      <span>
+                        <ImageWithBasePath
+                          src="assets/img/specialities/specialities-01.svg"
+                          alt="heart-image"
+                        />
+                      </span>
+                    </div>
+                    <p>{item.title}</p>
                   </div>
-                  <p>Endoscopic surgery	</p>
                 </div>
-              </div>
-              <div className="item">
+                </Link>
+               
+              ))}
+
+              {/* <div className="item">
                 <div className="specialities-item">
                   <div className="specialities-img">
                     <span>
@@ -729,10 +735,7 @@ const Home1 = () => {
                   </div>
                   <p>Irritable bowel syndrome	</p>
                 </div>
-              </div>
-
-
-
+              </div> */}
             </OwlCarousel>
           </div>
           <div className="specialities-btn aos" data-aos="fade-up">
@@ -744,7 +747,7 @@ const Home1 = () => {
       </section>
       {/* /Specialities Section */}
       {/* Doctors Section */}
-      <section className="doctors-section">
+      {/* <section className="doctors-section">
         <div className="container">
           <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
@@ -755,7 +758,7 @@ const Home1 = () => {
           </div>
           <div className="doctor-slider-one owl-theme aos" data-aos="fade-up">
             <OwlCarousel {...bestDoctorsSlider}>
-              {/* Doctor Item */}
+            
               <div className="item">
                 <div className="doctor-profile-widget doc-item">
                   <div className="doc-pro-img">
@@ -799,8 +802,7 @@ const Home1 = () => {
                   </div>
                 </div>
               </div>
-              {/* /Doctor Item */}
-              {/* Doctor Item */}
+             
               <div className="item">
                 <div className="doctor-profile-widget doc-item">
                   <div className="doc-pro-img">
@@ -844,8 +846,7 @@ const Home1 = () => {
                   </div>
                 </div>
               </div>
-              {/* /Doctor Item */}
-              {/* Doctor Item */}
+            
               <div className="item">
                 <div className="doctor-profile-widget doc-item">
                   <div className="doc-pro-img">
@@ -889,8 +890,7 @@ const Home1 = () => {
                   </div>
                 </div>
               </div>
-              {/* /Doctor Item */}
-              {/* Doctor Item */}
+            
               <div className="item">
                 <div className="doctor-profile-widget doc-item">
                   <div className="doc-pro-img">
@@ -934,8 +934,7 @@ const Home1 = () => {
                   </div>
                 </div>
               </div>
-              {/* /Doctor Item */}
-              {/* Doctor Item */}
+             
               <div className="item">
                 <div className="doctor-profile-widget doc-item">
                   <div className="doc-pro-img">
@@ -955,7 +954,9 @@ const Home1 = () => {
                   <div className="doc-content">
                     <div className="doc-pro-info">
                       <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. Paul Richard</Link>
+                        <Link to="/patient/doctor-profile">
+                          Dr. Paul Richard
+                        </Link>
                         <p>Dentist</p>
                       </div>
                       <div className="reviews-ratings">
@@ -979,13 +980,11 @@ const Home1 = () => {
                   </div>
                 </div>
               </div>
-              {/* /Doctor Item */}
             </OwlCarousel>
           </div>
         </div>
-      </section>
+      </section> */}
 
-     
       {/* /Work Section */}
       {/* Articles Section */}
       <section className="articles-section">
@@ -1175,7 +1174,7 @@ const Home1 = () => {
       </section>
       {/* /Articles Section */}
       {/* App Section */}
-      <section className="app-section pt-0">
+      {/* <section className="app-section pt-0">
         <div className="container">
           <div className="app-bg">
             <div className="row align-items-end">
@@ -1183,7 +1182,7 @@ const Home1 = () => {
                 <div className="app-content">
                   <div className="app-header aos" data-aos="fade-up">
                     <h5>Working for Your Better Health.</h5>
-                    <h2>Download the Doccure App today!</h2>
+                    <h2>Download the Dr. Shabeer Ahmed App today!</h2>
                   </div>
                   <div className="app-scan aos" data-aos="fade-up">
                     <p>Scan the QR code to get the app now</p>
@@ -1220,7 +1219,7 @@ const Home1 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* /App Section */}
       {/* FAQ Section */}
       <section className="faq-section">
@@ -1459,13 +1458,13 @@ const Home1 = () => {
                         </div>
                         <div className="testimonial-details">
                           <p>
-                            Doccure exceeded my expectations in healthcare. The
-                            seamless booking process, coupled with the expertise
-                            of the doctors, made my experience exceptional.
-                            Their commitment to quality care and convenience
-                            truly sets them apart. I highly recommend Doccure
-                            for anyone seeking reliable and accessible
-                            healthcare services.
+                            Dr. Shabeer Ahmed exceeded my expectations in
+                            healthcare. The seamless booking process, coupled
+                            with the expertise of the doctors, made my
+                            experience exceptional. Their commitment to quality
+                            care and convenience truly sets them apart. I highly
+                            recommend Dr. Shabeer Ahmed for anyone seeking
+                            reliable and accessible healthcare services.
                           </p>
                           <h6>
                             <span className="d-block">John Doe</span> New York
@@ -1492,7 +1491,7 @@ const Home1 = () => {
                           <p>
                             As a busy professional, I don't have time to wait on
                             hold or play phone tag to schedule doctor
-                            appointments. Thanks to Doccure, booking
+                            appointments. Thanks to Dr. Shabeer Ahmed, booking
                             appointments has never been easier! The
                             user-friendly interface allows me to quickly find
                             available appointment slots that fit my schedule and
@@ -1525,14 +1524,14 @@ const Home1 = () => {
                         <div className="testimonial-details">
                           <p>
                             As a parent, coordinating doctor appointments for my
-                            family can be overwhelming. Doccure has simplified
-                            the process and made scheduling appointments a
-                            breeze! I love being able to see all available
-                            appointment times in one place and book appointments
-                            for multiple family members with ease. Plus, the
-                            automatic reminders ensure we never miss an
-                            appointment. I highly recommend Doccure to other
-                            busy parents!
+                            family can be overwhelming. Dr. Shabeer Ahmed has
+                            simplified the process and made scheduling
+                            appointments a breeze! I love being able to see all
+                            available appointment times in one place and book
+                            appointments for multiple family members with ease.
+                            Plus, the automatic reminders ensure we never miss
+                            an appointment. I highly recommend Dr. Shabeer Ahmed
+                            to other busy parents!
                           </p>
                           <h6>
                             <span className="d-block">Niya Patel</span> New York

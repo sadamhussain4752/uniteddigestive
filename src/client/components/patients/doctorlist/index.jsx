@@ -6,6 +6,7 @@ import { IMG01, IMG02, IMG03, IMG05, IMG10, IMG11, IMG12, IMG13 } from "./img";
 import Map from "../doctorgrid/map";
 import Header from "../../header";
 import MyComponent from "../../pages/searchdoctor/searchList/mycomponent";
+import Home1Header from "../../home/home-1/header";
 
 const data = [
   {
@@ -125,7 +126,7 @@ const DoctorList = (props) => {
 
   return (
     <>
-      <Header {...props} />
+      <Home1Header/>
       <div className="content top-space">
         <div className="container-fluid">
           <div className="row">

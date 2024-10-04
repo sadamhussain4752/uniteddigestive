@@ -8,6 +8,7 @@ import Footer from "../../footer";
 import { Link } from "react-router-dom";
 import DatePicker from "react-datepicker";
 import "react-datepicker/dist/react-datepicker.css";
+import Home1Header from "../../home/home-1/header";
 
 const SearchDoctor = (props) => {
   // let pathname = props.location.pathname;
@@ -29,7 +30,7 @@ const SearchDoctor = (props) => {
   };
   return (
     <div>
-      <Header {...props} />
+       <Home1Header/>
       {/* Breadcrumb */}
       <div className="breadcrumb-bar-two">
         <div className="container">

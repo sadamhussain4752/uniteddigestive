@@ -686,7 +686,7 @@ const Home8 = () => {
             <div className="client-says-all ">
               <div className="clients-says-content">
                 <p>
-                  "I would like to thank everyone at Doccure for the fantastic
+                  "I would like to thank everyone at Dr. Shabeer Ahmed for the fantastic
                   way you looked after me. I could not fault anyone during the
                   time I spent with you - from the point I arrived in reception,
                   to the catering team and every member of staff throughout the
@@ -707,7 +707,7 @@ const Home8 = () => {
             <div className="client-says-all">
               <div className="clients-says-content">
                 <p>
-                  "I would like to thank everyone at Doccure for the fantastic
+                  "I would like to thank everyone at Dr. Shabeer Ahmed for the fantastic
                   way you looked after me. I could not fault anyone during the
                   time I spent with you - from the point I arrived in reception,
                   to the catering team and every member of staff throughout the
@@ -728,7 +728,7 @@ const Home8 = () => {
             <div className="client-says-all">
               <div className="clients-says-content">
                 <p>
-                  "I would like to thank everyone at Doccure for the fantastic
+                  "I would like to thank everyone at Dr. Shabeer Ahmed for the fantastic
                   way you looked after me. I could not fault anyone during the
                   time I spent with you - from the point I arrived in reception,
                   to the catering team and every member of staff throughout the
@@ -919,7 +919,7 @@ const Home8 = () => {
               <div className="feedback-main-content aos" data-aos="fade-up">
                 <h2>
                   Download <br />
-                  The Doccure App Today!
+                  The Dr. Shabeer Ahmed App Today!
                 </h2>
                 <p>
                   Rasakan kemudahan pembayaran melalui aplikasi SmartInPays.

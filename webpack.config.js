@@ -10,7 +10,7 @@ const { CleanWebpackPlugin } = require("clean-webpack-plugin");
 const opn = require("opn"); // Import the 'opn' package
 
 const publicPath = "/"; // To run this file in local
-//  const publicPath = "/react/template/"; // To build the file
+//  const publicPath = "/"; // To build the file
 module.exports = {
   mode: "development",
   entry: path.join(__dirname, "src", "index.js"),
@@ -21,7 +21,7 @@ module.exports = {
     port: 3000,
     historyApiFallback: true,
     onAfterSetupMiddleware() {
-      opn(`http://localhost:${this.port}/react/template/home-1`);
+      opn(`http://localhost:${this.port}/home-1`);
     },
   },
   

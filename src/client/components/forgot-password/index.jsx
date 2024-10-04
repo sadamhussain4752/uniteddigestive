@@ -7,7 +7,7 @@ import Footer from "../footer";
 
 const ForgotPassword = (props) => {
   // const history = useHistory();
-  const config = "/react/template";
+  const config = "";
 
   useEffect(() => {
     document.body.classList.add("account-page");

@@ -120,7 +120,7 @@ const Home11Footer = () => {
               <div className="row">
                 <div className="col-md-6 col-lg-6">
                   <div className="copyright-text">
-                    <p>© 2024 Doccure. All rights reserved.</p>
+                    <p>© 2024 Dr. Shabeer Ahmed. All rights reserved.</p>
                   </div>
                 </div>
                 <div className="col-md-6 col-lg-6">

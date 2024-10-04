@@ -16,7 +16,7 @@ const DoctorFooter = () => {
                         </div>
                         <div className="doccure-info">
                             <p>
-                                Doccure is one of India’s most trusted pharmacies, dispensing
+                                Dr. Shabeer Ahmed is one of India’s most trusted pharmacies, dispensing
                                 quality medicines at reasonable prices to over 9 million happy
                                 customers
                             </p>
@@ -29,7 +29,7 @@ const DoctorFooter = () => {
                                     <h4>Company</h4>
                                     <ul className="pages-links">
                                         <li>
-                                            <Link to="/pages/aboutus">About Doccure</Link>
+                                            <Link to="/pages/aboutus">About Dr. Shabeer Ahmed</Link>
                                         </li>
                                         <li>
                                             <Link to="#">Customers Speak</Link>
@@ -199,7 +199,7 @@ const DoctorFooter = () => {
                 </div>
                 <div className="footer-bottom">
                     <div className="copy-right text-center">
-                        <p>Copyright © 2024 Doccure. All Rights Reserved</p>
+                        <p>Copyright © 2024 Dr. Shabeer Ahmed. All Rights Reserved</p>
                     </div>
                 </div>
             </div>

@@ -5,6 +5,7 @@ import StickyBox from "react-sticky-box";
 import Doctors from "./doctors";
 import Footer from "../../footer";
 import { Link } from "react-router-dom";
+import Home1Header from "../../home/home-1/header";
 // import Slider from "react-slider";
 
 const SearchDoctor2 = (props) => {
@@ -39,7 +40,7 @@ const SearchDoctor2 = (props) => {
   };
   return (
     <div className="main-wrapper">
-      <Header {...props} />
+      <Home1Header/>
 
       {/* Breadcrumb */}
       <div className="breadcrumb-bar-two">

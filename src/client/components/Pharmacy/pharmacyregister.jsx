@@ -5,7 +5,7 @@ import Header from "../header";
 import Footer from "../footer";
 
 const Pharmacyregister = (props) => {
-  const config = "/react/template";
+  const config = "";
 
   useEffect(() => {
     document.body.classList.add("account-page");
@@ -26,7 +26,7 @@ const Pharmacyregister = (props) => {
                     <img
                       src={loginBanner}
                       className="img-fluid"
-                      alt="Doccure Register"
+                      alt="Dr. Shabeer Ahmed Register"
                     />
                   </div>
                   <div className="col-md-12 col-lg-6 login-right">

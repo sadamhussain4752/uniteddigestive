@@ -6,7 +6,7 @@ import Footer from "../../footer";
 import StickyBox from "react-sticky-box";
 
 const Checkout = (props) => {
-  const config = "/react/template";
+  const config = "";
   // const handleChange = () => {
   //   props.history.push("/patient/booking-success");
   // };

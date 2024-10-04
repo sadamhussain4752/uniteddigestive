@@ -23,7 +23,7 @@ const Home9Footer = () => {
                   <div className="footer-about-content">
                     <p>
                       Effortlessly schedule your medical appointments with
-                      Doccure. Connect with healthcare professionals, manage
+                      Dr. Shabeer Ahmed. Connect with healthcare professionals, manage
                       appointments &amp; prioritize your well being{" "}
                     </p>
                   </div>

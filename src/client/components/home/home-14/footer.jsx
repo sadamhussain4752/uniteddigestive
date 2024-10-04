@@ -142,7 +142,7 @@ const Home14Footer = () => {
               <div className="row align-items-center">
                 <div className="col-xl-4">
                   <div className="copyright-text">
-                    <p>Copyright © 2024 Doccure. All Rights Reserved</p>
+                    <p>Copyright © 2024 Dr. Shabeer Ahmed. All Rights Reserved</p>
                   </div>
                 </div>
                 <div className="col-xl-5">

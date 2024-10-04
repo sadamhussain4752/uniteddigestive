@@ -20,7 +20,7 @@ const Home3Footer = () => {
                   <div className="footer-about-content">
                     <p>
                       Effortlessly schedule your medical appointments with
-                      Doccure. Connect with healthcare professionals, manage
+                      Dr. Shabeer Ahmed. Connect with healthcare professionals, manage
                       appointments &amp; prioritize your well being{" "}
                     </p>
                     <div className="social-icon">
@@ -145,7 +145,7 @@ const Home3Footer = () => {
                 <div className="col-md-6 col-lg-6">
                   <div className="copyright-text">
                     <p className="mb-0">
-                      Copyright © 2024 Doccure. All Rights Reserved
+                      Copyright © 2024 Dr. Shabeer Ahmed. All Rights Reserved
                     </p>
                   </div>
                 </div>

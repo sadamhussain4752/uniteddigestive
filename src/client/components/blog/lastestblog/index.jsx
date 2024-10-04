@@ -26,7 +26,7 @@ const LastestBlog = () => {
             <div className="post-info">
               <h4>
                 <Link to="/blog/blog-details">
-                  Doccure – Making your clinic painless visit?
+                  Dr. Shabeer Ahmed – Making your clinic painless visit?
                 </Link>
               </h4>
               <p>4 Dec 2019</p>

@@ -3,7 +3,7 @@ import { logoWhite } from "../imagepath";
 import { Link } from "react-router-dom";
 
 const Login = () => {
-  const config = "/react/template";
+  const config = "";
   // const [shouldReload, setShouldReload] = useState(true);
 
   // useEffect(() => {

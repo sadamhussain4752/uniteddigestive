@@ -242,7 +242,7 @@ const Home12 = () => {
       name: "Madeleine Jennifer",
       location: "Chennai, Tamilnadu",
       description:
-        "After struggling with chronic sinus problems, I found relief at Doccure. The ENT specialists here are not only highly skilled but also genuinely caring. They took the time to understand my concerns, provided a detailed diagnosis, and guided me through a treatment plan that has greatly improved my quality of life.",
+        "After struggling with chronic sinus problems, I found relief at Dr. Shabeer Ahmed. The ENT specialists here are not only highly skilled but also genuinely caring. They took the time to understand my concerns, provided a detailed diagnosis, and guided me through a treatment plan that has greatly improved my quality of life.",
     },
     {
       image: client_02,
@@ -263,7 +263,7 @@ const Home12 = () => {
       name: "Madeleine Jennifer",
       location: "Chennai, Tamilnadu",
       description:
-      "After struggling with chronic sinus problems, I found relief at Doccure. The ENT specialists here are not only highly skilled but also genuinely caring. They took the time to understand my concerns, provided a detailed diagnosis, and guided me through a treatment plan that has greatly improved my quality of life.",
+      "After struggling with chronic sinus problems, I found relief at Dr. Shabeer Ahmed. The ENT specialists here are not only highly skilled but also genuinely caring. They took the time to understand my concerns, provided a detailed diagnosis, and guided me through a treatment plan that has greatly improved my quality of life.",
     },
   ];
   const variouslogoSlider = {
@@ -932,7 +932,7 @@ const Home12 = () => {
                       to ensure the generation of accurate and precise findings
                     </h5>
                     <p>
-                      One of the most popular services Doccure offers is
+                      One of the most popular services Dr. Shabeer Ahmed offers is
                       diagnostic testing. People need to book pathological tests
                       for many reasons. But before booking, they wonder if the
                       diagnostic centre can be trusted to produce accurate
@@ -948,7 +948,7 @@ const Home12 = () => {
                             alt="Img"
                           />
                         </span>
-                        <h6>The Doccure - Easy Way To Book Lab Tests Online</h6>
+                        <h6>The Dr. Shabeer Ahmed - Easy Way To Book Lab Tests Online</h6>
                       </li>
                       <li data-aos="fade-down" data-aos-delay={500}>
                         <span>
@@ -4814,7 +4814,7 @@ const Home12 = () => {
                   <div className="app-content">
                     <div className="app-header aos" data-aos="fade-up">
                       <h5>Working for Your Better Health.</h5>
-                      <h2>Download the Doccure App today!</h2>
+                      <h2>Download the Dr. Shabeer Ahmed App today!</h2>
                     </div>
                     <div className="app-scan aos" data-aos="fade-up">
                       <p>Scan the QR code to get the app now</p>

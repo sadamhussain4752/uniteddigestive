@@ -31,7 +31,7 @@ const Register = (props) => {
                       <img
                         src={loginBanner}
                         className="img-fluid"
-                        alt="Doccure Register"
+                        alt="Dr. Shabeer Ahmed Register"
                       />
                     </div>
                     <div className="col-md-12 col-lg-6 login-right">

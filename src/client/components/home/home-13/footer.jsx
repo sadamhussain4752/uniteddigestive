@@ -211,7 +211,7 @@ const Home13Footer = () => {
         <div className="container">
           <div className="footer-bottom">
             <div className="copy-right">
-              <p>Copyright © 2024 Doccure. All rights are reserved.</p>
+              <p>Copyright © 2024 Dr. Shabeer Ahmed. All rights are reserved.</p>
             </div>
             <div className="footer-select-drops">
               <div className="input-select">

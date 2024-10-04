@@ -1142,7 +1142,7 @@ const Home14 = () => {
               <div className=" dentist-blog aos" data-aos="fade-down">
                 <div className="section-header text-center">
                   <h2>
-                    Doccure <span>Recent Blogs</span>
+                    Dr. Shabeer Ahmed <span>Recent Blogs</span>
                   </h2>
                   <p>
                     Checkout our Latest blogs by our Experts by Month on Month

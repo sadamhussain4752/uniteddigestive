@@ -106,7 +106,7 @@ const TagsWidget = () => {
           </li>
           <li>
             <Link to="#" className="tag">
-              Doccure
+              Dr. Shabeer Ahmed
             </Link>
           </li>
         </ul>

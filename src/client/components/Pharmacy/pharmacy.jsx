@@ -315,7 +315,7 @@ useEffect(() => {
                     <img src={welcome_icon} alt="Welcome Icon" />
                   </div>
                   <div className="welcome-content">
-                    <h5>Welcome to Doccure</h5>
+                    <h5>Welcome to Dr. Shabeer Ahmed</h5>
                     <p>
                       Download the app get free medicine &amp; 50% off on your
                       first order

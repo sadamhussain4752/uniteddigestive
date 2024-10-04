@@ -36,7 +36,7 @@ const ReportInvoice =()=> {
               <div className="row">
                 <div className="col-sm-12 mb-4">
                   <ul className="list-unstyled mb-0">
-                    <li>Doccure Hospital</li>
+                    <li>Dr. Shabeer Ahmed Hospital</li>
                     <li>3864 Quiet Valley Lane,</li>
                     <li>Sherman Oaks, CA, 91403</li>
                     <li>GST No:</li>

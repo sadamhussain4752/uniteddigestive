@@ -90,7 +90,7 @@ export const MapContainer = (props) => {
               <ul className="available-info">
                 <li>
                   <i className="fas fa-map-marker-alt" />
-                  {state.selectedPlace.address}
+                  {state.selectedPlace.address} 
                 </li>
                 <li>
                   <i className="far fa-clock" />{" "}
@@ -116,5 +116,5 @@ export const MapContainer = (props) => {
 };
 
 export default GoogleApiWrapper({
-  apiKey: "",
+  apiKey: "AIzaSyBoMO9HVyopxwZ5XzMiF1Xs7DVy8SU7NqY",
 })(MapContainer);

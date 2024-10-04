@@ -46,7 +46,7 @@ const BlogList = (props) => {
                 </div>
                 <h3 className="blog-title">
                   <Link to="blog-details">
-                    Doccure – Making your clinic painless visit?
+                    Dr. Shabeer Ahmed – Making your clinic painless visit?
                   </Link>
                 </h3>
                 <div className="blog-info clearfix">

@@ -18,7 +18,7 @@ const Home7Footer = () => {
               <div className="col-lg-4 col-md-6">
                 <div className="footer-widget footer-about">
                   <div className="footer-widget-title">
-                    <h4>About Doccure </h4>
+                    <h4>About Dr. Shabeer Ahmed </h4>
                   </div>
                   <p>
                     We can guide you through issues like Cardiac arrest, Heart
@@ -157,7 +157,7 @@ const Home7Footer = () => {
                   <div className="copyright-text">
                     <p className="mb-0">
                       {" "}
-                      Copyright © 2024 Doccure. All Rights Reserved
+                      Copyright © 2024 Dr. Shabeer Ahmed. All Rights Reserved
                     </p>
                   </div>
                 </div>

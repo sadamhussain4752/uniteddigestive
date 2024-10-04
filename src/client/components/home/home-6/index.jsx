@@ -562,7 +562,7 @@ const Home6 = () => {
                   <p>The Great Place Of Eyecare Hospital Center</p>
                 </div>
                 <p>
-                  At Doccure, we understand the importance of clear vision and
+                  At Dr. Shabeer Ahmed, we understand the importance of clear vision and
                   comprehensive eye care. Our dedicated team of experienced
                   optometrists and ophthalmologists is committed to providing
                   top-notch eye care services tailored to your individual needs.
@@ -838,7 +838,7 @@ const Home6 = () => {
                 <h2>
                   <span>Our</span> Store
                 </h2>
-                <p>Great Reasons For People Choose Doccure Store</p>
+                <p>Great Reasons For People Choose Dr. Shabeer Ahmed Store</p>
               </div>
               <ul className="store-tab nav">
                 <li>

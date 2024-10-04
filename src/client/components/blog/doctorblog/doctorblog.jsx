@@ -214,7 +214,7 @@ const Doctorblog = (props) => {
                           </ul>
                           <h3 className="blog-title">
                             <Link to="/blog/blog-details">
-                              Doccure – Making your clinic painless visit?
+                              Dr. Shabeer Ahmed – Making your clinic painless visit?
                             </Link>
                           </h3>
                           <p className="mb-0">

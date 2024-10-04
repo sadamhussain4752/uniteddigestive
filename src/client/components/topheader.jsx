@@ -12,7 +12,7 @@ import Dropdown from "react-bootstrap/Dropdown";
 const TopHeader = (props) => {
   //mobile menu
   const [isSideMenu, setSideMenu] = useState("");
-  const config = "/react/template";
+  const config = "";
 
   const toggleSidebar = (value) => {
     setSideMenu(value);

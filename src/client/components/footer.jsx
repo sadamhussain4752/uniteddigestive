@@ -100,7 +100,8 @@ const Footer = (props) => {
                                 style={{ width: "16px", height: "16px" }}
                               />
                             </i>{" "}
-                            3556 Beech Street, USA
+                            
+Richmond Road, Mother Teresa Rd, Entry from, behind Sacred Heart School Sacred Heart Church, Richmond Town, Bengaluru, Karnataka 560025
                           </p>
                         </div>
                         <div className="footer-address">
@@ -111,7 +112,7 @@ const Footer = (props) => {
                                 style={{ width: "16px", height: "16px" }}
                               />
                             </i>{" "}
-                            +1 315 369 5943
+                            +91 990 024 6002
                           </p>
                         </div>
                         <div className="footer-address mb-0">
@@ -122,7 +123,8 @@ const Footer = (props) => {
                                 style={{ width: "16px", height: "16px" }}
                               />
                             </i>{" "}
-                            doccure@example.com
+                            
+                             drshabeerahmed@gmail.com
                           </p>
                         </div>
                       </div>

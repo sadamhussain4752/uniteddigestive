@@ -1267,12 +1267,12 @@ const Home11 = () => {
                   <div className="testimonial-wrap">
                     <h4>Exceptional Care from Start to Finish</h4>
                     <p>
-                      I recently had liposuction done at Doccure, and the care I
+                      I recently had liposuction done at Dr. Shabeer Ahmed, and the care I
                       received was exceptional from start to finish. The staff
                       was friendly, and the surgeons were not only skilled but
                       also compassionate. They addressed all my concerns,
                       provided detailed pre and post-op instructions, and the
-                      results are truly remarkable. I highly recommend Doccure
+                      results are truly remarkable. I highly recommend Dr. Shabeer Ahmed
                       for anyone considering cosmetic procedures.
                     </p>
                     <div className="testimonial-user">
@@ -1283,12 +1283,12 @@ const Home11 = () => {
                   <div className="testimonial-wrap">
                     <h4>Exceptional Care from Start to Finish</h4>
                     <p>
-                      I recently had liposuction done at Doccure, and the care I
+                      I recently had liposuction done at Dr. Shabeer Ahmed, and the care I
                       received was exceptional from start to finish. The staff
                       was friendly, and the surgeons were not only skilled but
                       also compassionate. They addressed all my concerns,
                       provided detailed pre and post-op instructions, and the
-                      results are truly remarkable. I highly recommend Doccure
+                      results are truly remarkable. I highly recommend Dr. Shabeer Ahmed
                       for anyone considering cosmetic procedures.
                     </p>
                     <div className="testimonial-user">

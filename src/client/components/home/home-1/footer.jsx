@@ -39,7 +39,7 @@ const Home1Footer = () => {
                   <div className="footer-about-content">
                     <p>
                       Effortlessly schedule your medical appointments with
-                      Doccure. Connect with healthcare professionals, manage
+                      Dr. Shabeer Ahmed. Connect with healthcare professionals, manage
                       appointments &amp; prioritize your well being{" "}
                     </p>
                   </div>
@@ -64,7 +64,7 @@ const Home1Footer = () => {
                     </div>
                   </div>
                   <div className="col-lg-3 col-md-4">
-                    <div className="footer-widget footer-menu">
+                    {/* <div className="footer-widget footer-menu">
                       <h2 className="footer-title">Specialities</h2>
                       <ul>
                         <li>
@@ -77,7 +77,7 @@ const Home1Footer = () => {
                           <a href="search.html">Dentist</a>
                         </li>
                       </ul>
-                    </div>
+                    </div> */}
                   </div>
                   <div className="col-lg-6 col-md-4">
                     <div className="footer-widget footer-contact">
@@ -85,18 +85,19 @@ const Home1Footer = () => {
                       <div className="footer-contact-info">
                         <div className="footer-address">
                           <p>
-                            <i className="feather icon-map-pin" /> 3556 Beech Street,
-                            USA
+                            <i className="feather icon-map-pin" /> Richmond Road, Mother Teresa Rd, Entry from, behind Sacred Heart School Sacred Heart Church, Richmond Town, Bengaluru, Karnataka 560025
                           </p>
                         </div>
                         <div className="footer-address">
                           <p>
-                            <i className="feather icon-phone-call" /> +1 315 369 5943
+                            <i className="feather icon-phone-call" /> +91 
+                            990 024 6002
                           </p>
                         </div>
                         <div className="footer-address mb-0">
                           <p>
-                            <i className="feather icon-mail" /> doccure@example.com
+                            <i className="feather icon-mail" /> 
+                            drshabeerahmed@gmail.com
                           </p>
                         </div>
                       </div>
@@ -156,7 +157,7 @@ const Home1Footer = () => {
                 <div className="col-md-6 col-lg-6">
                   <div className="copyright-text">
                     <p className="mb-0">
-                      Copyright © 2024 Doccure. All Rights Reserved
+                      Copyright © 2024 Dr. Shabeer Ahmed. All Rights Reserved
                     </p>
                   </div>
                 </div>

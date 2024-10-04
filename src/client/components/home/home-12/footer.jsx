@@ -15,7 +15,7 @@ const Home12Footer = () => {
                 <ImageWithBasePath src="assets/img/icons/footer-logo-.svg" alt="Img" />
               </div>
               <div className="footer-buy-btn">
-                <h6>Ready to get started with Doccure?</h6>
+                <h6>Ready to get started with Dr. Shabeer Ahmed?</h6>
                 <Link to="/patient/booking2" className="btn btn-primary">
                   Book Now
                 </Link>
@@ -130,7 +130,7 @@ const Home12Footer = () => {
         <div className="fooeter-bottom">
           <div className="container">
             <div className="copy-right-footer">
-              <h5>Copyright © 2024 Doccure. All Rights Reserved</h5>
+              <h5>Copyright © 2024 Dr. Shabeer Ahmed. All Rights Reserved</h5>
               <ul className="privacy-policy">
                 <li>
                   <Link to="/pages/privacy-policy">Privacy Policy</Link>

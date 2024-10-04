@@ -1,6 +1,6 @@
 /*
 Author       : Dreamguys
-Template Name: Doccure - Bootstrap Admin Template
+Template Name: Dr. Shabeer Ahmed - Bootstrap Admin Template
 Version      : 1.3
 */
 

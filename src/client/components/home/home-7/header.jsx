@@ -44,7 +44,7 @@ const Home7Header = () => {
             <ul>
               <li>
                 <i className="fa-solid fa-envelope me-2" />
-                Doccure@example.com
+                Dr. Shabeer Ahmed@example.com
               </li>
               <li>
                 <i className="fa-solid fa-location-dot me-2" />

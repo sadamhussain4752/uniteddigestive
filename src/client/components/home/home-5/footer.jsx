@@ -18,7 +18,7 @@ const Home5Footer = () => {
               <div className="row">
                 <div className="col-lg-4 col-md-6 col-sm-12">
                   <div className="footer-widget footer-about">
-                    <h2 className="footer-title">About Doccure </h2>
+                    <h2 className="footer-title">About Dr. Shabeer Ahmed </h2>
                     <div className="footer-about-content">
                       <p>
                         {" "}
@@ -131,7 +131,7 @@ const Home5Footer = () => {
             <div className="copyright">
               <div className="copyright-text">
                 <p className="mb-0">
-                  Copyright © 2024 Doccure. All Rights Reserved
+                  Copyright © 2024 Dr. Shabeer Ahmed. All Rights Reserved
                 </p>
               </div>
               {/* Copyright Menu */}
