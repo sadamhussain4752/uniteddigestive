@@ -577,7 +577,7 @@ const Home1 = () => {
               <Link to={`specialites/${index + 1}`}>
                 <div className="discover-you-main">
                   <div className="discover-you-image">
-                    <ImageWithBasePath src="assets/img/specialities/specialities-03.svg" alt="Body" />
+                    <ImageWithBasePath src="assets\img\specialities\Endoscopic_surgery.svg" alt="Body" />
                   </div>
                   <Link to="#">{item.title}</Link>
                   <p>{item.description?.slice(0, 50)}...</p>
