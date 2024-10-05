@@ -991,7 +991,7 @@ const Home1 = () => {
                       <Link to="/blog/blog-details">
                         <div className="articles-img">
                           <ImageWithBasePath
-                            src="assets/img/blog/blog-11.jpg"
+                            src={`assets/img/icons/${i.image_url}`}
                             className="img-fluid"
                             alt="John Doe"
                           />

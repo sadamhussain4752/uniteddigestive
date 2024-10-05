@@ -58,7 +58,7 @@ const BlogDetailsdynimc = (props) => {
                 <div className="blog blog-single-post">
                   <div className="blog-image">
                     <Link to="#0">
-                      <img alt="" src={IMG01} className="img-fluid" />
+                      <img alt="" src={`/assets/img/icons/${expdetails.image_url}`} className="img-fluid" />
                     </Link>
                   </div>
                   <h3 className="blog-title">
