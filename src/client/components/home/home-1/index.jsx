@@ -72,6 +72,34 @@ const Home1 = () => {
     },
   };
 
+
+  const ourExpert = {
+    loop: true,
+    margin: 24,
+    dots: false,
+    freeDrag: true,
+    nav: true,
+    navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+    smartSpeed: 500,
+    responsive: {
+      0: {
+        items: 1,
+      },
+      500: {
+        items: 1,
+      },
+      768: {
+        items: 1,
+      },
+      1000: {
+        items: 5,
+      },
+      1300: {
+        items: 5,
+      },
+    },
+  };
+
   const consultingSlider = {
     loop: false,
     margin: 15,
@@ -248,18 +276,18 @@ const Home1 = () => {
         <div className="medical-emergency-booking">
           <div className="doctor-consulting-slider">
             <OwlCarousel {...consultingSlider}>
-            <div className="col-md-12">
-                    <div className="slider-img">
-                      <ImageWithBasePath
-                        src="assets/img/bg/banner-1.jpg"
-                        className="banner-images w-100"
-                        alt="Img"
-                        
-                      />
-                    </div>
-                  </div>
-             
-            
+              <div className="col-md-12">
+                <div className="slider-img">
+                  <ImageWithBasePath
+                    src="assets/img/bg/banner-1.jpg"
+                    className="banner-images w-100"
+                    alt="Img"
+
+                  />
+                </div>
+              </div>
+
+
             </OwlCarousel>
           </div>
         </div>
@@ -295,17 +323,17 @@ const Home1 = () => {
                     especially for gastro-intestinal cancer. He has his passion
                     for Video Assisted Thoracic Surgery (VATS), Bariatric
                     Surgery and Metabolic Surgery.{" "}
-                    
+
                   </p>
-                 
-                   <Link to="/pages/aboutus">
-                        <Button className="btn text-blue bg-blue mt-2 ">
-                        Read More
-                        </Button>
-                        {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
-                      </Link>
+
+                  <Link to="/pages/aboutus">
+                    <Button className="btn text-blue bg-blue mt-2 ">
+                      Read More
+                    </Button>
+                    {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
+                  </Link>
                 </div>
-                
+
               </div>
             </div>
           </div>
@@ -411,12 +439,12 @@ const Home1 = () => {
       <section className="work-section">
         <div className="container">
           <div className="row">
-          <div className="section-header-one aos text-center" data-aos="fade-up">
-                {/* <h5>How it Works</h5> */}
-                <h2 className="section-title text-center">
-                  Wide-Ranging Services with a Personal Approach
-                </h2>
-              </div>
+            <div className="section-header-one aos text-center" data-aos="fade-up">
+              {/* <h5>How it Works</h5> */}
+              <h2 className="section-title text-center">
+                Wide-Ranging Services with a Personal Approach
+              </h2>
+            </div>
             <div
               className="col-lg-4 col-md-12 work-img-info aos"
               data-aos="fade-up"
@@ -430,7 +458,7 @@ const Home1 = () => {
               </div>
             </div>
             <div className="col-lg-8 col-md-12 work-details">
-              
+
               <div data-aos="fade-up">
                 <p className="mt-4 mb-4">
                   From minor GI complaints to chronic digestive conditions,
@@ -446,7 +474,7 @@ const Home1 = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                           src="assets/img/icons/Colonoscopy.svg"
+                          src="assets/img/icons/Colonoscopy.svg"
                           alt="search-doctor-icon"
                           className="rounded"
                         />
@@ -575,7 +603,7 @@ const Home1 = () => {
                 <div className="discover-you-main">
                   <div className="discover-you-image">
                     <ImageWithBasePath
-                     src={`assets/img/icons/${item.imageUrl}`}
+                      src={`assets/img/icons/${item.imageUrl}`}
                       alt="Body"
                       className="w-50"
                     />
@@ -618,7 +646,46 @@ const Home1 = () => {
             alt="Img"
           />
         </div>
-        <div className="container">
+
+        <section className="experts-section-sixteen">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="section-header-sixteen section-header-sixteentwo text-center">
+                  <p>Our Team</p>
+                  <h2>Our experts team</h2>
+                </div>
+              </div>
+            </div>
+            <div className="slider slider-sixteen aos" data-aos="zoom-in-up">
+              <OwlCarousel {...ourExpert} center={true} className=" custome_slides" id="slide-experts">
+                {medicals.map((item, index) => (
+                  <div className="test_imgs gut-health">
+                    <div className="main-reviewimages">
+                      <ImageWithBasePath
+                        src={`assets/img/icons/${item.path}`}
+                        alt="Img"
+                      />
+                    </div>
+                    <h4 className="fs-5 text-center">
+                      <Link to={`guthealth-details/${index + 1}`}>{item.title}</Link>
+                    </h4 >
+                    <div className="testimonal-contents bg-trans">
+
+                      <Link to={`guthealth-details/${index + 1}`} className="read-more-test">
+                        Read More
+                      </Link>
+                    </div>
+                  </div>
+                ))}
+
+
+              </OwlCarousel>
+            </div>
+          </div>
+        </section>
+
+        <div className="container d-none">
           <div className="section-head-twelve text-center">
             <h2 > Gut Health Library</h2>
             <p>
@@ -630,25 +697,25 @@ const Home1 = () => {
             <div className="col-md-12">
               <div className="popular-test-slider">
                 <OwlCarousel {...populartestslider}>
-                  {medicals.map((item,index) => (
-                    <div className="test-slider-card " data-aos="fade-up">
-                      <span className="w-75 h-75">
+                  {medicals.map((item, index) => (
+                    <div className="test-slider-card gut-health" data-aos="fade-up">
+                      <span className="">
                         <ImageWithBasePath
                           src={`assets/img/icons/${item.path}`}
                           alt="Img"
                         />
                       </span>
                       <h4 className="fs-5">
-                        <Link to={`guthealth-details/${index +1}`}>{item.title}</Link>
+                        <Link to={`guthealth-details/${index + 1}`}>{item.title}</Link>
                       </h4 >
-                      <p>{item.description.slice(0,45)}...</p>
-                      <Link to={`guthealth-details/${index +1}`} className="read-more-test">
+                      {/* <p>{item.description.slice(0,45)}...</p> */}
+                      <Link to={`guthealth-details/${index + 1}`} className="read-more-test">
                         Read More
                       </Link>
                     </div>
                   ))}
 
-                 
+
                 </OwlCarousel>
               </div>
             </div>
