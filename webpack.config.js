@@ -15,7 +15,7 @@ module.exports = {
   mode: "production",
   entry: path.join(__dirname, "src", "index.js"),
   output: {
-    path: path.resolve(__dirname, "build"),
+    path: path.resolve(__dirname, "dist"),
   },
   devServer: {
     port: 3000,
