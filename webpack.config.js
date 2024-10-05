@@ -21,7 +21,7 @@ module.exports = {
     port: 3000,
     historyApiFallback: true,
     onAfterSetupMiddleware() {
-      opn(`http://localhost:${this.port}/home-1`);
+      opn(`http://localhost:${this.port}`);
     },
   },
   

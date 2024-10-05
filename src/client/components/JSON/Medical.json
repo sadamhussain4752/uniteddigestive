@@ -1,0 +1,309 @@
+{
+    "medicalConditions": [
+      {
+        "id" :1,
+        "title": "Endoscopic Surgery",
+        "description": "A minimally invasive surgical technique using an endoscope, a flexible tube with a camera, to visualize internal organs and treat conditions without large incisions.",
+        "faqs": [
+          {
+            "question": "What conditions can be treated with endoscopic surgery?",
+            "answer": "Endoscopic surgery can be used for diagnosing and treating gastrointestinal issues, removing tumors, polyps, and other small growths."
+          },
+          {
+            "question": "Is endoscopic surgery painful?",
+            "answer": "Since it is minimally invasive, patients often experience less pain compared to traditional surgeries, and recovery times are faster."
+          }
+        ],
+        "path":"Endoscopic surgery.svg"
+      },
+      {
+        "id" :2,
+        "title": "Colorectal Cancer",
+        "description": "A type of cancer that starts in the colon or rectum, often detected through screening methods such as colonoscopy or stool tests. Early detection can significantly improve treatment outcomes.",
+        "faqs": [
+          {
+            "question": "How is colorectal cancer diagnosed?",
+            "answer": "Colorectal cancer is typically diagnosed through screening tests like colonoscopy or by detecting blood in the stool."
+          },
+          {
+            "question": "What are the treatment options for colorectal cancer?",
+            "answer": "Treatment options include surgery, chemotherapy, and radiation therapy, depending on the stage and location of the cancer."
+          }
+        ],
+        "path":"Colorectal cancer.svg"
+      },
+      {
+        "id" :3,
+        "title": "Laser Surgery",
+        "description": "A surgical procedure that uses focused laser beams to remove or treat tissues. It is commonly used for various medical conditions due to its precision and minimal damage to surrounding tissues.",
+        "faqs": [
+          {
+            "question": "What are the benefits of laser surgery?",
+            "answer": "Laser surgery is precise, often results in less bleeding, and has a faster recovery time compared to traditional surgery."
+          },
+          {
+            "question": "What conditions can be treated with laser surgery?",
+            "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+          }
+        ],
+        "path":"Laser surgery.svg"
+      },
+      {
+        "id" :4,
+        "title": "Stomach Surgery",
+        "description": "Surgical procedures involving the stomach, which may include gastrectomy, gastric bypass, or treatments for ulcers, cancer, or severe obesity.",
+        "faqs": [
+          {
+            "question": "What is stomach surgery used for?",
+            "answer": "Stomach surgery is used for treating conditions like stomach cancer, ulcers, or obesity through procedures such as gastric bypass."
+          },
+          {
+            "question": "What is the recovery time for stomach surgery?",
+            "answer": "Recovery varies depending on the type of surgery, but generally, patients may need several weeks for full recovery."
+          }
+        ],
+        "path":"Stomach surgery.svg"
+      },
+      {
+        "id" :5,
+        "title": "Chronic Pancreatitis",
+        "description": "A long-lasting inflammation of the pancreas that alters its normal structure and functions, often caused by alcohol abuse or genetic disorders, leading to digestive and hormonal problems.",
+        "faqs": [
+          {
+            "question": "What are the symptoms of chronic pancreatitis?",
+            "answer": "Common symptoms include abdominal pain, nausea, vomiting, and weight loss due to malabsorption of nutrients."
+          },
+          {
+            "question": "How is chronic pancreatitis treated?",
+            "answer": "Treatment involves pain management, enzyme replacement therapy, and sometimes surgery to remove damaged tissue or drain fluid buildup."
+          }
+        ],
+          "path":"Chronic pancreatitis.svg"
+      },
+      {
+        "id" :6,
+        "title": "Liver Disease",
+        "description": "A broad term for any condition affecting the liver, including hepatitis, fatty liver, cirrhosis, and liver cancer. Diagnosis and treatment vary depending on the specific type of liver disease.",
+        "faqs": [
+          {
+            "question": "What are common symptoms of liver disease?",
+            "answer": "Symptoms may include jaundice, fatigue, abdominal pain, and swelling in the legs or abdomen."
+          },
+          {
+            "question": "Can liver disease be treated?",
+            "answer": "Treatment depends on the type and stage of liver disease, ranging from lifestyle changes to medication, and in severe cases, a liver transplant."
+          }
+        ],
+        "path":"Liver disease.svg"
+      },
+      {
+        "id" :7,
+        "title": "Incisional Hernia",
+        "description": "A type of hernia that occurs through a previously made incision in the abdominal wall, often as a result of poor healing after surgery.",
+        "faqs": [
+          {
+            "question": "What causes an incisional hernia?",
+            "answer": "It often results from inadequate healing of a previous surgical incision, leading to a weakness in the abdominal wall."
+          },
+          {
+            "question": "How is an incisional hernia treated?",
+            "answer": "Treatment typically involves surgical repair to close the opening in the abdominal wall."
+          }
+        ],
+        "path":"Incisional hernia.svg"
+      },
+      {
+        "id" :8,
+        "title": "Inguinal Hernia",
+        "description": "A common type of hernia that occurs when part of the intestine pushes through the abdominal wall or inguinal canal, typically in the groin area.",
+        "faqs": [
+          {
+            "question": "What are the symptoms of an inguinal hernia?",
+            "answer": "Symptoms include a visible bulge in the groin area, pain during lifting, and discomfort or pain in the abdomen."
+          },
+          {
+            "question": "How is an inguinal hernia treated?",
+            "answer": "Surgical repair is the primary treatment, where the hernia is pushed back and the abdominal wall is reinforced."
+          }
+        ],
+        "path":"Inguinal hernia.svg"
+      },
+      {
+        "id" :9,
+        "title": "Ulcerative Colitis Surgery",
+        "description": "Surgical treatments for ulcerative colitis, a chronic inflammatory bowel disease, which may involve removing part or all of the colon.",
+        "faqs": [
+          {
+            "question": "When is surgery needed for ulcerative colitis?",
+            "answer": "Surgery is considered when medications are not effective, or if complications like severe bleeding, perforation, or cancer arise."
+          },
+          {
+            "question": "What are the risks of ulcerative colitis surgery?",
+            "answer": "As with any surgery, there are risks including infection, bleeding, and potential complications with bowel function."
+          }
+        ],
+        "path":"Ulcerative colitis surgery.svg"
+      },
+      {
+        "id" :10,
+        "title": "Anal Fissure, Anal Fistula",
+        "description": "Anal fissures are small tears in the lining of the anus, while anal fistulas are abnormal connections between the anus and surrounding tissues, both causing discomfort and pain.",
+        "faqs": [
+          {
+            "question": "What causes anal fissures and fistulas?",
+            "answer": "They can be caused by chronic constipation, trauma, or infections."
+          },
+          {
+            "question": "How are these conditions treated?",
+            "answer": "Treatment may include dietary changes, medication, or surgery in severe cases."
+          }
+        ],
+        "path":"Anal fissure, anal fistula.svg"
+      },
+      {
+        "id" :11,
+        "title": "Hemorrhoid",
+        "description": "Swollen blood vessels in the lower rectum or anus, often caused by straining during bowel movements or chronic constipation.",
+        "faqs": [
+          {
+            "question": "What are the symptoms of hemorrhoids?",
+            "answer": "Symptoms include rectal pain, bleeding, itching, and swelling around the anus."
+          },
+          {
+            "question": "How are hemorrhoids treated?",
+            "answer": "Treatment options range from over-the-counter creams to surgery in severe cases."
+          }
+        ],
+        "path":"Hemorrhoid.svg"
+      },
+      {
+        "id" :12,
+        "title": "Gall Bladder Stone",
+        "description": "Hardened deposits of digestive fluid that can form in the gallbladder, causing pain and potential blockages in bile ducts.",
+        "faqs": [
+          {
+            "question": "What causes gallstones?",
+            "answer": "Gallstones can be caused by imbalances in the substances that make up bile, such as cholesterol or bilirubin."
+          },
+          {
+            "question": "What is the treatment for gallstones?",
+            "answer": "Treatment may involve dietary changes, medication, or surgical removal of the gallbladder."
+          }
+        ],
+        "path":"Gall Bladder stone.svg"
+      },
+      {
+        "id" :13,
+        "title": "Abdominal Pain/Acute and Chronic",
+        "description": "Pain in the abdominal region that may be acute (short-term) or chronic (long-lasting) and can result from various causes such as infection, inflammation, or injury.",
+        "faqs": [
+          {
+            "question": "What causes abdominal pain?",
+            "answer": "Causes range from digestive issues, infections, inflammation, or more serious conditions like appendicitis or gallstones."
+          },
+          {
+            "question": "How is abdominal pain treated?",
+            "answer": "Treatment depends on the underlying cause and may include medication, lifestyle changes, or surgery."
+          }
+        ],
+        "path":"Abdominal pain- acute and chronic.svg"
+      },
+      {
+        "id" :14,
+        "title": "Gastroscopy Abnormal",
+        "description": "An abnormal finding during a gastroscopy, a procedure where the inside of the esophagus, stomach, and duodenum are examined with an endoscope.",
+        "faqs": [
+          {
+            "question": "What is a gastroscopy used for?",
+            "answer": "It is used to diagnose conditions like ulcers, tumors, or gastritis by visualizing the upper digestive tract."
+          },
+          {
+            "question": "What happens if abnormalities are found?",
+            "answer": "Further treatment may include biopsy, medication, or surgery depending on the findings."
+          }
+        ],
+        "path":"Gastroscopy abnormal.svg"
+      },
+      {
+        "id" :15,
+        "title": "Surgery for Reflux Disease",
+        "description": "Surgical procedures to treat severe gastroesophageal reflux disease (GERD) when medications fail to manage the symptoms.",
+        "faqs": [
+          {
+            "question": "When is surgery needed for reflux disease?",
+            "answer": "Surgery is considered when lifestyle changes and medications are ineffective in controlling symptoms."
+          },
+          {
+            "question": "What surgeries are available for GERD?",
+            "answer": "Procedures like fundoplication, which strengthens the valve between the esophagus and stomach, are commonly performed."
+          }
+        ],
+        "path":"Surgery for reflux disease.svg"
+      },
+      {
+        "id" :16,
+        "title": "Irritable Bowel Syndrome",
+        "description": "A chronic gastrointestinal disorder that causes symptoms like abdominal pain, bloating, diarrhea, and constipation.",
+        "faqs": [
+          {
+            "question": "What triggers IBS?",
+            "answer": "Triggers may include certain foods, stress, or hormonal changes."
+          },
+          {
+            "question": "How is IBS treated?",
+            "answer": "Treatment often involves dietary changes, stress management, and medications to relieve symptoms."
+          }
+        ],
+        "path":"Irritable bowel syndrome.svg"
+      },
+      {
+        "id" :17,
+        "title": "Constipation, Rectal Bleeding, Rectal Pain and Faecal Incontinence",
+        "description": "Common gastrointestinal issues that can range from constipation to more serious conditions like rectal bleeding or incontinence, which may require medical attention.",
+        "faqs": [
+          {
+            "question": "What causes constipation?",
+            "answer": "It can be caused by a low-fiber diet, dehydration, or lack of physical activity."
+          },
+          {
+            "question": "When should I seek medical help for rectal bleeding?",
+            "answer": "If the bleeding is heavy, accompanied by pain, or persists, it’s important to consult a healthcare provider."
+          }
+        ],
+        "path":"Constipation, Rectal Bleeding, Rectal Pain and Faecal Incontinence.svg"
+      },
+      {
+        "id" :18,
+        "title": "Surgery for Cancers",
+        "description": "Surgical interventions for removing or reducing tumors in various types of cancer, often combined with other treatments like chemotherapy or radiation.",
+        "faqs": [
+          {
+            "question": "What types of cancer can surgery treat?",
+            "answer": "Surgery can be used to treat many cancers including breast, colorectal, lung, and prostate cancer."
+          },
+          {
+            "question": "What are the risks of cancer surgery?",
+            "answer": "Risks include infection, bleeding, and possible complications related to the specific area of the body being treated."
+          }
+        ],
+        "path":"Surgery for Cancers.svg"
+      },
+      {
+        "id" :19,
+        "title": "Stem Cells Treatment",
+        "description": "A cutting-edge treatment using stem cells to repair or replace damaged tissues and cells, often explored for conditions like cancer, autoimmune diseases, and degenerative disorders.",
+        "faqs": [
+          {
+            "question": "What conditions can stem cell therapy treat?",
+            "answer": "It is being researched for treating conditions like leukemia, spinal cord injuries, and degenerative diseases."
+          },
+          {
+            "question": "Is stem cell therapy widely available?",
+            "answer": "While it holds promise, stem cell treatments are still in the experimental stages for many conditions."
+          }
+        ],
+        "path":"Stemcells Treatment.svg"
+      }
+    ]
+  }
+  
