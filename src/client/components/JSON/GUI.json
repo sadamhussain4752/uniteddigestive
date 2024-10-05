@@ -36,7 +36,8 @@
         }
         
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/stomach.png"
+      "path":"Endoscopic surgery.svg"
+
     },
     {
       "id": 2,
@@ -75,7 +76,8 @@
         }
         
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/intestine-1.png"
+      "path":"Endoscopic surgery.svg"
+
     },
     {
       "id": 3,
@@ -100,7 +102,8 @@
         "Type 2 Diabetes",
         "Hypertension"
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/03/bariatric-color.png"
+      "path":"Endoscopic surgery.svg"
+
     },
     {
       "id": 4,
@@ -125,7 +128,8 @@
         "Gallstones",
         "Hernia"
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/laparoscopy.png"
+      "path":"Endoscopic surgery.svg"
+
     },
     {
       "id": 5,
@@ -150,7 +154,8 @@
         "Anal Fissures",
         "Colorectal Cancer"
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/gut.png"
+      "path":"Endoscopic surgery.svg"
+
     }
   ]
   

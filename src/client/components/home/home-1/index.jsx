@@ -21,7 +21,7 @@ import {
 } from "../../pages/aboutus/img";
 import CountUp from "react-countup";
 import Blogslist from "../../JSON/Blogs.json";
-import medicals from "../../JSON//Medical.json";
+import medicals from "../../JSON//GUI.json";
 
 const Home1 = () => {
   const [date1, setDate1] = useState(null);
@@ -255,6 +255,7 @@ const Home1 = () => {
                         src="assets/img/bg/slider-bg-img.png"
                         className="banner-images w-75"
                         alt="Img"
+                        sty
                       />
                     </div>
                   </div>
@@ -485,6 +486,12 @@ const Home1 = () => {
       <section className="work-section">
         <div className="container">
           <div className="row">
+          <div className="section-header-one aos text-centers" data-aos="fade-up">
+                {/* <h5>How it Works</h5> */}
+                <h2 className="section-title text-centers">
+                  Wide-Ranging Services with a Personal Approach
+                </h2>
+              </div>
             <div
               className="col-lg-4 col-md-12 work-img-info aos"
               data-aos="fade-up"
@@ -498,12 +505,7 @@ const Home1 = () => {
               </div>
             </div>
             <div className="col-lg-8 col-md-12 work-details">
-              <div className="section-header-one aos" data-aos="fade-up">
-                {/* <h5>How it Works</h5> */}
-                <h2 className="section-title">
-                  Wide-Ranging Services with a Personal Approach
-                </h2>
-              </div>
+              
               <div data-aos="fade-up">
                 <p className="mt-4 mb-4">
                   From minor GI complaints to chronic digestive conditions,
@@ -519,7 +521,7 @@ const Home1 = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-01.svg"
+                           src="assets/img/icons/Colonoscopy.svg"
                           alt="search-doctor-icon"
                           className="rounded"
                         />
@@ -539,7 +541,7 @@ const Home1 = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-02.svg"
+                          src="assets/img/icons/Upper GI.svg"
                           alt="doctor-profile-icon"
                         />
                       </span>
@@ -555,7 +557,7 @@ const Home1 = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-03.svg"
+                          src="assets/img/icons/Hemorrhoid Banding.svg"
                           alt="calendar-icon"
                         />
                       </span>
@@ -570,7 +572,7 @@ const Home1 = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-04.svg"
+                          src="assets/img/icons/Infusion.svg"
                           alt="solution-icon"
                         />
                       </span>
@@ -589,7 +591,7 @@ const Home1 = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-03.svg"
+                          src="assets/img/icons/Nutrition Counseling.svg"
                           alt="calendar-icon"
                         />
                       </span>
@@ -608,7 +610,7 @@ const Home1 = () => {
                     <div className="work-icon">
                       <span>
                         <ImageWithBasePath
-                          src="assets/img/icons/work-04.svg"
+                          src="assets/img/icons/Abdominal Ultrasound.svg"
                           alt="solution-icon"
                         />
                       </span>
@@ -703,7 +705,7 @@ const Home1 = () => {
             <div className="col-md-12">
               <div className="popular-test-slider">
                 <OwlCarousel {...populartestslider}>
-                  {medicals.medicalConditions.map((item,index) => (
+                  {medicals.map((item,index) => (
                     <div className="test-slider-card " data-aos="fade-up">
                       <span className="w-75 h-75">
                         <ImageWithBasePath
