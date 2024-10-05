@@ -22,6 +22,7 @@ import {
 import CountUp from "react-countup";
 import Blogslist from "../../JSON/Blogs.json";
 import medicals from "../../JSON//GUI.json";
+import { Button } from "react-bootstrap";
 
 const Home1 = () => {
   const [date1, setDate1] = useState(null);
@@ -247,87 +248,18 @@ const Home1 = () => {
         <div className="medical-emergency-booking">
           <div className="doctor-consulting-slider">
             <OwlCarousel {...consultingSlider}>
-              <div className="medical-emergency-card">
-                <div className="row align-items-center">
-                  <div className="col-md-6">
+            <div className="col-md-12">
                     <div className="slider-img">
                       <ImageWithBasePath
-                        src="assets/img/bg/slider-bg-img.png"
-                        className="banner-images w-75"
+                        src="assets/img/bg/banner-1.jpg"
+                        className="banner-images w-100"
                         alt="Img"
-                        sty
+                        
                       />
                     </div>
                   </div>
-                  <div className="col-md-6">
-                    <div
-                      className="slider-content aos"
-                      data-aos="fade-up"
-                      data-aos-delay={600}
-                    >
-                      <h3>Bad Gut Health?</h3>
-                      <span>Nourish Your Gut, Flourish Your Health</span>
-                      <p>
-                        Get a test report in an Hour &amp; care your heart at
-                        our Specialist Advice
-                      </p>
-                      <Link to="/patient/booking2">Book Now</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="medical-emergency-card">
-                <div className="row align-items-center">
-                  <div className="col-md-6">
-                    <div className="slider-img">
-                      <ImageWithBasePath
-                        src="assets/img/bg/slider-bg-img.png"
-                        className="banner-images w-75"
-                        alt="Img"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div className="slider-content">
-                      <h3>Chest Pain?</h3>
-                      <span>Check if you are risk at a Heart Attack</span>
-                      <p>
-                        Get a test report in an Hour &amp; care your heart at
-                        our Specialist Advice
-                      </p>
-                      <Link to="/patient/booking2">Book Now</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="medical-emergency-card">
-                <div className="row align-items-center">
-                  <div className="col-md-6">
-                    <div className="slider-img">
-                      <ImageWithBasePath
-                        src="assets/img/bg/slider-bg-img.png"
-                        className="banner-images w-75"
-                        alt="Img"
-                      />
-                    </div>
-                  </div>
-                  <div className="col-md-6">
-                    <div
-                      className="slider-content aos"
-                      data-aos="fade-up"
-                      data-aos-delay={600}
-                    >
-                      <h3>Chest Pain?</h3>
-                      <span>Check if you are risk at a Heart Attack</span>
-                      <p>
-                        Get a test report in an Hour &amp; care your heart at
-                        our Specialist Advice
-                      </p>
-                      <Link to="/patient/booking2">Book Now</Link>
-                    </div>
-                  </div>
-                </div>
-              </div>
+             
+            
             </OwlCarousel>
           </div>
         </div>
@@ -363,24 +295,17 @@ const Home1 = () => {
                     especially for gastro-intestinal cancer. He has his passion
                     for Video Assisted Thoracic Surgery (VATS), Bariatric
                     Surgery and Metabolic Surgery.{" "}
-                    <span>
-                      <Link to="/pages/aboutus">
-                        <h6 className="text-black mt-2"> Read More </h6>
-                      </Link>
-                    </span>
+                    
                   </p>
+                 
+                   <Link to="/pages/aboutus">
+                        <Button className="btn text-blue bg-blue mt-2 ">
+                        Read More
+                        </Button>
+                        {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
+                      </Link>
                 </div>
-                <div className="about-contact">
-                  <div className="about-contact-icon">
-                    <span>
-                      <img src={phoneicon} alt="" />
-                    </span>
-                  </div>
-                  <div className="about-contact-text">
-                    <p>Book An Apponitment</p>
-                    {/* <h4>+1 315 369 5943</h4> */}
-                  </div>
-                </div>
+                
               </div>
             </div>
           </div>
@@ -486,9 +411,9 @@ const Home1 = () => {
       <section className="work-section">
         <div className="container">
           <div className="row">
-          <div className="section-header-one aos text-centers" data-aos="fade-up">
+          <div className="section-header-one aos text-center" data-aos="fade-up">
                 {/* <h5>How it Works</h5> */}
-                <h2 className="section-title text-centers">
+                <h2 className="section-title text-center">
                   Wide-Ranging Services with a Personal Approach
                 </h2>
               </div>
@@ -652,7 +577,7 @@ const Home1 = () => {
                     <ImageWithBasePath
                      src={`assets/img/icons/${item.imageUrl}`}
                       alt="Body"
-                      className="w-75"
+                      className="w-50"
                     />
                   </div>
                   <Link to="#">{item.title}</Link>
@@ -694,8 +619,8 @@ const Home1 = () => {
           />
         </div>
         <div className="container">
-          <div className="section-head-twelve">
-            <h2> Gut Health Library</h2>
+          <div className="section-head-twelve text-center">
+            <h2 > Gut Health Library</h2>
             <p>
               Discover Our Popular Lab Tests, Unlock Key Health Insights with
               Trusted Diagnostic Services.

@@ -324,12 +324,12 @@ const Home1Header = () => {
                   </Link>
                  
                 </li> */}
-                <li className="has-submenu">
+                {/* <li className="has-submenu">
                   <Link to="/patient/doctor-list">
                   Providers & Locations 
                   </Link>
                  
-                </li>
+                </li> */}
                 <li className="has-submenu">
                   <Link to="#">
                     Patients Resources  <i className="fas fa-chevron-down" />
