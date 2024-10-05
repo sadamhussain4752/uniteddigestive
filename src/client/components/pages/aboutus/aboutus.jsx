@@ -4,6 +4,9 @@ import React, { useEffect } from "react";
 import { Link } from "react-router-dom";
 import Header from "../../header";
 import Footer from "../../footer";
+import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
+import Accordion from 'react-bootstrap/Accordion';
+
 import {
   vect1,
   vect2,
@@ -98,7 +101,7 @@ const Aboutus = (props) => {
 
   return (
     <>
-      <Home1Header/>
+      <Home1Header />
       <>
         {/* Breadcrumb */}
         <div className="breadcrumb-bar-two">
@@ -126,52 +129,26 @@ const Aboutus = (props) => {
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">
-                <div className="about-img-info">
-                  <div className="row">
-                    <div className="col-md-6">
-                      <div className="about-inner-img">
-                        <div className="about-img">
-                          <img src={aboutimg1} className="img-fluid" alt="" />
-                        </div>
-                        <div className="about-img">
-                          <img src={aboutimg2} className="img-fluid" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                    <div className="col-md-6">
-                      <div className="about-inner-img">
-                        <div className="about-box">
-                          <h4>Over 25+ Years Experience</h4>
-                        </div>
-                        <div className="about-img">
-                          <img src={aboutimg3} className="img-fluid" alt="" />
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </div>
+                <ImageWithBasePath
+                  src="assets/img/ShabeerAhmed.png"
+                  className="img-fluid"
+                  alt="patient-image"
+                />
               </div>
               <div className="col-lg-6 col-md-12">
                 <div className="section-inner-header about-inner-header">
-                  <h6>About Our Company</h6>
+                  <h6> Our About </h6>
                   <h2>
-                    We Are Always Ensure Best Medical Treatment For Your Health
+                    Dr. Shabeer Ahmed
                   </h2>
                 </div>
                 <div className="about-content">
                   <div className="about-content-details">
                     <p>
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit,
-                      sed do eiusmod tempor incididunt ut labore et dolore magna
-                      aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                      ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                      Duis aute irure dolor in reprehenderit in voluptate velit
-                      esse cillum dolore eu fugiat nulla pariatur.
+                      Gastrointestinal, Bariatric, Laparoscopic, General & Onco Surgeon
                     </p>
                     <p>
-                      Sed ut perspiciatis unde omnis iste natus sit voluptatem
-                      accusantium doloremque eaque ipsa quae architecto beatae
-                      vitae dicta sunt explicabo.
+                      An eminent senior consultant Gastrointestinal & Laparoscopic and Bariatric Surgeon with over 30 years of extensive surgical experience. He is also an acknowledged teacher and mentor by Association of Laparoscopic Surgery (ALS), UK. His special expertise lies in advanced laparoscopic surgery especially for gastro-intestinal cancer. He has his passion for Video Assisted Thoracic Surgery (VATS), Bariatric Surgery and Metabolic Surgery.
                     </p>
                   </div>
                   <div className="about-contact">
@@ -181,8 +158,8 @@ const Aboutus = (props) => {
                       </span>
                     </div>
                     <div className="about-contact-text">
-                      <p>Need Emergency?</p>
-                      <h4>+1 315 369 5943</h4>
+                      <p>Book An Apponitment</p>
+                      {/* <h4>+1 315 369 5943</h4> */}
                     </div>
                   </div>
                 </div>
@@ -194,96 +171,111 @@ const Aboutus = (props) => {
         {/* Why Choose Us */}
         <section className="why-choose-section">
           <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="section-inner-header text-center">
-                  <h2>Why Choose Us</h2>
+            <div className="row" id="abt-faqs">
+              <div className="col-md-8 ">
+
+                <h3>  Queen Elizabeth Hospital, Birmingham</h3>
+
+                <p class="abt-cont">
+                  He further established a laparoscopic centre at Queen Elizabeth Hospital, Birmingham, where he had successfully performed around 240 cases of colorectal cancers laparoscopically. These numbers were recognized by the Association of Laparoscopic Surgery (ALS) and he was made a “Preceptor”, who went around various parts of UK to train surgeons
+                </p>
+
+
+                <h3>
+                  Areas of Expertise
+                </h3>
+
+                <p class="abt-cont">
+                  Advanced laparoscopic surgery especially for gastrointestinal cancer. He has his passion for Video-Assisted Thoracic Surgery (VATS), Bariatric Surgery and Metabolic Surgery.
+                </p>
+
+
+                <h3>
+                  Education & Training
+                </h3>
+
+                <p class="abt-cont">
+                  After having completed his Doctor of Medicine with honors from Madras University (1986), he pursued his MS from Mysore University (1989). He was further trained for 8 years as a surgeon in the Republic of Ireland (1989 -1996). He obtained his FRCS from England in 1995. He joined Professor Alfred Cuscheri in Nine well Hospital, Scotland with his passion for Minimal Access Surgery and later was awarded with Master in Minimal Access Surgery (MMAS) from Dundee University, Scotland. He also spent his one full year doing research in laparoscopic handling and submitted a thesis in 2002.
+                </p>
+
+                <p class="abt-cont">
+                  He was appointed as a consultant colorectal surgeon in the republic of Ireland from 1998 – 2001. He was later appointed as a consultant colorectal surgeon in Queen Margaret Hospital, Dunfermline, Scotland for 4 years.
+                </p>
+
+
+
+                <h3>
+                  Work Experience
+                </h3>
+                <p class="abt-cont">
+                  Dr. Shabeer Ahmed has experience of over 30 years in the field of gastrointestinal & laparoscopic surgery.
+                </p>
+
+
+
+              </div>
+              <div className="col-lg-4 col-md-6 d-flex">
+
+                <div className="card contact-form-card w-100 form-bg1">
+                  <h3 className="abt-form-heed text-center">
+                    Book An Appointment
+                  </h3>
+                  <div className="card-body">
+                    <form action="#">
+
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Name"
+                        />
+                      </div>
+
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Email Address"
+                        />
+                      </div>
+                      <div className="form-group">
+                        <input
+                          type="text"
+                          className="form-control"
+                          placeholder="Phone Number"
+                        />
+                      </div>
+
+                      <div className="col-md-12">
+                        <div className="form-group">
+                          <textarea
+                            className="form-control"
+                            placeholder="comments"
+                            defaultValue={""}
+                          />
+                        </div>
+                      </div>
+                      <div className="col-md-12">
+                        <div className="form-group form-group-btn mb-0">
+                          <button
+                            type="submit"
+                            className="btn btn-primary prime-btn"
+                          >
+                            Send Message
+                          </button>
+                        </div>
+                      </div>
+                    </form>
+                  </div>
                 </div>
               </div>
+
             </div>
-            <div className="row">
-              <div className="col-lg-3 col-md-6 d-flex">
-                <div className="card why-choose-card w-100">
-                  <div className="card-body">
-                    <div className="why-choose-icon">
-                      <span>
-                        <img src={choose01} alt="" />
-                      </span>
-                    </div>
-                    <div className="why-choose-content">
-                      <h4>Qualified Staff of Doctors</h4>
-                      <p>
-                        Lorem ipsum sit amet consectetur incididunt ut labore et
-                        exercitation ullamco laboris nisi dolore magna enim
-                        veniam aliqua.{" "}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 d-flex">
-                <div className="card why-choose-card w-100">
-                  <div className="card-body">
-                    <div className="why-choose-icon">
-                      <span>
-                        <img src={choose02} alt="" />
-                      </span>
-                    </div>
-                    <div className="why-choose-content">
-                      <h4>Qualified Staff of Doctors</h4>
-                      <p>
-                        Lorem ipsum sit amet consectetur incididunt ut labore et
-                        exercitation ullamco laboris nisi dolore magna enim
-                        veniam aliqua.{" "}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 d-flex">
-                <div className="card why-choose-card w-100">
-                  <div className="card-body">
-                    <div className="why-choose-icon">
-                      <span>
-                        <img src={choose03} alt="" />
-                      </span>
-                    </div>
-                    <div className="why-choose-content">
-                      <h4>Qualified Staff of Doctors</h4>
-                      <p>
-                        Lorem ipsum sit amet consectetur incididunt ut labore et
-                        exercitation ullamco laboris nisi dolore magna enim
-                        veniam aliqua.{" "}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-3 col-md-6 d-flex">
-                <div className="card why-choose-card w-100">
-                  <div className="card-body">
-                    <div className="why-choose-icon">
-                      <span>
-                        <img src={choose04} alt="" />
-                      </span>
-                    </div>
-                    <div className="why-choose-content">
-                      <h4>Qualified Staff of Doctors</h4>
-                      <p>
-                        Lorem ipsum sit amet consectetur incididunt ut labore et
-                        exercitation ullamco laboris nisi dolore magna enim
-                        veniam aliqua.{" "}
-                      </p>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </section>
+          </div >
+        </section >
         {/* /Why Choose Us */}
         {/* Way Section */}
-        <section className="way-section">
+        <section className="way-section d-none">
           <div className="container">
             <div className="way-bg">
               <div className="way-shapes-img">
@@ -319,7 +311,7 @@ const Aboutus = (props) => {
         </section>
         {/* /Way Choose Us */}
         {/* Doctors Section */}
-        <section className="doctors-section professional-section">
+        <section className="doctors-section professional-section d-none">
           <div className="container">
             <div className="row">
               <div className="col-md-12">

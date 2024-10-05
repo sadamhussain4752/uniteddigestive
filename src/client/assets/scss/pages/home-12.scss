@@ -68,6 +68,12 @@ ul {
             font-weight: $__medium;
         }
     }
+
+    .per-apr{
+        
+    }
+
+
     .input-box-twelve {
         background: $__white;
         border-radius: 10px;
@@ -512,7 +518,7 @@ ul {
 .medical-emergency-booking {
     position: $__relative;
     z-index: 1;
-    margin-top: 80px;
+    // margin-top: 80px;  thilak-commented
     border-radius: 20px;
     @include respond-below(custom991) {
         margin-top: 60px;

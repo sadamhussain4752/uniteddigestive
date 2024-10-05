@@ -292,6 +292,31 @@
         @include margin-padding(0, 0 0 40px);
     }
 }
+
+
+#abt-faqs h3{
+    background: #F1F5F8;
+    padding: 10px;
+    color: #00adac;
+    font-size: 22px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+.form-bg1{
+    background: #F1F5F8 !important;
+}
+
+#abt-faqs .abt-cont{
+    font-size: 16px;
+    padding-left: 10px
+}
+
+
+.abt-form-heed{
+    background-color: transparent !important;
+}
+
 .way-inner-header {
     @include margin-padding(0, 60px);
 	h2 {
