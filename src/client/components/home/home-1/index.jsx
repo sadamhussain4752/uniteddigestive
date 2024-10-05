@@ -13,7 +13,7 @@ import "slick-carousel/slick/slick-theme.css";
 import Slider from "react-slick";
 import { Calendar } from "primereact/calendar";
 import expertise from "../../JSON/expertise.JSON";
-import {aboutimg1 ,aboutimg2,aboutimg3,phoneicon} from "../../pages/aboutus/img"
+import { aboutimg1, aboutimg2, aboutimg3, phoneicon } from "../../pages/aboutus/img"
 import CountUp from "react-countup";
 import Blogslist from "../../JSON/Blogs.json";
 
@@ -91,7 +91,7 @@ const Home1 = () => {
     loop: true,
     margin: 24,
     dots: true,
-    freeDrag:true,
+    freeDrag: true,
     nav: false,
     smartSpeed: 2000,
     responsive: {
@@ -111,7 +111,7 @@ const Home1 = () => {
         items: 5,
       },
     },
-  };  
+  };
   const specialitiesSlider = {
     loop: false,
     margin: 24,
@@ -238,141 +238,141 @@ const Home1 = () => {
       <Home1Header />
       {/* Home Banner */}
       <section className="banner-section">
-      <div className="medical-emergency-booking">
-            <div className="doctor-consulting-slider">
-              <OwlCarousel {...consultingSlider}>
-                <div className="medical-emergency-card">
-                  <div className="row align-items-center">
-                    <div className="col-md-6">
-                      <div className="slider-img">
-                        <ImageWithBasePath
-                          src="assets/img/bg/slider-bg-img.png"
-                          className="banner-images w-75"
-                          alt="Img"
-                        />
-                      </div>
+        <div className="medical-emergency-booking">
+          <div className="doctor-consulting-slider">
+            <OwlCarousel {...consultingSlider}>
+              <div className="medical-emergency-card">
+                <div className="row align-items-center">
+                  <div className="col-md-6">
+                    <div className="slider-img">
+                      <ImageWithBasePath
+                        src="assets/img/bg/slider-bg-img.png"
+                        className="banner-images w-75"
+                        alt="Img"
+                      />
                     </div>
-                    <div className="col-md-6">
-                      <div
-                        className="slider-content aos"
-                        data-aos="fade-up"
-                        data-aos-delay={600}
-                      >
-                        <h3>Bad Gut Health?</h3>
-                        <span>Nourish Your Gut, Flourish Your Health</span>
-                        <p>
-                          Get a test report in an Hour &amp; care your heart at
-                          our Specialist Advice
-                        </p>
-                        <Link to="/patient/booking2">Book Now</Link>
-                      </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div
+                      className="slider-content aos"
+                      data-aos="fade-up"
+                      data-aos-delay={600}
+                    >
+                      <h3>Bad Gut Health?</h3>
+                      <span>Nourish Your Gut, Flourish Your Health</span>
+                      <p>
+                        Get a test report in an Hour &amp; care your heart at
+                        our Specialist Advice
+                      </p>
+                      <Link to="/patient/booking2">Book Now</Link>
                     </div>
                   </div>
                 </div>
-                <div className="medical-emergency-card">
-                  <div className="row align-items-center">
-                    <div className="col-md-6">
-                      <div className="slider-img">
-                        <ImageWithBasePath
-                          src="assets/img/bg/slider-bg-img.png"
-                          className="banner-images w-75"
-                          alt="Img"
-                        />
-                      </div>
+              </div>
+              <div className="medical-emergency-card">
+                <div className="row align-items-center">
+                  <div className="col-md-6">
+                    <div className="slider-img">
+                      <ImageWithBasePath
+                        src="assets/img/bg/slider-bg-img.png"
+                        className="banner-images w-75"
+                        alt="Img"
+                      />
                     </div>
-                    <div className="col-md-6">
-                      <div className="slider-content">
-                        <h3>Chest Pain?</h3>
-                        <span>Check if you are risk at a Heart Attack</span>
-                        <p>
-                          Get a test report in an Hour &amp; care your heart at
-                          our Specialist Advice
-                        </p>
-                        <Link to="/patient/booking2">Book Now</Link>
-                      </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div className="slider-content">
+                      <h3>Chest Pain?</h3>
+                      <span>Check if you are risk at a Heart Attack</span>
+                      <p>
+                        Get a test report in an Hour &amp; care your heart at
+                        our Specialist Advice
+                      </p>
+                      <Link to="/patient/booking2">Book Now</Link>
                     </div>
                   </div>
                 </div>
-                <div className="medical-emergency-card">
-                  <div className="row align-items-center">
-                    <div className="col-md-6">
-                      <div className="slider-img">
-                        <ImageWithBasePath
-                          src="assets/img/bg/slider-bg-img.png"
-                          className="banner-images w-75"
-                          alt="Img"
-                        />
-                      </div>
+              </div>
+              <div className="medical-emergency-card">
+                <div className="row align-items-center">
+                  <div className="col-md-6">
+                    <div className="slider-img">
+                      <ImageWithBasePath
+                        src="assets/img/bg/slider-bg-img.png"
+                        className="banner-images w-75"
+                        alt="Img"
+                      />
                     </div>
-                    <div className="col-md-6">
-                      <div
-                        className="slider-content aos"
-                        data-aos="fade-up"
-                        data-aos-delay={600}
-                      >
-                        <h3>Chest Pain?</h3>
-                        <span>Check if you are risk at a Heart Attack</span>
-                        <p>
-                          Get a test report in an Hour &amp; care your heart at
-                          our Specialist Advice
-                        </p>
-                        <Link to="/patient/booking2">Book Now</Link>
-                      </div>
+                  </div>
+                  <div className="col-md-6">
+                    <div
+                      className="slider-content aos"
+                      data-aos="fade-up"
+                      data-aos-delay={600}
+                    >
+                      <h3>Chest Pain?</h3>
+                      <span>Check if you are risk at a Heart Attack</span>
+                      <p>
+                        Get a test report in an Hour &amp; care your heart at
+                        our Specialist Advice
+                      </p>
+                      <Link to="/patient/booking2">Book Now</Link>
                     </div>
                   </div>
                 </div>
-              </OwlCarousel>
-            </div>
+              </div>
+            </OwlCarousel>
           </div>
+        </div>
       </section>
       {/* /Home Banner */}
       <section className="about-section">
-          <div className="container">
-            <div className="row align-items-center">
-              <div className="col-lg-6 col-md-12">
+        <div className="container">
+          <div className="row align-items-center">
+            <div className="col-lg-6 col-md-12">
               <ImageWithBasePath
-                  src="assets/img/ShabeerAhmed.png"
-                  className="img-fluid"
-                  alt="patient-image"
-                />
+                src="assets/img/ShabeerAhmed.png"
+                className="img-fluid"
+                alt="patient-image"
+              />
+            </div>
+            <div className="col-lg-6 col-md-12">
+              <div className="section-inner-header about-inner-header">
+                {/* <h6> Our About </h6> */}
+                <h2>
+                  Dr. Shabeer Ahmed
+                </h2>
               </div>
-              <div className="col-lg-6 col-md-12">
-                <div className="section-inner-header about-inner-header">
-                  {/* <h6> Our About </h6> */}
-                  <h2>
-                    Dr. Shabeer Ahmed
-                  </h2>
-                </div>
-                <div className="about-content">
-                  <div className="about-content-details">
-                    <h4>
+              <div className="about-content">
+                <div className="about-content-details">
+                  <h4>
                     Gastrointestinal, Bariatric, Laparoscopic, General & Onco Surgeon
-                    </h4>
-                    <p>
+                  </h4>
+                  <p>
                     An eminent senior consultant Gastrointestinal & Laparoscopic and Bariatric Surgeon with over 30 years of extensive surgical experience. He is also an acknowledged teacher and mentor by Association of Laparoscopic Surgery (ALS), UK. His special expertise lies in advanced laparoscopic surgery especially for gastro-intestinal cancer. He has his passion for Video Assisted Thoracic Surgery (VATS), Bariatric Surgery and Metabolic Surgery. <span>
-                     <Link to="/pages/aboutus">
-                     <h6 className="text-black mt-2"> Read More </h6>
-                     </Link>
+                      <Link to="/pages/aboutus">
+                        <h6 className="text-black mt-2"> Read More </h6>
+                      </Link>
                     </span>
-                    </p>
+                  </p>
+                </div>
+                <div className="about-contact">
+                  <div className="about-contact-icon">
+                    <span>
+                      <img src={phoneicon} alt="" />
+                    </span>
                   </div>
-                  <div className="about-contact">
-                    <div className="about-contact-icon">
-                      <span>
-                        <img src={phoneicon} alt="" />
-                      </span>
-                    </div>
-                    <div className="about-contact-text">
-                      <p>Book An Apponitment</p>
-                      {/* <h4>+1 315 369 5943</h4> */}
-                    </div>
+                  <div className="about-contact-text">
+                    <p>Book An Apponitment</p>
+                    {/* <h4>+1 315 369 5943</h4> */}
                   </div>
                 </div>
               </div>
             </div>
           </div>
-        </section>
-        <section className="counter-section">
+        </div>
+      </section>
+      <section className="counter-section">
         <div className="ban-bg">
           <ImageWithBasePath
             src="assets/img/bg/counter-bg.png"
@@ -387,14 +387,14 @@ const Home1 = () => {
         </div>
         <div className="container">
           <div className="text-center mb-4">
-          <h3 className="text-white">Driven by a Commitment to Excellence</h3>
+            <h3 className="text-white">Driven by a Commitment to Excellence</h3>
           </div>
           <div className="text-center mb-5">
-          <h5 className="text-white">I continually strives to improve the health and well-being of every patient, one successful treatment at a time</h5>
+            <h5 className="text-white">I continually strives to improve the health and well-being of every patient, one successful treatment at a time</h5>
           </div>
           <div className="row">
-             
-          <div className="col-lg-3 col-sm-6">
+
+            <div className="col-lg-3 col-sm-6">
               <div className="count-box">
                 <span className="count-icon">
                   <ImageWithBasePath
@@ -428,7 +428,7 @@ const Home1 = () => {
                 </div>
               </div>
             </div>
-         
+
             <div className="col-lg-3 col-sm-6">
               <div className="count-box">
                 <span className="count-icon">
@@ -471,6 +471,10 @@ const Home1 = () => {
       <section className="work-section">
         <div className="container">
           <div className="row">
+            <div className="section-header-one aos text-center" data-aos="fade-up">
+              {/* <h5>How it Works</h5> */}
+              <h2 className="section-title ">Wide-Ranging Services with a Personal Approach</h2>
+            </div>
             <div
               className="col-lg-4 col-md-12 work-img-info aos"
               data-aos="fade-up"
@@ -484,14 +488,11 @@ const Home1 = () => {
               </div>
             </div>
             <div className="col-lg-8 col-md-12 work-details">
-              <div className="section-header-one aos" data-aos="fade-up">
-                {/* <h5>How it Works</h5> */}
-                <h2 className="section-title">Wide-Ranging Services with a Personal Approach</h2>
-              </div>
+
               <div data-aos="fade-up">
-              <p className="mt-4 mb-4">
-              From minor GI complaints to chronic digestive conditions, United Digestive’s partner practices offer patients best-in-class care in safe, convenient environments with top-notch, award-winning providers. Come see what makes United Digestive different. Top services include:
-              </p>
+                <p className="mt-4 mb-4">
+                  From minor GI complaints to chronic digestive conditions, United Digestive’s partner practices offer patients best-in-class care in safe, convenient environments with top-notch, award-winning providers. Come see what makes United Digestive different. Top services include:
+                </p>
               </div>
               <div className="row">
                 <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
@@ -507,7 +508,7 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>
-                      Colonoscopy</h5>
+                        Colonoscopy</h5>
                       {/* <p>
                         See if you qualify to skip the pre-procedure office
                         visit.{" "}
@@ -543,8 +544,8 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>
-                      Hemorrhoid Banding</h5>
-                     
+                        Hemorrhoid Banding</h5>
+
                     </div>
                   </div>
                 </div>
@@ -560,7 +561,7 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>
-                      Infusion</h5>
+                        Infusion</h5>
                       {/* <p>
                         Discuss your health concerns with the doctor and receive
                         personalized advice &amp; solution.
@@ -580,7 +581,7 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>
-                      Nutrition Counseling</h5>
+                        Nutrition Counseling</h5>
                       {/* <p>
                         After choose your preferred doctor, select a convenient
                         time slot, &amp; confirm your appointment.
@@ -613,54 +614,54 @@ const Home1 = () => {
         </div>
       </section>
       {/* Specialities Section */}
-     
+
 
       <section className="services-section-sixteen">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="section-header-sixteen text-center">
-                  {/* <p>Recapture the beauty of self-confidence</p> */}
-                  <h2>My Expertise Area</h2>
-                </div>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="section-header-sixteen text-center">
+                {/* <p>Recapture the beauty of self-confidence</p> */}
+                <h2>My Expertise Area</h2>
               </div>
             </div>
-            <OwlCarousel {...ourNew} className="owl-carousel custom-slide discover-slider owl-theme">
-            {expertise.map((item,index) => (
-                <Link to={`specialites/${index +1}`}>
-                <div className="discover-you-main">
-                <div className="discover-you-image">
-                  <ImageWithBasePath src="assets/img/specialities/specialities-03.svg" alt="Body" />
-                </div>
-                <Link to="#">{item.title}</Link>
-                <p>{item.description?.slice(0, 50)}...</p>
-                <Link to="#" className="discov-innner">
-                  Read More
-                  <i className="fa-solid fa-chevron-right ms-2" />
-                </Link>
-              </div>
-                </Link>
-               
-              ))}
-             
-             
-            </OwlCarousel>
           </div>
-          <div className="service-sixteen-icon">
-            <ImageWithBasePath
-              src="assets/img/service-sixteen-icon.png"
-              className="bg-img-top"
-              alt="Section bg"
-            />
-            {/* <ImageWithBasePath
+          <OwlCarousel {...ourNew} className="owl-carousel custom-slide discover-slider owl-theme">
+            {expertise.map((item, index) => (
+              <Link to={`specialites/${index + 1}`}>
+                <div className="discover-you-main">
+                  <div className="discover-you-image">
+                    <ImageWithBasePath src="assets/img/specialities/specialities-03.svg" alt="Body" />
+                  </div>
+                  <Link to="#">{item.title}</Link>
+                  <p>{item.description?.slice(0, 50)}...</p>
+                  <Link to="#" className="discov-innner">
+                    Read More
+                    <i className="fa-solid fa-chevron-right ms-2" />
+                  </Link>
+                </div>
+              </Link>
+
+            ))}
+
+
+          </OwlCarousel>
+        </div>
+        <div className="service-sixteen-icon">
+          <ImageWithBasePath
+            src="assets/img/service-sixteen-icon.png"
+            className="bg-img-top"
+            alt="Section bg"
+          />
+          {/* <ImageWithBasePath
               src="assets/img/bg/vector-bg-03.png"
               className="bg-img-bottom"
               alt="Section bg"
             /> */}
-          </div>
-        </section>
+        </div>
+      </section>
 
-        <section className="popular-test-section">
+      <section className="popular-test-section">
         <div className="section-small-imgs">
           <ImageWithBasePath
             src="assets/img/bg/section-bg-01.jpg"
@@ -905,12 +906,12 @@ const Home1 = () => {
               </div>
             </div>
           </div>
-        
-         
+
+
         </div>
       </section>
 
-      
+
       {/* /Specialities Section */}
       {/* Doctors Section */}
       {/* <section className="doctors-section">
@@ -1163,51 +1164,51 @@ const Home1 = () => {
             </div>
           </div>
           <div className="row">
-            {Blogslist.map((i,index)=>(
-              <div  className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-up">
-              <div className="articles-grid w-100">
-                <div className="articles-info">
-                  <div className="articles-left">
-                    <Link to="/blog/blog-details">
-                      <div className="articles-img">
-                        <ImageWithBasePath
-                          src="assets/img/blog/blog-11.jpg"
-                          className="img-fluid"
-                          alt="John Doe"
-                        />
-                      </div>
-                    </Link>
-                  </div>
-                  <div className="articles-right">
-                    <div className="articles-content">
-                      <ul className="articles-list nav">
-                        <li>
-                          <i className="feather icon-user" />{i.author}
-                        </li>
-                        <li>
-                          <i className="feather icon-calendar" /> {i.date}
-                        </li>
-                      </ul>
-                      <h4>
-                        <Link to="/blog/blog-details">
-                        {i.title}
-                        </Link>
-
-                      </h4>
-                      <p>
-                      {i.description}
-                      </p>
-                      <Link to={`blog-details/${index + 1}`} className="btn">
-                        Read More
+            {Blogslist.map((i, index) => (
+              <div className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-up">
+                <div className="articles-grid w-100">
+                  <div className="articles-info">
+                    <div className="articles-left">
+                      <Link to="/blog/blog-details">
+                        <div className="articles-img">
+                          <ImageWithBasePath
+                            src="assets/img/blog/blog-11.jpg"
+                            className="img-fluid"
+                            alt="John Doe"
+                          />
+                        </div>
                       </Link>
+                    </div>
+                    <div className="articles-right">
+                      <div className="articles-content">
+                        <ul className="articles-list nav">
+                          <li>
+                            <i className="feather icon-user" />{i.author}
+                          </li>
+                          <li>
+                            <i className="feather icon-calendar" /> {i.date}
+                          </li>
+                        </ul>
+                        <h4>
+                          <Link to="/blog/blog-details">
+                            {i.title}
+                          </Link>
+
+                        </h4>
+                        <p>
+                          {i.description}
+                        </p>
+                        <Link to={`blog-details/${index + 1}`} className="btn">
+                          Read More
+                        </Link>
+                      </div>
                     </div>
                   </div>
                 </div>
               </div>
-            </div>
             ))}
-            
-          
+
+
           </div>
         </div>
       </section>
@@ -1476,17 +1477,17 @@ const Home1 = () => {
                 <Slider {...testimonialSlider}>
                   <div className="testimonial-grid">
                     <div className="testimonial-info">
-                      
+
                       <div className="testimonial-content">
                         <div className="section-header-one section-header section-inner-header testimonial-header">
                           <h5>Testimonials</h5>
                           <h2 className="section-title">
-                          Arati Sethy
+                            Arati Sethy
                           </h2>
                         </div>
                         <div className="testimonial-details">
                           <p>
-                          Amidst of covid pandemic, my aunt got diagnosed with colon tumor. Local doctors diagnosed it as cancer stage-1. As they stay in my native place Odisha, we were clueless what to do. I live in bangalore. One of my colleague referred Dr. Shabeer. With no delay, i took his appointment and rushed to him. After going through the reports without even checking the patient, he said chemo may not be required. He helped a lot to get my aunt here and directly get admitted to Fortis for surgery. Post surgery, biopsy report revealed that its stage 0 and no need for chemo therapy. Everything just happened ontime and perfectly. When i thanked Dr. Sir, he was humble enough to give the credit to Allaha. Sir, you were a blessing to our family in this crisis. My uncle aunt were so happy and pleased by your interaction in entire process. May God always bless you and help you in serving mankind. Thank you very much.
+                            Amidst of covid pandemic, my aunt got diagnosed with colon tumor. Local doctors diagnosed it as cancer stage-1. As they stay in my native place Odisha, we were clueless what to do. I live in bangalore. One of my colleague referred Dr. Shabeer. With no delay, i took his appointment and rushed to him. After going through the reports without even checking the patient, he said chemo may not be required. He helped a lot to get my aunt here and directly get admitted to Fortis for surgery. Post surgery, biopsy report revealed that its stage 0 and no need for chemo therapy. Everything just happened ontime and perfectly. When i thanked Dr. Sir, he was humble enough to give the credit to Allaha. Sir, you were a blessing to our family in this crisis. My uncle aunt were so happy and pleased by your interaction in entire process. May God always bless you and help you in serving mankind. Thank you very much.
 
 
                           </p>
@@ -1499,7 +1500,7 @@ const Home1 = () => {
                   </div>
                   <div className="testimonial-grid">
                     <div className="testimonial-info">
-                      
+
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
                           <h5>Testimonials</h5>
@@ -1508,7 +1509,7 @@ const Home1 = () => {
                         </div>
                         <div className="testimonial-details">
                           <p>
-                          Before visiting Dr. Shabeer Ahmed for my dad's surgery, I had visited other doctors and wasn't satisfied enough, and I must say Dr is very humble person who shows compassion towards patients and also authority in field of laparoscopy, which is rare combination to find in this mundane world. Moreover my dad's surgery was successful and he is recovering. I would definately recommend anyone to visit Dr once before taking final call
+                            Before visiting Dr. Shabeer Ahmed for my dad's surgery, I had visited other doctors and wasn't satisfied enough, and I must say Dr is very humble person who shows compassion towards patients and also authority in field of laparoscopy, which is rare combination to find in this mundane world. Moreover my dad's surgery was successful and he is recovering. I would definately recommend anyone to visit Dr once before taking final call
                           </p>
                           {/* <h6>
                             <span className="d-block">Andrew Denner</span>{" "}
@@ -1520,7 +1521,7 @@ const Home1 = () => {
                   </div>
                   <div className="testimonial-grid">
                     <div className="testimonial-info">
-                    
+
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
                           <h5>Testimonials</h5>
@@ -1529,7 +1530,7 @@ const Home1 = () => {
                         </div>
                         <div className="testimonial-details">
                           <p>
-                          Best ever Dr.I have seen in Bangalore God has given shiffa in his hand Excellent treatment centre in Bangalore I was suffering piles from 11years He did my operation successful Dr. Shabeer Ahmed has 30 years Excellent Experience God give him Good Health / wealth I salute you sir
+                            Best ever Dr.I have seen in Bangalore God has given shiffa in his hand Excellent treatment centre in Bangalore I was suffering piles from 11years He did my operation successful Dr. Shabeer Ahmed has 30 years Excellent Experience God give him Good Health / wealth I salute you sir
                           </p>
                           <h6>
                             {/* <span className="d-block">Niya Patel</span> New York */}
@@ -1544,7 +1545,7 @@ const Home1 = () => {
           </div>
         </div>
       </section>
-     
+
       <Home1Footer />
     </div>
   );
