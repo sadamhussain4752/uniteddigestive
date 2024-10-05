@@ -247,7 +247,7 @@ const Home1 = () => {
                       <div className="slider-img">
                         <ImageWithBasePath
                           src="assets/img/bg/slider-bg-img.png"
-                          className="img-fluid"
+                          className="banner-images w-75"
                           alt="Img"
                         />
                       </div>
@@ -258,8 +258,8 @@ const Home1 = () => {
                         data-aos="fade-up"
                         data-aos-delay={600}
                       >
-                        <h3>Chest Pain?</h3>
-                        <span>Check if you are risk at a Heart Attack</span>
+                        <h3>Bad Gut Health?</h3>
+                        <span>Nourish Your Gut, Flourish Your Health</span>
                         <p>
                           Get a test report in an Hour &amp; care your heart at
                           our Specialist Advice
@@ -275,7 +275,7 @@ const Home1 = () => {
                       <div className="slider-img">
                         <ImageWithBasePath
                           src="assets/img/bg/slider-bg-img.png"
-                          className="img-fluid"
+                          className="banner-images w-75"
                           alt="Img"
                         />
                       </div>
@@ -299,7 +299,7 @@ const Home1 = () => {
                       <div className="slider-img">
                         <ImageWithBasePath
                           src="assets/img/bg/slider-bg-img.png"
-                          className="img-fluid"
+                          className="banner-images w-75"
                           alt="Img"
                         />
                       </div>
