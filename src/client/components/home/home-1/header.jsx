@@ -28,7 +28,7 @@ const Home1Header = () => {
                   <span />
                 </span>
               </Link>
-              <Link to="/home-1" className="navbar-brand logo">
+              <Link to="/" className="navbar-brand logo">
                 <ImageWithBasePath
                   src="assets/img/logo-010.svg"
                   className="img-fluid icons-ht"
@@ -38,7 +38,7 @@ const Home1Header = () => {
             </div>
             <div className="main-menu-wrapper">
               <div className="menu-header">
-                <Link to="/home-1" className="menu-logo">
+                <Link to="/" className="menu-logo">
                   <ImageWithBasePath
                     src="assets/img/logo-010.svg"
                     className="img-fluid"
@@ -51,7 +51,7 @@ const Home1Header = () => {
               </div>
               <ul className="main-nav">
                 <li className="has-submenu megamenu active">
-                  <Link to="/home-1">
+                  <Link to="/">
                       <i class="fa-solid fa-house fs-6"></i>
                   </Link>
                   {/* <ul className="submenu mega-submenu">
