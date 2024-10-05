@@ -742,7 +742,7 @@ const AppContainer = function (props) {
                <Route path="/patient/appoinment-grid" exact component={AppointmentGrid} />
 
                {/* Home routes */}
-               <Route path="/home-1" exact component={Home1} />
+               <Route path="/" exact component={Home1} />
                <Route path="/home-2" exact component={Home2} />
                <Route path="/home-3" exact component={Home3} />
                <Route path="/home-5" exact component={Home5} />
