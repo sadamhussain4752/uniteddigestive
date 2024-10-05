@@ -648,8 +648,9 @@ const Home1 = () => {
                 <div className="discover-you-main">
                   <div className="discover-you-image">
                     <ImageWithBasePath
-                      src="assets/img/specialities/specialities-03.svg"
+                     src={`assets/img/icons/${item.imageUrl}`}
                       alt="Body"
+                      className="w-75"
                     />
                   </div>
                   <Link to="#">{item.title}</Link>

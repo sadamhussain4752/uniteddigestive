@@ -36,7 +36,7 @@
         }
         
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/stomach.png"
+      "imageUrl": "Gut Care.svg"
     },
     {
       "id": 2,
@@ -75,7 +75,7 @@
         }
         
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/intestine-1.png"
+      "imageUrl": "Gastroenterology.svg"
     },
     {
       "id": 3,
@@ -100,7 +100,7 @@
         "Type 2 Diabetes",
         "Hypertension"
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/03/bariatric-color.png"
+      "imageUrl": "Bariatric Surgery.svg"
     },
     {
       "id": 4,
@@ -125,7 +125,7 @@
         "Gallstones",
         "Hernia"
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/laparoscopy.png"
+      "imageUrl": "Laparoscopic.svg"
     },
     {
       "id": 5,
@@ -150,7 +150,7 @@
         "Anal Fissures",
         "Colorectal Cancer"
       ],
-      "imageUrl": "https://webdesignzservices.in/drshabeer/wp-content/uploads/2024/09/gut.png"
+      "imageUrl": "Proctology.svg"
     }
   ]
   
