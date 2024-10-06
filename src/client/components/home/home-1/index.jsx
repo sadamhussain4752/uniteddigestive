@@ -335,7 +335,7 @@ const Home1 = () => {
             </h5>
           </div>
           <div className="row">
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="count-box">
                 <span className="count-icon">
                   <ImageWithBasePath
@@ -346,13 +346,13 @@ const Home1 = () => {
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={37} duration={5} className="count-digit" />+
+                    <CountUp end={37} duration={5} className="count-digit" /> Years
                   </h3>
                   <p>Experience</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6 ">
+            <div className="col-lg-4 col-sm-6 ">
               <div className="count-box">
                 <span className="count-icon">
                   <ImageWithBasePath
@@ -363,14 +363,14 @@ const Home1 = () => {
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={3000} duration={5} className="count-digit" />+
+                    <CountUp end={15000} duration={5} className="count-digit" />+
                   </h3>
                   <p>Laparoscopic Surgeries</p>
                 </div>
               </div>
             </div>
 
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="count-box">
                 <span className="count-icon">
                   <ImageWithBasePath
@@ -381,13 +381,13 @@ const Home1 = () => {
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={5000} duration={5} className="count-digit" />+
+                    <CountUp end={50000} duration={5} className="count-digit" />+
                   </h3>
                   <p>Happy Patientss</p>
                 </div>
               </div>
             </div>
-            <div className="col-lg-3 col-sm-6">
+            <div className="col-lg-4 col-sm-6">
               <div className="count-box">
                 <span className="count-icon">
                   <ImageWithBasePath
@@ -398,21 +398,38 @@ const Home1 = () => {
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={4000} duration={5} className="count-digit" />+
+                    <CountUp end={50000} duration={5} className="count-digit" />+
                   </h3>
                   <p>Successful Treatments</p>
                 </div>
               </div>
             </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="count-box">
+                <span className="count-icon">
+                  <ImageWithBasePath
+                    src="assets/img/icons/count-04.svg"
+                    alt="award-icon"
+                    className="img-fluid"
+                  />
+                </span>
+                <div className="count-info">
+                  <h3>
+                    <CountUp end={20} duration={5} className="count-digit" />+
+                  </h3>
+                  <p>Nationion</p>
+                </div>
+              </div>
+            </div>
+          
           </div>
         </div>
       </section>
 
-      <section className="work-section">
+      {/* <section className="work-section">
         <div className="container">
           <div className="row">
           <div className="section-header-one aos text-center" data-aos="fade-up">
-                {/* <h5>How it Works</h5> */}
                 <h2 className="section-title text-center">
                   Wide-Ranging Services with a Personal Approach
                 </h2>
@@ -454,10 +471,7 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>Colonoscopy</h5>
-                      {/* <p>
-                        See if you qualify to skip the pre-procedure office
-                        visit.{" "}
-                      </p> */}
+                     
                     </div>
                   </div>
                 </div>
@@ -473,7 +487,7 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>Upper GI</h5>
-                      {/* <p>See if you qualify for hemorrhoid banding.</p> */}
+                     
                     </div>
                   </div>
                 </div>
@@ -504,10 +518,7 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>Infusion</h5>
-                      {/* <p>
-                        Discuss your health concerns with the doctor and receive
-                        personalized advice &amp; solution.
-                      </p> */}
+                     
                     </div>
                   </div>
                 </div>
@@ -523,10 +534,7 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>Nutrition Counseling</h5>
-                      {/* <p>
-                        After choose your preferred doctor, select a convenient
-                        time slot, &amp; confirm your appointment.
-                      </p> */}
+                    
                     </div>
                   </div>
                 </div>
@@ -542,10 +550,7 @@ const Home1 = () => {
                     </div>
                     <div className="work-content mt-4">
                       <h5>Abdominal Ultrasound</h5>
-                      {/* <p>
-                        Discuss your health concerns with the doctor and receive
-                        personalized advice &amp; solution.
-                      </p> */}
+                    
                     </div>
                   </div>
                 </div>
@@ -553,7 +558,7 @@ const Home1 = () => {
             </div>
           </div>
         </div>
-      </section>
+      </section> */}
       {/* Specialities Section */}
 
       <section className="services-section-sixteen">

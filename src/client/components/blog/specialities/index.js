@@ -58,7 +58,7 @@ const SpecialitesDetails = (props) => {
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-lg-12 col-md-12">
+            <div className="col-lg-8 col-md-12">
               <div className="blog-view">
                 <div className="blog blog-single-post">
                   <div className="blog-image">
@@ -92,11 +92,111 @@ const SpecialitesDetails = (props) => {
                     </div>
                   </div>
                   <div className="blog-content">
-                    {/* <p>{expdetails && expdetails?.description}</p> */}
+                    <p>{expdetails && expdetails?.description}</p>
                   </div>
                 </div>
                
               </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <h3> For More Information</h3>
+            <section className="specialities-section ">
+       
+        <div className="container">
+         
+          <div className="row">
+            <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+              <div className="specialist-card d-flex">
+                <div className="specialist-img">
+                  <ImageWithBasePath
+                    src="assets/img/category/map-location-dot-solid.svg"
+                    alt="kidney-image"
+                    className="img-fluid"
+                  />
+                </div>
+                <div className="specialist-info">
+                  <Link to="#">
+                    <h5>Find the Location</h5>
+                  </Link>
+                  {/* <p>21 Doctors</p> */}
+                </div>
+                <div className="specialist-nav ms-auto">
+                  <Link to="#">
+                    <i className="fas fa-long-arrow-alt-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+              <div className="specialist-card d-flex">
+                <div className="specialist-img">
+                  <ImageWithBasePath
+                    src="assets/img/category/stethoscope-solid.svg"
+                    alt="bone-image"
+                    className="img-fluid"
+                  />
+                </div>
+                <div className="specialist-info">
+                  <Link to="#">
+                    <h5>Request an Appointment</h5>
+                  </Link>
+                  {/* <p>30 Doctors</p> */}
+                </div>
+                <div className="specialist-nav ms-auto">
+                  <Link to="#">
+                    <i className="fas fa-long-arrow-alt-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+              <div className="specialist-card d-flex">
+                <div className="specialist-img">
+                  <ImageWithBasePath
+                    src="assets/img/category/phone-solid.svg"
+                    alt="heart-image"
+                    className="img-fluid"
+                  />
+                </div>
+                <div className="specialist-info">
+                  <Link to="#">
+                    <h5>Contacts</h5>
+                  </Link>
+                  {/* <p>15 Doctors</p> */}
+                </div>
+                <div className="specialist-nav ms-auto">
+                  <Link to="#">
+                    <i className="fas fa-long-arrow-alt-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+            <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+              <div className="specialist-card d-flex">
+                <div className="specialist-img">
+                  <ImageWithBasePath
+                    src="assets/img/category/user-check-solid.svg"
+                    alt="brain-image"
+                    className="img-fluid"
+                  />
+                </div>
+                <div className="specialist-info">
+                  <Link to="#">
+                    <h5>Hemorrhoid  Questionnaire</h5>
+                  </Link>
+                  {/* <p>35 Doctors</p> */}
+                </div>
+                <div className="specialist-nav ms-auto">
+                  <Link to="#">
+                    <i className="fas fa-long-arrow-alt-right" />
+                  </Link>
+                </div>
+              </div>
+            </div>
+         
+          </div>
+        </div>
+      </section>
             </div>
             <section className="faq-section">
         <div className="container">
