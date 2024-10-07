@@ -2855,8 +2855,8 @@
   }
   
 .gut-health {
-    background-color: #fff;
-    border: solid 3px #65bd60;
+    background-color: #fff ;
+    border: solid 5px #65bd60;
     border-radius: 150px !important;
     padding: 12px;
     height: 400px;
@@ -2884,4 +2884,12 @@
     margin: 0 auto 40px auto !important;
     font-size: 16px;
     text-align: center;
+}
+.bg-color {
+    background-color: #0e5281 !important;
+}
+
+.expertise-360:hover {
+    @include transform(rotateY(360deg));
+    @include transition(0.6s);
 }

@@ -47,10 +47,11 @@ const Home1 = () => {
     loop: true,
     margin: 24,
     dots: false,
-    freeDrag:true,
-    nav: true,
-    navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
-    smartSpeed: 500,			
+    freeDrag: true,
+    nav:true,
+    smartSpeed: 2000,
+    navContainer: '.top-nurse-slide-nav',
+    navText: [ '<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>' ], 
     responsive: {
       0: {
         items: 1,
@@ -67,9 +68,8 @@ const Home1 = () => {
       1300: {
         items: 5,
       },
-
     },
-  };  
+  };
   const populartestslider = {
     loop: true,
     margin: 24,
@@ -146,35 +146,7 @@ const Home1 = () => {
       },
     },
   };
-  const specialitiesSlider = {
-    loop: false,
-    margin: 24,
-    dots: false,
-    nav: true,
-    smartSpeed: 2000,
-    navContainer: ".slide-nav-1",
-    navText: [
-      '<i class="fas fa-chevron-left custom-arrow"></i>',
-      '<i class="fas fa-chevron-right custom-arrow"></i>',
-    ],
-    responsive: {
-      0: {
-        items: 1,
-      },
-      500: {
-        items: 1,
-      },
-      768: {
-        items: 2,
-      },
-      1000: {
-        items: 3,
-      },
-      1300: {
-        items: 6,
-      },
-    },
-  };
+
   const bestDoctorsSlider = {
     loop: true,
     margin: 24,
@@ -274,8 +246,8 @@ const Home1 = () => {
       {/* Home Banner */}
       <section className="banner-section">
         <div className="col-md-12 position-relative">
-          <div className="slider-img">
-            <video className="banner-images w-100" autoPlay loop>
+          <div className="slider-img mt-5">
+            <video className="banner-images w-100" autoPlay loop >
               <source src="assets/img/bg/1205375907.mp4" type="video/mp4" />
             </video>
           </div>
@@ -284,8 +256,8 @@ const Home1 = () => {
           <div className="row align-items-center">
             <div className="col-lg-5 bg-white p-5 rounded-circle border border-success border-5">
               <div
-                className="banner-content aos text-center mt-5"
-                data-aos="fade-up"
+                className="banner-content text-center mt-5"
+                
               >
                 <h1>Introducing</h1>
                 <p>
@@ -340,7 +312,7 @@ const Home1 = () => {
                   </p>
 
                   <Link to="/pages/aboutus">
-                    <Button className="btn text-blue bg-blue mt-2 ">
+                    <Button className="btn text-blue bg-blue mt-2 " variant="outline-dark">
                       Read More
                     </Button>
                     {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
@@ -469,140 +441,7 @@ const Home1 = () => {
         </div>
       </section>
 
-      {/* <section className="work-section">
-        <div className="container">
-          <div className="row">
-          <div className="section-header-one aos text-center" data-aos="fade-up">
-                <h2 className="section-title text-center">
-                  Wide-Ranging Services with a Personal Approach
-                </h2>
-              </div>
-            <div
-              className="col-lg-4 col-md-12 work-img-info aos"
-              data-aos="fade-up"
-            >
-              <div className="work-img">
-                <ImageWithBasePath
-                  src="assets/img/bannerwar.jpg"
-                  className="img-fluid"
-                  alt="doctor-image"
-                />
-              </div>
-            </div>
-            <div className="col-lg-8 col-md-12 work-details">
-              
-              <div data-aos="fade-up">
-                <p className="mt-4 mb-4">
-                  From minor GI complaints to chronic digestive conditions,
-                  United Digestive’s partner practices offer patients
-                  best-in-class care in safe, convenient environments with
-                  top-notch, award-winning providers. Come see what makes United
-                  Digestive different. Top services include:
-                </p>
-              </div>
-              <div className="row">
-                <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
-                  <div className="work-info">
-                    <div className="work-icon">
-                      <span>
-                        <ImageWithBasePath
-                           src="assets/img/icons/Colonoscopy.svg"
-                          alt="search-doctor-icon"
-                          className="rounded"
-                        />
-                      </span>
-                    </div>
-                    <div className="work-content mt-4">
-                      <h5>Colonoscopy</h5>
-                     
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
-                  <div className="work-info">
-                    <div className="work-icon">
-                      <span>
-                        <ImageWithBasePath
-                          src="assets/img/icons/Upper GI.svg"
-                          alt="doctor-profile-icon"
-                        />
-                      </span>
-                    </div>
-                    <div className="work-content mt-4">
-                      <h5>Upper GI</h5>
-                     
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
-                  <div className="work-info">
-                    <div className="work-icon">
-                      <span>
-                        <ImageWithBasePath
-                          src="assets/img/icons/Hemorrhoid Banding.svg"
-                          alt="calendar-icon"
-                        />
-                      </span>
-                    </div>
-                    <div className="work-content mt-4">
-                      <h5>Hemorrhoid Banding</h5>
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
-                  <div className="work-info">
-                    <div className="work-icon">
-                      <span>
-                        <ImageWithBasePath
-                          src="assets/img/icons/Infusion.svg"
-                          alt="solution-icon"
-                        />
-                      </span>
-                    </div>
-                    <div className="work-content mt-4">
-                      <h5>Infusion</h5>
-                     
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
-                  <div className="work-info">
-                    <div className="work-icon">
-                      <span>
-                        <ImageWithBasePath
-                          src="assets/img/icons/Nutrition Counseling.svg"
-                          alt="calendar-icon"
-                        />
-                      </span>
-                    </div>
-                    <div className="work-content mt-4">
-                      <h5>Nutrition Counseling</h5>
-                    
-                    </div>
-                  </div>
-                </div>
-                <div className="col-lg-6 col-md-6 aos" data-aos="fade-up">
-                  <div className="work-info">
-                    <div className="work-icon">
-                      <span>
-                        <ImageWithBasePath
-                          src="assets/img/icons/Abdominal Ultrasound.svg"
-                          alt="solution-icon"
-                        />
-                      </span>
-                    </div>
-                    <div className="work-content mt-4">
-                      <h5>Abdominal Ultrasound</h5>
-                    
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* Specialities Section */}
+    
 
       <section className="services-section-sixteen">
         <div className="container">
@@ -653,61 +492,74 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section className="experts-section-sixteen">
-          <div className="container">
-            <div className="row">
-              <div className="col-md-12">
-                <div className="section-header-sixteen section-header-sixteentwo text-center">
-                  <h2>Gut Health Library</h2>
-                </div>
-              </div>
+      <section className="experts-section-sixteen bg-color">
+  <div className="container">
+    <div className="row">
+      <div className="col-md-12">
+        <div className="section-header-sixteen section-header-sixteentwo text-center">
+          <h2>Gut Health Library</h2>
+        </div>
+      </div>
+    </div>
+    <div className="slider slider-sixteen aos" data-aos="zoom-in-up">
+      <OwlCarousel
+        {...ourExpert}
+        center={true}
+        autoplay={true}  // Enable autoplay
+        autoplayTimeout={3000}  // Set interval to 3 seconds (3000ms)
+        autoplaySpeed={800}  // Set speed for smooth transitions (800ms)
+        loop={true}  // Enable looping of slides
+        animateIn="fadeIn"  // Smooth fade-in animation for slide entry
+        animateOut="fadeOut"  // Smooth fade-out animation for slide exit
+        className="custome_slides"
+        id="slide-experts"
+        nav={true}  // Enable navigation (arrows)
+        navText={["<div class='nav-btn prev-slide'>‹</div>", "<div class='nav-btn next-slide'>›</div>"]}  // Custom arrows
+      >
+        {medicals.map((item, index) => (
+          <div className="test_imgs gut-health" key={index}>
+            <div className="main-reviewimages">
+              <ImageWithBasePath
+                src={`assets/img/icons/${item.path}`}
+                alt="Img"
+              />
             </div>
-            <div className="slider slider-sixteen aos" data-aos="zoom-in-up">
-              <OwlCarousel {...ourExpert} center={true} className=" custome_slides" id="slide-experts">
-                {medicals.map((item, index) => (
-                  <div className="test_imgs gut-health">
-                    <div className="main-reviewimages">
-                      <ImageWithBasePath
-                        src={`assets/img/icons/${item.path}`}
-                        alt="Img"
-                      />
-                    </div>
-                    <h4 className="fs-5 text-center">
-                      <Link to={`guthealth-details/${index + 1}`}>{item.title}</Link>
-                    </h4 >
-                    <div className="testimonal-contents bg-trans">
-
-                      <Link to={`guthealth-details/${index + 1}`} className="read-more-test">
-                        Read More
-                      </Link>
-                    </div>
-                  </div>
-                ))}
-
-
-              </OwlCarousel>
+            <h4 className="fs-5 text-center">
+              <Link to={`guthealth-details/${index + 1}`}>{item.title}</Link>
+            </h4>
+            <div className="testimonal-contents bg-trans">
+              <Link to={`guthealth-details/${index + 1}`} className="read-more-test">
+                Read More
+              </Link>
             </div>
           </div>
-        </section>
+        ))}
+      </OwlCarousel>
+    </div>
+  </div>
+</section>
+
 
       <section className="about-section">
-      <div className="row">
-            <div className="col-md-12">
-              <div className="section-header-sixteen text-center">
+        <div className="row">
+          <div className="col-md-12">
+            <div className="section-header-sixteen text-center">
               <h2>Our experts team</h2>
-              </div>
             </div>
           </div>
+        </div>
         {abouts.map((its, index) => (
-          <div className="container">
+          <div className="container mt-5">
             <div
               className={`row align-items-center ${
                 index % 2 === 0 ? "flex-row-reverse " : ""
               }`}
             >
-              <div className={`col-lg-6 col-md-12 ${
-                index % 2 === 0 ? "text-end" : ""
-              }`}>
+              <div
+                className={`col-lg-6 col-md-12 ${
+                  index % 2 === 0 ? "text-end" : ""
+                }`}
+              >
                 <ImageWithBasePath
                   src="assets/img/about/ID size.jpg"
                   className="img-fluid"
@@ -717,16 +569,16 @@ const Home1 = () => {
               <div className="col-lg-6 col-md-12">
                 <div className="section-inner-header about-inner-header">
                   {/* <h6> Our About </h6> */}
-                  <h2>
+                  <h3>
                     Dr. Meghnad G. Joshi <span>M.Sc. Ph.D. PDD</span>
-                  </h2>
+                  </h3>
                 </div>
                 <div className="about-content">
                   <div className="about-content-details">
-                    <h4>
+                    <h5>
                       Professor and Head, Lead Coordinator, Central Research
                       Laboratory
-                    </h4>
+                    </h5>
                     <p>
                       Meghnad G Joshi earned a PhD from the Department of
                       Zoology, Shivaji University, Kolhapur, India in 2006. He
@@ -741,7 +593,7 @@ const Home1 = () => {
                     </p>
 
                     <Link to="/pages/aboutus">
-                      <Button className="btn text-blue bg-blue mt-2 ">
+                      <Button className="btn text-blue bg-blue mt-2 " variant="outline-dark">
                         Read More
                       </Button>
                       {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
@@ -753,246 +605,6 @@ const Home1 = () => {
           </div>
         ))}
       </section>
-
-      {/* /Specialities Section */}
-      {/* Doctors Section */}
-      {/* <section className="doctors-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12 aos" data-aos="fade-up">
-              <div className="section-header-one section-header-slider text-center">
-                <h2 className="section-title">Best Doctors</h2>
-              </div>
-            </div>
-          </div>
-          <div className="doctor-slider-one owl-theme aos" data-aos="fade-up">
-            <OwlCarousel {...bestDoctorsSlider}>
-            
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-03.jpg"
-                          className="img-fluid"
-                          alt="Ruby Perrin"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$200</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. Downer</Link>
-                        <p>Orthopedic</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.5
-                          </span>{" "}
-                          (35)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> Newyork, USA
-                      </p>
-                      <span className="badge badge-success doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Available
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-02.jpg"
-                          className="img-fluid"
-                          alt="Paul Richard"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$300</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. John Doe</Link>
-                        <p>Dentist</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.3
-                          </span>{" "}
-                          (45)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> Austin, TX
-                      </p>
-                      <span className="badge badge-success doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Available
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-04.jpg"
-                          className="img-fluid"
-                          alt="Darren Elder"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$100</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. Aviles</Link>
-                        <p>Neurology</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.0
-                          </span>{" "}
-                          (20)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> Newyork, USA
-                      </p>
-                      <span className="badge badge-danger doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Unavailable
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-05.jpg"
-                          className="img-fluid"
-                          alt="Sofia Brient"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$250</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. Palmore</Link>
-                        <p>Immunologist</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.5
-                          </span>{" "}
-                          (35)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> Waipahu, HI
-                      </p>
-                      <span className="badge badge-success doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Available
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-             
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-01.jpg"
-                          className="img-fluid"
-                          alt="John Doe"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$880</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">
-                          Dr. Paul Richard
-                        </Link>
-                        <p>Dentist</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.4
-                          </span>{" "}
-                          (50)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> California, USA
-                      </p>
-                      <span className="badge badge-success doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Available
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </OwlCarousel>
-          </div>
-        </div>
-      </section> */}
 
       {/* /Work Section */}
       {/* Articles Section */}
@@ -1048,56 +660,7 @@ const Home1 = () => {
           </div>
         </div>
       </section>
-      {/* /Articles Section */}
-      {/* App Section */}
-      {/* <section className="app-section pt-0">
-        <div className="container">
-          <div className="app-bg">
-            <div className="row align-items-end">
-              <div className="col-lg-6 col-md-12">
-                <div className="app-content">
-                  <div className="app-header aos" data-aos="fade-up">
-                    <h5>Working for Your Better Health.</h5>
-                    <h2>Download the Dr. Shabeer Ahmed App today!</h2>
-                  </div>
-                  <div className="app-scan aos" data-aos="fade-up">
-                    <p>Scan the QR code to get the app now</p>
-                    <ImageWithBasePath
-                      src="assets/img/scan-img.png"
-                      alt="scan-image"
-                    />
-                  </div>
-                  <div className="google-imgs aos" data-aos="fade-up">
-                    <Link to="#">
-                      <ImageWithBasePath
-                        src="assets/img/icons/google-play-icon.svg"
-                        alt="img"
-                      />
-                    </Link>
-                    <Link to="#">
-                      <ImageWithBasePath
-                        src="assets/img/icons/app-store-icon.svg"
-                        alt="img"
-                      />
-                    </Link>
-                  </div>
-                </div>
-              </div>
-              <div className="col-lg-6 col-md-12 aos" data-aos="fade-up">
-                <div className="mobile-img">
-                  <ImageWithBasePath
-                    src="assets/img/mobile-img.png"
-                    className="img-fluid"
-                    alt="img"
-                  />
-                </div>
-              </div>
-            </div>
-          </div>
-        </div>
-      </section> */}
-      {/* /App Section */}
-      {/* FAQ Section */}
+     
       <section className="faq-section">
         <div className="container">
           <div className="row">
