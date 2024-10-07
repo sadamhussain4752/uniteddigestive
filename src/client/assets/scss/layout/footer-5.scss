@@ -31,8 +31,10 @@
                 }
                 @include respond-below (custom767) {
                     padding: 30px 0 0;
+                }&{
+                    background: $__blue__17;
                 }
-                background: $__blue__17;
+                
                 .footer-widget {
                     .footer-title {
                         padding-bottom: 15px;

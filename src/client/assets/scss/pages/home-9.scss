@@ -43,8 +43,8 @@
             box-shadow: inset 0 0 0 0 $__blue__14;
             @include transition(0.5s);
             &:hover, &:active {
-                box-shadow: inset 210px 0 0 0  darken($__blue__14, 6%);
-                border-color: darken($__blue__14, 6%);
+                box-shadow: inset 210px 0 0 0  adjust-color($__blue__14, $lightness: -6%);;
+                border-color: adjust-color($__blue__14, $lightness: -6%);;
                 @include transition(0.5s);
             }
         }
@@ -70,8 +70,8 @@
                     margin-left: 10px;
                 }
                 &:hover {
-                    box-shadow: inset 210px 0 0 0  darken($__blue__14, 6%);
-                    border-color: darken($__blue__14, 6%);
+                    box-shadow: inset 210px 0 0 0  adjust-color($__blue__14, $lightness: -6%);;
+                    border-color: adjust-color($__blue__14, $lightness: -6%);;
                 }
             }
         }
@@ -246,8 +246,8 @@
                     width: 100%;
                 }
                 &:hover {
-                    box-shadow: inset 210px 0 0 0  darken($__blue__14, 6%);
-                    border-color: darken($__blue__14, 6%);
+                    box-shadow: inset 210px 0 0 0  adjust-color($__blue__14, $lightness: -6%);
+                    border-color: adjust-color($__blue__14, $lightness: -6%);
                     color: $__white;
                     -webkit-transition: 0.5s;
                     -ms-transition: 0.5s;
@@ -358,10 +358,12 @@
     }
     @include respond-below(custom767) {
         @include margin-padding(null, 40px 0);
+    }&{
+        position: relative;
+        background: $__sky__04;   
+        z-index: 2;
     }
-    position: relative;
-    background: $__sky__04;   
-    z-index: 2; 
+     
     .section-header-fourteen {
         max-width: 856px;
         margin-left: auto;
@@ -643,12 +645,12 @@
                 padding: 8px 18px;
                 border: 0;
                 @include transition(0.5s);
-                &:hover {                    
-                    box-shadow: inset 210px 0 0 0  darken($__blue__14, 6%);
-                    border-color: darken($__blue__14, 6%);
+                &:hover {
+                    box-shadow: inset 210px 0 0 0 hsl(210, 100%, 40%);
+                    border-color: hsl(210, 100%, 40%);
                     color: $__white;
                     @include transition(0.5s);
-                }
+                  }
             }
         }
     }

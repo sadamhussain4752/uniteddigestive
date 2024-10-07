@@ -66,13 +66,13 @@
 				.add-slot {
 					color: $__blue__14;
 					&:hover {
-						color: darken($__blue__14, 5%);
+						color: adjust-color($__blue__14, $lightness: -5%);
 					}
 				}
 				.del-slot {
 					color: $__cart__red;
 					&:hover {
-						color: darken($__cart__red, 5%);
+						color: adjust-color($__cart__red, $lightness: -5%);
 					}
 				}				
 				@include respond-below(custom767) {

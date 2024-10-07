@@ -1294,8 +1294,10 @@ $__inter__font: 'Inter', sans-serif;
     &.flat-offer {
         @include respond-below (custom991) {
             margin-bottom: 0;
+        }&{
+            background: radial-gradient(50% 50% at 50% 50%, $__greenish_color3 0%, $__greenish_color4  100%);
         }
-        background: radial-gradient(50% 50% at 50% 50%, $__greenish_color3 0%, $__greenish_color4  100%);
+        
         .btn {
             background: $__greenish_color2;
             &:hover {

@@ -1,7 +1,9 @@
 .mouse-cursor {
     @include position($__fixed, 0, null, null, 0);
-	pointer-events: $__none;
-	border-radius: 50%;
+	&{
+		pointer-events: $__none;
+	    border-radius: 50%;
+	}
     @include transform(translateZ(0));
 	visibility: $__hidden;
 }

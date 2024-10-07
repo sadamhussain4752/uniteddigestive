@@ -1788,8 +1788,10 @@ ul {
                     background: $__blue__dark;
                     color: $__white;
                 }
+            }&{
+                margin-right: 15px;
             }
-            margin-right: 15px;
+            
             @include respond-below(custom767) {
                 margin-right: 10px;
             }

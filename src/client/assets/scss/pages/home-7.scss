@@ -1087,8 +1087,10 @@
                                 font-size: $__font__size__20;
                                 margin-bottom: 5px;
                                 display: inline-block;
+                            }&{
+                                color: $__white;
                             }
-                            color: $__white;
+                            
                             span {
                                 display: block;
                                 font-weight: $__normal;

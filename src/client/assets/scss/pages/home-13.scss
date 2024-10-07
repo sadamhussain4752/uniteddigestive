@@ -581,8 +581,10 @@
     }
     @include respond-below(custom767) {
         @include margin-padding(0,50px 0);
+    }&{
+        position: $__relative;
     }
-    position: $__relative;
+    
     .section-bg {
         img {
             position: $__absolute;
@@ -1385,7 +1387,7 @@
                         margin-left: 8px;
                     }
                     &:hover {
-                        color: darken($__blue__14, 5%);
+                        color: hsl(204, 70%, 48%);
                     }
                 }
             }

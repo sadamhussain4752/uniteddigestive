@@ -92,9 +92,9 @@
                                 color: $__midnight_black;
                                 font-size: $__font__size__16;
                                 &:hover {
-                                    background: darken($__athens_grey, 5%);
+                                    background:  adjust-color($__athens_grey, $lightness: -5%);
                                     color: $__midnight_black;
-                                    border: 1px solid darken($__athens_grey, 5%);
+                                    border: 1px solid adjust-color($__athens_grey, $lightness: -5%);
                                     transition: 0.5s;
                                 }
                                 i {
@@ -169,7 +169,7 @@
                                 }
                                 &:hover {
                                     background: $__white;
-                                    border-color: darken($__teal-200, 5%);
+                                    border-color: adjust-color;
                                     box-shadow: inset 210px 0 0 0 $__white;
                                     color: $__midnight_black;;
                                     transition: 0.5s;

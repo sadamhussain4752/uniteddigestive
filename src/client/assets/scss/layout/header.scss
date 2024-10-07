@@ -1210,7 +1210,7 @@
 								margin-right: 7px;
 							}
 							&:hover {
-								background-color: darken($__blue__14, 5%);
+								background: adjust-color($__blue__14, $lightness: -5%);
 							}
 						}
 					}

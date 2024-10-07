@@ -3,7 +3,7 @@
     min-height: 530px;
     background-size: $__full__width auto;
     position: $__relative;
-    background-blend-mode: Darken;
+    background-blend-mode: adjust-color;
     @include margin-padding(null, 160px 0 80px 0);
     @include respond-below(custom991) {
         min-height: 330px;

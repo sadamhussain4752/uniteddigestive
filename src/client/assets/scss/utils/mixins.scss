@@ -70,9 +70,10 @@ $breakpoints: (
 
 
 @mixin transform($property) {
-  transform: $property;
+    transform: $property;
   -webkit-transform: $property;
   -ms-transform: $property;
+  
 }
 @mixin transform-origin($property) {
   transform-origin: $property;
@@ -123,16 +124,24 @@ $breakpoints: (
 }
 
 @mixin position($__position_value,$__top_value,$__right_value,$__bottom_value,$__left_value){
-  position:$__position_value;
-  top:$__top_value;
-  right:$__right_value;
-  bottom:$__bottom_value;
-  left:$__left_value;
+  &{
+    position:$__position_value;
+    top:$__top_value;
+    right:$__right_value;
+    bottom:$__bottom_value;
+    left:$__left_value;
+
+  }
+  
 }
 
 @mixin margin-padding($__margin, $__padding) {
-   margin: $__margin;
-   padding:$__padding;
+  &{
+    margin: $__margin;
+    padding:$__padding;
+
+  }
+   
 }
 
 @mixin placeholder-color($color) {

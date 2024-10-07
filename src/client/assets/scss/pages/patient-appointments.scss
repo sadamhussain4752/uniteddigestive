@@ -138,8 +138,8 @@
 			    text-align: $__center;
 			    display: $__block;
 			    &:hover, &:focus {
-			        background-color: darken($__home__12__section__even, 5%);
-			        border-color: darken($__home__12__section__even, 5%);
+			        background-color: adjust-color($__home__12__section__even,$lightness: -5%);
+			        border-color: adjust-color($__home__12__section__even,$lightness: -5%);
 			        color: $__slate-500;
 			    }
 			}
@@ -150,8 +150,8 @@
 			    text-align: $__center;
 			    display: $__block;
 			    &:hover, &:focus {
-			        background-color: darken($__blue__14, 3%);
-			        border-color: darken($__blue__14, 3%);
+			        background-color: adjust-color($__blue__14, $lightness: -5%);
+			        border-color: adjust-color($__blue__14,$lightness: -5%);
 			        color: $__white;
 			    }
 			}
