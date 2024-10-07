@@ -318,18 +318,18 @@ const Home1Header = () => {
                     </li>
                   </ul> */}
                 </li>
-                {/* <li className="has-submenu">
+                <li className="has-submenu">
                   <Link to="/patient/search-doctor1">
                     Providers 
                   </Link>
                  
-                </li> */}
-                {/* <li className="has-submenu">
+                </li>
+                <li className="has-submenu">
                   <Link to="/patient/doctor-list">
-                  Providers & Locations 
+                   Locations 
                   </Link>
                  
-                </li> */}
+                </li>
                 <li className="has-submenu">
                   <Link to="#">
                     Patients Resources  <i className="fas fa-chevron-down" />

@@ -165,7 +165,7 @@ const SpecialitesDetails = (props) => {
                         </div>
                         <div className="specialist-info">
                           <Link to="#">
-                            <h5 className="mb-0 ">Find the Location</h5>
+                            <h6 className="mb-0 ">Find the Location</h6>
                           </Link>
                           {/* <p>21 Doctors</p> */}
                         </div>
@@ -187,7 +187,7 @@ const SpecialitesDetails = (props) => {
                         </div>
                         <div className="specialist-info">
                           <Link to="#">
-                            <h5>Request an Appointment</h5>
+                            <h6>Request an Appointment</h6>
                           </Link>
                           {/* <p>30 Doctors</p> */}
                         </div>
@@ -209,7 +209,7 @@ const SpecialitesDetails = (props) => {
                         </div>
                         <div className="specialist-info">
                           <Link to="#">
-                            <h5>Contacts</h5>
+                            <h6>Contacts</h6>
                           </Link>
                           {/* <p>15 Doctors</p> */}
                         </div>
@@ -231,7 +231,7 @@ const SpecialitesDetails = (props) => {
                         </div>
                         <div className="specialist-info">
                           <Link to="#">
-                            <h5>Hemorrhoid  Questionnaire</h5>
+                            <h6>Hemorrhoid Questionnaire</h6>
                           </Link>
                           {/* <p>35 Doctors</p> */}
                         </div>
