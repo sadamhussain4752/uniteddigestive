@@ -1,156 +1,161 @@
 [
-    {
-      "id": 1,
-      "title": "Gut Care",
-      "description": "Frequent and watery bowel movements characterize diarrhoea, which involves an increased fluid content in the stool. This common condition is typically not serious and can arise from various factors. Common causes include viral infections, bacterial infections, food allergies, food poisoning, certain medications, artificial sweeteners, and excessive alcohol consumption. Additionally, diarrhoea may be linked to chronic gastrointestinal conditions such as Crohn’s disease and ulcerative colitis.",
-      "services": [
-        "Dietary Counseling",
-        "Gut Health Evaluation",
-        "Treatment for IBS"
-      ],
-      "procedures": [
-        "Endoscopy",
-        "Colonoscopy",
-        "Gut Microbiome Analysis"
-      ],
-      "doctors": [
-        "Dr. John Doe",
-        "Dr. Emily Carter"
-      ],
-      "relatedConditions": [
-        "Irritable Bowel Syndrome (IBS)",
-        "Acid Reflux",
-        "Small Intestinal Bacterial Overgrowth (SIBO)"
-      ],
-      "faqs":[
-        {
-            "question":"1. Should I call a doctor if I have diarrhoea?",
-            "answer":"Yes, you should seek medical advice if diarrhoea lasts more than two to three weeks. Additionally, contact a physician if you notice changes in bowel habits after starting a new medication, or if you experience severe cramping, a fever lasting more than 24 hours, or symptoms of dehydration such as vomiting."
-        },
-        {
-            "question":"2. What is the best treatment for diarrhoea?",
-            "answer":"To alleviate diarrhoea symptoms, start by consuming only liquids and avoiding solid foods and dairy products. You can also use over-the-counter treatments such as Pepto-Bismol®, Kaopectate®, or Imodium® to help manage the condition."
-        }, {
-            "question":"3. What if my diarrhoea doesn’t go away after a few days?",
-            "answer":"If your diarrhoea persists for several days, your doctor may recommend tests such as blood and stool samples, X-rays, or ultrasounds. In some cases, a sigmoidoscopy or colonoscopy may be needed to visually examine the colon using a flexible tube. However, most instances of diarrhoea typically resolve on their own within a few days."
-        }
-        
-      ],
-      "imageUrl": "Gut Care.svg"
-    },
-    {
-      "id": 2,
-      "title": "Gastroenterology",
-      "description": "Gastroenterology specializes in the diagnosis and treatment of digestive system disorders, including conditions of the esophagus, stomach, intestines, liver, pancreas, and gallbladder.",
-      "services": [
-        "Liver Function Test",
-        "Digestive Health Consultation",
-        "Pancreatic Health Screening"
-      ],
-      "procedures": [
-        "Esophagogastroduodenoscopy (EGD)",
-        "Liver Biopsy",
-        "ERCP (Endoscopic Retrograde Cholangiopancreatography)"
-      ],
-      "doctors": [
-        "Dr. Michael Smith",
-        "Dr. Laura Chen"
-      ],
-      "relatedConditions": [
-        "Gastroesophageal Reflux Disease (GERD)",
-        "Peptic Ulcer",
-        "Liver Cirrhosis"
-      ],
-      "faqs":[
-        {
-            "question":"1. Should I call a doctor if I have diarrhoea?",
-            "answer":"Yes, you should seek medical advice if diarrhoea lasts more than two to three weeks. Additionally, contact a physician if you notice changes in bowel habits after starting a new medication, or if you experience severe cramping, a fever lasting more than 24 hours, or symptoms of dehydration such as vomiting."
-        },
-        {
-            "question":"2. What is the best treatment for diarrhoea?",
-            "answer":"To alleviate diarrhoea symptoms, start by consuming only liquids and avoiding solid foods and dairy products. You can also use over-the-counter treatments such as Pepto-Bismol®, Kaopectate®, or Imodium® to help manage the condition."
-        }, {
-            "question":"3. What if my diarrhoea doesn’t go away after a few days?",
-            "answer":"If your diarrhoea persists for several days, your doctor may recommend tests such as blood and stool samples, X-rays, or ultrasounds. In some cases, a sigmoidoscopy or colonoscopy may be needed to visually examine the colon using a flexible tube. However, most instances of diarrhoea typically resolve on their own within a few days."
-        }
-        
-      ],
-      "imageUrl": "Gastroenterology.svg"
-    },
-    {
-      "id": 3,
-      "title": "Bariatric Surgery",
-      "description": "Bariatric Surgery is a medical procedure performed to help with weight loss in individuals with obesity. It involves making changes to the digestive system to help reduce food intake or absorption.",
-      "services": [
-        "Pre-surgery Weight Management",
-        "Post-surgery Nutrition Support",
-        "Bariatric Follow-up Care"
-      ],
-      "procedures": [
-        "Gastric Bypass Surgery",
-        "Sleeve Gastrectomy",
-        "Adjustable Gastric Banding"
-      ],
-      "doctors": [
-        "Dr. Sarah Adams",
-        "Dr. Kevin Thompson"
-      ],
-      "relatedConditions": [
-        "Obesity",
-        "Type 2 Diabetes",
-        "Hypertension"
-      ],
-      "imageUrl": "Bariatric Surgery.svg"
-    },
-    {
-      "id": 4,
-      "title": "Laparoscopic",
-      "description": "Laparoscopic surgery is a minimally invasive procedure that uses small incisions and a camera to guide surgeons. It is commonly used for abdominal and pelvic surgeries, offering faster recovery and less scarring.",
-      "services": [
-        "Laparoscopic Consultation",
-        "Minimally Invasive Surgery",
-        "Post-surgery Recovery Plan"
-      ],
-      "procedures": [
-        "Laparoscopic Appendectomy",
-        "Laparoscopic Hernia Repair",
-        "Laparoscopic Gallbladder Removal"
-      ],
-      "doctors": [
-        "Dr. Alice Brown",
-        "Dr. David Lee"
-      ],
-      "relatedConditions": [
-        "Appendicitis",
-        "Gallstones",
-        "Hernia"
-      ],
-      "imageUrl": "Laparoscopic.svg"
-    },
-    {
-      "id": 5,
-      "title": "Proctology",
-      "description": "Proctology is the medical field specializing in the diagnosis and treatment of diseases of the colon, rectum, and anus. It includes treatment for conditions like hemorrhoids, anal fissures, and colorectal cancer.",
-      "services": [
-        "Colorectal Cancer Screening",
-        "Hemorrhoid Treatment",
-        "Anal Fissure Management"
-      ],
-      "procedures": [
-        "Sigmoidoscopy",
-        "Hemorrhoidectomy",
-        "Colorectal Surgery"
-      ],
-      "doctors": [
-        "Dr. James Miller",
-        "Dr. Sophia Davis"
-      ],
-      "relatedConditions": [
-        "Hemorrhoids",
-        "Anal Fissures",
-        "Colorectal Cancer"
-      ],
-      "imageUrl": "Proctology.svg"
-    }
-  ]
-  
+  {
+    "id": 1,
+    "title": "Gut Care",
+    "description": "Frequent and watery bowel movements characterize diarrhoea, which involves an increased fluid content in the stool. This common condition is typically not serious and can arise from various factors. Common causes include viral infections, bacterial infections, food allergies, food poisoning, certain medications, artificial sweeteners, and excessive alcohol consumption. Additionally, diarrhoea may be linked to chronic gastrointestinal conditions such as Crohn’s disease and ulcerative colitis.",
+    "services": [
+      "Dietary Counseling",
+      "Gut Health Evaluation",
+      "Treatment for IBS"
+    ],
+    "procedures": [
+      "Endoscopy",
+      "Colonoscopy",
+      "Gut Microbiome Analysis"
+    ],
+    "doctors": [
+      "Dr. John Doe",
+      "Dr. Emily Carter"
+    ],
+    "relatedConditions": [
+      "Irritable Bowel Syndrome (IBS)",
+      "Acid Reflux",
+      "Small Intestinal Bacterial Overgrowth (SIBO)"
+    ],
+    "faqs": [
+      {
+        "question": "1. Should I be concerned if I bleed from an area only once?",
+        "answer": " Any bleeding should be taken seriously. Be sure to call your physician."
+      },
+      {
+        "question": "2. What can cause rectal bleeding?",
+        "answer": "Hemorrhoids — These are dilated blood vessels or veins in the anal or rectal area. They can occur on the outside where they are felt as small bumps when wiping; or they may be on the inside where they are usually painless. They are quite common and are associated with chronic constipation, increased perirectal pressure and with pregnancy."
+      },
+      {
+        "question": "3. What if my diarrhoea doesn’t go away after a few days?",
+        "answer": "If your diarrhoea persists for several days, your doctor may recommend tests such as blood and stool samples, X-rays, or ultrasounds. In some cases, a sigmoidoscopy or colonoscopy may be needed to visually examine the colon using a flexible tube. However, most instances of diarrhoea typically resolve on their own within a few days."
+      }
+    ],
+    "imageUrl": "Gut Care.svg"
+  },
+  {
+    "id": 2,
+    "title": "Gastroenterology",
+    "description": "Gastroenterology specializes in the diagnosis and treatment of digestive system disorders, including conditions of the esophagus, stomach, intestines, liver, pancreas, and gallbladder.",
+    "services": [
+      "Liver Function Test",
+      "Digestive Health Consultation",
+      "Pancreatic Health Screening"
+    ],
+    "procedures": [
+      "Esophagogastroduodenoscopy (EGD)",
+      "Liver Biopsy",
+      "ERCP (Endoscopic Retrograde Cholangiopancreatography)"
+    ],
+    "doctors": [
+      "Dr. Michael Smith",
+      "Dr. Laura Chen"
+    ],
+    "relatedConditions": [
+      "Gastroesophageal Reflux Disease (GERD)",
+      "Peptic Ulcer",
+      "Liver Cirrhosis"
+    ],
+    "faqs": [
+      {
+        "question": "1. Should I call a doctor if I have diarrhoea?",
+        "answer": "Yes, you should seek medical advice if diarrhoea lasts more than two to three weeks. Additionally, contact a physician if you notice changes in bowel habits after starting a new medication, or if you experience severe cramping, a fever lasting more than 24 hours, or symptoms of dehydration such as vomiting."
+      },
+      {
+        "question": "2. What is the best treatment for diarrhoea?",
+        "answer": "To alleviate diarrhoea symptoms, start by consuming only liquids and avoiding solid foods and dairy products. You can also use over-the-counter treatments such as Pepto-Bismol®, Kaopectate®, or Imodium® to help manage the condition."
+      },
+      {
+        "question": "3. What types of diagnosis are used to determine the exact cause of rectal bleeding?",
+        "answer": "There are four ways your doctor typically can identify the cause:"
+      },
+
+      {
+        "question": "4. What types of diagnosis are used to determine the exact cause of rectal bleeding?",
+        "answer": "There are four ways your doctor typically can identify the cause:"
+      }
+
+    ],
+    "imageUrl": "Gastroenterology.svg"
+  },
+  {
+    "id": 3,
+    "title": "Bariatric Surgery",
+    "description": "Bariatric Surgery is a medical procedure performed to help with weight loss in individuals with obesity. It involves making changes to the digestive system to help reduce food intake or absorption.",
+    "services": [
+      "Pre-surgery Weight Management",
+      "Post-surgery Nutrition Support",
+      "Bariatric Follow-up Care"
+    ],
+    "procedures": [
+      "Gastric Bypass Surgery",
+      "Sleeve Gastrectomy",
+      "Adjustable Gastric Banding"
+    ],
+    "doctors": [
+      "Dr. Sarah Adams",
+      "Dr. Kevin Thompson"
+    ],
+    "relatedConditions": [
+      "Obesity",
+      "Type 2 Diabetes",
+      "Hypertension"
+    ],
+    "imageUrl": "Bariatric Surgery.svg"
+  },
+  {
+    "id": 4,
+    "title": "Laparoscopic",
+    "description": "Laparoscopic surgery is a minimally invasive procedure that uses small incisions and a camera to guide surgeons. It is commonly used for abdominal and pelvic surgeries, offering faster recovery and less scarring.",
+    "services": [
+      "Laparoscopic Consultation",
+      "Minimally Invasive Surgery",
+      "Post-surgery Recovery Plan"
+    ],
+    "procedures": [
+      "Laparoscopic Appendectomy",
+      "Laparoscopic Hernia Repair",
+      "Laparoscopic Gallbladder Removal"
+    ],
+    "doctors": [
+      "Dr. Alice Brown",
+      "Dr. David Lee"
+    ],
+    "relatedConditions": [
+      "Appendicitis",
+      "Gallstones",
+      "Hernia"
+    ],
+    "imageUrl": "Laparoscopic.svg"
+  },
+  {
+    "id": 5,
+    "title": "Proctology",
+    "description": "Proctology is the medical field specializing in the diagnosis and treatment of diseases of the colon, rectum, and anus. It includes treatment for conditions like hemorrhoids, anal fissures, and colorectal cancer.",
+    "services": [
+      "Colorectal Cancer Screening",
+      "Hemorrhoid Treatment",
+      "Anal Fissure Management"
+    ],
+    "procedures": [
+      "Sigmoidoscopy",
+      "Hemorrhoidectomy",
+      "Colorectal Surgery"
+    ],
+    "doctors": [
+      "Dr. James Miller",
+      "Dr. Sophia Davis"
+    ],
+    "relatedConditions": [
+      "Hemorrhoids",
+      "Anal Fissures",
+      "Colorectal Cancer"
+    ],
+    "imageUrl": "Proctology.svg"
+  }
+]

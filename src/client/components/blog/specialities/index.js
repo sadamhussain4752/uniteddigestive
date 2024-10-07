@@ -60,197 +60,216 @@ const SpecialitesDetails = (props) => {
           <div className="row">
             <div className="col-lg-8 col-md-12">
               <div className="blog-view">
-                <div className="blog blog-single-post">
-                  <div className="blog-image">
+                <div className="blog blog-single-post rectal-bleeding">
+                  {/* <div className="blog-image">
                     <Link to="#0">
                       <img alt="" src={IMG01} className="img-fluid" />
                     </Link>
-                  </div>
+                  </div> */}
                   <h3 className="blog-title">
-                    {expdetails && expdetails?.title}
+                    Rectal Bleeding
                   </h3>
-                  <div className="blog-info clearfix">
-                    <div className="post-left">
-                      <ul>
-                        <li>
-                          <div className="post-author">
-                            <Link to="/patient/doctor-profile">
-                              <img src={IMG02} alt="Post Author" />
-                            </Link>
-                          </div>
-                        </li>
-                        <li>
-                          <i className="far fa-calendar"></i>4 Dec 2019
-                        </li>
-                        <li>
-                          <i className="far fa-comments"></i>12 Comments
-                        </li>
-                        <li>
-                          <i className="fa fa-tags"></i>Health Tips
-                        </li>
-                      </ul>
+                  <p className="r-b-subH">
+                    Passage of bright red blood from either the anus or rectum
+                  </p>
+                  <div className="blog-content">
+                    {/* <p>{expdetails && expdetails?.description}</p> */}
+                    <div className="row">
+                      <div className="col-md-7">
+                        <p className="r-b-cont">
+                          People often link rectal bleeding with cancer even though it can also be the result of any of several non-cancerous conditions. It is always a sign that something is wrong. If you experience this type of bleeding, it is important to check with your physician to identify its specific cause and start appropriate treatment.
+                        </p>
+                      </div>
+                      <div className="col-md-5">
+                        <img src="	https://www.atlantagastro.com/wp-content/uploads/2018/08/rectum.jpg" className="" />
+                      </div>
+                    </div>
+
+
+                  </div>
+                </div>
+
+              </div>
+
+              {/* FAQS */}
+              <section className="faq-section">
+                <div className="container">
+                  <div className="row">
+                    <div className="col-md-12">
+                      <div className="section-header-one aos" data-aos="fade-up">
+                        {/* <h5>Get Your Answer</h5> */}
+                        <h2 className="section-title">FAQs</h2>
+                      </div>
                     </div>
                   </div>
-                  <div className="blog-content">
-                    <p>{expdetails && expdetails?.description}</p>
-                  </div>
-                </div>
-               
-              </div>
-            </div>
-            <div className="col-lg-4 col-md-12">
-              <h3> For More Information</h3>
-            <section className="specialities-section bg-black">
-       
-            <div className="container">
-         
-          <div className="row">
-            <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
-              <div className="specialist-card d-flex">
-                <div className="specialist-img ">
-                  <ImageWithBasePath
-                    src="assets/img/category/map-location-dot-solid.svg"
-                    alt="kidney-image"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="specialist-info">
-                  <Link to="#">
-                    <h5>Find the Location</h5>
-                  </Link>
-                  {/* <p>21 Doctors</p> */}
-                </div>
-                <div className="specialist-nav ms-auto">
-                  <Link to="#">
-                    <i className="fas fa-long-arrow-alt-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
-              <div className="specialist-card d-flex">
-                <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="assets/img/category/stethoscope-solid.svg"
-                    alt="bone-image"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="specialist-info">
-                  <Link to="#">
-                    <h5>Request an Appointment</h5>
-                  </Link>
-                  {/* <p>30 Doctors</p> */}
-                </div>
-                <div className="specialist-nav ms-auto">
-                  <Link to="#">
-                    <i className="fas fa-long-arrow-alt-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
-              <div className="specialist-card d-flex">
-                <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="assets/img/category/phone-solid.svg"
-                    alt="heart-image"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="specialist-info">
-                  <Link to="#">
-                    <h5>Contacts</h5>
-                  </Link>
-                  {/* <p>15 Doctors</p> */}
-                </div>
-                <div className="specialist-nav ms-auto">
-                  <Link to="#">
-                    <i className="fas fa-long-arrow-alt-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-            <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
-              <div className="specialist-card d-flex">
-                <div className="specialist-img">
-                  <ImageWithBasePath
-                    src="assets/img/category/user-check-solid.svg"
-                    alt="brain-image"
-                    className="img-fluid"
-                  />
-                </div>
-                <div className="specialist-info">
-                  <Link to="#">
-                    <h5>Hemorrhoid  Questionnaire</h5>
-                  </Link>
-                  {/* <p>35 Doctors</p> */}
-                </div>
-                <div className="specialist-nav ms-auto">
-                  <Link to="#">
-                    <i className="fas fa-long-arrow-alt-right" />
-                  </Link>
-                </div>
-              </div>
-            </div>
-         
-          </div>
-        </div>
-      </section>
-            </div>
-            <section className="faq-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-header-one aos" data-aos="fade-up">
-                {/* <h5>Get Your Answer</h5> */}
-                <h2 className="section-title">Frequently Asked Questions</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row align-items-center">
-           
-            <div className="col-lg-12 col-md-12">
-              <div className="faq-info aos" data-aos="fade-up">
-                <div className="accordion" id="faq-details">
-                  {/* FAQ Item */}
-                  {expdetails && expdetails?.faqs?.map((item, index) => (
-                  <div className="accordion-item" key={index}>
-                    <h2 className="accordion-header" id={`heading${index}`}>
-                      <Link
-                        to="#"
-                        className="accordion-button"
-                        data-bs-toggle="collapse"
-                        data-bs-target={`#collapse${index}`}
-                        aria-expanded={index === 0 ? "true" : "false"}
-                        aria-controls={`collapse${index}`}
-                      >
-                        {item.question}
-                      </Link>
-                    </h2>
-                    <div
-                      id={`collapse${index}`}
-                      className={`accordion-collapse collapse ${
-                        index === 0 ? "show" : ""
-                      }`}
-                      aria-labelledby={`heading${index}`}
-                      data-bs-parent="#faq-details"
-                    >
-                      <div className="accordion-body">
-                        <div className="accordion-content">
-                          <p>{item.answer}</p>
+                  <div className="row align-items-center">
+
+                    <div className="col-lg-12 col-md-12">
+                      <div className="faq-info aos" data-aos="fade-up">
+                        <div className="accordion" id="faq-details">
+                          {/* FAQ Item */}
+                          {expdetails && expdetails?.faqs?.map((item, index) => (
+                            <div className="accordion-item" key={index}>
+                              <h2 className="accordion-header" id={`heading${index}`}>
+                                <Link
+                                  to="#"
+                                  className="accordion-button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target={`#collapse${index}`}
+                                  aria-expanded={index === 0 ? "true" : "false"}
+                                  aria-controls={`collapse${index}`}
+                                >
+                                  {item.question}
+                                </Link>
+                              </h2>
+                              <div
+                                id={`collapse${index}`}
+                                className={`accordion-collapse collapse ${index === 0 ? "show" : ""
+                                  }`}
+                                aria-labelledby={`heading${index}`}
+                                data-bs-parent="#faq-details"
+                              >
+                                <div className="accordion-body">
+                                  <div className="accordion-content" >
+                                    <p >{item.answer}</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
+
                         </div>
                       </div>
                     </div>
                   </div>
-                ))}
-                
                 </div>
-              </div>
+              </section>
+
+
             </div>
-          </div>
-        </div>
-      </section>
+            <div className="col-lg-4 col-md-12">
+              <h3> For More Information</h3>
+              <section className=" mor-info ">
+
+                <div className="container">
+
+                  <div className="row">
+                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img ">
+                          <ImageWithBasePath
+                            src="assets/img/category/map-location-dot-solid.svg"
+                            alt="kidney-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <Link to="#">
+                            <h5 className="mb-0 ">Find the Location</h5>
+                          </Link>
+                          {/* <p>21 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img">
+                          <ImageWithBasePath
+                            src="assets/img/category/stethoscope-solid.svg"
+                            alt="bone-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <Link to="#">
+                            <h5>Request an Appointment</h5>
+                          </Link>
+                          {/* <p>30 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img">
+                          <ImageWithBasePath
+                            src="assets/img/category/phone-solid.svg"
+                            alt="heart-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <Link to="#">
+                            <h5>Contacts</h5>
+                          </Link>
+                          {/* <p>15 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img">
+                          <ImageWithBasePath
+                            src="assets/img/category/user-check-solid.svg"
+                            alt="brain-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <Link to="#">
+                            <h5>Hemorrhoid  Questionnaire</h5>
+                          </Link>
+                          {/* <p>35 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+
+                  </div>
+                </div>
+              </section>
+
+
+              <section>
+                <h3 className="mt-5"> Related Services</h3>
+
+                <div className="re-ser-card">
+                  <p className="re-ser-hed">
+                    Colonoscopy
+                  </p>
+                  <p className="re-ser-cont">
+                    <span> A visual tool used for diagnosing and treating diseases of the large intestine
+                    </span>
+                    <span>
+                      <Link to="#">
+                        <i className="fas fa-long-arrow-alt-right" />
+                      </Link>
+                    </span>
+                  </p>
+
+                </div>
+
+              </section>
+            </div>
+
             {/* <div className="col-lg-4 col-md-12">
               <StickyBox offsetTop={20} offsetBottom={20}>
                 <BlogListSearch />

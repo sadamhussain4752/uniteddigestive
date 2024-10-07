@@ -2751,109 +2751,109 @@
 .banner-section {
     padding: 0;
     position: relative;
-    
+
     .col-md-12 {
-      position: relative;
-      
-      .slider-img {
-        video {
-          width: 100%;
-          height: auto;
+        position: relative;
+
+        .slider-img {
+            video {
+                width: 100%;
+                height: auto;
+            }
         }
-      }
     }
-  
+
     .container {
-      position: absolute;
-      top: 50%;
-      left: 50%;
-      transform: translate(-50%, -50%);
-      z-index: 1;
-  
-      .row {
-        .col-lg-5 {
-          background-color: white;
-          padding: 3rem;
-          border-radius: 50%;
-          border: 5px solid #28a745; // Bootstrap success color
-          text-align: center;
-          margin-top: 3rem;
-  
-          .banner-content {
-            h1 {
-              font-size: 2.5rem;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        z-index: 1;
+
+        .row {
+            .col-lg-5 {
+                background-color: white;
+                padding: 3rem;
+                border-radius: 50%;
+                border: 5px solid #28a745; // Bootstrap success color
+                text-align: center;
+                margin-top: 3rem;
+
+                .banner-content {
+                    h1 {
+                        font-size: 2.5rem;
+                    }
+
+                    p {
+                        font-size: 1rem;
+                        margin-bottom: 1rem;
+                    }
+
+                    .fs-6 {
+                        font-size: 0.875rem;
+                    }
+                }
             }
-            
-            p {
-              font-size: 1rem;
-              margin-bottom: 1rem;
+
+            .col-lg-6 {
+                // Intentionally left empty for future design purposes
             }
-            
-            .fs-6 {
-              font-size: 0.875rem;
-            }
-          }
         }
-  
-        .col-lg-6 {
-          // Intentionally left empty for future design purposes
-        }
-      }
     }
-  
+
     @media (max-width: 768px) {
-      .container {
-        position: static;
-        transform: none;
-        padding: 20px;
-      }
-  
-      .row {
-        .col-lg-5 {
-          padding: 20px;
-          border-width: 3px;
-  
-          .banner-content {
-            h1 {
-              font-size: 1.75rem; // Adjust heading size
-            }
-  
-            p {
-              font-size: 0.875rem; // Adjust paragraph size
-            }
-          }
+        .container {
+            position: static;
+            transform: none;
+            padding: 20px;
         }
-  
-        .col-lg-6 {
-          display: none; // Hide second column
+
+        .row {
+            .col-lg-5 {
+                padding: 20px;
+                border-width: 3px;
+
+                .banner-content {
+                    h1 {
+                        font-size: 1.75rem; // Adjust heading size
+                    }
+
+                    p {
+                        font-size: 0.875rem; // Adjust paragraph size
+                    }
+                }
+            }
+
+            .col-lg-6 {
+                display: none; // Hide second column
+            }
         }
-      }
     }
-  
+
     @media (max-width: 576px) {
-      .container {
-        padding: 15px;
-      }
-  
-      .row {
-        .col-lg-5 {
-          padding: 15px;
-          border-width: 2px;
-  
-          .banner-content {
-            h1 {
-              font-size: 1.5rem; // Smaller heading for mobile
-            }
-  
-            p {
-              font-size: 0.75rem; // Smaller paragraph for mobile
-            }
-          }
+        .container {
+            padding: 15px;
         }
-      }
+
+        .row {
+            .col-lg-5 {
+                padding: 15px;
+                border-width: 2px;
+
+                .banner-content {
+                    h1 {
+                        font-size: 1.5rem; // Smaller heading for mobile
+                    }
+
+                    p {
+                        font-size: 0.75rem; // Smaller paragraph for mobile
+                    }
+                }
+            }
+        }
     }
-  }
-  
+}
+
 .gut-health {
     background-color: #fff;
     border: solid 3px #65bd60;
@@ -2884,4 +2884,74 @@
     margin: 0 auto 40px auto !important;
     font-size: 16px;
     text-align: center;
+}
+
+.rectal-bleeding h3 {
+    color: #65bd60;
+    font-size: 25px;
+    text-transform: uppercase;
+}
+
+.r-b-subH {
+    font-weight: 300;
+    font-size: 20px;
+    color: #8a8b8a;
+    letter-spacing: 0;
+    line-height: 25px;
+    margin-bottom: 50px;
+}
+
+.r-b-cont {
+    font-weight: 400;
+    font-size: 16px !important;
+    letter-spacing: .2px;
+    line-height: 25px;
+}
+
+.mor-info {
+    background-color: transparent !important;
+}
+
+.mor-info .specialist-card {
+    background: #66be6c;
+    border: 1px solid #66be6c;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 30px;
+    margin-top: 30px;
+}
+
+.mor-info .specialist-card img{
+    width: 30px;
+}
+
+.mor-info h5{
+    color :white !important;
+    padding-left: 10px !important;
+
+}
+
+.mor-info .specialist-nav a{
+    color :white !important;
+}
+
+.re-ser-card{
+    border: 1px solid grey;
+    padding: 10px;
+    border-radius: 10px;
+    margin-top: 20px;
+}
+
+.re-ser-hed{
+    font-size: 20px;
+    color: #174579;
+    font-weight: 600;
+}
+
+.re-ser-cont{
+    font-size: 14px;
+    color: #595c69;
+    letter-spacing: 0;
+    line-height: 18px;
+    display: flex;
 }
