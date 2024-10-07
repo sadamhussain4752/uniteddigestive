@@ -43,7 +43,33 @@ const Home1 = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const ourExpert = {
+    loop: true,
+    margin: 24,
+    dots: false,
+    freeDrag:true,
+    nav: true,
+    navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+    smartSpeed: 500,			
+    responsive: {
+      0: {
+        items: 1,
+      },
+      500: {
+        items: 1,
+      },
+      768: {
+        items: 1,
+      },
+      1000: {
+        items: 5,
+      },
+      1300: {
+        items: 5,
+      },
 
+    },
+  };  
   const populartestslider = {
     loop: true,
     margin: 24,
@@ -627,66 +653,48 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section className="popular-test-section">
-        <div className="section-small-imgs">
-          <ImageWithBasePath
-            src="assets/img/bg/section-bg-01.jpg"
-            className="bg-img-one"
-            alt="Img"
-          />
-          <ImageWithBasePath
-            src="assets/img/bg/section-bg-02.png"
-            className="bg-img-two"
-            alt="Img"
-          />
-        </div>
-        <div className="container">
-          <div className="section-head-twelve text-center">
-            <h2> Gut Health Library</h2>
-            <p>
-              Discover Our Popular Lab Tests, Unlock Key Health Insights with
-              Trusted Diagnostic Services.
-            </p>
-          </div>
-          <div className="row">
-            <div className="col-md-12">
-              <div className="popular-test-slider">
-                <OwlCarousel {...populartestslider}>
-                  {medicals.map((item, index) => (
-                    <div className="test-slider-card " data-aos="fade-up">
-                      <span className="w-75 h-75">
-                        <ImageWithBasePath
-                          src={`assets/img/icons/${item.path}`}
-                          alt="Img"
-                        />
-                      </span>
-                      <h4 className="fs-5">
-                        <Link to={`guthealth-details/${index + 1}`}>
-                          {item.title}
-                        </Link>
-                      </h4>
-                      <p>{item.description.slice(0, 45)}...</p>
-                      <Link
-                        to={`guthealth-details/${index + 1}`}
-                        className="read-more-test"
-                      >
+      <section className="experts-section-sixteen">
+          <div className="container">
+            <div className="row">
+              <div className="col-md-12">
+                <div className="section-header-sixteen section-header-sixteentwo text-center">
+                  <h2>Gut Health Library</h2>
+                </div>
+              </div>
+            </div>
+            <div className="slider slider-sixteen aos" data-aos="zoom-in-up">
+              <OwlCarousel {...ourExpert} center={true} className=" custome_slides" id="slide-experts">
+                {medicals.map((item, index) => (
+                  <div className="test_imgs gut-health">
+                    <div className="main-reviewimages">
+                      <ImageWithBasePath
+                        src={`assets/img/icons/${item.path}`}
+                        alt="Img"
+                      />
+                    </div>
+                    <h4 className="fs-5 text-center">
+                      <Link to={`guthealth-details/${index + 1}`}>{item.title}</Link>
+                    </h4 >
+                    <div className="testimonal-contents bg-trans">
+
+                      <Link to={`guthealth-details/${index + 1}`} className="read-more-test">
                         Read More
                       </Link>
                     </div>
-                  ))}
-                </OwlCarousel>
-              </div>
+                  </div>
+                ))}
+
+
+              </OwlCarousel>
             </div>
           </div>
-        </div>
-      </section>
+        </section>
 
       <section className="about-section">
       <div className="row">
             <div className="col-md-12">
               <div className="section-header-sixteen text-center">
-                {/* <p>Recapture the beauty of self-confidence</p> */}
-                <h2>Our Teams</h2>
+              <h2>Our experts team</h2>
               </div>
             </div>
           </div>
