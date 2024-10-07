@@ -266,20 +266,23 @@ const Home1 = () => {
 
         <div className="container position-absolute top-50 start-50 translate-middle">
           <div className="row align-items-center">
-            <div className="col-lg-5 bg-white p-5 rounded-circle border border-success border-5">
-              <div className="banner-content text-center mt-5">
-                <h1>Introducing</h1>
-                <p>
-                  United Gut Healthcare: A Multidisciplinary Approach to
-                  Digestive Health
-                </p>
-                <p className="fs-6">
-                  At United Gut Healthcare, we understand that digestive health
-                  is crucial to overall well-being. Our comprehensive approach
-                  integrates various specialties to provide you with the most
-                  effective and personalized care for your gastrointestinal
-                  needs.
-                </p>
+            <div className="col-lg-5">
+              <div className="banner-cont-main">
+                <div className="banner-content text-center mt-5">
+                  <h1>Introducing</h1>
+                  <p>
+                   <strong> United Gut Healthcare </strong>: A Multidisciplinary Approach to
+                    Digestive Health
+                  </p>
+                  <p className="fs-6">
+                    At United Gut Healthcare, we understand that digestive health
+                    is crucial to overall well-being. Our comprehensive approach
+                    integrates various specialties to provide you with the most
+                    effective and personalized care for your gastrointestinal
+                    needs.
+                  </p>
+                  <a class="discov-innner" href="/">Read More<i class="fa-solid fa-chevron-right ms-2"></i></a>
+                </div>
               </div>
             </div>
             <div className="col-lg-7"></div>
@@ -568,14 +571,12 @@ const Home1 = () => {
         {abouts.map((its, index) => (
           <div className="container mt-5">
             <div
-              className={`row align-items-center ${
-                index % 2 === 0 ? "flex-row-reverse " : ""
-              }`}
+              className={`row align-items-center ${index % 2 === 0 ? "flex-row-reverse " : ""
+                }`}
             >
               <div
-                className={`col-lg-6 col-md-12 ${
-                  index % 2 === 0 ? "text-end" : ""
-                }`}
+                className={`col-lg-6 col-md-12 ${index % 2 === 0 ? "text-end" : ""
+                  }`}
               >
                 <ImageWithBasePath
                   src="assets/img/about/ID size.jpg"
