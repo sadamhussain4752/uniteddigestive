@@ -482,9 +482,9 @@ const Home1 = () => {
                       className="w-50 "
                     />
                   </div>
-                  <Link to="#">{item.title}</Link>
+                  <Link to={`specialites/${index + 1}`}>{item.title}</Link>
                   <p>{item.description?.slice(0, 50)}...</p>
-                  <Link to="#" className="discov-innner">
+                  <Link to={`specialites/${index + 1}`} className="discov-innner">
                     Read More
                     <i className="fa-solid fa-chevron-right ms-2" />
                   </Link>

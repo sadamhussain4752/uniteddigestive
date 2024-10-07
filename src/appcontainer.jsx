@@ -175,7 +175,7 @@ import BlogDetailsdynimc from "./client/components/blog/blogsdetails/index.jsx";
 import GuthealthDetails from "./client/components/blog/Guthealth/index.js";
 import Introducing from "./client/components/blog/intoducing/index.jsx";
 import Teams from "./client/components/pages/teams/teams.jsx";
-
+import ScrollToTop from "./ScrollToTop.jsx";
 const AppContainer = function (props) {
   if (props) {
     const url = props.location.pathname.split("/")[1];
@@ -249,6 +249,8 @@ const AppContainer = function (props) {
 
     return (
       <Router basename={base_path}>
+              <ScrollToTop />
+
         {" "}
         {url === "admin" ? (
           <div>
