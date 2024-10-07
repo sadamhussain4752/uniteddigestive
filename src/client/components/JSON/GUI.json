@@ -22,19 +22,19 @@
         "Acid Reflux",
         "Small Intestinal Bacterial Overgrowth (SIBO)"
       ],
-      "faqs":[
+      "faqs": [
         {
-            "question":"1. Should I call a doctor if I have diarrhoea?",
-            "answer":"Yes, you should seek medical advice if diarrhoea lasts more than two to three weeks. Additionally, contact a physician if you notice changes in bowel habits after starting a new medication, or if you experience severe cramping, a fever lasting more than 24 hours, or symptoms of dehydration such as vomiting."
+          "question": "1. Should I call a doctor if I have diarrhoea?",
+          "answer": "Yes, you should seek medical advice if diarrhoea lasts more than two to three days. Additionally, contact a physician if you notice severe cramping, fever, blood in the stool, or signs of dehydration such as dizziness or reduced urination."
         },
         {
-            "question":"2. What is the best treatment for diarrhoea?",
-            "answer":"To alleviate diarrhoea symptoms, start by consuming only liquids and avoiding solid foods and dairy products. You can also use over-the-counter treatments such as Pepto-Bismol®, Kaopectate®, or Imodium® to help manage the condition."
-        }, {
-            "question":"3. What if my diarrhoea doesn’t go away after a few days?",
-            "answer":"If your diarrhoea persists for several days, your doctor may recommend tests such as blood and stool samples, X-rays, or ultrasounds. In some cases, a sigmoidoscopy or colonoscopy may be needed to visually examine the colon using a flexible tube. However, most instances of diarrhoea typically resolve on their own within a few days."
+          "question": "2. What is the best treatment for diarrhoea?",
+          "answer": "To alleviate diarrhoea, stay hydrated by drinking plenty of fluids like water, broth, or rehydration solutions. Avoid dairy products, caffeine, and high-fat foods. Over-the-counter treatments such as loperamide (Imodium®) can help, but seek a doctor’s advice if symptoms persist."
+        },
+        {
+          "question": "3. What if my diarrhoea doesn’t go away after a few days?",
+          "answer": "If diarrhoea persists for several days, your doctor may recommend tests such as stool samples, blood work, or imaging studies like ultrasounds or X-rays to identify the underlying cause."
         }
-        
       ],
       "path":"Diarrhoea.jpg"
 
@@ -62,19 +62,19 @@
         "Peptic Ulcer",
         "Liver Cirrhosis"
       ],
-      "faqs":[
+      "faqs": [
         {
-            "question":"1. What causes gastritis?",
-            "answer":"The most common causes of gastritis include medications like aspirin and NSAIDs (such as ibuprofen), alcohol consumption, smoking, stomach infections like Helicobacter pylori, and the erosion of the stomach lining's protective layer. Less common causes can include ingesting caustic substances, bile reflux, autoimmune disorders (such as lupus and rheumatoid arthritis), excess stomach acid, or viral infections \n Additionally, acute gastritis can result from extreme physiological stress and may be associated with serious illnesses or trauma, including heavy alcohol use, major surgery, head injuries, or organ failure in the kidneys, liver, or respiratory system"
+          "question": "1. What causes gastritis?",
+          "answer": "The most common causes of gastritis include medications like aspirin and NSAIDs, alcohol consumption, smoking, and stomach infections like Helicobacter pylori. In some cases, autoimmune disorders or bile reflux can also lead to gastritis."
         },
         {
-            "question":"2. What is the best treatment for diarrhoea?",
-            "answer":"To alleviate diarrhoea symptoms, start by consuming only liquids and avoiding solid foods and dairy products. You can also use over-the-counter treatments such as Pepto-Bismol®, Kaopectate®, or Imodium® to help manage the condition."
-        }, {
-            "question":"3. What if my diarrhoea doesn’t go away after a few days?",
-            "answer":"If your diarrhoea persists for several days, your doctor may recommend tests such as blood and stool samples, X-rays, or ultrasounds. In some cases, a sigmoidoscopy or colonoscopy may be needed to visually examine the colon using a flexible tube. However, most instances of diarrhoea typically resolve on their own within a few days."
+          "question": "2. How is gastritis treated?",
+          "answer": "Treatment usually involves avoiding irritants such as alcohol, spicy foods, and medications like NSAIDs. Depending on the cause, doctors may prescribe antacids, antibiotics for infections, or medications to reduce stomach acid."
+        },
+        {
+          "question": "3. When should I see a doctor for gastritis?",
+          "answer": "You should see a doctor if you experience persistent stomach pain, nausea, vomiting, or black stools. These symptoms could indicate a more serious condition that requires medical intervention."
         }
-        
       ],
       "path":"gestritis.jpg"
 
@@ -102,6 +102,20 @@
         "Type 2 Diabetes",
         "Hypertension"
       ],
+      "faqs": [
+        {
+          "question": "1. Who is a candidate for bariatric surgery?",
+          "answer": "Individuals with a BMI over 40, or over 35 with obesity-related conditions like type 2 diabetes or hypertension, may be candidates. A thorough evaluation by a healthcare provider is required to assess eligibility."
+        },
+        {
+          "question": "2. What is the recovery process like after bariatric surgery?",
+          "answer": "The recovery process typically involves a hospital stay of a few days, followed by several weeks of rest. A special diet will be recommended to help your body adjust to the changes. Follow-up care includes regular check-ups and long-term nutritional guidance."
+        },
+        {
+          "question": "3. What are the risks associated with bariatric surgery?",
+          "answer": "Common risks include infection, blood clots, and nutritional deficiencies. It’s important to follow post-surgery care instructions closely to minimize these risks and ensure a smooth recovery."
+        }
+      ],
       "path":"gestritis.jpg"
 
     },
@@ -128,6 +142,20 @@
         "Gallstones",
         "Hernia"
       ],
+      "faqs": [
+        {
+          "question": "1. How does laparoscopic surgery differ from traditional surgery?",
+          "answer": "Laparoscopic surgery uses small incisions and a camera, offering faster recovery times and less pain compared to traditional open surgery, which involves larger incisions."
+        },
+        {
+          "question": "2. What is the recovery time for laparoscopic surgery?",
+          "answer": "Most patients can return to their normal activities within a week or two, but it depends on the complexity of the procedure. Your surgeon will provide specific recovery instructions."
+        },
+        {
+          "question": "3. Are there any risks with laparoscopic surgery?",
+          "answer": "While generally safe, risks include infection, bleeding, and injury to surrounding organs. It's important to follow your surgeon’s post-operative care instructions to minimize complications."
+        }
+      ],
       "path":"Laparoscopic.jpg"
 
     },
@@ -153,6 +181,20 @@
         "Hemorrhoids",
         "Anal Fissures",
         "Colorectal Cancer"
+      ],
+      "faqs": [
+        {
+          "question": "1. When should I see a proctologist?",
+          "answer": "You should see a proctologist if you experience symptoms like rectal bleeding, persistent anal pain, or changes in bowel habits. Early diagnosis can help prevent more serious conditions."
+        },
+        {
+          "question": "2. How are hemorrhoids treated?",
+          "answer": "Treatment depends on severity. Mild hemorrhoids can often be managed with dietary changes, over-the-counter creams, or warm baths. Severe cases may require procedures like rubber band ligation or hemorrhoidectomy."
+        },
+        {
+          "question": "3. What is a sigmoidoscopy?",
+          "answer": "A sigmoidoscopy is a procedure that examines the rectum and lower colon using a flexible tube with a camera. It’s commonly used to screen for colorectal cancer and other conditions."
+        }
       ],
       "path":"Proctology.jpg"
 
