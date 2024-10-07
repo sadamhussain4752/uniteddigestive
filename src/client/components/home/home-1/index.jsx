@@ -271,17 +271,19 @@ const Home1 = () => {
                 <div className="banner-content text-center mt-5">
                   <h1>Introducing</h1>
                   <p>
-                   <strong> United Gut Healthcare </strong>: A Multidisciplinary Approach to
-                    Digestive Health
+                    <strong> United Gut Healthcare </strong>: A
+                    Multidisciplinary Approach to Digestive Health
                   </p>
                   <p className="fs-6">
-                    At United Gut Healthcare, we understand that digestive health
-                    is crucial to overall well-being. Our comprehensive approach
-                    integrates various specialties to provide you with the most
-                    effective and personalized care for your gastrointestinal
-                    needs.
+                    At United Gut Healthcare, we understand that digestive
+                    health is crucial to overall well-being. Our comprehensive
+                    approach integrates various specialties to provide you with
+                    the most effective and personalized care for your
+                    gastrointestinal needs.
                   </p>
-                  <a class="discov-innner" href="/introducing">Read More<i class="fa-solid fa-chevron-right ms-2"></i></a>
+                  <a class="discov-innner" href="/introducing">
+                    Read More<i class="fa-solid fa-chevron-right ms-2"></i>
+                  </a>
                 </div>
               </div>
             </div>
@@ -560,7 +562,7 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section className="about-section">
+      {/* <section className="about-section">
         <div className="row">
           <div className="col-md-12">
             <div className="section-header-sixteen text-center">
@@ -586,7 +588,6 @@ const Home1 = () => {
               </div>
               <div className="col-lg-6 col-md-12">
                 <div className="section-inner-header about-inner-header">
-                  {/* <h6> Our About </h6> */}
                   <h3>
                     Dr. Meghnad G. Joshi <span>M.Sc. Ph.D. PDD</span>
                   </h3>
@@ -617,7 +618,7 @@ const Home1 = () => {
                       >
                         Read More
                       </Button>
-                      {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
+                      
                     </Link>
                   </div>
                 </div>
@@ -625,247 +626,75 @@ const Home1 = () => {
             </div>
           </div>
         ))}
-      </section>
+      </section> */}
 
       <section className="doctors-section">
         <div className="container">
           <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
               <div className="section-header-one section-header-slider text-center">
-                <h2 className="section-title">Best Doctors</h2>
+                <h2 className="section-title">Our experts team</h2>
               </div>
             </div>
           </div>
           <div className="doctor-slider-one owl-theme aos" data-aos="fade-up">
             <OwlCarousel {...bestDoctorsSlider}>
               {/* Doctor Item */}
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-03.jpg"
-                          className="img-fluid"
-                          alt="Ruby Perrin"
-                        />
+              {abouts.map((its, index) => (
+                <div className="item">
+                  <div className="doctor-profile-widget doc-item">
+                    <div className="doc-pro-img">
+                      <Link to="/teams">
+                        <div className="doctor-profile-img">
+                          <ImageWithBasePath
+                            src="assets/img/about/ID size.jpg"
+                            className="img-fluid"
+                            alt="Ruby Perrin"
+                          />
+                        </div>
+                      </Link>
+                      <div className="doctor-amount">
+                        {/* <span>$200</span> */}
                       </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$200</span>
                     </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. Downer</Link>
-                        <p>Orthopedic</p>
+                    <div className="doc-content">
+                      <div className="doc-pro-info">
+                        <div className="doc-pro-name">
+                          <Link to="/teams">{its.title}</Link>
+                          <p>{its.author}</p>
+                        </div>
+                        {/* <div className="reviews-ratings">
+                 <p>
+                   <span>
+                     <i className="fas fa-star" /> 4.5
+                   </span>{" "}
+                   (35)
+                 </p>
+               </div> */}
                       </div>
-                      <div className="reviews-ratings">
+                      <div className="doc-pro-location">
                         <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.5
-                          </span>{" "}
-                          (35)
+                          <i className="feather icon-map-pin" /> Newyork, USA
                         </p>
+                        <span className="badge badge-success doc-badge">
+                          <i className="fa-solid fa-circle" />
+                          Available
+                        </span>
                       </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> Newyork, USA
-                      </p>
-                      <span className="badge badge-success doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Available
-                      </span>
                     </div>
                   </div>
                 </div>
-              </div>
-              {/* /Doctor Item */}
-              {/* Doctor Item */}
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-02.jpg"
-                          className="img-fluid"
-                          alt="Paul Richard"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$300</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. John Doe</Link>
-                        <p>Dentist</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.3
-                          </span>{" "}
-                          (45)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> Austin, TX
-                      </p>
-                      <span className="badge badge-success doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Available
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* /Doctor Item */}
-              {/* Doctor Item */}
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-04.jpg"
-                          className="img-fluid"
-                          alt="Darren Elder"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$100</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. Aviles</Link>
-                        <p>Neurology</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.0
-                          </span>{" "}
-                          (20)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> Newyork, USA
-                      </p>
-                      <span className="badge badge-danger doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Unavailable
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* /Doctor Item */}
-              {/* Doctor Item */}
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-05.jpg"
-                          className="img-fluid"
-                          alt="Sofia Brient"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$250</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. Palmore</Link>
-                        <p>Immunologist</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.5
-                          </span>{" "}
-                          (35)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> Waipahu, HI
-                      </p>
-                      <span className="badge badge-success doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Available
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
-              {/* /Doctor Item */}
-              {/* Doctor Item */}
-              <div className="item">
-                <div className="doctor-profile-widget doc-item">
-                  <div className="doc-pro-img">
-                    <Link to="/patient/doctor-profile">
-                      <div className="doctor-profile-img">
-                        <ImageWithBasePath
-                          src="assets/img/doctors/doctor-01.jpg"
-                          className="img-fluid"
-                          alt="John Doe"
-                        />
-                      </div>
-                    </Link>
-                    <div className="doctor-amount">
-                      <span>$880</span>
-                    </div>
-                  </div>
-                  <div className="doc-content">
-                    <div className="doc-pro-info">
-                      <div className="doc-pro-name">
-                        <Link to="/patient/doctor-profile">Dr. Paul Richard</Link>
-                        <p>Dentist</p>
-                      </div>
-                      <div className="reviews-ratings">
-                        <p>
-                          <span>
-                            <i className="fas fa-star" /> 4.4
-                          </span>{" "}
-                          (50)
-                        </p>
-                      </div>
-                    </div>
-                    <div className="doc-pro-location">
-                      <p>
-                        <i className="feather icon-map-pin" /> California, USA
-                      </p>
-                      <span className="badge badge-success doc-badge">
-                        <i className="fa-solid fa-circle" />
-                        Available
-                      </span>
-                    </div>
-                  </div>
-                </div>
-              </div>
+              ))}
+
               {/* /Doctor Item */}
             </OwlCarousel>
           </div>
         </div>
+        <div className="text-center mt-5">
+        <a class="btn btn-primary btn-sm bg-color" href="/teams" role="button" aria-disabled="true">View More</a>
+
+        </div>
+        
       </section>
 
       {/* /Work Section */}

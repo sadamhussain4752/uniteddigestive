@@ -174,6 +174,7 @@ import SpecialitesDetails from "./client/components/blog/specialities/index.js";
 import BlogDetailsdynimc from "./client/components/blog/blogsdetails/index.jsx";
 import GuthealthDetails from "./client/components/blog/Guthealth/index.js";
 import Introducing from "./client/components/blog/intoducing/index.jsx";
+import Teams from "./client/components/pages/teams/teams.jsx";
 
 const AppContainer = function (props) {
   if (props) {
@@ -312,6 +313,7 @@ const AppContainer = function (props) {
               <Route path="/blog-details/:id" exact component={BlogDetailsdynimc} />
               <Route path="/guthealth-details/:id" exact component={GuthealthDetails} />
               <Route path="/introducing/" exact component={Introducing} />
+              <Route path="/teams" exact component={Teams} />
 
 
               <Route path="/doctor-blog" exact component={Doctorblog} />
