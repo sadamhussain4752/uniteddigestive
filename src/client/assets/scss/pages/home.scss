@@ -2289,3 +2289,110 @@
     background: #84c22f !important;
 
 }
+
+.banner-section {
+    padding: 0;
+    position: relative;
+    
+    .col-md-12 {
+      position: relative;
+      
+      .slider-img {
+        video {
+          width: 100%;
+          height: auto;
+        }
+      }
+    }
+  
+    .container {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      z-index: 1;
+  
+      .row {
+        .col-lg-5 {
+          background-color: white;
+          padding: 3rem;
+          border-radius: 50%;
+          border: 5px solid #28a745; // Bootstrap success color
+          text-align: center;
+          margin-top: 3rem;
+  
+          .banner-content {
+            h1 {
+              font-size: 2.5rem;
+            }
+            
+            p {
+              font-size: 1rem;
+              margin-bottom: 1rem;
+            }
+            
+            .fs-6 {
+              font-size: 0.875rem;
+            }
+          }
+        }
+  
+        .col-lg-6 {
+          // Intentionally left empty for future design purposes
+        }
+      }
+    }
+  
+    @media (max-width: 768px) {
+      .container {
+        position: static;
+        transform: none;
+        padding: 20px;
+      }
+  
+      .row {
+        .col-lg-5 {
+          padding: 20px;
+          border-width: 3px;
+  
+          .banner-content {
+            h1 {
+              font-size: 1.75rem; // Adjust heading size
+            }
+  
+            p {
+              font-size: 0.875rem; // Adjust paragraph size
+            }
+          }
+        }
+  
+        .col-lg-6 {
+          display: none; // Hide second column
+        }
+      }
+    }
+  
+    @media (max-width: 576px) {
+      .container {
+        padding: 15px;
+      }
+  
+      .row {
+        .col-lg-5 {
+          padding: 15px;
+          border-width: 2px;
+  
+          .banner-content {
+            h1 {
+              font-size: 1.5rem; // Smaller heading for mobile
+            }
+  
+            p {
+              font-size: 0.75rem; // Smaller paragraph for mobile
+            }
+          }
+        }
+      }
+    }
+  }
+  

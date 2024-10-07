@@ -100,14 +100,14 @@ const SpecialitesDetails = (props) => {
             </div>
             <div className="col-lg-4 col-md-12">
               <h3> For More Information</h3>
-            <section className="specialities-section ">
+            <section className="specialities-section bg-black">
        
-        <div className="container">
+            <div className="container">
          
           <div className="row">
             <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
               <div className="specialist-card d-flex">
-                <div className="specialist-img">
+                <div className="specialist-img ">
                   <ImageWithBasePath
                     src="assets/img/category/map-location-dot-solid.svg"
                     alt="kidney-image"

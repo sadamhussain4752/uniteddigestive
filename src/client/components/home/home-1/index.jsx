@@ -23,6 +23,7 @@ import CountUp from "react-countup";
 import Blogslist from "../../JSON/Blogs.json";
 import medicals from "../../JSON//GUI.json";
 import { Button } from "react-bootstrap";
+import abouts from "../../JSON//about.json";
 
 const Home1 = () => {
   const [date1, setDate1] = useState(null);
@@ -243,27 +244,42 @@ const Home1 = () => {
   return (
     <div className="main-wrapper home-one">
       <Home1Header />
+
       {/* Home Banner */}
       <section className="banner-section">
-        <div className="medical-emergency-booking">
-          <div className="doctor-consulting-slider">
-            <OwlCarousel {...consultingSlider}>
-            <div className="col-md-12">
-                    <div className="slider-img">
-                      <ImageWithBasePath
-                        src="assets/img/bg/banner-1.jpg"
-                        className="banner-images w-100"
-                        alt="Img"
-                        
-                      />
-                    </div>
-                  </div>
-             
-            
-            </OwlCarousel>
+        <div className="col-md-12 position-relative">
+          <div className="slider-img">
+            <video className="banner-images w-100" autoPlay loop>
+              <source src="assets/img/bg/1205375907.mp4" type="video/mp4" />
+            </video>
+          </div>
+        </div>
+        <div className="container position-absolute top-50 start-50 translate-middle">
+          <div className="row align-items-center">
+            <div className="col-lg-5 bg-white p-5 rounded-circle border border-success border-5">
+              <div
+                className="banner-content aos text-center mt-5"
+                data-aos="fade-up"
+              >
+                <h1>Introducing</h1>
+                <p>
+                  United Gut Healthcare: A Multidisciplinary Approach to
+                  Digestive Health
+                </p>
+                <p className="fs-6">
+                  At United Gut Healthcare, we understand that digestive health
+                  is crucial to overall well-being. Our comprehensive approach
+                  integrates various specialties to provide you with the most
+                  effective and personalized care for your gastrointestinal
+                  needs.
+                </p>
+              </div>
+            </div>
+            <div className="col-lg-7"></div>
           </div>
         </div>
       </section>
+
       {/* /Home Banner */}
       <section className="about-section">
         <div className="container">
@@ -295,17 +311,15 @@ const Home1 = () => {
                     especially for gastro-intestinal cancer. He has his passion
                     for Video Assisted Thoracic Surgery (VATS), Bariatric
                     Surgery and Metabolic Surgery.{" "}
-                    
                   </p>
-                 
-                   <Link to="/pages/aboutus">
-                        <Button className="btn text-blue bg-blue mt-2 ">
-                        Read More
-                        </Button>
-                        {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
-                      </Link>
+
+                  <Link to="/pages/aboutus">
+                    <Button className="btn text-blue bg-blue mt-2 ">
+                      Read More
+                    </Button>
+                    {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
+                  </Link>
                 </div>
-                
               </div>
             </div>
           </div>
@@ -346,7 +360,8 @@ const Home1 = () => {
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={37} duration={5} className="count-digit" /> Years
+                    <CountUp end={37} duration={5} className="count-digit" />{" "}
+                    Years
                   </h3>
                   <p>Experience</p>
                 </div>
@@ -363,7 +378,8 @@ const Home1 = () => {
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={15000} duration={5} className="count-digit" />+
+                    <CountUp end={15000} duration={5} className="count-digit" />
+                    +
                   </h3>
                   <p>Laparoscopic Surgeries</p>
                 </div>
@@ -381,7 +397,8 @@ const Home1 = () => {
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={50000} duration={5} className="count-digit" />+
+                    <CountUp end={50000} duration={5} className="count-digit" />
+                    +
                   </h3>
                   <p>Happy Patientss</p>
                 </div>
@@ -398,7 +415,8 @@ const Home1 = () => {
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={50000} duration={5} className="count-digit" />+
+                    <CountUp end={50000} duration={5} className="count-digit" />
+                    +
                   </h3>
                   <p>Successful Treatments</p>
                 </div>
@@ -421,7 +439,6 @@ const Home1 = () => {
                 </div>
               </div>
             </div>
-          
           </div>
         </div>
       </section>
@@ -580,7 +597,7 @@ const Home1 = () => {
                 <div className="discover-you-main">
                   <div className="discover-you-image">
                     <ImageWithBasePath
-                     src={`assets/img/icons/${item.imageUrl}`}
+                      src={`assets/img/icons/${item.imageUrl}`}
                       alt="Body"
                       className="w-50"
                     />
@@ -625,7 +642,7 @@ const Home1 = () => {
         </div>
         <div className="container">
           <div className="section-head-twelve text-center">
-            <h2 > Gut Health Library</h2>
+            <h2> Gut Health Library</h2>
             <p>
               Discover Our Popular Lab Tests, Unlock Key Health Insights with
               Trusted Diagnostic Services.
@@ -635,7 +652,7 @@ const Home1 = () => {
             <div className="col-md-12">
               <div className="popular-test-slider">
                 <OwlCarousel {...populartestslider}>
-                  {medicals.map((item,index) => (
+                  {medicals.map((item, index) => (
                     <div className="test-slider-card " data-aos="fade-up">
                       <span className="w-75 h-75">
                         <ImageWithBasePath
@@ -644,21 +661,89 @@ const Home1 = () => {
                         />
                       </span>
                       <h4 className="fs-5">
-                        <Link to={`guthealth-details/${index +1}`}>{item.title}</Link>
-                      </h4 >
-                      <p>{item.description.slice(0,45)}...</p>
-                      <Link to={`guthealth-details/${index +1}`} className="read-more-test">
+                        <Link to={`guthealth-details/${index + 1}`}>
+                          {item.title}
+                        </Link>
+                      </h4>
+                      <p>{item.description.slice(0, 45)}...</p>
+                      <Link
+                        to={`guthealth-details/${index + 1}`}
+                        className="read-more-test"
+                      >
                         Read More
                       </Link>
                     </div>
                   ))}
-
-                 
                 </OwlCarousel>
               </div>
             </div>
           </div>
         </div>
+      </section>
+
+      <section className="about-section">
+      <div className="row">
+            <div className="col-md-12">
+              <div className="section-header-sixteen text-center">
+                {/* <p>Recapture the beauty of self-confidence</p> */}
+                <h2>Our Teams</h2>
+              </div>
+            </div>
+          </div>
+        {abouts.map((its, index) => (
+          <div className="container">
+            <div
+              className={`row align-items-center ${
+                index % 2 === 0 ? "flex-row-reverse " : ""
+              }`}
+            >
+              <div className={`col-lg-6 col-md-12 ${
+                index % 2 === 0 ? "text-end" : ""
+              }`}>
+                <ImageWithBasePath
+                  src="assets/img/about/ID size.jpg"
+                  className="img-fluid"
+                  alt="patient-image"
+                />
+              </div>
+              <div className="col-lg-6 col-md-12">
+                <div className="section-inner-header about-inner-header">
+                  {/* <h6> Our About </h6> */}
+                  <h2>
+                    Dr. Meghnad G. Joshi <span>M.Sc. Ph.D. PDD</span>
+                  </h2>
+                </div>
+                <div className="about-content">
+                  <div className="about-content-details">
+                    <h4>
+                      Professor and Head, Lead Coordinator, Central Research
+                      Laboratory
+                    </h4>
+                    <p>
+                      Meghnad G Joshi earned a PhD from the Department of
+                      Zoology, Shivaji University, Kolhapur, India in 2006. He
+                      Joined Karolinska Institute, Sweden as a Postdoctoral
+                      fellow in 2007-2008 for fetal and adult hepatocyte
+                      transplantation studies. He worked for Sahlgrenska
+                      University Hospital, Department of transplantation
+                      surgery, Göteborg, Sweden from 2008-2010. In 2009, he was
+                      awarded with TTS New Key Opinion Leader, Sweden. He was
+                      appointed as a visiting Assistant professor by Kansas
+                      Medical Center, USA from 2010 to 2012 {"... "}
+                    </p>
+
+                    <Link to="/pages/aboutus">
+                      <Button className="btn text-blue bg-blue mt-2 ">
+                        Read More
+                      </Button>
+                      {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
+                    </Link>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+        ))}
       </section>
 
       {/* /Specialities Section */}
