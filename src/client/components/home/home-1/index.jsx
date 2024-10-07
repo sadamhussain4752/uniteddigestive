@@ -249,6 +249,25 @@ const Home1 = () => {
       {/* Home Banner */}
       <section className="banner-section">
         <div className="col-md-12 position-relative">
+
+          <div className="banner-abs">
+            <p className="banner-posab-h mb-0">
+              How can we help you?
+            </p>
+            <div className="subscribe-form mb-0">
+              <form action="#">
+                <input
+                  type="email"
+                  className="form-control"
+                  placeholder="Enter Email"
+                />
+                <button type="submit" className="btn">
+                  Search
+                </button>
+              </form>
+            </div>
+          </div>
+
           <div className="slider-img mt-5">
             <video
               className="banner-images w-100"
@@ -271,7 +290,7 @@ const Home1 = () => {
                 <div className="banner-content text-center mt-5">
                   <h1>Introducing</h1>
                   <p>
-                   <strong> United Gut Healthcare </strong>: A Multidisciplinary Approach to
+                    <strong> United Gut Healthcare </strong>: A Multidisciplinary Approach to
                     Digestive Health
                   </p>
                   <p className="fs-6">
@@ -289,6 +308,58 @@ const Home1 = () => {
           </div>
         </div>
       </section>
+
+
+      <section className="banner-sub">
+
+        <div className="container-fluid px-0">
+          <div className="row">
+            <div className="col-md-6 svtm p-4">
+              <div className="row">
+                <div className="col-5">
+                  <img src="https://www.uniteddigestive.com/wp-content/uploads/2022/10/gettyimages-667825534-170667a-2.png" className="" alt="" />
+                </div>
+
+                <div className="col-7">
+                  <p className="ban-sub-hed">
+                    Save Time and Money on Your Colonoscopy
+                  </p>
+                  <p className="ban-sub-cont">
+                    See if you qualify to skip the pre-procedure office visit.
+                  </p>
+                  <a class="read-more-test" href="/guthealth-details/3">
+                    Begin Questionnaire
+                  </a>
+                </div>
+
+              </div>
+
+            </div>
+            <div className="col-md-6 svtm bg-wh-b p-4">
+              <div className="row">
+                <div className="col-5">
+                  <img src="https://www.uniteddigestive.com/wp-content/uploads/2022/10/gettyimages-1422301404-170667a-2.png" className="" alt="" />
+                </div>
+
+                <div className="col-7">
+                  <p className="ban-sub-hed">
+                    Experiencing Rectal Bleeding, Itching, or Pain?
+                  </p>
+                  <p className="ban-sub-cont">
+                    See if you qualify for hemorrhoid banding.
+                  </p>
+                  <a class="read-more-test" href="/guthealth-details/3">Begin Questionnaire</a>
+                </div>
+
+              </div>
+
+            </div>
+          </div>
+        </div>
+
+      </section>
+
+
 
       {/* /Home Banner */}
       <section className="about-section">

@@ -12,6 +12,9 @@
         .footer-widget {
             .footer-logo {
                 margin-bottom: 20px;
+                img {
+                     max-width: 160px;
+                }
             }
             .footer-about-content {
                 max-width: 272px;
