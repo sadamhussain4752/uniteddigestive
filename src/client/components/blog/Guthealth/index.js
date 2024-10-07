@@ -15,7 +15,7 @@ import { useParams } from "react-router-dom";
 import expertise from "../../JSON/expertise.JSON";
 import Home1Footer from "../../home/home-1/footer.jsx";
 import ImageWithBasePath from "../../../../core/img/imagewithbasebath.jsx";
-import GulHealth from "../../JSON/Medical.json"
+import GulHealth from "../../JSON/GUI.json"
 
 const GuthealthDetails = (props) => {
   const [expdetails, setexpdetails] = useState("");
@@ -24,7 +24,7 @@ const GuthealthDetails = (props) => {
 
   useEffect(() => {
     if (routeParams.id) {
-      let expertiseDetails = GulHealth.medicalConditions.find(
+      let expertiseDetails = GulHealth.find(
         (i) => i.id === parseInt(routeParams.id)
       );
       console.log(expertiseDetails); // You can handle the expertiseDetails further
@@ -64,7 +64,7 @@ const GuthealthDetails = (props) => {
                 <div className="blog blog-single-post">
                   <div className="blog-image">
                     <Link to="#0">
-                      <img alt=""  src={`../../../assets/img/icons/${expdetails.path}`} className="img-fluid w-25 h-25" />
+                      <img alt=""  src={`../../../assets/img/icons/${expdetails.path}`} className="img-fluid w-75 vh-100 " />
                     </Link>
                   </div>
                   <h3 className="blog-title">

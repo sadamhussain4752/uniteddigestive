@@ -48,10 +48,13 @@ const Home1 = () => {
     margin: 24,
     dots: false,
     freeDrag: true,
-    nav:true,
+    nav: true,
     smartSpeed: 2000,
-    navContainer: '.top-nurse-slide-nav',
-    navText: [ '<i class="fas fa-chevron-left"></i>', '<i class="fas fa-chevron-right"></i>' ], 
+    navContainer: ".top-nurse-slide-nav",
+    navText: [
+      '<i class="fas fa-chevron-left"></i>',
+      '<i class="fas fa-chevron-right"></i>',
+    ],
     responsive: {
       0: {
         items: 1,
@@ -247,18 +250,24 @@ const Home1 = () => {
       <section className="banner-section">
         <div className="col-md-12 position-relative">
           <div className="slider-img mt-5">
-            <video className="banner-images w-100" autoPlay loop >
+            <video
+              className="banner-images w-100"
+              autoPlay
+              playsInline
+              loop
+              muted // Mute the video to avoid autoplay restrictions
+              onCanPlayThrough={(e) => e.target.play()} // Ensure the video plays once it's ready
+            >
               <source src="assets/img/bg/1205375907.mp4" type="video/mp4" />
+              Your browser does not support the video tag.
             </video>
           </div>
         </div>
+
         <div className="container position-absolute top-50 start-50 translate-middle">
           <div className="row align-items-center">
             <div className="col-lg-5 bg-white p-5 rounded-circle border border-success border-5">
-              <div
-                className="banner-content text-center mt-5"
-                
-              >
+              <div className="banner-content text-center mt-5">
                 <h1>Introducing</h1>
                 <p>
                   United Gut Healthcare: A Multidisciplinary Approach to
@@ -312,7 +321,10 @@ const Home1 = () => {
                   </p>
 
                   <Link to="/pages/aboutus">
-                    <Button className="btn text-blue bg-blue mt-2 " variant="outline-dark">
+                    <Button
+                      className="btn text-blue bg-blue mt-2 "
+                      variant="outline-dark"
+                    >
                       Read More
                     </Button>
                     {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
@@ -441,8 +453,6 @@ const Home1 = () => {
         </div>
       </section>
 
-    
-
       <section className="services-section-sixteen">
         <div className="container">
           <div className="row">
@@ -460,11 +470,11 @@ const Home1 = () => {
             {expertise.map((item, index) => (
               <Link to={`specialites/${index + 1}`}>
                 <div className="discover-you-main">
-                  <div className="discover-you-image">
+                  <div className="discover-you-image expertise-360">
                     <ImageWithBasePath
                       src={`assets/img/icons/${item.imageUrl}`}
                       alt="Body"
-                      className="w-50"
+                      className="w-50 "
                     />
                   </div>
                   <Link to="#">{item.title}</Link>
@@ -493,52 +503,59 @@ const Home1 = () => {
       </section>
 
       <section className="experts-section-sixteen bg-color">
-  <div className="container">
-    <div className="row">
-      <div className="col-md-12">
-        <div className="section-header-sixteen section-header-sixteentwo text-center">
-          <h2>Gut Health Library</h2>
-        </div>
-      </div>
-    </div>
-    <div className="slider slider-sixteen aos" data-aos="zoom-in-up">
-      <OwlCarousel
-        {...ourExpert}
-        center={true}
-        autoplay={true}  // Enable autoplay
-        autoplayTimeout={3000}  // Set interval to 3 seconds (3000ms)
-        autoplaySpeed={800}  // Set speed for smooth transitions (800ms)
-        loop={true}  // Enable looping of slides
-        animateIn="fadeIn"  // Smooth fade-in animation for slide entry
-        animateOut="fadeOut"  // Smooth fade-out animation for slide exit
-        className="custome_slides"
-        id="slide-experts"
-        nav={true}  // Enable navigation (arrows)
-        navText={["<div class='nav-btn prev-slide'>‹</div>", "<div class='nav-btn next-slide'>›</div>"]}  // Custom arrows
-      >
-        {medicals.map((item, index) => (
-          <div className="test_imgs gut-health" key={index}>
-            <div className="main-reviewimages">
-              <ImageWithBasePath
-                src={`assets/img/icons/${item.path}`}
-                alt="Img"
-              />
-            </div>
-            <h4 className="fs-5 text-center">
-              <Link to={`guthealth-details/${index + 1}`}>{item.title}</Link>
-            </h4>
-            <div className="testimonal-contents bg-trans">
-              <Link to={`guthealth-details/${index + 1}`} className="read-more-test">
-                Read More
-              </Link>
+        <div className="container">
+          <div className="row">
+            <div className="col-md-12">
+              <div className="section-header-sixteen section-header-sixteentwo text-center">
+                <h2>Gut Health Library</h2>
+              </div>
             </div>
           </div>
-        ))}
-      </OwlCarousel>
-    </div>
-  </div>
-</section>
-
+          <div className="slider slider-sixteen aos" data-aos="zoom-in-up">
+            <OwlCarousel
+              {...ourExpert}
+              center={true}
+              autoplay={true} // Enable autoplay
+              autoplayTimeout={3000} // Set interval to 3 seconds (3000ms)
+              autoplaySpeed={800} // Set speed for smooth transitions (800ms)
+              loop={true} // Enable looping of slides
+              animateIn="fadeIn" // Smooth fade-in animation for slide entry
+              animateOut="fadeOut" // Smooth fade-out animation for slide exit
+              className="custome_slides"
+              id="slide-experts"
+              nav={true} // Enable navigation (arrows)
+              navText={[
+                "<div class='nav-btn prev-slide'>‹</div>",
+                "<div class='nav-btn next-slide'>›</div>",
+              ]} // Custom arrows
+            >
+              {medicals.map((item, index) => (
+                <div className="test_imgs gut-health" key={index}>
+                  <div className="main-reviewimages">
+                    <ImageWithBasePath
+                      src={`assets/img/icons/${item.path}`}
+                      alt="Img"
+                    />
+                  </div>
+                  <h4 className="fs-5 text-center">
+                    <Link to={`guthealth-details/${index + 1}`}>
+                      {item.title}
+                    </Link>
+                  </h4>
+                  <div className="testimonal-contents bg-trans">
+                    <Link
+                      to={`guthealth-details/${index + 1}`}
+                      className="read-more-test"
+                    >
+                      Read More
+                    </Link>
+                  </div>
+                </div>
+              ))}
+            </OwlCarousel>
+          </div>
+        </div>
+      </section>
 
       <section className="about-section">
         <div className="row">
@@ -593,7 +610,10 @@ const Home1 = () => {
                     </p>
 
                     <Link to="/pages/aboutus">
-                      <Button className="btn text-blue bg-blue mt-2 " variant="outline-dark">
+                      <Button
+                        className="btn text-blue bg-blue mt-2 "
+                        variant="outline-dark"
+                      >
                         Read More
                       </Button>
                       {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
@@ -660,7 +680,7 @@ const Home1 = () => {
           </div>
         </div>
       </section>
-     
+
       <section className="faq-section">
         <div className="container">
           <div className="row">
