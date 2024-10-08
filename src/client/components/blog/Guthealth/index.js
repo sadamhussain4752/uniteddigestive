@@ -66,7 +66,7 @@ const GuthealthDetails = (props) => {
                     <Link to="#0">
                       <img
                         alt=""
-                        src={`../../../assets/img/icons/${expdetails.path}`}
+                        src={`../../../assets/img/icons/${expdetails.images_url}`}
                         className="img-fluid w-100 "
                       />
                     </Link>

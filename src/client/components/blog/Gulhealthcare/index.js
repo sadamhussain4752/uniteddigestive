@@ -57,7 +57,7 @@ const GuthealthCare = (props) => {
                       <div class="card-body">
                         <h5 class="card-title">{items.title}</h5>
                         <p class="card-text">
-                          {items.description.slice(0, 79)} ...
+                          {items.description.slice(0, 69)} ...
                         </p>
                         <a
                           href={`guthealth-details/${index + 1}`}

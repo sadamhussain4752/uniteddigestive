@@ -8,15 +8,8 @@
       "Gut Health Evaluation",
       "Treatment for IBS"
     ],
-    "procedures": [
-      "Endoscopy",
-      "Colonoscopy",
-      "Gut Microbiome Analysis"
-    ],
-    "doctors": [
-      "Dr. John Doe",
-      "Dr. Emily Carter"
-    ],
+    "procedures": ["Endoscopy", "Colonoscopy", "Gut Microbiome Analysis"],
+    "doctors": ["Dr. John Doe", "Dr. Emily Carter"],
     "relatedConditions": [
       "Irritable Bowel Syndrome (IBS)",
       "Acid Reflux",
@@ -36,7 +29,8 @@
         "answer": "If diarrhoea persists for several days, your doctor may recommend tests such as stool samples, blood work, or imaging studies like ultrasounds or X-rays to identify the underlying cause."
       }
     ],
-    "path": "Diarrhoea.jpg"
+    "path": "Diarrhoea.jpg",
+    "images_url": "Diarrhoea.jpg"
   },
   {
     "id": 2,
@@ -52,10 +46,7 @@
       "Liver Biopsy",
       "ERCP (Endoscopic Retrograde Cholangiopancreatography)"
     ],
-    "doctors": [
-      "Dr. Michael Smith",
-      "Dr. Laura Chen"
-    ],
+    "doctors": ["Dr. Michael Smith", "Dr. Laura Chen"],
     "relatedConditions": [
       "Gastroesophageal Reflux Disease (GERD)",
       "Peptic Ulcer",
@@ -75,7 +66,8 @@
         "answer": "You should see a doctor if you experience persistent stomach pain, nausea, vomiting, or black stools. These symptoms could indicate a more serious condition that requires medical intervention."
       }
     ],
-    "path": "gestritis.jpg"
+    "path": "gestritis.jpg",
+    "images_url": "gestritis.jpg"
   },
   {
     "id": 3,
@@ -91,15 +83,8 @@
       "Sleeve Gastrectomy",
       "Adjustable Gastric Banding"
     ],
-    "doctors": [
-      "Dr. Sarah Adams",
-      "Dr. Kevin Thompson"
-    ],
-    "relatedConditions": [
-      "Obesity",
-      "Type 2 Diabetes",
-      "Hypertension"
-    ],
+    "doctors": ["Dr. Sarah Adams", "Dr. Kevin Thompson"],
+    "relatedConditions": ["Obesity", "Type 2 Diabetes", "Hypertension"],
     "faqs": [
       {
         "question": "1. Who is a candidate for bariatric surgery?",
@@ -178,7 +163,9 @@
         "answer": "Obesity is a risk factor for various cancers (e.g., colon, breast, and uterine cancers), and weight loss can reduce this risk."
       }
     ],
-    "path": "gestritis.jpg"
+    "path": "Bariatric-Surgery.jpg",
+
+    "images_url":"Bariatric-Surgery.jpg"
   },
   {
     "id": 4,
@@ -194,15 +181,8 @@
       "Laparoscopic Hernia Repair",
       "Laparoscopic Gallbladder Removal"
     ],
-    "doctors": [
-      "Dr. Alice Brown",
-      "Dr. David Lee"
-    ],
-    "relatedConditions": [
-      "Appendicitis",
-      "Gallstones",
-      "Hernia"
-    ],
+    "doctors": ["Dr. Alice Brown", "Dr. David Lee"],
+    "relatedConditions": ["Appendicitis", "Gallstones", "Hernia"],
     "faqs": [
       {
         "question": "1. How does laparoscopic surgery differ from traditional surgery?",
@@ -217,7 +197,8 @@
         "answer": "While generally safe, risks include infection, bleeding, and injury to surrounding organs. It's important to follow your surgeon’s post-operative care instructions to minimize complications."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+    "images_url": "Laparoscopic.jpg"
   },
   {
     "id": 5,
@@ -228,20 +209,9 @@
       "Hemorrhoid Treatment",
       "Anal Fissure Management"
     ],
-    "procedures": [
-      "Sigmoidoscopy",
-      "Hemorrhoidectomy",
-      "Colorectal Surgery"
-    ],
-    "doctors": [
-      "Dr. James Miller",
-      "Dr. Sophia Davis"
-    ],
-    "relatedConditions": [
-      "Hemorrhoids",
-      "Anal Fissures",
-      "Colorectal Cancer"
-    ],
+    "procedures": ["Sigmoidoscopy", "Hemorrhoidectomy", "Colorectal Surgery"],
+    "doctors": ["Dr. James Miller", "Dr. Sophia Davis"],
+    "relatedConditions": ["Hemorrhoids", "Anal Fissures", "Colorectal Cancer"],
     "faqs": [
       {
         "question": "1. When should I see a proctologist?",
@@ -256,7 +226,8 @@
         "answer": "A sigmoidoscopy is a procedure that examines the rectum and lower colon using a flexible tube with a camera. It’s commonly used to screen for colorectal cancer and other conditions."
       }
     ],
-    "path": "Proctology.jpg"
+    "path": "Proctology.jpg",
+    "images_url": "Proctology.jpg"
   },
   {
     "id": 6,
@@ -324,7 +295,8 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+    "images_url": "Laparoscopic.jpg"
   },
   {
     "id": 7,
@@ -392,7 +364,8 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "6.jpg",
+    "images_url": "Genetic-Factors.jpg"
   },
   {
     "id": 8,
@@ -460,7 +433,8 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+    "images_url": "Hormonal-Imbalances.jpg"
   },
   {
     "id": 9,
@@ -528,7 +502,8 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+    "images_url": "Hormonal-Imbalances.jpg"
   },
   {
     "id": 10,
@@ -596,7 +571,8 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+    "images_url": "Metabolic-Factors.jpg"
   },
   {
     "id": 11,
@@ -664,7 +640,9 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+
+    "images_url": "Gut-Microbiome.jpg"
   },
   {
     "id": 12,
@@ -732,10 +710,11 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+    "images_url": "diet.jpg"
   },
   {
-    "id": 6,
+    "id": 13,
     "title": "Gastric Balloons",
     "description": "Laser surgery is an increasingly popular treatment option for various anorectal conditions due to its precision, technical advancement , minimal invasiveness, and reduced recovery time. It involves the use of laser energy to remove or treat tissues in the anal and rectal area. Here’s an overview of the common anorectal conditions treated with laser surgery, along with the benefits and general approach.",
     "faqs": [
@@ -800,19 +779,20 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+    "images_url": "Surgical-Interventions.jpg"
   },
   {
-    "id": 6,
+    "id": 14,
     "title": "Rectal Bleeding",
-    "description": "Laser surgery is an increasingly popular treatment option for various anorectal conditions due to its precision, technical advancement , minimal invasiveness, and reduced recovery time. It involves the use of laser energy to remove or treat tissues in the anal and rectal area. Here’s an overview of the common anorectal conditions treated with laser surgery, along with the benefits and general approach.",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
       {
-        "question": "What are the benefits of laser surgery?",
-        "answer": "Laser surgery is precise, often results in less bleeding, and has a faster recovery time compared to traditional surgery."
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
       },
       {
-        "question": "What conditions can be treated with laser surgery?",
+        "question": "Anal Fissures ?",
         "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
       }
     ],
@@ -868,7 +848,7 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "Laparoscopic.jpg"
+    "path": "Laparoscopic.jpg",
+    "images_url": "Laparoscopic.jpg"
   }
-  
 ]
