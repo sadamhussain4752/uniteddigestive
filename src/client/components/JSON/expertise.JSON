@@ -36,7 +36,8 @@
         "answer": "If your diarrhoea persists for several days, your doctor may recommend tests such as blood and stool samples, X-rays, or ultrasounds. In some cases, a sigmoidoscopy or colonoscopy may be needed to visually examine the colon using a flexible tube. However, most instances of diarrhoea typically resolve on their own within a few days."
       }
     ],
-    "imageUrl": "Gut Care.svg"
+    "imageUrl": "Gut Care.svg",
+    "view_image" :"Gut-Care.jpg"
   },
   {
     "id": 2,
@@ -81,7 +82,8 @@
       }
 
     ],
-    "imageUrl": "Gastroenterology.svg"
+    "imageUrl": "Gastroenterology.svg",
+    "view_image" :"Gastroenterology.jpg"
   },
   {
     "id": 3,
@@ -106,7 +108,9 @@
       "Type 2 Diabetes",
       "Hypertension"
     ],
-    "imageUrl": "Bariatric Surgery.svg"
+    "imageUrl": "Bariatric Surgery.svg",
+    "view_image" :"Bariatric-Surgery (1).jpg"
+
   },
   {
     "id": 4,
@@ -131,7 +135,8 @@
       "Gallstones",
       "Hernia"
     ],
-    "imageUrl": "Laparoscopic.svg"
+    "imageUrl": "Laparoscopic.svg",
+    "view_image":"Laparoscopic (1).jpg"
   },
   {
     "id": 5,
@@ -156,6 +161,8 @@
       "Anal Fissures",
       "Colorectal Cancer"
     ],
-    "imageUrl": "Proctology.svg"
+    "imageUrl": "Proctology.svg",
+    "view_image":"Proctology (1).jpg"
+
   }
 ]

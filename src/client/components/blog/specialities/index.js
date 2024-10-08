@@ -44,7 +44,7 @@ const SpecialitesDetails = (props) => {
               <nav aria-label="breadcrumb" className="page-breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
-                    <Link to="/home-2">Home</Link>
+                    <Link to="/">Home</Link>
                   </li>
                   <li className="breadcrumb-item" aria-current="page">
                     {expdetails && expdetails?.title}
@@ -66,23 +66,22 @@ const SpecialitesDetails = (props) => {
                       <img alt="" src={IMG01} className="img-fluid" />
                     </Link>
                   </div> */}
-                  <h3 className="blog-title">
-                    Rectal Bleeding
+                  <h3 className="blog-title mb-4">
+                   {expdetails.title}
                   </h3>
-                  <p className="r-b-subH">
-                    Passage of bright red blood from either the anus or rectum
-                  </p>
+                 
                   <div className="blog-content">
                     {/* <p>{expdetails && expdetails?.description}</p> */}
                     <div className="row">
-                      <div className="col-md-7">
+                    <div className="col-md-12">
+                        <img src={`/assets/img/icons/${expdetails.view_image}`} className="" />
+                      </div>
+                      <div className="col-md-12 mt-5">
                         <p className="r-b-cont">
-                          People often link rectal bleeding with cancer even though it can also be the result of any of several non-cancerous conditions. It is always a sign that something is wrong. If you experience this type of bleeding, it is important to check with your physician to identify its specific cause and start appropriate treatment.
+                        {expdetails?.description}
                         </p>
                       </div>
-                      <div className="col-md-5">
-                        <img src="	https://www.atlantagastro.com/wp-content/uploads/2018/08/rectum.jpg" className="" />
-                      </div>
+                    
                     </div>
 
 
