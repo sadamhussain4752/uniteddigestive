@@ -25,7 +25,7 @@ import Blogslist from "../../JSON/Blogs.json";
 import medicals from "../../JSON//GUI.json";
 import { Button } from "react-bootstrap";
 import abouts from "../../JSON//about.json";
-import Jsonfile from "../../JSON/Jsonfile.json";
+// import abouts from "../../JSON/J.json";
 
 
 const Home1 = () => {
@@ -625,7 +625,7 @@ alert("hiii")
                   </h4>
                   <div className="testimonal-contents bg-trans">
                     <Link
-                      to={`guthealth-details/${index + 1}`}
+                      to={`/guthealth-list`}
                       className="read-more-test"
                     >
                       Read More
@@ -652,76 +652,7 @@ alert("hiii")
           </div>
         </div>
       </section>
-      <section className="experts-section-sixteen bg-color">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-header-sixteen section-header-sixteentwo text-center">
-                <h2>Obesity</h2>
-              </div>
-            </div>
-          </div>
-          <div className="slider slider-sixteen aos" data-aos="zoom-in-up" id="gut-health">
-            <OwlCarousel
-              {...ourExpert}
-              center={true}
-              autoplay={true} // Enable autoplay
-              autoplayTimeout={3000} // Set interval to 3 seconds (3000ms)
-              autoplaySpeed={800} // Set speed for smooth transitions (800ms)
-              loop={true} // Enable looping of slides
-              animateIn="fadeIn" // Smooth fade-in animation for slide entry
-              animateOut="fadeOut" // Smooth fade-out animation for slide exit
-              className="custome_slides"
-              id="slide-experts"
-              nav={true} // Enable navigation (arrows)
-              navText={[
-                "<div class='nav-btn prev-slide t-pre'> <i class='fa-solid fa-arrow-left '></i></div>",
-                "<div class='nav-btn next-slide t-pre'> <i class='fa-solid fa-arrow-right '></i></div>",
-              ]} // Custom arrows
-            >
-              {Jsonfile.map((item, index) => (
-                <div className="test_imgs gut-health" key={index}>
-                  <div className="main-reviewimages">
-                    <ImageWithBasePath
-                      src={`assets/img/icons/${item.path}`}
-                      alt="Img"
-                    />
-                  </div>
-                  <h4 className="fs-5 text-center">
-                    <Link to={`guthealth-details/${index + 1}`}>
-                      {item.title}
-                    </Link>
-                  </h4>
-                  <div className="testimonal-contents bg-trans">
-                    <Link
-                      to={`guthealth-details/${index + 1}`}
-                      className="read-more-test"
-                    >
-                      Read More
-                    </Link>
-                  </div>
-                </div>
-              ))}
-            </OwlCarousel>
-
-            <div className="btns-lot mt-4">
-              {/* <button  role="presentation">
-                <i class="fa-solid fa-arrow-left"></i>
-              </button> */}
-
-              <a href="/guthealth-list" className="mx-4">
-                Explore More
-              </a>
-
-              {/* <button >
-                <i class="fa-solid fa-arrow-right"></i>
-              </button> */}
-            </div>
-
-          </div>
-        </div>
-      </section>
-
+     
       {/* <section className="about-section">
         <div className="row">
           <div className="col-md-12">

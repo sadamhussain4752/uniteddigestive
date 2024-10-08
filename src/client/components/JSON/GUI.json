@@ -229,9 +229,10 @@
     "path": "Proctology.jpg",
     "images_url": "Proctology.jpg"
   },
+  
   {
-    "id": 6,
-    "title": "Laser Surgery",
+    "id": 7,
+    "title": "Obesity",
     "description": "Laser surgery is an increasingly popular treatment option for various anorectal conditions due to its precision, technical advancement , minimal invasiveness, and reduced recovery time. It involves the use of laser energy to remove or treat tissues in the anal and rectal area. Here’s an overview of the common anorectal conditions treated with laser surgery, along with the benefits and general approach.",
     "faqs": [
       {
