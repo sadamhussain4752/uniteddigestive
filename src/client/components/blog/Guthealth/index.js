@@ -231,8 +231,7 @@ const GuthealthDetails = (props) => {
                 </div>
               </section>
             </div>
-
-            <section>
+            {expdetails?.types?.length > 0 ? <section>
               <div className="blog-content m-4">
                 <h3 className="mt-3 mb-4">Types of {expdetails.title}</h3>
                 {expdetails?.types?.map((item) => (
@@ -243,8 +242,9 @@ const GuthealthDetails = (props) => {
                 ))}
                 <p></p>
               </div>
-            </section>
-            <section>
+            </section> : null }
+
+            {expdetails?.Advantages?.length > 0 ?   <section>
               <div className="blog-content m-4">
                 <h3 className="mt-3 mb-4">Advantages of {expdetails.title}</h3>
                 {expdetails?.Advantages?.map((item) => (
@@ -255,7 +255,9 @@ const GuthealthDetails = (props) => {
                 ))}
                 <p></p>
               </div>
-            </section>
+            </section> : null}
+            
+           
             <section className="faq-section">
               <div className="container">
                 <div className="row">
