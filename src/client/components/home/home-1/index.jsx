@@ -639,7 +639,7 @@ alert("hiii")
                 <i class="fa-solid fa-arrow-left"></i>
               </button>
 
-              <a href="" className="mx-4">
+              <a href="/guthealth-list" className="mx-4">
                 Explore More
               </a>
 
