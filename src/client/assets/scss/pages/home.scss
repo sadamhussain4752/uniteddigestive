@@ -3091,3 +3091,66 @@
     }
 
 }
+
+
+.nav-btn {
+    cursor: pointer;
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 2rem;
+    color: #333;
+    /* Adjust the color */
+    z-index: 1000;
+    /* Ensure arrows are above other content */
+}
+
+.prev-slide {
+    left: -30px;
+    /* Adjust left position */
+}
+
+.next-slide {
+    right: -30px;
+    /* Adjust right position */
+}
+
+.custome_slides {
+    position: relative;
+    /* Make sure container is relative for arrows to position correctly */
+}
+
+
+#slide-experts .owl-nav button.owl-prev {
+    bottom: 0% !important;
+}
+
+#slide-experts .owl-nav button.owl-next {
+    bottom: 0% !important;
+}
+
+
+
+.btns-lot {
+
+    text-align: center;
+
+    button {
+        background-color: white !important;
+        border: none;
+        border-radius: 50%;
+        box-shadow: 0px 0px 10px lightblue;
+    }
+
+    a {
+        text-decoration: none;
+        color: #fff;
+        font-size: 17px;
+        font-weight: 500;
+        padding: 8px 24px;
+        background-color: #65bd60;
+        border-radius: 30px;
+        border: 0;
+    }
+
+}

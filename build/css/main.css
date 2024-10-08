@@ -45775,19 +45775,7 @@ span.refund {
     color: #fff
 }
 
-#slide-experts .owl-nav button.owl-prev {
-    position: absolute;
-    top: 50%;
-    left: 0;
-    transform: translateY(-50%)
-}
 
-#slide-experts .owl-nav button.owl-next {
-    position: absolute;
-    top: 50%;
-    right: 0;
-    transform: translateY(-50%)
-}
 
 .test_img {
     position: relative;
@@ -63056,4 +63044,27 @@ ul li {
 
 .dashboard-header .btn {
     font-weight: 500
+}
+
+
+#gut-health #slide-experts .owl-nav button.owl-prev {
+    position: absolute;
+    bottom: 0% !important;
+    left: 0;
+    transform: translateY(-50%)
+}
+
+#gut-health #slide-experts .owl-nav button.owl-next {
+    position: absolute;
+    bottom: 0% !important;
+    right: 0;
+    transform: translateY(-50%)
+}
+
+#slide-experts .owl-nav button.owl-prev {
+    bottom: 0% !important;
+}
+
+#slide-experts .owl-nav button.owl-next {
+    bottom: 0% !important;
 }

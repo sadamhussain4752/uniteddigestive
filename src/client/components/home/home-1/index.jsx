@@ -1,6 +1,7 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
 import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
+
 import Home1Footer from "./footer";
 import Home1Header from "./header";
 import AOS from "aos";
@@ -49,12 +50,8 @@ const Home1 = () => {
     dots: false,
     freeDrag: true,
     nav: true,
-    smartSpeed: 2000,
-    navContainer: ".top-nurse-slide-nav",
-    navText: [
-      '<i class="fas fa-chevron-left"></i>',
-      '<i class="fas fa-chevron-right"></i>',
-    ],
+    navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+    smartSpeed: 500,
     responsive: {
       0: {
         items: 1,
@@ -73,6 +70,12 @@ const Home1 = () => {
       },
     },
   };
+
+
+  function nextSlide() {
+alert("hiii")
+  }
+
   const populartestslider = {
     loop: true,
     margin: 24,
@@ -587,7 +590,7 @@ const Home1 = () => {
               </div>
             </div>
           </div>
-          <div className="slider slider-sixteen aos" data-aos="zoom-in-up">
+          <div className="slider slider-sixteen aos" data-aos="zoom-in-up" id="gut-health">
             <OwlCarousel
               {...ourExpert}
               center={true}
@@ -629,6 +632,23 @@ const Home1 = () => {
                 </div>
               ))}
             </OwlCarousel>
+
+            <div className="btns-lot mt-4">
+              <button onClick={nextSlide} >
+                {/*  onClick={nextSlide} */}
+                <i class="fa-solid fa-arrow-left"></i>
+              </button>
+
+              <a href="" className="mx-4">
+                Explore More
+              </a>
+
+              <button >
+                {/* onClick={pretSlide} */}
+                <i class="fa-solid fa-arrow-right"></i>
+              </button>
+            </div>
+
           </div>
         </div>
       </section>
@@ -762,10 +782,10 @@ const Home1 = () => {
           </div>
         </div>
         <div className="text-center mt-5">
-        <a class="btn btn-primary btn-sm bg-color" href="/teams" role="button" aria-disabled="true">View More</a>
+          <a class="btn btn-primary btn-sm bg-color" href="/teams" role="button" aria-disabled="true">View More</a>
 
         </div>
-        
+
       </section>
 
       {/* /Work Section */}
