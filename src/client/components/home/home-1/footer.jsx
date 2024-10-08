@@ -59,7 +59,7 @@ const Home1Footer = () => {
                   <div className="footer-address mb-0">
                     <p>
                       <i className="feather icon-mail" />
-                      drshabeerahmed@gmail.com
+                     { " "} drshabeerahmed@gmail.com
                     </p>
                   </div>
                 </div>
