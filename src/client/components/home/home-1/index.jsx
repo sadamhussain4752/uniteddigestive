@@ -253,7 +253,7 @@ alert("hiii")
       <section className="banner-section">
         <div className="col-md-12 position-relative">
 
-          <div className="banner-abs">
+          {/* <div className="banner-abs">
             <p className="banner-posab-h mb-0">
               How can we help you?
             </p>
@@ -269,7 +269,7 @@ alert("hiii")
                 </button>
               </form>
             </div>
-          </div>
+          </div> */}
 
           <div className="slider-img mt-5">
             <video
@@ -604,8 +604,8 @@ alert("hiii")
               id="slide-experts"
               nav={true} // Enable navigation (arrows)
               navText={[
-                "<div class='nav-btn prev-slide'>‹</div>",
-                "<div class='nav-btn next-slide'>›</div>",
+                "<div class='nav-btn prev-slide t-pre'> <i class='fa-solid fa-arrow-left '></i></div>",
+                "<div class='nav-btn next-slide t-pre'> <i class='fa-solid fa-arrow-right '></i></div>",
               ]} // Custom arrows
             >
               {medicals.map((item, index) => (
@@ -634,19 +634,17 @@ alert("hiii")
             </OwlCarousel>
 
             <div className="btns-lot mt-4">
-              <button onClick={nextSlide} >
-                {/*  onClick={nextSlide} */}
+              {/* <button  role="presentation">
                 <i class="fa-solid fa-arrow-left"></i>
-              </button>
+              </button> */}
 
               <a href="/guthealth-list" className="mx-4">
                 Explore More
               </a>
 
-              <button >
-                {/* onClick={pretSlide} */}
+              {/* <button >
                 <i class="fa-solid fa-arrow-right"></i>
-              </button>
+              </button> */}
             </div>
 
           </div>
