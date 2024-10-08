@@ -23,7 +23,7 @@ const GuthealthCare = (props) => {
   return (
     <div>
       <Home1Header />
-      <div className="breadcrumb-bar-two">
+      {/* <div className="breadcrumb-bar-two">
         <div className="container">
           <div className="row align-items-center inner-banner">
             <div className="col-md-12 col-12 text-center">
@@ -41,7 +41,36 @@ const GuthealthCare = (props) => {
             </div>
           </div>
         </div>
-      </div>
+      </div> */}
+      <section className="pt-5 mnim-bg pb-4">
+        <div className="container pt-lg-5 mt-lg-4">
+          <div className="row d-flex align-items-center">
+            <div className="col-3">
+              <img src="https://www.uniteddigestive.com/wp-content/uploads/2022/10/gettyimages-667825534-170667a-2.png" className="gth-img" alt="" />
+            </div>
+
+            <div className="col-9">
+              <p className="gth-sub-hed">
+                Featured Condition
+              </p>
+              <p className="gth-hed">
+                Hemorrhoids
+              </p>
+
+              <p className="gth-cont">
+                Embarrassed by hemorrhoids? Don’t let that stop you from seeking treatment to relieve your discomfort.
+              </p>
+
+              <a class="read-more-test" href="/">
+                Learn More
+              </a>
+            </div>
+
+
+          </div>
+        </div>
+      </section>
+
       <div className="content">
         <div className="container">
           <div className="mt-4 mb-5">
@@ -54,17 +83,23 @@ const GuthealthCare = (props) => {
                 {GulHealth.map((items, index) => (
                   <div class="col-sm-4">
                     <div class="card">
-                      <div class="card-body">
+                      <div class="card-body ">
                         <h5 class="card-title">{items.title}</h5>
-                        <p class="card-text">
-                          {items.description.slice(0, 69)} ...
+                        <p class="card-text d-flex">
+                          <span>
+
+                            {items.description.slice(0, 79)} ...
+
+                          </span>
+                          <a
+                            href={`guthealth-details/${index + 1}`}
+                            class="btn "
+                          >
+                            <i class="fa fa-chevron-right con-arw"></i>
+                          </a>
+
                         </p>
-                        <a
-                          href={`guthealth-details/${index + 1}`}
-                          class="btn btn-primary"
-                        >
-                          Read More
-                        </a>
+
                       </div>
                     </div>
                   </div>
