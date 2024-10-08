@@ -28,14 +28,14 @@ const Home1Footer = () => {
       <footer className="footer footer-one">
         <div className="footer-top aos" data-aos="fade-up">
           <div className="container">
-            <div className="footer-widget footer-about">
+            {/* <div className="footer-widget footer-about">
               <div className="footer-logo text-center">
                 <a href="index.html">
                   <ImageWithBasePath src="assets/img/logo-010.svg" alt="logo" />
                 </a>
               </div>
 
-            </div>
+            </div> */}
             <hr />
             <div className="row">
               <div className="col-lg-3 col-md-4">

@@ -15540,10 +15540,15 @@ html.menu-opened body {
     border: solid 5px #65bd60;
     border-radius: 150px !important;
     padding: 12px;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between
+    /* justify-content: space-between */
+
+}
+
+.gut-health .testimonal-contents {
+    margin-top: auto !important;
 }
 
 .gut-health .main-reviewimages img {

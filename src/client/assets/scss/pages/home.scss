@@ -2916,10 +2916,21 @@
     border: solid 5px #65bd60;
     border-radius: 150px !important;
     padding: 12px;
-    height: 400px;
+    height: 450px;
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+
+    h4 {
+        margin-top: 20px;
+    }
+
+}
+
+
+// justify-content: space-between;
+.gut-health .testimonal-contents {
+    margin-top: auto !important;
+    margin-bottom: 20px;
 }
 
 .gut-health .main-reviewimages img {
@@ -3050,11 +3061,12 @@
                 line-height: 24px;
             }
 
-            img{
+            img {
                 width: 200px;
                 display: block;
                 margin: auto;
             }
+
             .read-more-test {
                 font-size: 17px;
                 color: #fff;
@@ -3074,7 +3086,7 @@
         }
     }
 
-    .bg-wh-b{
+    .bg-wh-b {
         background-color: #80a1bc !important;
     }
 

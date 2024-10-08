@@ -512,9 +512,9 @@ const Home1 = () => {
               <div className="count-box">
                 <span className="count-icon">
                   <ImageWithBasePath
-                    src="assets/img/icons/count-04.svg"
+                    src="assets/img/icons/Nationion.svg"
                     alt="award-icon"
-                    className="img-fluid"
+                    className="w-75"
                   />
                 </span>
                 <div className="count-info">
