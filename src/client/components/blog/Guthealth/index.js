@@ -15,7 +15,7 @@ import { useParams } from "react-router-dom";
 import expertise from "../../JSON/expertise.JSON";
 import Home1Footer from "../../home/home-1/footer.jsx";
 import ImageWithBasePath from "../../../../core/img/imagewithbasebath.jsx";
-import GulHealth from "../../JSON/GUI.json"
+import GulHealth from "../../JSON/GUI.json";
 
 const GuthealthDetails = (props) => {
   const [expdetails, setexpdetails] = useState("");
@@ -64,7 +64,11 @@ const GuthealthDetails = (props) => {
                 <div className="blog blog-single-post">
                   <div className="blog-image">
                     <Link to="#0">
-                      <img alt=""  src={`../../../assets/img/icons/${expdetails.path}`} className="img-fluid w-100 " />
+                      <img
+                        alt=""
+                        src={`../../../assets/img/icons/${expdetails.path}`}
+                        className="img-fluid w-100 "
+                      />
                     </Link>
                   </div>
                   <h3 className="blog-title">
@@ -93,20 +97,20 @@ const GuthealthDetails = (props) => {
                     </div>
                   </div>
                   <div className="blog-content">
-                    <p>{expdetails && expdetails?.description}</p>
+                    <p className="fs-6">{expdetails && expdetails?.description}</p>
                   </div>
                 </div>
-               
               </div>
             </div>
             <div className="col-lg-4 col-md-12">
               <h3> For More Information</h3>
               <section className=" mor-info ">
-
                 <div className="container">
-
                   <div className="row">
-                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
                       <div className="specialist-card d-flex align-items-center">
                         <div className="specialist-img ">
                           <ImageWithBasePath
@@ -128,7 +132,10 @@ const GuthealthDetails = (props) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
                       <div className="specialist-card d-flex align-items-center">
                         <div className="specialist-img">
                           <ImageWithBasePath
@@ -150,7 +157,10 @@ const GuthealthDetails = (props) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
                       <div className="specialist-card d-flex align-items-center">
                         <div className="specialist-img">
                           <ImageWithBasePath
@@ -172,7 +182,10 @@ const GuthealthDetails = (props) => {
                         </div>
                       </div>
                     </div>
-                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
                       <div className="specialist-card d-flex align-items-center">
                         <div className="specialist-img">
                           <ImageWithBasePath
@@ -194,21 +207,20 @@ const GuthealthDetails = (props) => {
                         </div>
                       </div>
                     </div>
-
                   </div>
                 </div>
               </section>
-
 
               <section>
                 <h3 className="mt-5"> Related Services</h3>
 
                 <div className="re-ser-card">
-                  <p className="re-ser-hed">
-                    Colonoscopy
-                  </p>
+                  <p className="re-ser-hed">Colonoscopy</p>
                   <p className="re-ser-cont">
-                    <span> A visual tool used for diagnosing and treating diseases of the large intestine
+                    <span>
+                      {" "}
+                      A visual tool used for diagnosing and treating diseases of
+                      the large intestine
                     </span>
                     <span>
                       <Link to="#">
@@ -216,68 +228,91 @@ const GuthealthDetails = (props) => {
                       </Link>
                     </span>
                   </p>
-
                 </div>
-
               </section>
             </div>
 
             <section>
-              
+              <div className="blog-content m-4">
+                <h3 className="mt-3 mb-4">Types of {expdetails.title}</h3>
+                {expdetails?.types?.map((item) => (
+                  <>
+                    <h5>{item.question}</h5>
+                    <p>{item.answer}</p>
+                  </>
+                ))}
+                <p></p>
+              </div>
+            </section>
+            <section>
+              <div className="blog-content m-4">
+                <h3 className="mt-3 mb-4">Advantages of {expdetails.title}</h3>
+                {expdetails?.Advantages?.map((item) => (
+                  <>
+                    <h5>{item.question}</h5>
+                    <p>{item.answer}</p>
+                  </>
+                ))}
+                <p></p>
+              </div>
             </section>
             <section className="faq-section">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-header-one aos" data-aos="fade-up">
-                {/* <h5>Get Your Answer</h5> */}
-                <h2 className="section-title">Frequently Asked Questions</h2>
-              </div>
-            </div>
-          </div>
-          <div className="row align-items-center">
-           
-            <div className="col-lg-12 col-md-12">
-              <div className="faq-info aos" data-aos="fade-up">
-                <div className="accordion" id="faq-details">
-                  {/* FAQ Item */}
-                  {expdetails && expdetails?.faqs?.map((item, index) => (
-                  <div className="accordion-item" key={index}>
-                    <h2 className="accordion-header" id={`heading${index}`}>
-                      <Link
-                        to="#"
-                        className="accordion-button"
-                        data-bs-toggle="collapse"
-                        data-bs-target={`#collapse${index}`}
-                        aria-expanded={index === 0 ? "true" : "false"}
-                        aria-controls={`collapse${index}`}
-                      >
-                        {item.question}
-                      </Link>
-                    </h2>
-                    <div
-                      id={`collapse${index}`}
-                      className={`accordion-collapse collapse ${
-                        index === 0 ? "show" : ""
-                      }`}
-                      aria-labelledby={`heading${index}`}
-                      data-bs-parent="#faq-details"
-                    >
-                      <div className="accordion-body">
-                        <div className="accordion-content">
-                          <p>{item.answer}</p>
-                        </div>
+              <div className="container">
+                <div className="row">
+                  <div className="col-md-12">
+                    <div className="section-header-one aos" data-aos="fade-up">
+                      {/* <h5>Get Your Answer</h5> */}
+                      <h2 className="section-title">
+                        Frequently Asked Questions
+                      </h2>
+                    </div>
+                  </div>
+                </div>
+                <div className="row align-items-center">
+                  <div className="col-lg-12 col-md-12">
+                    <div className="faq-info aos" data-aos="fade-up">
+                      <div className="accordion" id="faq-details">
+                        {/* FAQ Item */}
+                        {expdetails &&
+                          expdetails?.faqs?.map((item, index) => (
+                            <div className="accordion-item" key={index}>
+                              <h2
+                                className="accordion-header"
+                                id={`heading${index}`}
+                              >
+                                <Link
+                                  to="#"
+                                  className="accordion-button"
+                                  data-bs-toggle="collapse"
+                                  data-bs-target={`#collapse${index}`}
+                                  aria-expanded={index === 0 ? "true" : "false"}
+                                  aria-controls={`collapse${index}`}
+                                >
+                                  {item.question}
+                                </Link>
+                              </h2>
+                              <div
+                                id={`collapse${index}`}
+                                className={`accordion-collapse collapse ${
+                                  index === 0 ? "show" : ""
+                                }`}
+                                aria-labelledby={`heading${index}`}
+                                data-bs-parent="#faq-details"
+                              >
+                                <div className="accordion-body">
+                                  <div className="accordion-content">
+                                    <p>{item.answer}</p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          ))}
                       </div>
                     </div>
                   </div>
-                ))}
-                
                 </div>
               </div>
-            </div>
-          </div>
-        </div>
-      </section>
+            </section>
             {/* <div className="col-lg-4 col-md-12">
               <StickyBox offsetTop={20} offsetBottom={20}>
                 <BlogListSearch />
