@@ -277,7 +277,7 @@ const Home1 = () => {
               muted // Mute the video to avoid autoplay restrictions
               onCanPlayThrough={(e) => e.target.play()} // Ensure the video plays once it's ready
             >
-              <source src="assets/img/bg/1205375907.mp4" type="video/mp4" />
+              <source src="assets/img/bg/banner1.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
           </div>
@@ -512,9 +512,9 @@ const Home1 = () => {
               <div className="count-box">
                 <span className="count-icon">
                   <ImageWithBasePath
-                    src="assets/img/icons/count-04.svg"
+                    src="assets/img/icons/Nationion.svg"
                     alt="award-icon"
-                    className="img-fluid"
+                    className="w-75"
                   />
                 </span>
                 <div className="count-info">
