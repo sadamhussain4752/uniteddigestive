@@ -178,6 +178,7 @@ import Teams from "./client/components/pages/teams/teams.jsx";
 import ScrollToTop from "./ScrollToTop.jsx";
 import GuthealthCare from "./client/components/blog/Gulhealthcare/index.js";
 import Obesity from "./client/components/blog/obesity/index.js";
+import Lasersurgery from "./client/components/blog/Laser/index.js";
 const AppContainer = function (props) {
   if (props) {
     const url = props.location.pathname.split("/")[1];
@@ -317,6 +318,7 @@ const AppContainer = function (props) {
               <Route path="/blog-details/:id" exact component={BlogDetailsdynimc} />
               <Route path="/guthealth-details/:id" exact component={GuthealthDetails} />
               <Route path="/Obesity" exact component={Obesity} />
+              <Route path="/Lasersurgery" exact component={Lasersurgery} />
 
               <Route path="/introducing/" exact component={Introducing} />
               <Route path="/teams" exact component={Teams} />

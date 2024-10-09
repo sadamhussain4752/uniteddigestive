@@ -625,7 +625,7 @@ alert("hiii")
                   </h4>
                   <div className="testimonal-contents bg-trans">
                     <Link
-                      to={`/guthealth-list`}
+                      to={`/Obesity`}
                       className="read-more-test"
                     >
                       Read More

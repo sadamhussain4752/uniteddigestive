@@ -145,9 +145,9 @@ const GuthealthDetails = (props) => {
                           />
                         </div>
                         <div className="specialist-info">
-                          <Link to="#">
+                          <a to="https://wa.me/whatsappphonenumber?text=urlencodedtext" target="_blank">
                             <h6>Request an Appointment</h6>
-                          </Link>
+                          </a>
                           {/* <p>30 Doctors</p> */}
                         </div>
                         <div className="specialist-nav ms-auto">

@@ -49,7 +49,7 @@ const Obesity = (props) => {
          
 
           <div className="row">
-            <div className="col-lg-12 col-md-12">
+            <div className="col-lg-8 col-md-12">
               <div className="blog-view row">
                 <p>
                 Obesity is a complex metabolic condition influenced by multiple factors beyond just overeating. We will
@@ -92,6 +92,9 @@ metabolism, energy homeostasis, and carbohydrate responsiveness, and genes regul
 energy intake and feeding behaviour
                 </p>
                 <p>
+
+               
+
               <strong>2.Hormonal Imbalances</strong>  
               <br/>* Leptin Resistanc Leptin is a hormone produced by fat cells that signals the brain to stop eating
 when you&#39;re full. In some indidual with leptin resistanve , , the brain doesn&#39;t respond properly to
@@ -112,6 +115,7 @@ functions.
 more difficult as the body resists changes in fat storage.
                 </p>
                 <p>
+             
                <strong>Environmental Factors</strong> 
                <br/>*  Food Availability: In modern societies, access to high-calorie, processed foods is abundant.
 Ultra-processed foods are often inexpensive, widely available, and heavily marketed,
@@ -180,6 +184,7 @@ weight gain, particularly around the abdomen.
 and obesity, particularly in the abdomen, due to insulin resistance and hormone imbalances.
                 </p>
                 <p>
+                  
               <strong>Conclusion</strong>  
               <br/>* While overeating is a significant factor, obesity is a multifactorial condition with causes that span
 genetics, environment, metabolism, hormones, psychological influences, and lifestyle. Addressing
@@ -250,7 +255,7 @@ on large weight loss targets.<br/>
   </p>
 </p>
 <p>
-<strong>medication</strong> 
+<strong>4. Medication</strong> 
 <p>
 <strong>Medication</strong>  In patients with a BMI ≥ 30 kg/m² or ≥ 27 kg/m² with comorbidities, medications
 may be used to assist in weight loss.<br/>
@@ -263,35 +268,7 @@ interventions is more effective.<br/>
 the stomach to help reduce food intake and promote weight loss. There are several types of
 gastric balloons, each differing slightly in design and method of insertion. Here&#39;s an overview of
 the most common types, along with a diagram to illustrate the concept.<br/>
-<strong>Types of Gastric Balloons:</strong>  <br/>
-<strong>Single Gastric Balloon:</strong>  <br/>
-<strong>Description</strong>  A single inflatable balloon made of silicone is inserted into the stomach. It occupies
-space in the stomach, making the patient feel full faster and for longer.<br/>
-<strong>Procedure</strong>: It's usually inserted endoscopically and filled with saline or gas. After 6 months, it&#39;s
-removed through the same method.<br/>
-<strong>Brands</strong> : Examples include the Orbera Balloon.<br/>
-<strong>Dual Gastric Balloon</strong> :<br/>
-<strong>Description</strong> <br/>
-  This consists of two balloons that are inflated inside the stomach. It is designed to
-improve balance and reduce the risk of deflation complications.<br/>
-<strong>Procedure</strong>  Inserted endoscopically and filled with saline. Typically removed after 6 months.<br/>
-<strong>Brands</strong>  Examples include the ReShape Duo Balloon.<br/>
-<strong>Adjustable Gastric Balloon</strong> <br/>
-<strong>Description</strong>This balloon can be adjusted post-insertion without removing it. It allows for
-volume adjustments based on patient progress.<br/>
-<strong>Procedure</strong><br/>
- Inserted endoscopically, filled with saline, and adjusted as needed over time.
- <strong>Brands</strong><br/>
- Examples include the Spatz3 Adjustable Balloon.
- <strong>Swallowable Gastric Balloon :</strong><br/>
 
- <strong>Description</strong><br/>
- This balloon is swallowed in capsule form, and once in the stomach, it is inflated
-with gas or liquid via a small catheter. It does not require endoscopy for insertion or removal.
- Procedure: The balloon is filled after swallowing and is naturally excreted after a certain period
-(e.g., 3-4 months).<br/>
-<strong>Brands</strong><br/>
- Examples include the Elipse Balloon
 </p>
 
 </p>
@@ -306,6 +283,144 @@ commonly performed procedures.<br/>
 necessary to maintain results and avoid complications.<br/>
 </p>
               </div>
+            </div>
+            <div className="col-lg-4 col-md-12">
+              <h3> For More Information</h3>
+              <section className=" mor-info ">
+                <div className="container">
+                  <div className="row">
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img ">
+                          <ImageWithBasePath
+                            src="assets/img/category/map-location-dot-solid.svg"
+                            alt="kidney-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <Link to="#">
+                            <h6 className="mb-0 ">Do you want a Genetics, Hormonal Imbalances,Sleep Disorders,diet Test?</h6>
+                          </Link>
+                          {/* <p>21 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                   
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img ">
+                          <ImageWithBasePath
+                            src="assets/img/category/map-location-dot-solid.svg"
+                            alt="kidney-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <Link to="#">
+                            <h6 className="mb-0 ">Do you want know What exercises Show I Do? </h6>
+                          </Link>
+                          {/* <p>21 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img ">
+                          <ImageWithBasePath
+                            src="assets/img/category/map-location-dot-solid.svg"
+                            alt="kidney-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <Link to="#">
+                            <h6 className="mb-0 ">Should I require Sleep Disorders</h6>
+                          </Link>
+                          {/* <p>21 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img">
+                          <ImageWithBasePath
+                            src="assets/img/category/stethoscope-solid.svg"
+                            alt="bone-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <a to="https://wa.me/whatsappphonenumber?text=urlencodedtext" target="_blank">
+                            <h6>Request an Appointment</h6>
+                          </a>
+                          {/* <p>30 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    <div
+                      className="col-xl-12 col-lg-12 col-md-6 aos"
+                      data-aos="fade-up"
+                    >
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img">
+                          <ImageWithBasePath
+                            src="assets/img/category/phone-solid.svg"
+                            alt="heart-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                          <Link to="#">
+                            <h6>Contacts</h6>
+                          </Link>
+                          {/* <p>15 Doctors</p> */}
+                        </div>
+                        <div className="specialist-nav ms-auto">
+                          <Link to="#">
+                            <i className="fas fa-long-arrow-alt-right" />
+                          </Link>
+                        </div>
+                      </div>
+                    </div>
+                    
+                  </div>
+                </div>
+              </section>
+
+            
             </div>
           </div>
         </div>
