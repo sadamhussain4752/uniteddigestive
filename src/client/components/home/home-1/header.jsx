@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
-import { Link, useHistory  } from "react-router-dom";
+import { Link, useHistory } from "react-router-dom";
 
 const Home1Header = () => {
   const [searchField, setSearchField] = useState(false);
@@ -52,7 +52,7 @@ const Home1Header = () => {
               <ul className="main-nav">
                 <li className="has-submenu megamenu active">
                   <Link to="/">
-                      <i class="fa-solid fa-house fs-6"></i>
+                    <i class="fa-solid fa-house fs-6"></i>
                   </Link>
                   {/* <ul className="submenu mega-submenu">
                     <li>
@@ -337,27 +337,27 @@ const Home1Header = () => {
                   <ul className="submenu">
                     <li>
                       <Link to="/pages/patient-portal">
-                       Patient Portal 
+                        Patient Portal
                       </Link>
                     </li>
                     <li>
                       <Link to="/pharmacyadmin" target="_blank">
-                       Medical Records
+                        Medical Records
                       </Link>
                     </li>
                     <li>
                       <Link to="/pharmacyadmin" target="_blank">
-                       Your Visit
+                        Your Visit
                       </Link>
                     </li>
                     <li>
                       <Link to="/pharmacyadmin" target="_blank">
-                       Services
+                        Services
                       </Link>
                     </li>
                     <li>
                       <Link to="/pharmacyadmin" target="_blank">
-                       Procedure Preparation
+                        Procedure Preparation
                       </Link>
                     </li>
                   </ul>
@@ -437,8 +437,8 @@ const Home1Header = () => {
                     </li>
                   </ul> */}
                 </li>
-             
-                
+
+
                 {/* <li className="has-submenu">
                   <Link to="#">
                     GI Health Library 
@@ -462,33 +462,33 @@ const Home1Header = () => {
                   <ul className="submenu">
                     <li>
                       <Link to="/pages/aboutus" >
-                      About Us 
+                        About Us
                       </Link>
                     </li>
                     <li>
                       <Link to="/pages/aboutus">
-                       News & Updates
+                        News & Updates
                       </Link>
                     </li>
                     <li>
                       <Link to="/pages/aboutus" >
-                       Corporate Development
+                        Corporate Development
                       </Link>
                     </li>
 
                     <li>
                       <Link to="/pages/aboutus">
-                       Physician Careers
+                        Physician Careers
                       </Link>
                     </li>
                     <li>
                       <Link to="/pages/aboutus" >
-                      All Careers
+                        All Careers
                       </Link>
                     </li>
                     <li>
                       <Link to="/pages/aboutus" >
-                       Contact Us
+                        Contact Us
                       </Link>
                     </li>
                   </ul>
@@ -629,9 +629,9 @@ const Home1Header = () => {
                     </form>
                   </div>
                 </li>
-                {/* <li className="login-link">
-                  <Link to="/login">Login / Signup</Link>
-                </li> */}
+                <li className="has-submenu d-flex align-items-center">
+                <i class="fa-solid fa-headset fs-6 mb-2"></i>
+                </li>
               </ul>
             </div>
             {/* <ul className="nav header-navbar-rht">
