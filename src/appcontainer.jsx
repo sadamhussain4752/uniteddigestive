@@ -193,7 +193,8 @@ import Gastroscopy from "./client/components/blog/gastroscopy/index.js";
 import reflux from "./client/components/blog/refluxdisease/index.js";
 import Irritable from "./client/components/blog/Irritable/index.js";
 import cancers from "./client/components/blog/cancers/index.js";
-
+import IncisionalHernia from "./client/components/blog/incisional-hernia/index.js";
+import InguinalHernia from "./client/components/blog/inguinal-hernia/index.js";
 
 
 const AppContainer = function (props) {
@@ -349,10 +350,13 @@ const AppContainer = function (props) {
               <Route path="/reflux" exact component={reflux} />
               <Route path="/irritable" exact component={Irritable} />
               <Route path="/cancers" exact component={cancers} />
+              <Route path="/incisional-hernia" exact component={IncisionalHernia} />
+              <Route path="/inguinal-hernia" exact component={InguinalHernia} />
 
 
 
-
+              
+              
 
               <Route path="/swallowableBalloon" exact component={SwallowableBalloon} />
               
