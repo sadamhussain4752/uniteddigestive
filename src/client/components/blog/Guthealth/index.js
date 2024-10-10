@@ -145,8 +145,8 @@ const GuthealthDetails = (props) => {
                           />
                         </div>
                         <div className="specialist-info">
-                          <a to="https://wa.me/whatsappphonenumber?text=urlencodedtext" target="_blank">
-                            <h6>Request an Appointment</h6>
+                          <a>
+                            <h6>Request an Appointment  {expdetails && expdetails?.title}</h6>
                           </a>
                           {/* <p>30 Doctors</p> */}
                         </div>
@@ -196,7 +196,7 @@ const GuthealthDetails = (props) => {
                         </div>
                         <div className="specialist-info">
                           <Link to="#">
-                            <h6>Hemorrhoid Questionnaire</h6>
+                            <h6>{expdetails && expdetails?.title} Questions</h6>
                           </Link>
                           {/* <p>35 Doctors</p> */}
                         </div>
@@ -244,10 +244,11 @@ const GuthealthDetails = (props) => {
               </div>
             </section> : null }
 
-            {expdetails?.Advantages?.length > 0 ?   <section>
+            {expdetails?.advantages?.length > 0 ?   
+            <section>
               <div className="blog-content m-4">
                 <h3 className="mt-3 mb-4">Advantages of {expdetails.title}</h3>
-                {expdetails?.Advantages?.map((item) => (
+                {expdetails?.advantages?.map((item) => (
                   <>
                     <h5>{item.question}</h5>
                     <p>{item.answer}</p>

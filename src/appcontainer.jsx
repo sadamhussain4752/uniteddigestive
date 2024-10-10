@@ -319,6 +319,7 @@ const AppContainer = function (props) {
               <Route path="/guthealth-details/:id" exact component={GuthealthDetails} />
               <Route path="/Obesity" exact component={Obesity} />
               <Route path="/Lasersurgery" exact component={Lasersurgery} />
+              <Route path="/guthealth-list" exact component={GuthealthCare} />
 
               <Route path="/introducing/" exact component={Introducing} />
               <Route path="/teams" exact component={Teams} />

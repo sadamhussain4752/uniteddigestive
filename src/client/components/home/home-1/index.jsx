@@ -526,7 +526,7 @@ alert("hiii")
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>Nationion</p>
+                  <p>National</p>
                 </div>
               </div>
             </div>
@@ -619,13 +619,13 @@ alert("hiii")
                     />
                   </div>
                   <h4 className="fs-5 text-center">
-                    <Link to={`guthealth-details/${index + 1}`}>
+                    <Link to={ item.url === "" ? `guthealth-details/${index + 1}`: `/${item.url}`}>
                       {item.title}
                     </Link>
                   </h4>
                   <div className="testimonal-contents bg-trans">
                     <Link
-                      to={`/Obesity`}
+                      to={item.url === "" ? `guthealth-details/${index + 1}`: `/${item.url}`}
                       className="read-more-test"
                     >
                       Read More

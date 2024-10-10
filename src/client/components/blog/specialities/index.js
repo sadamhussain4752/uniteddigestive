@@ -186,7 +186,7 @@ const SpecialitesDetails = (props) => {
                         </div>
                         <div className="specialist-info">
                           <Link to="#">
-                            <h6>Request an Appointment</h6>
+                            <h6>Request an Appointment for {expdetails && expdetails?.title}</h6>
                           </Link>
                           {/* <p>30 Doctors</p> */}
                         </div>
@@ -230,7 +230,7 @@ const SpecialitesDetails = (props) => {
                         </div>
                         <div className="specialist-info">
                           <Link to="#">
-                            <h6>Hemorrhoid Questionnaire</h6>
+                            <h6>{expdetails && expdetails?.title} Check</h6>
                           </Link>
                           {/* <p>35 Doctors</p> */}
                         </div>
