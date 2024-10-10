@@ -181,6 +181,10 @@ import Obesity from "./client/components/blog/obesity/index.js";
 import Lasersurgery from "./client/components/blog/Laser/index.js";
 import Gallstones from "./client/components/blog/gallstones/index.js";
 import SwallowableBalloon from "./client/components/blog/swallowable-balloon/index.js";
+import EndoscopicSurgery from "./client/components/blog/endoscopicSurgery/index.js";
+import ColorectalCancer from "./client/components/blog/colorectalCancer/index.js";
+import StomachSurgery from "./client/components/blog/stomachSurgery/index.js";
+import ChronicPancreatitis from "./client/components/blog/chronicPancreatitis/index.js";
 
 
 
@@ -325,6 +329,12 @@ const AppContainer = function (props) {
               <Route path="/Obesity" exact component={Obesity} />
               <Route path="/Lasersurgery" exact component={Lasersurgery} />
               <Route path="/guthealth-list" exact component={GuthealthCare} />
+              <Route path="/endoscopicSurgery" exact component={EndoscopicSurgery} />
+              <Route path="/colorectalCancer" exact component={ColorectalCancer} /> 
+              <Route path="/stomachSurgery" exact component={StomachSurgery} /> 
+              <Route path="/chronicPancreatitis" exact component={ChronicPancreatitis} />
+
+
 
               <Route path="/swallowableBalloon" exact component={SwallowableBalloon} />
               
