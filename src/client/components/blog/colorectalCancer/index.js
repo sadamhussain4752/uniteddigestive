@@ -34,7 +34,7 @@ const ColorectalCancer = (props) => {
                     <Link to="/">Home</Link>
                   </li>
                   <li className="breadcrumb-item" aria-current="page">
-                    Colorectal Cancer
+                  Colorectal Cancer
                   </li>
                 </ol>
               </nav>

@@ -185,6 +185,14 @@ import EndoscopicSurgery from "./client/components/blog/endoscopicSurgery/index.
 import ColorectalCancer from "./client/components/blog/colorectalCancer/index.js";
 import StomachSurgery from "./client/components/blog/stomachSurgery/index.js";
 import ChronicPancreatitis from "./client/components/blog/chronicPancreatitis/index.js";
+import Ulcerative from "./client/components/blog/Ulcerative/index.js";
+import fissure from "./client/components/blog/fissure/index.js";
+import Hemorrhoid from "./client/components/blog/hemorrhoid/index.js";
+import Abdominal from "./client/components/blog/abdominal/index.js";
+import Gastroscopy from "./client/components/blog/gastroscopy/index.js";
+import reflux from "./client/components/blog/refluxdisease/index.js";
+import Irritable from "./client/components/blog/Irritable/index.js";
+import cancers from "./client/components/blog/cancers/index.js";
 
 
 
@@ -333,6 +341,16 @@ const AppContainer = function (props) {
               <Route path="/colorectalCancer" exact component={ColorectalCancer} /> 
               <Route path="/stomachSurgery" exact component={StomachSurgery} /> 
               <Route path="/chronicPancreatitis" exact component={ChronicPancreatitis} />
+              <Route path="/ulcerative" exact component={Ulcerative} />
+              <Route path="/fissure" exact component={fissure} />
+              <Route path="/hemorrhoid" exact component={Hemorrhoid} />
+              <Route path="/abdominal" exact component={Abdominal} />
+              <Route path="/gastroscopy" exact component={Gastroscopy} />
+              <Route path="/reflux" exact component={reflux} />
+              <Route path="/irritable" exact component={Irritable} />
+              <Route path="/cancers" exact component={cancers} />
+
+
 
 
 

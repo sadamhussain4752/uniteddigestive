@@ -708,5 +708,1145 @@
     "path": "18.jpg",
     "images_url": " Rectal-Bleeding.jpg",
     "url": ""
+  },
+  {
+    "id": 10,
+    "title": "Endoscopic Surgery",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "endoscopicSurgery"
+  },
+  {
+    "id": 11,
+    "title": "Colorectal Cancer",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "ColorectalCancer"
+  },
+  {
+    "id": 12,
+    "title": "Stomach Surgery",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "stomachSurgery"
+  },
+  {
+    "id": 13,
+    "title": "Chronic Pancreatitis",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "chronicPancreatitis"
+  },
+  {
+    "id": 14,
+    "title": "Incisional hernia",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "Incisionalhernia"
+  },
+  {
+    "id": 14,
+    "title": "Inguinal hernia",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "Incisionalhernia"
+  },
+  {
+    "id": 15,
+    "title": "Ulcerative Colitis Surgery",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "ulcerative"
+  },
+  {
+    "id": 15,
+    "title": "Ulcerative Colitis Surgery",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "Incisionalhernia"
+  },
+  {
+    "id": 16,
+    "title": "Anal fissure, anal fistula",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "fissure"
+  },
+  {
+    "id": 17,
+    "title": "Hemorrhoid",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "hemorrhoid"
+  },
+  {
+    "id": 18,
+    "title": "Abdominal Pain/ Acute And Chronic",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "abdominal"
+  },
+  {
+    "id": 19,
+    "title": "Gastroscopy abnormal",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "gastroscopy"
+  },
+  {
+    "id": 20,
+    "title": "Surgery for reflux disease",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "reflux"
+  },
+  {
+    "id": 21,
+    "title": "Irritable bowel syndrome",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "irritable"
+  },
+  {
+    "id": 22,
+    "title": "Surgery for cancers",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "cancers"
   }
 ]
