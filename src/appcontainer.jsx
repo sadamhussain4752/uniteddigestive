@@ -185,7 +185,8 @@ import EndoscopicSurgery from "./client/components/blog/endoscopicSurgery/index.
 import ColorectalCancer from "./client/components/blog/colorectalCancer/index.js";
 import StomachSurgery from "./client/components/blog/stomachSurgery/index.js";
 import ChronicPancreatitis from "./client/components/blog/chronicPancreatitis/index.js";
-
+import IncisionalHernia from "./client/components/blog/incisional-hernia/index.js";
+import InguinalHernia from "./client/components/blog/inguinal-hernia/index.js";
 
 
 const AppContainer = function (props) {
@@ -333,8 +334,11 @@ const AppContainer = function (props) {
               <Route path="/colorectalCancer" exact component={ColorectalCancer} /> 
               <Route path="/stomachSurgery" exact component={StomachSurgery} /> 
               <Route path="/chronicPancreatitis" exact component={ChronicPancreatitis} />
+              <Route path="/incisional-hernia" exact component={IncisionalHernia} />
+              <Route path="/inguinal-hernia" exact component={InguinalHernia} />
 
-
+              
+              
 
               <Route path="/swallowableBalloon" exact component={SwallowableBalloon} />
               
