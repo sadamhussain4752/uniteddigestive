@@ -179,6 +179,11 @@ import ScrollToTop from "./ScrollToTop.jsx";
 import GuthealthCare from "./client/components/blog/Gulhealthcare/index.js";
 import Obesity from "./client/components/blog/obesity/index.js";
 import Lasersurgery from "./client/components/blog/Laser/index.js";
+import Gallstones from "./client/components/blog/gallstones/index.js";
+import SwallowableBalloon from "./client/components/blog/swallowable-balloon/index.js";
+
+
+
 const AppContainer = function (props) {
   if (props) {
     const url = props.location.pathname.split("/")[1];
@@ -321,8 +326,11 @@ const AppContainer = function (props) {
               <Route path="/Lasersurgery" exact component={Lasersurgery} />
               <Route path="/guthealth-list" exact component={GuthealthCare} />
 
+              <Route path="/swallowableBalloon" exact component={SwallowableBalloon} />
+              
+              <Route path="/gallstones" exact component={Gallstones} />
               <Route path="/introducing/" exact component={Introducing} />
-              <Route path="/teams" exact component={Teams} />
+              <Route path="/teams" exact component={Teams} />Gallstones
 
 
               <Route path="/doctor-blog" exact component={Doctorblog} />
