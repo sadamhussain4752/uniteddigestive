@@ -44,24 +44,71 @@
     })();
   </script>
   <!--End of Tawk.to Script-->
+  <style>
 
+  </style>
 
   <title>Dr. Shabeer Ahmed</title>
+
+
+  <style>
+    .splash-screen {
+      width: 100vw;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+    }
+
+    #loader {
+      padding: 0px !important;
+    }
+  </style>
+
+
 </head>
 
-<body>
+<body onload="myFunction()">
   <noscript>You need to enable JavaScript to run this app.</noscript>
+
+
+
+  <div class="container-fluid cont-sec " style="padding: 0px !important;" id="loader">
+    <div class="inner-sec">
+      <div class="row  p-0">
+        <div class="splash-screen p-0">
+
+
+          <img src="logogif.gif" alt="">
+
+          <audio controls autoplay>
+            <source src="onload-sound.mp3" type="audio/ogg">
+            <source src="onload-sound.mp3" type="audio/mpeg">
+          </audio>
+
+        </div>
+
+      </div>
+    </div>
+  </div>
+
+
+
   <div id="root"></div>
-  <!--
-      This HTML file is a template.
-      If you open it directly in the browser, you will see an empty page.
 
-      You can add webfonts, meta tags, or analytics to this file.
-      The build step will place the bundled scripts into the <body> tag.
+  <script>
+    var myVar;
 
-      To begin the development, run `npm start` or `yarn start`
-      To create a production bundle, use `npm run build` or `yarn build`.
-    -->
+    function myFunction() {
+      myVar = setTimeout(showPage, 1000);
+    }
+
+    function showPage() {
+      document.getElementById("loader").style.display = "none";
+      document.getElementById("myDiv").style.display = "block";
+    }
+  </script>
 
 </body>
 <!-- <script src="assets/js/ckeditor.js"></script> -->
