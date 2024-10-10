@@ -51,66 +51,10 @@
   <title>Dr. Shabeer Ahmed</title>
 
 
-  <style>
-    .splash-screen {
-      width: 100vw;
-      height: 100vh;
-      background-color: black;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-    }
-
-    #loader {
-      padding: 0px !important;
-    }
-  </style>
 
 
 </head>
-
-<body onload="myFunction()">
-  <noscript>You need to enable JavaScript to run this app.</noscript>
-
-
-
-  <div class="container-fluid cont-sec " style="padding: 0px !important;" id="loader">
-    <div class="inner-sec">
-      <div class="row  p-0">
-        <div class="splash-screen p-0">
-
-
-          <img src="logogif.gif" alt="">
-
-          <audio controls autoplay>
-            <source src="onload-sound.mp3" type="audio/ogg">
-            <source src="onload-sound.mp3" type="audio/mpeg">
-          </audio>
-
-        </div>
-
-      </div>
-    </div>
-  </div>
-
-
-
-  <div id="root"></div>
-
-  <script>
-    var myVar;
-
-    function myFunction() {
-      myVar = setTimeout(showPage, 1000);
-    }
-
-    function showPage() {
-      document.getElementById("loader").style.display = "none";
-      document.getElementById("myDiv").style.display = "block";
-    }
-  </script>
-
-</body>
+<div id="root"></div>
 <!-- <script src="assets/js/ckeditor.js"></script> -->
 
 </html>

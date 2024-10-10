@@ -25,11 +25,24 @@ import Blogslist from "../../JSON/Blogs.json";
 import medicals from "../../JSON//GUI.json";
 import { Button } from "react-bootstrap";
 import abouts from "../../JSON//about.json";
+import SplashScreen from "../../blog/splashscreen";
 // import abouts from "../../JSON/J.json";
 
 
 const Home1 = () => {
   const [date1, setDate1] = useState(null);
+
+  const [isVisible, setIsVisible] = useState(true);
+
+  useEffect(() => {
+    // Hide splash screen after 2 seconds
+    const timer = setTimeout(() => {
+      setIsVisible(false);
+    }, 2000); // Adjust the time as needed (2000 ms = 2 seconds)
+
+    return () => clearTimeout(timer); // Clean up the timer on unmount
+  }, []);
+
 
   AOS.init();
   useEffect(() => {
@@ -246,6 +259,11 @@ alert("hiii")
       },
     ],
   };
+
+  if(isVisible){
+   return <SplashScreen/>
+
+  }
 
   return (
     <div className="main-wrapper home-one">

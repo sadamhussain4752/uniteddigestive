@@ -3239,3 +3239,26 @@ header{
 .cal-btnn{
     width: 35%;
 }
+
+.splash-screen {
+    width: 100vw;
+      height: 100vh;
+      background-color: black;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+  
+    .logo-container {
+      .logo-image {
+        width: 100%; // Adjust the logo size as needed
+      }
+    }
+  }
+  
+  @keyframes fadeOut {
+    to {
+      opacity: 0;
+      visibility: hidden;
+    }
+  }
+  
