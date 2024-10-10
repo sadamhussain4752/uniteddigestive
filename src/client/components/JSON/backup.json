@@ -496,68 +496,68 @@
     "id": 7,
     "title": "Laser surgery",
     "description": "Laser surgery has gained significant traction as a treatment method for various anorectal conditions, thanks to its precision, advanced technology, minimal invasiveness, and shorter recovery periods. This technique utilizes laser energy to target and treat tissues in the anal and rectal regions. Below is an overview of common anorectal conditions that can be addressed through laser surgery, highlighting the benefits and general procedure involved.",
-    "faqs": [
-      {
-        "question": "What are the benefits of laser surgery?",
+"faqs": [
+  {
+    "question": "What are the benefits of laser surgery?",
     "answer": "Laser surgery offers precise targeting, typically results in reduced bleeding, and allows for a quicker recovery compared to traditional surgical methods."
-      },
-      {
-        "question": "What conditions can be treated with laser surgery?",
+  },
+  {
+    "question": "What conditions can be treated with laser surgery?",
     "answer": "This technique is effective for treating various issues, including skin abnormalities, tumors, and eye disorders, among others."
-      }
-    ],
-    "types": [
-      {
-        "question": "1. Hemorrhoids",
+  }
+],
+"types": [
+  {
+    "question": "1. Hemorrhoids",
     "answer": "Laser Hemorrhoidoplasty (LHP): This method is utilized for treating internal hemorrhoids. A laser fiber is inserted into the hemorrhoidal pile, delivering laser energy that causes the hemorrhoid to shrink by cutting off blood supply to the vessels, leading to reduced size through coagulation and subsequent fibrosis. Benefits include minimal bleeding, reduced post-operative pain, and a quicker recovery compared to traditional hemorrhoidectomy."
-      },
-      {
-        "question": "2. Anal Fissures",
+  },
+  {
+    "question": "2. Anal Fissures",
     "answer": "Chronic anal fissures can be effectively addressed with laser surgery (LASER LIS), which involves the careful removal of fissure tissue to encourage healing. The laser assists in alleviating muscle spasms in the anal sphincter and enhances blood circulation in the area. Benefits include less pain, faster healing, and a lower risk of infection."
-      },
-      {
-        "question": "3. Fistula-in-Ano",
+  },
+  {
+    "question": "3. Fistula-in-Ano",
     "answer": "Various laser techniques, such as Laser Ablation of Fistula Tract (LAFT) and FILAC (Fistula Laser Closure), are used for this condition. In these procedures, a laser probe is inserted into the fistula tract to ablate it from within, promoting healing without extensive tissue disruption. Additional methods include LIFT with LASER and VAAFT with LASER. Benefits encompass minimal tissue damage, lower recurrence rates, quicker recovery, and preservation of anal sphincter function, which is crucial for maintaining continence."
-      },
-      {
-        "question": "4. Pilonidal Sinus",
+  },
+  {
+    "question": "4. Pilonidal Sinus",
     "answer": "Laser surgery effectively treats pilonidal sinus disease by ablating the sinus tract and facilitating closure, especially in recurrent cases where traditional surgery has not succeeded. Benefits include faster healing, less discomfort, and a reduced chance of recurrence."
-      },
-      {
-        "question": "5. Anal Warts (Condyloma)",
+  },
+  {
+    "question": "5. Anal Warts (Condyloma)",
     "answer": "Laser therapy is a potent method for eliminating anal warts caused by human papillomavirus (HPV). The laser accurately targets the warts, leading to their vaporization while sparing surrounding tissues. Benefits include precise removal, diminished risk of scarring, and minimal bleeding."
-      },
-      {
-        "question": "6. Rectal Polyps",
+  },
+  {
+    "question": "6. Rectal Polyps",
     "answer": "Small benign rectal polyps can be safely removed via laser surgery. The laser precisely excises the polyp without necessitating extensive surgical intervention. Benefits include a quicker procedure, minimal bleeding, and fewer complications."
-      }
-    ],
-    "advantages": [
-      {
-        "question": "1. Minimally Invasive",
+  }
+],
+"advantages": [
+  {
+    "question": "1. Minimally Invasive",
     "answer": "Laser surgery results in less damage to surrounding tissues compared to traditional methods, facilitating a faster recovery."
-      },
-      {
-        "question": "2. Less Bleeding",
+  },
+  {
+    "question": "2. Less Bleeding",
     "answer": "As the laser cuts, it seals blood vessels, leading to significantly reduced bleeding during and after the procedure."
-      },
-      {
-        "question": "3. Reduced Pain",
+  },
+  {
+    "question": "3. Reduced Pain",
     "answer": "Due to lower tissue trauma and quicker healing, laser surgery typically results in less post-operative pain."
-      },
-      {
-        "question": "4. Faster Recovery",
+  },
+  {
+    "question": "4. Faster Recovery",
     "answer": "Patients generally enjoy quicker recovery times, allowing them to return to normal activities sooner."
-      },
-      {
+  },
+  {
     "question": "5. Lower Risk of Infections",
     "answer": "The laser sterilizes the tissue during the procedure, thereby reducing the likelihood of post-operative infections."
-      },
-      {
-        "question": "6. Daycare Procedure:",
+  },
+  {
+    "question": "6. Daycare Procedure:",
     "answer": "Most laser surgeries for anorectal conditions are conducted as outpatient or daycare procedures, enabling patients to return home on the same day."
-      }
-    ],
+  }
+],
 
     "path": "Laser-Surgery.jpg",
     "images_url": " 19.jpg",
@@ -567,69 +567,69 @@
     "id": 8,
     "title": "Gastric Balloons",
    "description": "Gastric balloon procedures have become an increasingly popular non-surgical option for weight loss due to their effectiveness, minimal invasiveness, and relatively quick recovery times. These procedures involve the placement of a soft, expandable balloon in the stomach, which helps to reduce capacity and promotes a feeling of fullness with smaller food portions. Below is an overview of the common types of gastric balloons, their benefits, and general information regarding their use.",
-    "faqs": [
-      {
+"faqs": [
+  {
     "question": "What are the benefits of gastric balloons?",
     "answer": "Gastric balloons are non-surgical, minimally invasive options that significantly aid in weight loss by decreasing the stomach's capacity, allowing patients to feel fuller with smaller portions."
-      },
-      {
+  },
+  {
     "question": "What conditions can be treated with gastric balloons?",
     "answer": "Gastric balloons are primarily used for obesity management and weight loss, helping individuals who struggle with weight-related health issues."
-      }
-    ],
-    "types": [
-      {
-        "question": "What is an Intragastric Balloon?",
-        "answer": "An Intragastric Balloon is a non-surgical weight loss procedure in which a soft, expandable balloon is inserted into the stomach. The balloon is filled with saline or gas, reducing the stomach’s capacity and helping the patient feel fuller with smaller food portions.",
-        "benefits": "Non-surgical, minimally invasive, promotes significant weight loss, and can be removed if necessary."
-      },
-      {
-        "question": "What is the Orbera Gastric Balloon?",
+  }
+],
+"types": [
+  {
+    "question": "What is an Intragastric Balloon?",
+    "answer": "An Intragastric Balloon is a non-surgical weight loss procedure in which a soft, expandable balloon is inserted into the stomach. The balloon is filled with saline or gas, reducing the stomach’s capacity and helping the patient feel fuller with smaller food portions.",
+    "benefits": "Non-surgical, minimally invasive, promotes significant weight loss, and can be removed if necessary."
+  },
+  {
+    "question": "What is the Orbera Gastric Balloon?",
     "answer": "The Orbera Gastric Balloon is a single balloon system that is inserted endoscopically into the stomach and filled with saline. It remains in the stomach for six months to assist with weight loss by reducing appetite.",
-        "benefits": "Helps lose 10-15% of body weight, no surgery involved, and effective for appetite control."
-      },
-      {
-        "question": "What is the Spatz Adjustable Gastric Balloon?",
+    "benefits": "Helps lose 10-15% of body weight, no surgery involved, and effective for appetite control."
+  },
+  {
+    "question": "What is the Spatz Adjustable Gastric Balloon?",
     "answer": "The Spatz Adjustable Gastric Balloon allows adjustments to the balloon's size after placement. This flexibility can improve weight loss outcomes or reduce discomfort by altering the balloon’s volume during treatment.",
-        "benefits": "Adjustable size, longer placement duration (up to 12 months), and customizable for better weight loss results."
-      },
-      {
-        "question": "What is the ReShape Duo Gastric Balloon?",
-        "answer": "The ReShape Duo system uses two connected balloons to occupy more space in the stomach compared to single balloon systems, helping patients to feel fuller for longer and lose more weight.",
-        "benefits": "Double balloon design increases stomach space occupation, reducing hunger more effectively, and enhancing weight loss results."
-      },
-      {
-        "question": "What is the Obalon Gastric Balloon?",
+    "benefits": "Adjustable size, longer placement duration (up to 12 months), and customizable for better weight loss results."
+  },
+  {
+    "question": "What is the ReShape Duo Gastric Balloon?",
+    "answer": "The ReShape Duo system uses two connected balloons to occupy more space in the stomach compared to single balloon systems, helping patients to feel fuller for longer and lose more weight.",
+    "benefits": "Double balloon design increases stomach space occupation, reducing hunger more effectively, and enhancing weight loss results."
+  },
+  {
+    "question": "What is the Obalon Gastric Balloon?",
     "answer": "The Obalon system consists of a swallowable, gas-filled balloon that is inserted into the stomach non-invasively. Multiple balloons can be added over time to enhance the weight loss effect.",
-        "benefits": "Non-invasive (swallowable), minimal discomfort, and multiple balloons can be added gradually."
-      }
-    ],
-    "advantages": [
-      {
+    "benefits": "Non-invasive (swallowable), minimal discomfort, and multiple balloons can be added gradually."
+  }
+],
+"advantages": [
+  {
     "question": "What are the benefits of gastric balloons?",
     "answer": "Gastric balloons provide a minimally invasive, non-surgical weight loss solution that helps patients achieve significant weight loss by reducing the stomach's capacity, allowing them to feel fuller with smaller food portions."
-      },
-      {
+  },
+  {
     "question": "Do gastric balloons offer quicker recovery compared to surgery?",
     "answer": "Yes, gastric balloon procedures are non-surgical, leading to much quicker recovery times, with most patients able to resume normal activities within a few days."
-      },
-      {
+  },
+  {
     "question": "Are gastric balloons reversible?",
     "answer": "Yes, gastric balloons are fully reversible. They are designed to be temporary and are typically removed after 6-12 months, depending on the type of balloon used."
-      },
-      {
+  },
+  {
     "question": "Can gastric balloons lead to significant weight loss?",
     "answer": "Yes, patients can lose between 10-15% of their body weight over six months, with the actual amount depending on diet, exercise, and lifestyle changes made during the treatment period."
-      },
-      {
+  },
+  {
     "question": "Is the gastric balloon procedure safe?",
     "answer": "Yes, the procedure is generally safe and well-tolerated, although temporary side effects such as nausea or discomfort may occur as the body adjusts to the balloon."
-      },
-      {
+  },
+  {
     "question": "What is the duration of the gastric balloon treatment?",
     "answer": "Most gastric balloons are placed for about six months, though some types, like the Spatz Adjustable Balloon, can remain in place for up to 12 months."
-      }
-    ],
+  }
+],
 
     "path": "16.jpg",
     "images_url": "Surgical-Interventions.jpg",
@@ -639,74 +639,74 @@
     "id": 9,
     "title": "Rectal Bleeding",
     "description": "Rectal bleeding can arise from a variety of conditions, both acute (sudden onset) and chronic (long-term). Understanding these conditions is crucial for effective management.",
-    "faqs": [
-      {
+"faqs": [
+  {
     "question": "What are hemorrhoids?",
     "answer": "Hemorrhoids are swollen blood vessels in the rectum or anus that can rupture, resulting in bright red bleeding. This condition is often accompanied by pain or itching."
-      },
-      {
+  },
+  {
     "question": "What are anal fissures?",
     "answer": "Anal fissures are small tears in the lining of the anus, which can lead to pain and bleeding during or after bowel movements."
-      }
-    ],
-    "types": [
-      {
+  }
+],
+"types": [
+  {
     "question": "What is hemorrhoidal bleeding?",
     "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often leading to bright red blood during bowel movements. This is the most common cause of rectal bleeding, frequently caused by constipation, straining, or prolonged sitting.",
     "benefits": "Hemorrhoidal bleeding is usually mild and can be effectively managed with lifestyle changes, over-the-counter medications, or minor procedures."
-      },
-      {
+  },
+  {
     "question": "What is anal fissure bleeding?",
     "answer": "Anal fissures are small tears in the anal lining, often resulting in pain and bright red bleeding during or after bowel movements. The bleeding is typically minimal.",
     "benefits": "Bleeding from anal fissures can often be controlled through dietary adjustments, topical treatments, or minor surgical options for long-term relief."
-      },
-      {
+  },
+  {
     "question": "What is diverticular bleeding?",
     "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or rupture, causing sudden and sometimes heavy rectal bleeding. This condition is more prevalent in older adults and often requires medical evaluation.",
     "benefits": "While medical intervention may be necessary, diverticular bleeding typically resolves on its own and can be managed with dietary changes and medications to prevent recurrence."
-      },
-      {
+  },
+  {
     "question": "What is colorectal polyp bleeding?",
     "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can bleed if they become large or irritated. While the bleeding may be less noticeable, it can signal a potential risk of cancer.",
     "benefits": "Polyps can often be removed during a colonoscopy, decreasing the risk of cancer and stopping any bleeding."
-      },
-      {
+  },
+  {
     "question": "What is inflammatory bowel disease (IBD) bleeding?",
     "answer": "Conditions such as Crohn’s disease and ulcerative colitis can cause rectal bleeding due to chronic inflammation in the digestive tract. This bleeding may accompany diarrhea, abdominal pain, and other symptoms.",
     "benefits": "Although IBD is a chronic condition, medications and surgical interventions can help manage symptoms and reduce episodes of bleeding."
-      },
-      {
+  },
+  {
     "question": "What is colorectal cancer bleeding?",
     "answer": "Rectal bleeding may be an early indicator of colorectal cancer, particularly if accompanied by changes in bowel habits, weight loss, or fatigue. The bleeding can be visible or hidden during bowel movements.",
     "benefits": "Early detection of colorectal cancer through screenings and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
-      }
-    ],
-    "advantages": [
-      {
+  }
+],
+"advantages": [
+  {
     "question": "What are the benefits of early identification of rectal bleeding causes?",
     "answer": "Identifying the cause of rectal bleeding early allows for prompt treatment of conditions such as hemorrhoids, fissures, or more serious issues like colorectal cancer, thereby reducing the risk of complications."
-      },
-      {
+  },
+  {
     "question": "Can rectal bleeding be treated without surgery?",
     "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids and anal fissures, can be managed with non-surgical approaches, including dietary changes, medications, or minor outpatient procedures."
-      },
-      {
+  },
+  {
     "question": "Is surgery always necessary for rectal bleeding?",
     "answer": "Surgery is not always required. Many cases of hemorrhoidal or fissure bleeding can be treated with non-invasive methods. However, more serious conditions, like colorectal cancer, may necessitate surgical intervention."
-      },
-      {
-        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+  },
+  {
+    "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
     "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgical approaches."
-      },
-      {
+  },
+  {
     "question": "Can lifestyle changes help reduce rectal bleeding?",
     "answer": "Absolutely. Lifestyle modifications such as increasing fiber intake, staying well-hydrated, and avoiding straining during bowel movements can significantly lower the risk of rectal bleeding, especially for hemorrhoids and fissures."
-      },
-      {
+  },
+  {
     "question": "How can regular medical screenings assist with rectal bleeding?",
     "answer": "Regular screenings, like colonoscopies, can help identify the underlying causes of rectal bleeding, such as polyps or early-stage cancer, enabling timely treatment and better health outcomes."
-      }
-    ], 
+  }
+],
 
     "path": "18.jpg",
     "images_url": " Rectal-Bleeding.jpg",
@@ -716,73 +716,73 @@
     "id": 10,
     "title": "Endoscopic Surgery",
    "description": "Endoscopic surgery is a minimally invasive procedure used to diagnose and treat various gastrointestinal conditions, including those causing rectal bleeding. It involves the use of a flexible tube with a camera and surgical instruments, allowing for direct visualization and intervention.",
-    "faqs": [
-      {
+"faqs": [
+  {
     "question": "What are the benefits of endoscopic surgery?",
     "answer": "Endoscopic surgery typically results in less pain, reduced recovery time, and minimal scarring compared to traditional open surgery."
-      },
-      {
+  },
+  {
     "question": "What conditions can be treated with endoscopic surgery?",
     "answer": "Endoscopic surgery can address conditions like polyps, tumors, gastrointestinal bleeding, and certain bowel obstructions."
-      }
-    ],
-    "types": [
-      {
+  }
+],
+"types": [
+  {
     "question": "What is endoscopic polypectomy?",
     "answer": "Endoscopic polypectomy is a procedure to remove polyps from the colon using a flexible endoscope. It is commonly performed during a colonoscopy and allows for the immediate removal of polyps to prevent cancer.",
     "benefits": "This procedure is effective in reducing cancer risk and is minimally invasive, leading to quicker recovery and less discomfort."
-      },
-      {
+  },
+  {
     "question": "What is endoscopic mucosal resection (EMR)?",
     "answer": "EMR is a technique used to remove cancerous or precancerous lesions from the gastrointestinal tract. The endoscope is used to lift the lesion and excise it safely.",
     "benefits": "EMR is less invasive than traditional surgery, preserving healthy tissue and allowing for rapid recovery."
-      },
-      {
+  },
+  {
     "question": "What is endoscopic band ligation?",
     "answer": "This procedure is used to treat variceal bleeding or hemorrhoids. An endoscope is used to place a rubber band around the base of the varices or hemorrhoids to cut off blood supply.",
     "benefits": "It is effective for controlling bleeding and can be done on an outpatient basis with minimal recovery time."
-      },
-      {
+  },
+  {
     "question": "What is endoscopic ultrasound (EUS)?",
     "answer": "EUS combines endoscopy and ultrasound to obtain images of the digestive tract and surrounding tissues. It is often used to evaluate tumors or cysts.",
     "benefits": "EUS provides detailed images, helping in accurate diagnosis and staging of gastrointestinal diseases."
-      },
-      {
+  },
+  {
     "question": "What is endoscopic stenting?",
     "answer": "Endoscopic stenting involves placing a stent in the gastrointestinal tract to keep a narrowed area open, improving passage and reducing obstruction.",
     "benefits": "This technique can relieve symptoms without the need for invasive surgery and has a quicker recovery time."
-      },
-      {
+  },
+  {
     "question": "What is endoscopic hemostasis?",
     "answer": "Endoscopic hemostasis refers to techniques used to control bleeding in the gastrointestinal tract, such as thermal coagulation or clipping.",
     "benefits": "These methods are effective in quickly stopping bleeding and are minimally invasive, enhancing recovery."
-      }
-    ],
-    "advantages": [
-      {
+  }
+],
+"advantages": [
+  {
     "question": "What are the benefits of early intervention through endoscopy?",
     "answer": "Early intervention using endoscopy can lead to quicker diagnosis and treatment of conditions like bleeding, reducing the risk of complications and improving outcomes."
-      },
-      {
+  },
+  {
     "question": "Can endoscopic surgery be performed as an outpatient procedure?",
     "answer": "Yes, many endoscopic procedures are performed on an outpatient basis, allowing patients to go home the same day."
-      },
-      {
+  },
+  {
     "question": "Is endoscopic surgery safe?",
     "answer": "Endoscopic surgery is generally considered safe, with a low risk of complications. Most patients tolerate the procedure well."
-      },
-      {
+  },
+  {
     "question": "What are the advantages of minimally invasive endoscopic techniques?",
     "answer": "Minimally invasive endoscopic techniques result in less pain, shorter recovery times, and minimal scarring compared to traditional surgical methods."
-      },
-      {
+  },
+  {
     "question": "How can lifestyle changes support recovery from endoscopic surgery?",
     "answer": "After endoscopic surgery, maintaining a healthy diet, staying hydrated, and following medical advice can enhance recovery and overall health."
-      },
-      {
+  },
+  {
     "question": "How does regular screening benefit patients considering endoscopic procedures?",
     "answer": "Regular screenings, such as colonoscopies, can help detect issues early, leading to timely endoscopic interventions and better health outcomes."
-      }
+  }
 ]
 , 
     "path": "18.jpg",
@@ -793,74 +793,74 @@
     "id": 11,
     "title": "Colorectal Cancer",
    "description": "Colorectal cancer is a type of cancer that occurs in the colon or rectum and can cause various symptoms, including rectal bleeding. Early detection and treatment are crucial for better outcomes.",
-    "faqs": [
-      {
+"faqs": [
+  {
     "question": "What are the common symptoms of colorectal cancer?",
     "answer": "Common symptoms include changes in bowel habits, rectal bleeding, unexplained weight loss, fatigue, and abdominal pain."
-      },
-      {
+  },
+  {
     "question": "How is colorectal cancer diagnosed?",
     "answer": "Colorectal cancer is typically diagnosed through screenings like colonoscopies, imaging tests, and biopsies."
-      }
-    ],
-    "types": [
-      {
+  }
+],
+"types": [
+  {
     "question": "What are the stages of colorectal cancer?",
     "answer": "Colorectal cancer is staged from 0 to IV, indicating the extent of spread, from localized tumors to those that have spread to distant organs.",
     "benefits": "Staging helps determine the appropriate treatment plan and prognosis."
-      },
-      {
+  },
+  {
     "question": "What is metastatic colorectal cancer?",
     "answer": "Metastatic colorectal cancer refers to cancer that has spread from the colon or rectum to other parts of the body, such as the liver or lungs.",
     "benefits": "Understanding the metastasis can guide treatment options and management strategies."
-      },
-      {
+  },
+  {
     "question": "What are the treatment options for colorectal cancer?",
     "answer": "Treatment may include surgery, chemotherapy, radiation therapy, and targeted therapies, depending on the stage and location of the cancer.",
     "benefits": "A personalized treatment plan can improve the chances of recovery and manage symptoms effectively."
-      },
-      {
+  },
+  {
     "question": "What is the role of screening in colorectal cancer?",
     "answer": "Screening tests, like colonoscopies, can detect colorectal cancer early, often before symptoms appear, which can significantly improve treatment outcomes.",
     "benefits": "Early detection through screening can lead to less aggressive treatment and better survival rates."
-      },
-      {
+  },
+  {
     "question": "What is the significance of colorectal polyps in cancer risk?",
     "answer": "Certain types of polyps can develop into colorectal cancer over time, making regular screening and removal essential.",
     "benefits": "Removing polyps during colonoscopy can reduce the risk of developing cancer."
-      },
-      {
+  },
+  {
     "question": "How does lifestyle impact colorectal cancer risk?",
     "answer": "Factors such as diet, physical activity, smoking, and alcohol consumption can influence the risk of developing colorectal cancer.",
     "benefits": "Adopting a healthy lifestyle can help reduce risk and improve overall health."
-      }
-    ],
-    "advantages": [
-      {
+  }
+],
+"advantages": [
+  {
     "question": "What are the benefits of early detection of colorectal cancer?",
     "answer": "Early detection allows for timely treatment, which can significantly improve survival rates and reduce the need for extensive therapies."
-      },
-      {
+  },
+  {
     "question": "Can colorectal cancer be treated without surgery?",
     "answer": "In some cases, colorectal cancer can be managed with chemotherapy or radiation therapy alone, especially if surgery poses a high risk."
-      },
-      {
+  },
+  {
     "question": "What are the advantages of minimally invasive surgical techniques for colorectal cancer?",
     "answer": "Minimally invasive techniques, such as laparoscopic surgery, offer quicker recovery, less pain, and reduced scarring compared to traditional open surgery."
-      },
-      {
+  },
+  {
     "question": "How can dietary changes support recovery from colorectal cancer?",
     "answer": "A diet rich in fruits, vegetables, and whole grains can aid recovery, boost immunity, and improve overall well-being during treatment."
-      },
-      {
+  },
+  {
     "question": "How do regular screenings contribute to colorectal cancer prevention?",
     "answer": "Regular screenings help detect polyps or early-stage cancer, enabling proactive treatment that can prevent progression to more advanced cancer."
-      },
-      {
+  },
+  {
     "question": "What support resources are available for colorectal cancer patients?",
     "answer": "Patients can access support groups, counseling services, and educational resources to help manage the emotional and physical challenges of their diagnosis."
-      }
-    ], 
+  }
+],
 
     "path": "18.jpg",
     "images_url": " Rectal-Bleeding.jpg",
@@ -870,65 +870,65 @@
     "id": 12,
     "title": "Stomach Surgery",
     "description": "Stomach surgery can address various conditions affecting the stomach, including ulcers, cancers, and obesity. The procedures aim to alleviate symptoms and improve overall health.",
-    "faqs": [
-      {
+"faqs": [
+  {
     "question": "What are common types of stomach surgery?",
     "answer": "Common types include gastric bypass, sleeve gastrectomy, and surgeries to remove tumors or repair ulcers."
-      },
-      {
+  },
+  {
     "question": "What are the risks associated with stomach surgery?",
     "answer": "Risks can include infection, bleeding, complications from anesthesia, and issues related to nutritional deficiencies."
-      }
-    ],
-    "types": [
-      {
+  }
+],
+"types": [
+  {
     "question": "What is Gastric Bypass Surgery?",
     "answer": "Gastric bypass surgery involves creating a small pouch from the stomach and connecting it directly to the small intestine, reducing food intake and nutrient absorption.",
     "benefits": "This surgery can lead to significant weight loss and improvements in obesity-related conditions, such as type 2 diabetes."
-      },
-      {
+  },
+  {
     "question": "What is Sleeve Gastrectomy?",
     "answer": "Sleeve gastrectomy involves removing a portion of the stomach to create a tube-like structure, significantly reducing stomach size and hunger hormone levels.",
     "benefits": "This procedure can help with weight loss and has shown positive effects on metabolic health."
-      },
-      {
+  },
+  {
     "question": "What is Stomach Ulcer Surgery?",
     "answer": "Surgery for stomach ulcers may involve removing the affected portion of the stomach or repairing damage caused by the ulcer.",
     "benefits": "This can relieve pain, prevent complications, and promote healing of the digestive tract."
-      },
-      {
+  },
+  {
     "question": "What is Gastrectomy for Cancer?",
     "answer": "Gastrectomy involves the partial or total removal of the stomach due to cancer, aimed at eliminating cancerous cells.",
     "benefits": "This procedure can be crucial for managing stomach cancer and improving survival rates."
-      },
-      {
+  },
+  {
     "question": "What is Endoscopic Surgery for Stomach Issues?",
     "answer": "Endoscopic surgery uses a camera and specialized instruments to perform minimally invasive procedures on the stomach, addressing issues like strictures or polyps.",
     "benefits": "Endoscopic procedures typically result in shorter recovery times and reduced pain compared to traditional surgery."
-      }
-    ],
-    "advantages": [
-      {
+  }
+],
+"advantages": [
+  {
     "question": "What are the benefits of stomach surgery for weight loss?",
     "answer": "Stomach surgery can lead to significant weight loss, improving quality of life and reducing the risk of obesity-related diseases."
-      },
-      {
+  },
+  {
     "question": "Can stomach surgery be performed laparoscopically?",
     "answer": "Yes, many stomach surgeries can be performed laparoscopically, which is less invasive and typically offers faster recovery."
-      },
-      {
+  },
+  {
     "question": "What are the advantages of minimally invasive techniques for stomach surgery?",
     "answer": "Minimally invasive techniques result in smaller incisions, less pain, shorter hospital stays, and quicker recovery times compared to open surgery."
-      },
-      {
+  },
+  {
     "question": "How can lifestyle changes support recovery after stomach surgery?",
     "answer": "Post-surgery, adopting a healthy diet and exercise routine is crucial for long-term weight management and recovery."
-      },
-      {
+  },
+  {
     "question": "How important is follow-up care after stomach surgery?",
     "answer": "Follow-up care is essential to monitor recovery, manage any complications, and ensure proper nutrition and weight loss goals are being met."
-      }
-    ], 
+  }
+],
 
     "path": "18.jpg",
     "images_url": " Rectal-Bleeding.jpg",
@@ -1005,7 +1005,7 @@
         "question": "How can medical screening help with chronic pancreatitis?",
         "answer": "Regular screenings, such as imaging and enzyme tests, can help detect complications like calcifications or early signs of pancreatic cancer, leading to timely interventions."
       }
-    ], 
+    ],
     "path": "18.jpg",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "chronicPancreatitis"
@@ -1160,7 +1160,7 @@
     ], 
     "path": "18.jpg",
     "images_url": " Rectal-Bleeding.jpg",
-    "url": "inguinal-hernia"
+    "url": "Incisionalhernia"
   },
   {
     "id": 15,
@@ -1544,7 +1544,7 @@
   },
   {
     "id": 19,
-    "title": "Gastroscopy Abnormal",
+    "title": "Gastroscopy abnormal",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
       {
@@ -1620,7 +1620,7 @@
   },
   {
     "id": 20,
-    "title": "Surgery For Reflux Disease",
+    "title": "Surgery for reflux disease",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
       {
@@ -1696,7 +1696,7 @@
   },
   {
     "id": 21,
-    "title": "Irritable Bowel Syndrome",
+    "title": "Irritable bowel syndrome",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
       {
@@ -1772,7 +1772,7 @@
   },
   {
     "id": 22,
-    "title": "Surgery For Cancers",
+    "title": "Surgery for cancers",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
       {

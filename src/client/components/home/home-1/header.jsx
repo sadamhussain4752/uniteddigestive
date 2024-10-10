@@ -487,7 +487,7 @@ const Home1Header = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/pages/aboutus" >
+                      <Link to="/contacts" >
                         Contact Us
                       </Link>
                     </li>
@@ -630,7 +630,8 @@ const Home1Header = () => {
                   </div>
                 </li>
                 <li className="has-submenu d-flex align-items-center">
-                <i class="fa-solid fa-headset fs-6 mb-2"></i>
+                <a href="tel:+919900246002" className="ms-1"> <i class="fa-solid fa-headset fs-6 mb-2"></i></a>
+               
                 </li>
               </ul>
             </div>

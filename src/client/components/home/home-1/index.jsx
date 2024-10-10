@@ -334,7 +334,7 @@ alert("hiii")
                   <p className="ban-sub-cont">
                     See if you qualify to skip the pre-procedure office visit.
                   </p>
-                  <a class="read-more-test" href="/guthealth-details/3">
+                  <a class="read-more-test" href="/contacts">
                     Begin Questionnaire
                   </a>
                 </div>
@@ -355,7 +355,7 @@ alert("hiii")
                   <p className="ban-sub-cont">
                     See if you qualify for hemorrhoid banding.
                   </p>
-                  <a class="read-more-test" href="/guthealth-details/3">Begin Questionnaire</a>
+                  <a class="read-more-test" href="/contacts">Begin Questionnaire</a>
                 </div>
 
               </div>

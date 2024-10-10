@@ -171,7 +171,10 @@ const GuthealthDetails = (props) => {
                         </div>
                         <div className="specialist-info">
                           <Link to="#">
-                            <h6>Contacts</h6>
+                          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="ms-1">
+                          <h6>Contacts</h6>
+  </a>
+                            
                           </Link>
                           {/* <p>15 Doctors</p> */}
                         </div>
