@@ -371,7 +371,8 @@ const fissure = (props) => {
                           />
                         </div>
                         <div className="specialist-info">
-                          <a to="https://wa.me/whatsappphonenumber?text=urlencodedtext" target="_blank">
+                          
+                          <a href="https://www.eka.care/doctor/dr-shabeer-gastroenterologist-bengaluru" target="_blank">
                             <h6>Request an Appointment</h6>
                           </a>
                           {/* <p>30 Doctors</p> */}
@@ -396,9 +397,9 @@ const fissure = (props) => {
                           />
                         </div>
                         <div className="specialist-info">
-                          <Link to="#">
-                            <h6>Contacts</h6>
-                          </Link>
+                        <a href="https://wa.me/919900246002" target="_blank" rel="noopener noreferrer">
+  <h6>WhatsApp</h6>
+</a>
                           {/* <p>15 Doctors</p> */}
                         </div>
                         <div className="specialist-nav ms-auto">

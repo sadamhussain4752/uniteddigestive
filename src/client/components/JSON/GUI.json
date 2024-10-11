@@ -789,85 +789,9 @@
     "images_url": " Rectal-Bleeding.jpg",
     "url": "endoscopicSurgery"
   },
+ 
   {
     "id": 11,
-    "title": "Colorectal Cancer",
-   "description": "Colorectal cancer is a type of cancer that occurs in the colon or rectum and can cause various symptoms, including rectal bleeding. Early detection and treatment are crucial for better outcomes.",
-    "faqs": [
-      {
-    "question": "What are the common symptoms of colorectal cancer?",
-    "answer": "Common symptoms include changes in bowel habits, rectal bleeding, unexplained weight loss, fatigue, and abdominal pain."
-      },
-      {
-    "question": "How is colorectal cancer diagnosed?",
-    "answer": "Colorectal cancer is typically diagnosed through screenings like colonoscopies, imaging tests, and biopsies."
-      }
-    ],
-    "types": [
-      {
-    "question": "What are the stages of colorectal cancer?",
-    "answer": "Colorectal cancer is staged from 0 to IV, indicating the extent of spread, from localized tumors to those that have spread to distant organs.",
-    "benefits": "Staging helps determine the appropriate treatment plan and prognosis."
-      },
-      {
-    "question": "What is metastatic colorectal cancer?",
-    "answer": "Metastatic colorectal cancer refers to cancer that has spread from the colon or rectum to other parts of the body, such as the liver or lungs.",
-    "benefits": "Understanding the metastasis can guide treatment options and management strategies."
-      },
-      {
-    "question": "What are the treatment options for colorectal cancer?",
-    "answer": "Treatment may include surgery, chemotherapy, radiation therapy, and targeted therapies, depending on the stage and location of the cancer.",
-    "benefits": "A personalized treatment plan can improve the chances of recovery and manage symptoms effectively."
-      },
-      {
-    "question": "What is the role of screening in colorectal cancer?",
-    "answer": "Screening tests, like colonoscopies, can detect colorectal cancer early, often before symptoms appear, which can significantly improve treatment outcomes.",
-    "benefits": "Early detection through screening can lead to less aggressive treatment and better survival rates."
-      },
-      {
-    "question": "What is the significance of colorectal polyps in cancer risk?",
-    "answer": "Certain types of polyps can develop into colorectal cancer over time, making regular screening and removal essential.",
-    "benefits": "Removing polyps during colonoscopy can reduce the risk of developing cancer."
-      },
-      {
-    "question": "How does lifestyle impact colorectal cancer risk?",
-    "answer": "Factors such as diet, physical activity, smoking, and alcohol consumption can influence the risk of developing colorectal cancer.",
-    "benefits": "Adopting a healthy lifestyle can help reduce risk and improve overall health."
-      }
-    ],
-    "advantages": [
-      {
-    "question": "What are the benefits of early detection of colorectal cancer?",
-    "answer": "Early detection allows for timely treatment, which can significantly improve survival rates and reduce the need for extensive therapies."
-      },
-      {
-    "question": "Can colorectal cancer be treated without surgery?",
-    "answer": "In some cases, colorectal cancer can be managed with chemotherapy or radiation therapy alone, especially if surgery poses a high risk."
-      },
-      {
-    "question": "What are the advantages of minimally invasive surgical techniques for colorectal cancer?",
-    "answer": "Minimally invasive techniques, such as laparoscopic surgery, offer quicker recovery, less pain, and reduced scarring compared to traditional open surgery."
-      },
-      {
-    "question": "How can dietary changes support recovery from colorectal cancer?",
-    "answer": "A diet rich in fruits, vegetables, and whole grains can aid recovery, boost immunity, and improve overall well-being during treatment."
-      },
-      {
-    "question": "How do regular screenings contribute to colorectal cancer prevention?",
-    "answer": "Regular screenings help detect polyps or early-stage cancer, enabling proactive treatment that can prevent progression to more advanced cancer."
-      },
-      {
-    "question": "What support resources are available for colorectal cancer patients?",
-    "answer": "Patients can access support groups, counseling services, and educational resources to help manage the emotional and physical challenges of their diagnosis."
-      }
-    ], 
-
-    "path": "18.jpg",
-    "images_url": " Rectal-Bleeding.jpg",
-    "url": "ColorectalCancer"
-  },
-  {
-    "id": 12,
     "title": "Stomach Surgery",
     "description": "Stomach surgery can address various conditions affecting the stomach, including ulcers, cancers, and obesity. The procedures aim to alleviate symptoms and improve overall health.",
     "faqs": [
@@ -935,7 +859,7 @@
     "url": "stomachSurgery"
   },
   {
-    "id": 13,
+    "id": 12,
     "title": "Chronic Pancreatitis",
     "description": "Chronic pancreatitis is a long-term inflammation of the pancreas that affects its ability to function properly, leading to persistent pain, digestive issues, and other complications.",
     "faqs": [
@@ -1011,7 +935,7 @@
     "url": "chronicPancreatitis"
   },
   {
-    "id": 14,
+    "id": 13,
     "title": "Incisional hernia",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1084,7 +1008,7 @@
     ], 
     "path": "18.jpg",
     "images_url": " Rectal-Bleeding.jpg",
-    "url": "Incisionalhernia"
+    "url": "incisional-hernia"
   },
   {
     "id": 14,
@@ -1239,7 +1163,7 @@
     "url": "ulcerative"
   },
   {
-    "id": 15,
+    "id": 16,
     "title": "Ulcerative Colitis Surgery",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1315,7 +1239,7 @@
     "url": "Incisionalhernia"
   },
   {
-    "id": 16,
+    "id": 17,
     "title": "Anal fissure, anal fistula",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1391,7 +1315,7 @@
     "url": "fissure"
   },
   {
-    "id": 17,
+    "id": 18,
     "title": "Hemorrhoid",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1467,7 +1391,7 @@
     "url": "hemorrhoid"
   },
   {
-    "id": 18,
+    "id": 19,
     "title": "Abdominal Pain/ Acute And Chronic",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1543,7 +1467,7 @@
     "url": "abdominal"
   },
   {
-    "id": 19,
+    "id": 20,
     "title": "Gastroscopy Abnormal",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1619,7 +1543,7 @@
     "url": "gastroscopy"
   },
   {
-    "id": 20,
+    "id": 21,
     "title": "Surgery For Reflux Disease",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1695,7 +1619,7 @@
     "url": "reflux"
   },
   {
-    "id": 21,
+    "id": 22,
     "title": "Irritable Bowel Syndrome",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1771,7 +1695,7 @@
     "url": "irritable"
   },
   {
-    "id": 22,
+    "id": 23,
     "title": "Surgery For Cancers",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1845,5 +1769,81 @@
     "path": "18.jpg",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "cancers"
+  },
+  {
+    "id": 23,
+    "title": "Stem Cell Therapy",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
+    "faqs": [
+      {
+        "question": "Hemorrhoids ?",
+        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
+      },
+      {
+        "question": "Anal Fissures ?",
+        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
+      }
+    ],
+    "types": [
+      {
+        "question": "What is Hemorrhoidal Bleeding?",
+        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
+        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
+      },
+      {
+        "question": "What is Anal Fissure Bleeding?",
+        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
+        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
+      },
+      {
+        "question": "What is Diverticular Bleeding?",
+        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
+        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
+      },
+      {
+        "question": "What is Colorectal Polyp Bleeding?",
+        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
+        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
+      },
+      {
+        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
+        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
+        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
+      },
+      {
+        "question": "What is Colorectal Cancer Bleeding?",
+        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
+        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
+        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
+      },
+      {
+        "question": "Can rectal bleeding be treated with non-surgical methods?",
+        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
+      },
+      {
+        "question": "Is surgery always required for rectal bleeding?",
+        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
+      },
+      {
+        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
+        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
+      },
+      {
+        "question": "Can lifestyle changes reduce rectal bleeding?",
+        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
+      },
+      {
+        "question": "How can medical screening help with rectal bleeding?",
+        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
+      }
+    ], 
+    "path": "18.jpg",
+    "images_url": " Rectal-Bleeding.jpg",
+    "url": "stemcelltherapy"
   }
 ]

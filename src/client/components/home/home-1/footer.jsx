@@ -47,7 +47,7 @@ const Home1Footer = () => {
                   </h2>
                   <div className="footer-address">
                     <p>
-                      <i className="feather icon-map-pin" /> Richmond Road, Mother Teresa Rd, Entry from, behind Sacred Heart School Sacred Heart Church, Richmond Town, Bengaluru, Karnataka 560025
+                      <i className="feather icon-map-pin" /> 830 13 Main 3 Block Koramangala Bangalore 560034
                     </p>
                   </div>
                   <div className="footer-address">
