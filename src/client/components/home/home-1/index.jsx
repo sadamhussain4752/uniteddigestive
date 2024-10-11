@@ -38,7 +38,7 @@ const Home1 = () => {
     // Hide splash screen after 2 seconds
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 2000); // Adjust the time as needed (2000 ms = 2 seconds)
+    }, 1000); // Adjust the time as needed (2000 ms = 2 seconds)
 
     return () => clearTimeout(timer); // Clean up the timer on unmount
   }, []);
@@ -51,6 +51,7 @@ const Home1 = () => {
     });
   }, []);
   const handleScroll = () => {
+
     AOS.refresh();
   };
   useEffect(() => {
@@ -169,7 +170,7 @@ alert("hiii")
   };
 
   const bestDoctorsSlider = {
-    loop: true,
+    loop: false,
     margin: 24,
     dots: false,
     nav: true,
@@ -189,12 +190,7 @@ alert("hiii")
       768: {
         items: 2,
       },
-      1000: {
-        items: 3,
-      },
-      1300: {
-        items: 4,
-      },
+      
     },
   };
   const partnersSlider = {
@@ -756,7 +752,7 @@ alert("hiii")
                       <Link to="/teams">
                         <div className="doctor-profile-img">
                           <ImageWithBasePath
-                            src="assets/img/about/ID size.jpg"
+                            src={`assets/img/about/${its.Url_img}`}
                             className="img-fluid"
                             alt="Ruby Perrin"
                           />
