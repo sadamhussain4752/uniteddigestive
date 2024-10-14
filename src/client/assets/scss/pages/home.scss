@@ -3155,7 +3155,7 @@
 
 }
 
-.t-pre{
+.t-pre {
     font-size: 15px;
     background-color: white !important;
     border: none;
@@ -3167,19 +3167,19 @@
     justify-content: center;
     align-items: center;
 
-    
+
 }
 
-.nav-btn{
+.nav-btn {
     bottom: 0% !important;
 }
 
-.con-arw{
+.con-arw {
     font-size: 25px;
     color: #66be6c;
 }
 
-.gth-sub-hed{
+.gth-sub-hed {
     text-transform: uppercase;
     font-weight: 700;
     font-size: 20px;
@@ -3187,7 +3187,7 @@
     letter-spacing: 1px;
 }
 
-.gth-hed{
+.gth-hed {
     font-weight: 700;
     font-size: 35px;
     line-height: 36px;
@@ -3200,11 +3200,11 @@
     margin-bottom: 6px;
 }
 
-.gth-img{
+.gth-img {
     width: 250px;
 }
 
-.gth-cont{
+.gth-cont {
     font-weight: 400;
     font-size: 16px;
     line-height: 21px;
@@ -3212,53 +3212,154 @@
     color: #595c69;
 }
 
-.mnim-bg{
+.mnim-bg {
     background-color: #edf2f6;
 }
 
-header{
+header {
     box-shadow: 0px 0px 10px lightgray !important;
 }
 
-.txt-just{
+.txt-just {
     text-align: justify !important;
 }
 
-.lsre-tret ul li{
-    list-style:disc;
+.lsre-tret ul li {
+    list-style: disc;
 }
 
-.img-apoin{
+.img-apoin {
     width: 30px;
 }
 
-.obesity-pag ul li{
-    list-style:disc;
+.obesity-pag ul li {
+    list-style: disc;
 }
 
-.cal-btnn{
+.cal-btnn {
     width: 35%;
 }
 
 .splash-screen {
     width: 100vw;
-      height: 100vh;
-      background-color: black;
-      display: flex;
-      align-items: center;
-      justify-content: center;
-  
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     .logo-container {
-      .logo-image {
-        width: 100%; // Adjust the logo size as needed
-      }
+        .logo-image {
+            width: 100%; // Adjust the logo size as needed
+        }
     }
-  }
-  
-  @keyframes fadeOut {
+}
+
+@keyframes fadeOut {
     to {
-      opacity: 0;
-      visibility: hidden;
+        opacity: 0;
+        visibility: hidden;
     }
-  }
-  
+}
+
+
+
+//   other page css 10/14
+
+
+@media screen and (width:600%) {
+
+
+    .nav-btn {
+        cursor: pointer;
+        position: absolute;
+        top: 50%;
+        transform: translateY(-50%);
+        font-size: 2rem;
+        color: #333;
+        /* Adjust the color */
+        z-index: 1000;
+        /* Ensure arrows are above other content */
+    }
+
+    .prev-slide {
+        left: -30px;
+        /* Adjust left position */
+    }
+
+    .next-slide {
+        right: -30px;
+        /* Adjust right position */
+    }
+
+    .custome_slides {
+        position: relative;
+        /* Make sure container is relative for arrows to position correctly */
+    }
+
+
+    #slide-experts .owl-nav button.owl-prev {
+        bottom: 0% !important;
+    }
+
+    #slide-experts .owl-nav button.owl-next {
+        bottom: 0% !important;
+    }
+
+
+
+    .btns-lot {
+
+        text-align: center;
+
+        button {
+            background-color: white !important;
+            border: none;
+            border-radius: 50%;
+            box-shadow: 0px 0px 10px lightblue;
+        }
+
+        a {
+            text-decoration: none;
+            color: #fff;
+            font-size: 17px;
+            font-weight: 500;
+            padding: 8px 24px;
+            background-color: #65bd60;
+            border-radius: 30px;
+            border: 0;
+        }
+
+    }
+
+
+
+    .gth-hed {
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 36px;
+        color: #174579;
+        margin-top: 0;
+        font-size: 28px;
+        color: #174579;
+        letter-spacing: 0;
+        line-height: 38px;
+        margin-bottom: 6px;
+    }
+
+    .gth-img {
+        width: 250px;
+    }
+
+    .gth-cont {
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 21px;
+        margin-bottom: 8px;
+        color: #595c69;
+    }
+
+    .mnim-bg {
+        background-color: #edf2f6;
+    }
+}
