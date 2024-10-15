@@ -1,36 +1,34 @@
-import React, { useEffect, useRef } from "react";
+import React, { useEffect } from "react";
+import useSound from "use-sound";  // Import the use-sound hook
 
 const SplashScreen = () => {
-  const audioRef = useRef(null);
+  // Load the sound file using the use-sound hook
+  const [play] = useSound('/assets/img/banner/audio.mp3');
 
   useEffect(() => {
     const playAudio = async () => {
       try {
-        if (audioRef.current) {
-          audioRef.current.muted = false;
-          await audioRef.current.play();
-          console.log("Audio started playing");
-        }
+        await play();  // Play the audio automatically when the component mounts
+        console.log("Audio started playing");
       } catch (error) {
         console.error("Error playing audio:", error);
       }
     };
+
+    // Auto-play after component mounts
     playAudio();
-  }, []);
+  }, [play]);
 
   return (
-    <div className="splash-screen">
-      <div className="logo-container">
+    <div className="splash-container">
+      <div className="splash-logo-wrapper">
+        {/* GIF logo display */}
         <img
           src="/assets/img/banner/logo-reserve.gif"
           alt="Splash Logo"
-          className="logo-image"
+          className="splash-logo"
           style={{ width: '100%', height: 'auto' }}
         />
-        <audio ref={audioRef} >
-          <source src="/assets/img/banner/audio.mp3" type="audio/mp3" />
-          Your browser does not support the audio tag.
-        </audio>
       </div>
     </div>
   );

@@ -80,6 +80,7 @@
     "style-loader": "^4.0.0",
     "styled-components": "^6.1.10",
     "swiper": "^8.4.7",
+    "use-sound": "^4.0.3",
     "webpack-cli": "^5.1.4"
   },
   "devDependencies": {
