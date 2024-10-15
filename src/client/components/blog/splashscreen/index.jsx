@@ -1,44 +1,35 @@
 import React, { useEffect, useRef } from "react";
 
 const SplashScreen = () => {
-  const videoRef = useRef(null);
+  const audioRef = useRef(null);
 
   useEffect(() => {
-    if (videoRef.current) {
-      // Attempt to play the video
-      const playVideo = async () => {
-        try {
-          videoRef.current.muted = false; // Unmute the video
-          await videoRef.current.play(); // Play the video
-        } catch (error) {
-          console.error("Error playing video:", error);
+    const playAudio = async () => {
+      try {
+        if (audioRef.current) {
+          audioRef.current.muted = false;
+          await audioRef.current.play();
+          console.log("Audio started playing");
         }
-      };
-
-      // Unmute and play the video after a short delay
-      const timeoutId = setTimeout(() => {
-        playVideo();
-      }, 4000); // 1 second delay (optional)
-
-      return () => clearTimeout(timeoutId); // Cleanup on unmount
-    }
+      } catch (error) {
+        console.error("Error playing audio:", error);
+      }
+    };
+    playAudio();
   }, []);
 
   return (
     <div className="splash-screen">
       <div className="logo-container">
-        <video
-          ref={videoRef}
-          autoPlay
-          loop
-          muted // Start muted to comply with autoplay policies
+        <img
+          src="/assets/img/banner/logo-reserve.gif"
+          alt="Splash Logo"
           className="logo-image"
-        >
-          <source src="/assets/img/banner/logo-reserve.mp4" type="video/mp4" />
-          Your browser does not support the video tag.
-        </video>
-        <audio autoPlay>
-        <source src="/assets/img/banner/audio.mp3" type="audio/mp3" />
+          style={{ width: '100%', height: 'auto' }}
+        />
+        <audio ref={audioRef} >
+          <source src="/assets/img/banner/audio.mp3" type="audio/mp3" />
+          Your browser does not support the audio tag.
         </audio>
       </div>
     </div>
