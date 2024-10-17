@@ -38,7 +38,7 @@ const Home1 = () => {
     // Hide splash screen after 2 seconds
     const timer = setTimeout(() => {
       setIsVisible(false);
-    }, 4000); // Adjust the time as needed (2000 ms = 2 seconds)
+    }, 5000); // Adjust the time as needed (2000 ms = 2 seconds)
 
     return () => clearTimeout(timer); // Clean up the timer on unmount
   }, []);
