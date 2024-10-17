@@ -33,15 +33,18 @@ const Home1 = () => {
   const [date1, setDate1] = useState(null);
 
   const [isVisible, setIsVisible] = useState(true);
+  const [isVisibles, setIsVisibles] = useState(false);
+
 
   useEffect(() => {
     // Hide splash screen after 2 seconds
-    const timer = setTimeout(() => {
-      setIsVisible(false);
-    }, 5000); // Adjust the time as needed (2000 ms = 2 seconds)
+    if(isVisibles){
+     setTimeout(() => {
+      setIsVisible(false)
+     }, 4000);
+    }
 
-    return () => clearTimeout(timer); // Clean up the timer on unmount
-  }, []);
+  }, [isVisibles]);
 
 
   AOS.init();
@@ -257,7 +260,12 @@ alert("hiii")
   };
 
   if(isVisible){
-   return <SplashScreen/>
+   return <SplashScreen allowvideo={(item)=>{
+    console.log('====================================');
+    console.log(item,"item");
+    console.log('====================================');
+    setIsVisibles(item)
+   }}/>
 
   }
 
