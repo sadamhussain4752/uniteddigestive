@@ -31,6 +31,8 @@ import SplashScreen from "../../blog/splashscreen";
 // translator
 
 import strings from "./strings";
+import { useTranslation } from 'react-i18next';
+
 
 const Home1 = () => {
 
@@ -68,6 +70,12 @@ const Home1 = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
+  const [language, setLanguage] = useState('en');
+
+  const changeLanguage = (lang) => {
+    strings.setLanguage(lang);
+    setLanguage(lang);
+  };
   const ourExpert = {
     loop: true,
     margin: 24,
@@ -273,7 +281,7 @@ const Home1 = () => {
   //  }}/>
 
   // }
-
+  const { t, i18n } = useTranslation();
   return (
     <div className="main-wrapper home-one">
       <Home1Header />
@@ -320,20 +328,16 @@ const Home1 = () => {
             <div className="col-lg-5">
               <div className="banner-cont-main">
                 <div className="banner-content text-center mt-5">
-                  <h1>Introducing</h1>
+                  <h1>{strings.bnrHed}</h1>
                   <p>
-                    <strong> United Gut Healthcare </strong>: A Multidisciplinary Approach to
-                    Digestive Health
+                    <strong>{strings.bnrsubhed} </strong>: {strings.bnrsubhedcont}
                   </p>
                   <p className="fs-6">
-                    At United Gut Healthcare, we understand that digestive
-                    health is crucial to overall well-being. Our comprehensive
-                    approach integrates various specialties to provide you with
-                    the most effective and personalized care for your
-                    gastrointestinal needs.
+                    {strings.bnrcont}
+
                   </p>
                   <a class="discov-innner" href="/introducing">
-                    Read More<i class="fa-solid fa-chevron-right ms-2"></i>
+                    {strings.rdmor}<i class="fa-solid fa-chevron-right ms-2"></i>
                   </a>
                 </div>
               </div>
@@ -345,16 +349,15 @@ const Home1 = () => {
 
 
       <section>
-        <h1>{strings.how}</h1>
         <div>
-          <button onClick={() => {
-            strings.setLanguage('en')
-          }}>English</button>
-          <button onClick={() => {
-            strings.setLanguage('it')
-            window.location.reload();
-          }}>Arabic</button>
+          <h1>{strings.greeting}</h1>
+          <p>{strings.welcome}</p>
+
+          <button onClick={() => changeLanguage('en')}>English</button>
+          <button onClick={() => changeLanguage('fr')}>Français</button>
+          <button onClick={() => changeLanguage('es')}>Español</button>
         </div>
+
       </section>
 
       <section className="banner-sub">
@@ -369,13 +372,17 @@ const Home1 = () => {
 
                 <div className="col-7">
                   <p className="ban-sub-hed">
-                    Precision Surgery / Robotic Surgery
+
+                    {strings.sec2hed}
+
+
                   </p>
                   <p className="ban-sub-cont">
-                    See if you qualify to skip the pre-procedure office visit.
+                    {strings.sec2cont}
+
                   </p>
                   <a class="read-more-test" href="/contacts">
-                    Begin Questionnaire
+                    {strings.sec2contbtn1}
                   </a>
                 </div>
 
@@ -390,12 +397,14 @@ const Home1 = () => {
 
                 <div className="col-7">
                   <p className="ban-sub-hed">
-                    Experiencing Rectal Bleeding, Itching, or Pain?
+                    {strings.sec2hed2}
                   </p>
                   <p className="ban-sub-cont">
-                    See if you qualify for hemorrhoid banding.
+                    {strings.sec2cont2}
                   </p>
-                  <a class="read-more-test" href="/contacts">Begin Questionnaire</a>
+                  <a class="read-more-test" href="/contacts">
+                    {strings.sec2contbtn2}
+                  </a>
                 </div>
 
               </div>
@@ -422,23 +431,19 @@ const Home1 = () => {
             <div className="col-lg-6 col-md-12">
               <div className="section-inner-header about-inner-header">
                 {/* <h6> Our About </h6> */}
-                <h2>Dr. Shabeer Ahmed</h2>
+                <h2>
+                  {strings.drName}
+                </h2>
               </div>
               <div className="about-content">
                 <div className="about-content-details">
                   <h4>
-                    Gastrointestinal, Bariatric, Laparoscopic, General & Onco
-                    Surgeon
+
+                    {strings.drExperties}
                   </h4>
                   <p>
-                    An eminent senior consultant Gastrointestinal & Laparoscopic
-                    and Bariatric Surgeon with over 36 years of extensive
-                    surgical experience. He is also an acknowledged teacher and
-                    mentor by Association of Laparoscopic Surgery (ALS), UK. His
-                    special expertise lies in advanced laparoscopic surgery
-                    especially for gastro-intestinal cancer. He has his passion
-                    for Video Assisted Thoracic Surgery (VATS), Bariatric
-                    Surgery and Metabolic Surgery.{" "}
+
+                    {strings.drAbout}
                   </p>
 
                   <Link to="/pages/aboutus">
@@ -446,7 +451,7 @@ const Home1 = () => {
                       className="btn text-blue bg-blue mt-2 "
                       variant="outline-dark"
                     >
-                      Read More
+                      {strings.rdmor}
                     </Button>
                     {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
                   </Link>
@@ -456,6 +461,8 @@ const Home1 = () => {
           </div>
         </div>
       </section>
+
+
       <section className="counter-section">
         <div className="ban-bg">
           <ImageWithBasePath
@@ -471,12 +478,15 @@ const Home1 = () => {
         </div>
         <div className="container">
           <div className="text-center mb-4">
-            <h3 className="text-white">Driven by a Commitment to Excellence</h3>
+            <h3 className="text-white">
+              {strings.achHed}
+
+            </h3>
           </div>
           <div className="text-center mb-5">
             <h5 className="text-white">
-              I continually strives to improve the health and well-being of
-              every patient, one successful treatment at a time
+              {strings.achCont}
+
             </h5>
           </div>
           <div className="row">
@@ -492,9 +502,9 @@ const Home1 = () => {
                 <div className="count-info">
                   <h3>
                     <CountUp end={38} duration={5} className="count-digit" />{" "}
-                    Years
+                    {strings.achYear}
                   </h3>
-                  <p>Experience</p>
+                  <p>{strings.achExp}</p>
                 </div>
               </div>
             </div>
@@ -512,7 +522,7 @@ const Home1 = () => {
                     <CountUp end={15000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>Laparoscopic Surgeries</p>
+                  <p>{strings.achLapSurger}</p>
                 </div>
               </div>
             </div>
@@ -531,7 +541,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>Happy Patientss</p>
+                  <p>{strings.achHapPat}</p>
                 </div>
               </div>
             </div>
@@ -549,7 +559,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>Successful Treatments</p>
+                  <p>{strings.achSuccTre}</p>
                 </div>
               </div>
             </div>
@@ -566,7 +576,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>Nations</p>
+                  <p>{strings.achNations}</p>
                 </div>
               </div>
             </div>
@@ -583,7 +593,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>Research Analyst</p>
+                  <p>{strings.achReseAn}</p>
                 </div>
               </div>
             </div>
@@ -597,7 +607,7 @@ const Home1 = () => {
             <div className="col-md-12">
               <div className="section-header-sixteen text-center">
                 {/* <p>Recapture the beauty of self-confidence</p> */}
-                <h2>My Expertise Area</h2>
+                <h2>{strings.ExpAr}</h2>
               </div>
             </div>
           </div>
