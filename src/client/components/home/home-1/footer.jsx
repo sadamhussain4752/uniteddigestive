@@ -120,16 +120,7 @@ const Home1Footer = () => {
                             Providers
                           </a>
                         </li>
-                        <li>
-                          <a href="search.html">
-                            Locations
-                          </a>
-                        </li>
-                        <li>
-                          <a href="video-call.html">
-                            Services
-                          </a>
-                        </li>
+                        
 
                         <li>
                           <a href="video-call.html">
@@ -137,11 +128,11 @@ const Home1Footer = () => {
                           </a>
                         </li>
 
-                        <li>
+                        {/* <li>
                           <a href="video-call.html">
                             Partner Practices
                           </a>
-                        </li>
+                        </li> */}
                       </ul>
                     </div>
                   </div>
@@ -156,7 +147,7 @@ const Home1Footer = () => {
                       <ul>
 
                         <li>
-                          <a href="search.html">
+                          <a href="https://www.eka.care/doctor/dr-shabeer-gastroenterologist-bengaluru" target="_blank">
                             Schedule Appointment
                           </a>
                         </li>
@@ -206,7 +197,7 @@ const Home1Footer = () => {
                       <h2 className="footer-title">
                         Additional Resources
                       </h2>
-                      <ul>
+                      {/* <ul>
 
 
 
@@ -236,7 +227,7 @@ const Home1Footer = () => {
                         </li>
 
 
-                      </ul>
+                      </ul> */}
                     </div>
                   </div>
 
@@ -253,24 +244,29 @@ const Home1Footer = () => {
                         </li>
                         <li>
                           <a href="search.html">
-                            News & Updates
+                            News & Events
                           </a>
                         </li>
                         <li>
                           <a href="video-call.html">
-                            Corporate Development
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="video-call.html">
-                            Physician Careers
+                           Blogs and Announcement
                           </a>
                         </li>
 
                         <li>
                           <a href="video-call.html">
-                            All Careers
+                            Videos , Reals, Testimonial
+                          </a>
+                        </li>
+
+                        <li>
+                          <a href="video-call.html">
+                            Symptomatic Checker
+                          </a>
+                        </li>
+                        <li>
+                          <a href="video-call.html">
+                           Quizzes
                           </a>
                         </li>
 

@@ -259,15 +259,15 @@ alert("hiii")
     ],
   };
 
-  if(isVisible){
-   return <SplashScreen allowvideo={(item)=>{
-    console.log('====================================');
-    console.log(item,"item");
-    console.log('====================================');
-    setIsVisibles(item)
-   }}/>
+  // if(isVisible){
+  //  return <SplashScreen allowvideo={(item)=>{
+  //   console.log('====================================');
+  //   console.log(item,"item");
+  //   console.log('====================================');
+  //   setIsVisibles(item)
+  //  }}/>
 
-  }
+  // }
 
   return (
     <div className="main-wrapper home-one">
@@ -346,12 +346,12 @@ alert("hiii")
             <div className="col-md-6 svtm p-4">
               <div className="row">
                 <div className="col-5">
-                  <img src="https://www.uniteddigestive.com/wp-content/uploads/2022/10/gettyimages-667825534-170667a-2.png" className="" alt="" />
+                  <img src="assets/img/bg/1 (1).png" className="" alt="" />
                 </div>
 
                 <div className="col-7">
                   <p className="ban-sub-hed">
-                    Save Time and Money on Your Colonoscopy
+                    Precision Surgery / Robotic Surgery
                   </p>
                   <p className="ban-sub-cont">
                     See if you qualify to skip the pre-procedure office visit.
@@ -367,7 +367,7 @@ alert("hiii")
             <div className="col-md-6 svtm bg-wh-b p-4">
               <div className="row">
                 <div className="col-5">
-                  <img src="https://www.uniteddigestive.com/wp-content/uploads/2022/10/gettyimages-1422301404-170667a-2.png" className="" alt="" />
+                  <img src="assets/img/bg/2 (1).png" className="" alt="" />
                 </div>
 
                 <div className="col-7">
@@ -414,7 +414,7 @@ alert("hiii")
                   </h4>
                   <p>
                     An eminent senior consultant Gastrointestinal & Laparoscopic
-                    and Bariatric Surgeon with over 30 years of extensive
+                    and Bariatric Surgeon with over 36 years of extensive
                     surgical experience. He is also an acknowledged teacher and
                     mentor by Association of Laparoscopic Surgery (ALS), UK. His
                     special expertise lies in advanced laparoscopic surgery
@@ -473,7 +473,7 @@ alert("hiii")
                 </span>
                 <div className="count-info">
                   <h3>
-                    <CountUp end={37} duration={5} className="count-digit" />{" "}
+                    <CountUp end={38} duration={5} className="count-digit" />{" "}
                     Years
                   </h3>
                   <p>Experience</p>
@@ -548,7 +548,24 @@ alert("hiii")
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>National</p>
+                  <p>Nations</p>
+                </div>
+              </div>
+            </div>
+            <div className="col-lg-4 col-sm-6">
+              <div className="count-box">
+                <span className="count-icon">
+                  <ImageWithBasePath
+                    src="assets/img/icons/research.svg"
+                    alt="award-icon"
+                    className="w-75"
+                  />
+                </span>
+                <div className="count-info">
+                  <h3>
+                    <CountUp end={20} duration={5} className="count-digit" />+
+                  </h3>
+                  <p>Research Analyst</p>
                 </div>
               </div>
             </div>

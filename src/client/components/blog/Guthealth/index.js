@@ -218,7 +218,7 @@ const GuthealthDetails = (props) => {
                 <h3 className="mt-5"> Related Services</h3>
 
                 <div className="re-ser-card">
-                  <p className="re-ser-hed">Colonoscopy</p>
+                  <p className="re-ser-hed">Gastric Balloon</p>
                   <p className="re-ser-cont">
                     <span>
                       {" "}

@@ -186,7 +186,7 @@ const Aboutus = (props) => {
                 </h3>
 
                 <p class="abt-cont">
-                  Advanced laparoscopic surgery especially for gastrointestinal cancer. He has his passion for Video-Assisted Thoracic Surgery (VATS), Bariatric Surgery and Metabolic Surgery.
+                  Advanced laparoscopic surgery especially for gastrointestinal cancer. He has his passion for Video-Assisted Thoracic Surgery (VATS), Bariatric Surgery and Metabolic Surgery. Robotic Surgery and Stem Cell Therapy
                 </p>
 
 
@@ -202,13 +202,17 @@ const Aboutus = (props) => {
                   He was appointed as a consultant colorectal surgeon in the republic of Ireland from 1998 – 2001. He was later appointed as a consultant colorectal surgeon in Queen Margaret Hospital, Dunfermline, Scotland for 4 years.
                 </p>
 
+                <p class="abt-cont">
+                Currently doing a Ph.D in Stem Cell, Regenerative, and Tissue Engineering.
+                </p>
+
 
 
                 <h3>
                   Work Experience
                 </h3>
                 <p class="abt-cont">
-                  Dr. Shabeer Ahmed has experience of over 30 years in the field of gastrointestinal & laparoscopic surgery.
+                  Dr. Shabeer Ahmed has experience of over 38 years in the field of gastrointestinal & laparoscopic surgery.
                 </p>
 
 
