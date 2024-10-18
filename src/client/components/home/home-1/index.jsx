@@ -28,8 +28,13 @@ import abouts from "../../JSON//about.json";
 import SplashScreen from "../../blog/splashscreen";
 // import abouts from "../../JSON/J.json";
 
+// translator
+
+import strings from "./strings";
 
 const Home1 = () => {
+
+
   const [date1, setDate1] = useState(null);
 
   const [isVisible, setIsVisible] = useState(true);
@@ -38,10 +43,10 @@ const Home1 = () => {
 
   useEffect(() => {
     // Hide splash screen after 2 seconds
-    if(isVisibles){
-     setTimeout(() => {
-      setIsVisible(false)
-     }, 4000);
+    if (isVisibles) {
+      setTimeout(() => {
+        setIsVisible(false)
+      }, 4000);
     }
 
   }, [isVisibles]);
@@ -92,7 +97,7 @@ const Home1 = () => {
 
 
   function nextSlide() {
-alert("hiii")
+    alert("hiii")
   }
 
   const populartestslider = {
@@ -193,7 +198,7 @@ alert("hiii")
       768: {
         items: 2,
       },
-      
+
     },
   };
   const partnersSlider = {
@@ -338,6 +343,19 @@ alert("hiii")
         </div>
       </section>
 
+
+      <section>
+        <h1>{strings.how}</h1>
+        <div>
+          <button onClick={() => {
+            strings.setLanguage('en')
+          }}>English</button>
+          <button onClick={() => {
+            strings.setLanguage('it')
+            window.location.reload();
+          }}>Arabic</button>
+        </div>
+      </section>
 
       <section className="banner-sub">
 
@@ -658,13 +676,13 @@ alert("hiii")
                     />
                   </div>
                   <h4 className="fs-5 text-center">
-                    <Link to={ item.url === "" ? `guthealth-details/${index + 1}`: `/${item.url}`}>
+                    <Link to={item.url === "" ? `guthealth-details/${index + 1}` : `/${item.url}`}>
                       {item.title}
                     </Link>
                   </h4>
                   <div className="testimonal-contents bg-trans">
                     <Link
-                      to={item.url === "" ? `guthealth-details/${index + 1}`: `/${item.url}`}
+                      to={item.url === "" ? `guthealth-details/${index + 1}` : `/${item.url}`}
                       className="read-more-test"
                     >
                       Read More
@@ -691,7 +709,7 @@ alert("hiii")
           </div>
         </div>
       </section>
-     
+
       {/* <section className="about-section">
         <div className="row">
           <div className="col-md-12">
