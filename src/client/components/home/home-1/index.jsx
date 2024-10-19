@@ -259,15 +259,15 @@ alert("hiii")
     ],
   };
 
-  // if(isVisible){
-  //  return <SplashScreen allowvideo={(item)=>{
-  //   console.log('====================================');
-  //   console.log(item,"item");
-  //   console.log('====================================');
-  //   setIsVisibles(item)
-  //  }}/>
+  if(isVisible){
+   return <SplashScreen allowvideo={(item)=>{
+    console.log('====================================');
+    console.log(item,"item");
+    console.log('====================================');
+    setIsVisibles(item)
+   }}/>
 
-  // }
+  }
 
   return (
     <div className="main-wrapper home-one">
