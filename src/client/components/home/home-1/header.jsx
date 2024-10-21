@@ -4,9 +4,12 @@ import { Link, useHistory } from "react-router-dom";
 import strings from "../../../../Lang/strings";
 import { DownOutlined, SmileOutlined } from "@ant-design/icons";
 import { Dropdown, Space, MenuProps } from "antd";
+import { useTranslation } from 'react-i18next';
+
 const Home1Header = () => {
   const [searchField, setSearchField] = useState(false);
   const [language, setLanguage] = useState("En");
+  const { t, i18n } = useTranslation();
 
   const items = [
     {
@@ -29,7 +32,9 @@ const Home1Header = () => {
   };
 
   const changeLanguage = (lang) => {
-    strings.setLanguage(lang);
+    // strings.setLanguage(lang);
+    // setLanguage(lang);
+    i18n.changeLanguage(lang);
     setLanguage(lang);
   };
   return (

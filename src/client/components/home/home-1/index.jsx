@@ -339,16 +339,16 @@ const Home1 = () => {
             <div className="col-lg-5">
               <div className="banner-cont-main">
                 <div className="banner-content text-center mt-5">
-                  <h1>{strings.bnrHed}</h1>
+                  <h1>{t('bnrHed')}</h1>
                   <p>
-                    <strong>{strings.bnrsubhed} </strong>: {strings.bnrsubhedcont}
+                    <strong>{t('bnrsubhed')} </strong>: {t('bnrsubhedcont')}
                   </p>
                   <p className="fs-6">
-                    {strings.bnrcont}
+                    {t('bnrcont')}
 
                   </p>
                   <a class="discov-innner" href="/introducing">
-                    {strings.rdmor}<i class="fa-solid fa-chevron-right ms-2"></i>
+                    {t('rdmor')}<i class="fa-solid fa-chevron-right ms-2"></i>
                   </a>
                 </div>
               </div>
@@ -370,13 +370,13 @@ const Home1 = () => {
         </div>
 
       </section> */}
-      <div>
+      {/* <div>
       <h1>{t('welcome_message')}</h1>
       <p>{t('description')}</p>
 
       <button onClick={() => changeLanguage('en')}>English</button>
       <button onClick={() => changeLanguage('fr')}>French</button>
-    </div>
+    </div> */}
 
       <section className="banner-sub">
 
@@ -391,16 +391,16 @@ const Home1 = () => {
                 <div className="col-7">
                   <p className="ban-sub-hed">
 
-                    {strings.sec2hed}
+                    {t('sec2hed')}
 
 
                   </p>
                   <p className="ban-sub-cont">
-                    {strings.sec2cont}
+                    {t('sec2cont')}
 
                   </p>
                   <a class="read-more-test" href="/contacts">
-                    {strings.sec2contbtn1}
+                    {t('sec2contbtn1')}
                   </a>
                 </div>
 
@@ -415,13 +415,13 @@ const Home1 = () => {
 
                 <div className="col-7">
                   <p className="ban-sub-hed">
-                    {strings.sec2hed2}
+                    {t('sec2hed2')}
                   </p>
                   <p className="ban-sub-cont">
-                    {strings.sec2cont2}
+                    {t('sec2cont2')}
                   </p>
                   <a class="read-more-test" href="/contacts">
-                    {strings.sec2contbtn2}
+                    {t('sec2contbtn2')}
                   </a>
                 </div>
 
@@ -450,18 +450,18 @@ const Home1 = () => {
               <div className="section-inner-header about-inner-header">
                 {/* <h6> Our About </h6> */}
                 <h2>
-                  {strings.drName}
+                  {t('drName')}
                 </h2>
               </div>
               <div className="about-content">
                 <div className="about-content-details">
                   <h4>
 
-                    {strings.drExperties}
+                    {t('drExperties')}
                   </h4>
                   <p>
 
-                    {strings.drAbout}
+                    {t('drAbout')}
                   </p>
 
                   <Link to="/pages/aboutus">
@@ -469,7 +469,7 @@ const Home1 = () => {
                       className="btn text-blue bg-blue mt-2 "
                       variant="outline-dark"
                     >
-                      {strings.rdmor}
+                      {t('rdmor')}
                     </Button>
                     {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
                   </Link>
@@ -497,13 +497,13 @@ const Home1 = () => {
         <div className="container">
           <div className="text-center mb-4">
             <h3 className="text-white">
-              {strings.achHed}
+              {t('achHed')}
 
             </h3>
           </div>
           <div className="text-center mb-5">
             <h5 className="text-white">
-              {strings.achCont}
+              {t('achCont')}
 
             </h5>
           </div>
@@ -520,9 +520,9 @@ const Home1 = () => {
                 <div className="count-info">
                   <h3>
                     <CountUp end={38} duration={5} className="count-digit" />{" "}
-                    {strings.achYear}
+                    {t('achYear')}
                   </h3>
-                  <p>{strings.achExp}</p>
+                  <p>{t('achExp')}</p>
                 </div>
               </div>
             </div>
@@ -540,7 +540,7 @@ const Home1 = () => {
                     <CountUp end={15000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{strings.achLapSurger}</p>
+                  <p>{t('achLapSurger')}</p>
                 </div>
               </div>
             </div>
@@ -559,7 +559,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{strings.achHapPat}</p>
+                  <p>{t('achHapPat')}</p>
                 </div>
               </div>
             </div>
@@ -577,7 +577,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{strings.achSuccTre}</p>
+                  <p>{t('achSuccTre')}</p>
                 </div>
               </div>
             </div>
@@ -594,7 +594,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>{strings.achNations}</p>
+                  <p>{t('achNations')}</p>
                 </div>
               </div>
             </div>
@@ -611,7 +611,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>{strings.achReseAn}</p>
+                  <p>{t('achReseAn')}</p>
                 </div>
               </div>
             </div>
@@ -625,7 +625,7 @@ const Home1 = () => {
             <div className="col-md-12">
               <div className="section-header-sixteen text-center">
                 {/* <p>Recapture the beauty of self-confidence</p> */}
-                <h2>{strings.ExpAr}</h2>
+                <h2>{t("ExpAr")}</h2>
               </div>
             </div>
           </div>

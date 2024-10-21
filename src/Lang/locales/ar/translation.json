@@ -29,6 +29,8 @@
     "achSuccTre": "العلاجات الناجحة",
     "achNations": "الأمم",
     "achReseAn": "محلل أبحاث",
-    "ExpAr": "My Expertise Area"
+    "ExpAr": "مجال خبرتي",
+    "welcome_message": "Bienvenue dans mon application",
+    "description": "Ceci est un exemple de localisation"
 
   }

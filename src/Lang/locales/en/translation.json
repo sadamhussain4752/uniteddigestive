@@ -27,6 +27,9 @@
     "achSuccTre": "Successful Treatments",
     "achNations": "Nations",
     "achReseAn": "Research Analyst",
-    "ExpAr": "My Expertise Area"
+    "ExpAr": "My Expertise Area",
+     "welcome_message": "Welcome to my application",
+  "description": "This is an example of localization"
+
 
   }
