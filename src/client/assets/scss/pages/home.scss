@@ -2926,7 +2926,6 @@
 
 }
 
-
 // justify-content: space-between;
 .gut-health .testimonal-contents {
     margin-top: auto !important;
@@ -3262,3 +3261,18 @@ header{
     }
   }
   
+  @media only screen and (max-width: 760px) {
+    .banner-sub .container-fluid .svtm .ban-sub-hed {
+        font-size: 20px;
+        font-weight: 700;
+        line-height: 33px;
+        color: #fff;
+    
+    }
+    .header-one .logo.navbar-brand {
+        width: 100%;
+        text-align: end;
+        margin: 0;
+        padding: 0;
+    }
+  }

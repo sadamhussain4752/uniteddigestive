@@ -313,7 +313,7 @@ alert("hiii")
         <div className="container position-absolute top-50 start-50 translate-middle">
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <div className="banner-cont-main">
+              <div className="banner-cont-main d-md-block d-none">
                 <div className="banner-content text-center mt-5">
                   <h1>Introducing</h1>
                   <p>
@@ -344,7 +344,7 @@ alert("hiii")
         <div className="container-fluid px-0">
           <div className="row">
             <div className="col-md-6 svtm p-4">
-              <div className="row">
+              <div className="row d-flex align-items-center">
                 <div className="col-5">
                   <img src="assets/img/bg/1 (1).png" className="" alt="" />
                 </div>
@@ -365,7 +365,7 @@ alert("hiii")
 
             </div>
             <div className="col-md-6 svtm bg-wh-b p-4">
-              <div className="row">
+              <div className="row d-flex align-items-center">
                 <div className="col-5">
                   <img src="assets/img/bg/2 (1).png" className="" alt="" />
                 </div>

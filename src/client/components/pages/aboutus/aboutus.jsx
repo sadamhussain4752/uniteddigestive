@@ -261,7 +261,7 @@ const Aboutus = (props) => {
                         </div>
                       </div>
                       <div className="col-md-12">
-                        <div className="form-group form-group-btn mb-0">
+                        <div className="form-group form-group-btn mb-0 text-center">
                           <button
                             type="submit"
                             className="btn btn-primary prime-btn"
