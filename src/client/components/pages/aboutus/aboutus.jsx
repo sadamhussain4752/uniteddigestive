@@ -53,7 +53,6 @@ import {
 } from "../aboutus/img";
 import CountUp from "react-countup";
 import Home1Header from "../../home/home-1/header";
-import Home1Footer from "../../home/home-1/footer";
 
 const Aboutus = (props) => {
   let pathname = props.location.pathname;
@@ -701,7 +700,7 @@ const Aboutus = (props) => {
         {/* /FAQ Section */}
       </>
 
-     <Home1Footer/>
+      <Footer {...props} />
     </>
   );
 };

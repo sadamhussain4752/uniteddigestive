@@ -341,22 +341,22 @@ const Home1Header = () => {
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" target="_blank">
+                      <Link to="/pharmacyadmin" target="_blank">
                         Medical Records
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" target="_blank">
+                      <Link to="/pharmacyadmin" target="_blank">
                         Your Visit
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" target="_blank">
+                      <Link to="/pharmacyadmin" target="_blank">
                         Services
                       </Link>
                     </li>
                     <li>
-                      <Link to="/" target="_blank">
+                      <Link to="/pharmacyadmin" target="_blank">
                         Procedure Preparation
                       </Link>
                     </li>
