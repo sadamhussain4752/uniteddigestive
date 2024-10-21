@@ -7,6 +7,7 @@ import "react-image-lightbox/style.css";
 import "react-datepicker/dist/react-datepicker.css";
 import "slick-carousel/slick/slick.css";
 import "slick-carousel/slick/slick-theme.css";
+import './Lang/i18n.js'
 
 if (window.location.pathname.includes("pharmacyadmin")) {
   require("./pharmacyadmin/assets/plugins/fontawesome/css/fontawesome.min.css");

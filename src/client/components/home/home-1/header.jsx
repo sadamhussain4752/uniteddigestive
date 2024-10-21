@@ -1,9 +1,23 @@
 import React, { useState } from "react";
 import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
 import { Link, useHistory } from "react-router-dom";
-
+import strings from "../../../../Lang/strings";
+import { DownOutlined, SmileOutlined } from "@ant-design/icons";
+import { Dropdown, Space, MenuProps } from "antd";
 const Home1Header = () => {
   const [searchField, setSearchField] = useState(false);
+  const [language, setLanguage] = useState("En");
+
+  const items = [
+    {
+      key: "en",
+      label: "EN",
+    },
+    {
+      key: "fr",
+      label: "Ar",
+    },
+  ];
 
   const toggleSearch = () => {
     setSearchField(!searchField);
@@ -11,10 +25,13 @@ const Home1Header = () => {
   const history = useHistory();
 
   const directionPath = () => {
-    history.push('/patient/search-doctor1')
-  }
+    history.push("/patient/search-doctor1");
+  };
 
-
+  const changeLanguage = (lang) => {
+    strings.setLanguage(lang);
+    setLanguage(lang);
+  };
   return (
     <>
       <header className="header header-custom header-fixed header-one home-head-one">
@@ -332,13 +349,11 @@ const Home1Header = () => {
                 </li> */}
                 <li className="has-submenu">
                   <Link to="#">
-                    Patients Resources  <i className="fas fa-chevron-down" />
+                    Patients Resources <i className="fas fa-chevron-down" />
                   </Link>
                   <ul className="submenu">
                     <li>
-                      <Link to="/pages/patient-portal">
-                        Patient Portal
-                      </Link>
+                      <Link to="/pages/patient-portal">Patient Portal</Link>
                     </li>
                     <li>
                       <Link to="/pharmacyadmin" target="_blank">
@@ -438,7 +453,6 @@ const Home1Header = () => {
                   </ul> */}
                 </li>
 
-
                 {/* <li className="has-submenu">
                   <Link to="#">
                     GI Health Library 
@@ -461,35 +475,23 @@ const Home1Header = () => {
                   </Link>
                   <ul className="submenu">
                     <li>
-                      <Link to="/pages/aboutus" >
-                        About Us
-                      </Link>
+                      <Link to="/pages/aboutus">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/pages/aboutus">
-                        News & Updates
-                      </Link>
+                      <Link to="/pages/aboutus">News & Updates</Link>
                     </li>
                     <li>
-                      <Link to="/pages/aboutus" >
-                        Corporate Development
-                      </Link>
+                      <Link to="/pages/aboutus">Corporate Development</Link>
                     </li>
 
                     <li>
-                      <Link to="/pages/aboutus">
-                        Physician Careers
-                      </Link>
+                      <Link to="/pages/aboutus">Physician Careers</Link>
                     </li>
                     <li>
-                      <Link to="/pages/aboutus" >
-                        All Careers
-                      </Link>
+                      <Link to="/pages/aboutus">All Careers</Link>
                     </li>
                     <li>
-                      <Link to="/contacts" >
-                        Contact Us
-                      </Link>
+                      <Link to="/contacts">Contact Us</Link>
                     </li>
                   </ul>
                   {/* <ul className="submenu">
@@ -622,16 +624,43 @@ const Home1Header = () => {
                     <form>
                       <div className="input-group">
                         <input type="text" className="form-control" />
-                        <button type="submit" className="btn" onClick={directionPath}>
+                        <button
+                          type="submit"
+                          className="btn"
+                          onClick={directionPath}
+                        >
                           Search
                         </button>
                       </div>
                     </form>
                   </div>
                 </li>
-                <li className="has-submenu d-flex align-items-center">
-                <a href="tel:+919900246002" className="ms-1"> <i class="fa-solid fa-headset fs-6 mb-2"></i></a>
-               
+                <li className="has-submenu d-flex align-items-center ">
+                  <a href="tel:+919900246002" className="ms-1">
+                    {" "}
+                    <i class="fa-solid fa-headset fs-6 mb-2"></i>
+                  </a>
+                </li>
+                <li>
+                  <Dropdown
+                    className="overflow-visible"
+                    menu={{
+                      items,
+                      onClick: (e) => {
+                        console.log("Item clicked:", e); // Logs the clicked item details
+                        changeLanguage(e.key)
+                      },
+                    }}
+                    
+                    
+                  >
+                    <a onClick={(e) => e.preventDefault()}>
+                      <Space>
+                        {language}
+                        <DownOutlined />
+                      </Space>
+                    </a>
+                  </Dropdown>
                 </li>
               </ul>
             </div>

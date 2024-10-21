@@ -30,12 +30,18 @@ import SplashScreen from "../../blog/splashscreen";
 
 // translator
 
-import strings from "./strings";
+import strings from "../../../../Lang/strings";
+
 import { useTranslation } from 'react-i18next';
 
 
 const Home1 = () => {
+  const { t, i18n } = useTranslation();
 
+  const landscreen =  localStorage.getItem("SplashScreen")
+  console.log('====================================');
+  console.log(landscreen,"landscreen");
+  console.log('====================================');
 
   const [date1, setDate1] = useState(null);
 
@@ -72,9 +78,14 @@ const Home1 = () => {
   }, []);
   const [language, setLanguage] = useState('en');
 
-  const changeLanguage = (lang) => {
-    strings.setLanguage(lang);
-    setLanguage(lang);
+  // const changeLanguage = (lang) => {
+  //   strings.setLanguage(lang);
+  //   setLanguage(lang);
+  // };
+
+   // Function to change the language
+   const changeLanguage = (lng) => {
+    i18n.changeLanguage(lng);
   };
   const ourExpert = {
     loop: true,
@@ -272,16 +283,16 @@ const Home1 = () => {
     ],
   };
 
-  // if(isVisible){
-  //  return <SplashScreen allowvideo={(item)=>{
-  //   console.log('====================================');
-  //   console.log(item,"item");
-  //   console.log('====================================');
-  //   setIsVisibles(item)
-  //  }}/>
+  if(isVisible && landscreen){
+   return <SplashScreen allowvideo={(item)=>{
+    console.log('====================================');
+    console.log(item,"item");
+    console.log('====================================');
+    setIsVisibles(item)
+    localStorage.setItem("SplashScreen",false)
+   }}/>
 
-  // }
-  const { t, i18n } = useTranslation();
+  }
   return (
     <div className="main-wrapper home-one">
       <Home1Header />
@@ -348,17 +359,24 @@ const Home1 = () => {
       </section>
 
 
-      <section>
+      {/* <section>
         <div>
           <h1>{strings.greeting}</h1>
           <p>{strings.welcome}</p>
 
           <button onClick={() => changeLanguage('en')}>English</button>
-          <button onClick={() => changeLanguage('fr')}>Français</button>
+          <button onClick={() => changeLanguage('fr')}>Arabic</button>
           <button onClick={() => changeLanguage('es')}>Español</button>
         </div>
 
-      </section>
+      </section> */}
+      <div>
+      <h1>{t('welcome_message')}</h1>
+      <p>{t('description')}</p>
+
+      <button onClick={() => changeLanguage('en')}>English</button>
+      <button onClick={() => changeLanguage('fr')}>French</button>
+    </div>
 
       <section className="banner-sub">
 
