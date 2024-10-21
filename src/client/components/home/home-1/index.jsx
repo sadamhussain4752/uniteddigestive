@@ -791,7 +791,7 @@ const Home1 = () => {
           <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
               <div className="section-header-one section-header-slider text-center">
-                <h2 className="section-title">Our experts team</h2>
+                <h2 className="section-title">{strings.expTeHed} </h2>
               </div>
             </div>
           </div>
@@ -862,7 +862,7 @@ const Home1 = () => {
           <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
               <div className="section-header-one text-center">
-                <h2 className="section-title">Latest Articles</h2>
+                <h2 className="section-title"> {strings.latArtic}</h2>
               </div>
             </div>
           </div>
@@ -916,7 +916,7 @@ const Home1 = () => {
             <div className="col-md-12">
               <div className="section-header-one aos" data-aos="fade-up">
                 <h5>Get Your Answer</h5>
-                <h2 className="section-title">Frequently Asked Questions</h2>
+                <h2 className="section-title text-center"> {strings.faqsHead} </h2>
               </div>
             </div>
           </div>
@@ -953,7 +953,7 @@ const Home1 = () => {
                         aria-expanded="true"
                         aria-controls="collapseOne"
                       >
-                        How do I book an appointment with a doctor?
+                      {strings.faqsq1}  
                       </Link>
                     </h2>
                     <div
@@ -965,10 +965,8 @@ const Home1 = () => {
                       <div className="accordion-body">
                         <div className="accordion-content">
                           <p>
-                            Yes, simply visit our website and log in or create
-                            an account. Search for a doctor based on
-                            specialization, location, or availability &amp;
-                            confirm your booking.
+                          {strings.faqsdis1} 
+                           
                           </p>
                         </div>
                       </div>
@@ -986,8 +984,7 @@ const Home1 = () => {
                         aria-expanded="false"
                         aria-controls="collapseTwo"
                       >
-                        Can I request a specific doctor when booking my
-                        appointment?
+                     {strings.faqsq2}   
                       </Link>
                     </h2>
                     <div
@@ -999,9 +996,8 @@ const Home1 = () => {
                       <div className="accordion-body">
                         <div className="accordion-content">
                           <p>
-                            Yes, you can usually request a specific doctor when
-                            booking your appointment, though availability may
-                            vary based on their schedule.
+                          {strings.faqsdis2} 
+                            
                           </p>
                         </div>
                       </div>
@@ -1019,8 +1015,7 @@ const Home1 = () => {
                         aria-expanded="false"
                         aria-controls="collapseThree"
                       >
-                        What should I do if I need to cancel or reschedule my
-                        appointment?
+                       {strings.faqsq3} 
                       </Link>
                     </h2>
                     <div
@@ -1032,10 +1027,8 @@ const Home1 = () => {
                       <div className="accordion-body">
                         <div className="accordion-content">
                           <p>
-                            If you need to cancel or reschedule your
-                            appointment, contact the doctor as soon as possible
-                            to inform them and to reschedule for another
-                            available time slot.
+                          {strings.faqsdis3} 
+                         
                           </p>
                         </div>
                       </div>
@@ -1053,7 +1046,7 @@ const Home1 = () => {
                         aria-expanded="false"
                         aria-controls="collapseFour"
                       >
-                        What if I'm running late for my appointment?
+                       {strings.faqsq4} 
                       </Link>
                     </h2>
                     <div
@@ -1065,10 +1058,8 @@ const Home1 = () => {
                       <div className="accordion-body">
                         <div className="accordion-content">
                           <p>
-                            If you know you will be late, it's courteous to call
-                            the doctor's office and inform them. Depending on
-                            their policy and schedule, they may be able to
-                            accommodate you or reschedule your appointment.
+                          {strings.faqsdis4} 
+                            
                           </p>
                         </div>
                       </div>
@@ -1086,8 +1077,7 @@ const Home1 = () => {
                         aria-expanded="false"
                         aria-controls="collapseFive"
                       >
-                        Can I book appointments for family members or
-                        dependents?
+                       {strings.faqsq5} 
                       </Link>
                     </h2>
                     <div
@@ -1099,10 +1089,9 @@ const Home1 = () => {
                       <div className="accordion-body">
                         <div className="accordion-content">
                           <p>
-                            Yes, in many cases, you can book appointments for
-                            family members or dependents. However, you may need
-                            to provide their personal information and consent to
-                            do so.
+
+                          {strings.faqsdis5} 
+                            
                           </p>
                         </div>
                       </div>
@@ -1127,29 +1116,13 @@ const Home1 = () => {
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header-one section-header section-inner-header testimonial-header">
-                          <h5>Testimonials</h5>
-                          <h2 className="section-title">Arati Sethy</h2>
+                          <h5>{strings.testHed}</h5>
+                          <h2 className="section-title">{strings.testOne}</h2>
                         </div>
                         <div className="testimonial-details">
                           <p>
-                            Amidst of covid pandemic, my aunt got diagnosed with
-                            colon tumor. Local doctors diagnosed it as cancer
-                            stage-1. As they stay in my native place Odisha, we
-                            were clueless what to do. I live in bangalore. One
-                            of my colleague referred Dr. Shabeer. With no delay,
-                            i took his appointment and rushed to him. After
-                            going through the reports without even checking the
-                            patient, he said chemo may not be required. He
-                            helped a lot to get my aunt here and directly get
-                            admitted to Fortis for surgery. Post surgery, biopsy
-                            report revealed that its stage 0 and no need for
-                            chemo therapy. Everything just happened ontime and
-                            perfectly. When i thanked Dr. Sir, he was humble
-                            enough to give the credit to Allaha. Sir, you were a
-                            blessing to our family in this crisis. My uncle aunt
-                            were so happy and pleased by your interaction in
-                            entire process. May God always bless you and help
-                            you in serving mankind. Thank you very much.
+                          {strings.testContone}
+                            
                           </p>
                           {/* <h6>
                             <span className="d-block">John Doe</span> New York
@@ -1162,20 +1135,13 @@ const Home1 = () => {
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
-                          <h5>Testimonials</h5>
-                          <h2>Inayathulla Khan Lavani</h2>
+                          <h5>{strings.testHed}</h5>
+                          <h2>{strings.testTwo}</h2>
                         </div>
                         <div className="testimonial-details">
                           <p>
-                            Before visiting Dr. Shabeer Ahmed for my dad's
-                            surgery, I had visited other doctors and wasn't
-                            satisfied enough, and I must say Dr is very humble
-                            person who shows compassion towards patients and
-                            also authority in field of laparoscopy, which is
-                            rare combination to find in this mundane world.
-                            Moreover my dad's surgery was successful and he is
-                            recovering. I would definately recommend anyone to
-                            visit Dr once before taking final call
+                          {strings.testContTwo}
+                          
                           </p>
                           {/* <h6>
                             <span className="d-block">Andrew Denner</span>{" "}
@@ -1189,8 +1155,8 @@ const Home1 = () => {
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
-                          <h5>Testimonials</h5>
-                          <h2>Mir Nasair Hussain</h2>
+                          <h5>{strings.testHed}</h5>
+                          <h2>{strings.testThree}</h2>
                         </div>
                         <div className="testimonial-details">
                           <p>
