@@ -1,24 +1,26 @@
-[
+[{
+    "id": 1,
+    "author": "Gastrointestinal, Bariatric, Laparoscopic, General & Onco Surgeon",
+    "date": "13 Aug, 2023",
+    "title": "Dr. Shabeer Ahmed",
+    "url":"pages/aboutus",
+    "description": "Gastrointestinal, Bariatric, Laparoscopic, General & Onco Surgeon",
+    "image_url": "Life-After-Gallbladder-Removal--What-to-Expect.png",
+    "Url_img":"ShabeerAhmed.png",
+    "read_more_url": "Professor and Head,Lead Coordinator, Central Research Laboratory",
+    "conclusion": "Life without a gallbladder may require some initial adjustments, particularly when it comes to diet and digestion. However, most people go on to live healthy, normal lives, free from the pain and complications they experienced before surgery. With time, your body will adapt, and you’ll find that life after gallbladder removal can be just as fulfilling as before, if not more so."
+},
     {
-        "id": 1,
+        "id": 2,
         "author": "M.Sc. Ph.D. PDD",
         "date": "13 Aug, 2023",
         "title": "Dr. Meghnad G. Joshi",
         "description": "Meghnad G Joshi earned a PhD from the Department of Zoology, Shivaji University, Kolhapur, India in 2006. He Joined Karolinska Institute, Sweden as a Postdoctoral fellow in 2007-2008 for fetal and adult hepatocyte transplantation studies. He worked for Sahlgrenska University Hospital, Department of transplantation surgery, Göteborg, Sweden from 2008-2010. In 2009, he was awarded with TTS New Key Opinion Leader, Sweden. He was appointed as a visiting Assistant professor by Kansas Medical Center, USA from 2010 to 2012. He was a part of the first tissue-engineered tracheal transplant at Sahlgrenska University Hospital, Sweden. He has worked as the Lab director at StemOne Biologicals Pvt. Ltd from 2011-2012. Presently, he is working as a Professor and Head, of the Department of Stem Cells and Regenerative Medicine, at D.Y. Patil University, Kolhapur. He has 2 ongoing projects in his lab and 8 PhD students under his guidance. He is the CMD of Stem Plus Cryopreservation Pvt. Ltd a DCGI/FDA-approved cord blood bank in Sangli, Maharashtra, India. He is a BOS member, of Zoology, Shivaji University, Kolhapur. His areas of research are stem cells, stem cell transplant, tissue engineering and 3D bioprinting. He has published more than 62 papers, 6 Book chapters, 2 Granted Patents and 5 patent published patents.",
         "image_url": "Life-After-Gallbladder-Removal--What-to-Expect.png",
         "Url_img":"ID size.jpg",
-        "read_more_url": "Professor and Head,Lead Coordinator, Central Research Laboratory",
-        "conclusion": "Life without a gallbladder may require some initial adjustments, particularly when it comes to diet and digestion. However, most people go on to live healthy, normal lives, free from the pain and complications they experienced before surgery. With time, your body will adapt, and you’ll find that life after gallbladder removal can be just as fulfilling as before, if not more so."
-    },
-    {
-        "id": 2,
-        "author": "Gastrointestinal, Bariatric, Laparoscopic, General & Onco Surgeon",
-        "date": "13 Aug, 2023",
-        "title": "Dr. Shabeer Ahmed",
-        "description": "Gastrointestinal, Bariatric, Laparoscopic, General & Onco Surgeon",
-        "image_url": "Life-After-Gallbladder-Removal--What-to-Expect.png",
-        "Url_img":"ShabeerAhmed.png",
+        "url":"pages/abouts",
         "read_more_url": "Professor and Head,Lead Coordinator, Central Research Laboratory",
         "conclusion": "Life without a gallbladder may require some initial adjustments, particularly when it comes to diet and digestion. However, most people go on to live healthy, normal lives, free from the pain and complications they experienced before surgery. With time, your body will adapt, and you’ll find that life after gallbladder removal can be just as fulfilling as before, if not more so."
     }
+    
 ]

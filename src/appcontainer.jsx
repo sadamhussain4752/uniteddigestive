@@ -197,6 +197,7 @@ import IncisionalHernia from "./client/components/blog/incisional-hernia/index.j
 import InguinalHernia from "./client/components/blog/inguinal-hernia/index.js";
 import Contacts from "./client/components/pages/contactfrom/index.jsx";
 import StemCellTherapy from "./client/components/blog/StemCell/index.js";
+import Abouts from "./client/components/pages/abouts/abouts.jsx";
 
 
 const AppContainer = function (props) {
@@ -406,6 +407,7 @@ const AppContainer = function (props) {
               <Route path="/doctor/invoices" exact component={Invoice} />
               <Route path="/pages/invoice-view" exact component={InvoiceView} />
               <Route path="/pages/aboutus" exact component={Aboutus} />
+              <Route path="/pages/abouts" exact component={Abouts} />
               <Route path="/pages/patient-portal" exact component={Patientprotal} />
               <Route path="/pages/contactus" exact component={Contactus} />
               <Route path="/pages/comingsoon" exact component={Comingsoon} />

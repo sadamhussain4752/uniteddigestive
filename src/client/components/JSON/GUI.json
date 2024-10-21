@@ -162,7 +162,7 @@
   {
     "id": 3,
     "title": "Bariatric Surgery",
-    "description": "Bariatric surgery refers to a variety of surgical procedures designed to help people with obesity lose weight by making changes to their digestive system. These surgeries alter the stomach and/or intestines to limit food intake, reduce nutrient absorption, or change the way the body digests food, leading to significant and long-term weight loss. It is often recommended for individuals with a Body Mass Index (BMI) over 40, or over 35 with related health issues like diabetes, hypertension, or sleep apnea.",
+    "description": "Bariatric surgery refers to a variety of surgical procedures designed to help people with obesity loseweight by making changes to their digestive system. These surgeries alter the stomach and/or intestinesto limit food intake, reduce nutrient absorption, or change the way the body digests food, leading tosignificant and long-term weight loss. It is often recommended for individuals with a Body Mass Index(BMI) over 40, or over 35 with related health issues like diabetes, hypertension, or sleep apnea.",
     "services": [
       "Pre-surgery Weight Management",
       "Post-surgery Nutrition Support",
@@ -192,7 +192,7 @@
     "types": [
       {
         "question": "1. Gastric Bypass (Roux-en-Y Gastric Bypass)",
-        "answer": " Procedure: The surgeon creates a small pouch from the stomach and connects it directly to the small intestine. This reduces the stomach&#39;s capacity and changes how food bypasses most of the stomach and the first section of the small intestine. \n Effect: Reduces food intake and nutrient absorption."
+        "answer": " Procedure: The surgeon creates a small pouch from the stomach and connects it directly to the small intestine. This reduces the stomach&#39;s capacity and changes how foodbypasses most of the stomach and the first section of the small intestine. \n Effect: Reduces food intake and nutrient absorption."
       },
       {
         "question": "2. Sleeve Gastrectomy",
@@ -200,57 +200,61 @@
       },
       {
         "question": "3. Adjustable Gastric Band (Laparoscopic Banding)",
-        "answer": "Procedure: An inflatable band is placed around the upper part of the stomach to create a small stomach pouch. The band can be adjusted to control the amount of food the stomach can hold. Effect: Limits food intake by slowing down digestion."
+        "answer": "Procedure: An inflatable band is placed around the upper part of the stomach to create a small stomach pouch. The band can be adjusted to control the amount of food the stomach can hold."
       },
       {
         "question": "4. endoscopic Procedures",
-        "answer": "These are less invasive and performed without incisions, such as intragastric balloon placement (where a balloon is placed inside the stomach to take up space) or endoscopic sleeve gastroplasty (where the stomach is sutured to reduce its size). 5 . Mini gastric bypass surgery (MGB), also known as single anastomosis gastric bypass (SGB), is a bariatric surgery that is designed to help with weight loss in individuals who are severely obese. It is a less invasive alternative to the traditional Roux-en-Y gastric bypass and has been gaining popularity due to its simplicity and effectiveness. Key Features of Mini Gastric Bypass (MGB):"
+        "answer": "These are less invasive and performed without incisions, such as intragastric balloon placement (where a balloon is placed inside the stomach to take up space) or endoscopic sleeve gastroplasty (where the stomach is sutured to reduce its size). 5 . Mini gastric bypass surgery (MGB), also known as single anastomosis gastric bypass (SAGB), is a bariatric surgery that is designed to help with weight loss in individuals who are severely obese. It is a less invasive alternative to the traditional Roux-en-Y gastric bypass and has been gaining popularity due to its simplicity and effectiveness. Key Features of Mini Gastric Bypass (MGB):"
       },
       {
         "question": "1. Procedure:",
-        "answer": "In MGB, a small stomach pouch is created by stapling a part of the stomach vertically to reduce its size. The small intestine is then bypassed by attaching a loop of the intestine (usually about 150–200 cm away from the stomach) to this newly created stomach pouch, allowing food to bypass a significant portion of the stomach and upper intestine."
+        "answer": "In MGB, a small stomach pouch is created by stapling a part of the stomach vertically to reduce its size. \n The small intestine is then bypassed by attaching a loop of the intestine (usually about 150–200 cm away from the stomach) to this newly created stomach pouch, allowing food to bypass a significant portion of the stomach and upper intestine."
       },
       {
         "question": "2. Mechanism of Weight Loss:",
-        "answer": "Restriction: The reduced size of the stomach limits the calories are absorbed, aiding in further weight loss."
+        "answer": "Restriction: The reduced size of the stomach limits the amount of food that can be consumed at one time, creating an early sense of fullness. \n Malabsorption: By bypassing a portion of the small intestine, fewer nutrients and calories are absorbed, aiding in further weight loss."
       },
       {
         "question": "3.Advantages:",
-        "answer": "Simpler and quicker than the traditional Roux-en-Y bypass due to having only one intestinal connection (single anastomosis).Shorter operative time and potentially fewer complications. Comparable weight loss outcomes and improvements in obesity-related conditions (like type 2 diabetes, hypertension, and sleep apnea). Reversible in some cases, although reversal is not commonly performed."
+        "answer": "Simpler and quicker than the traditional Roux-en-Y bypass due to having only one intestinal connection (single anastomosis). \n Shorter operative time and potentially fewer complications. \n Comparable weight loss outcomes and improvements in obesity-related conditions (like type 2 diabetes, hypertension, and sleep apnea). \n Reversible in some cases, although reversal is not commonly performed."
       },
       {
         "question": "4. Potential Risks:",
-        "answer": "Like any bariatric surgery, there is a risk of complications such as leakage, infection, or blood clots. Nutrient deficiencies, especially in vitamins and minerals like B12, calcium, and iron, due to reduced absorption. Bile reflux, where bile from the small intestine can back up into the stomach and esophagus, causing discomfort."
+        "answer": "Like any bariatric surgery, there is a risk of complications such as leakage, infection, or blood clots. \n Nutrient deficiencies, especially in vitamins and minerals like B12, calcium, and iron, due to reduced absorption. \n Bile reflux, where bile from the small intestine can back up into the stomach and esophagus, causing discomfort."
       },
       {
         "question": "5. Long-Term Effects:",
-        "answer": "Patients typically lose a significant amount of excess body weight (50-70%) over the first 1-2 years after the surgery. Lifelong changes in diet, vitamin supplementation, and regular follow-up are required to ensure sustained results and prevent complications. MGB is often recommended for individuals with a BMI over 35 who have not been successful with other weight loss methods and suffer from obesity-related health problems."
+        "answer": "Patients typically lose a significant amount of excess body weight (50-70%) over the first 1-2 years after the surgery. \n Lifelong changes in diet, vitamin supplementation, and regular follow-up are required to ensure sustained results and prevent complications. MGB is often recommended for individuals with a BMI over 35 who have not been successful with other weight loss methods and suffer from obesity-related health problems."
       }
     ],
     "advantages": [
       {
-        "question": "1. Significant and Long-term Weight Loss",
-        "answer": " Bariatric surgery often leads to dramatic and sustained weight loss, improving quality of life and overall health."
+        "question": "Advantages of Bariatric Surgery",
+        "answer": "1. Significant and Long-term Weight Loss: Bariatric surgery often leads to dramatic and sustained weight loss, improving quality of life and overall health."
       },
       {
-        "question": "2. Improvement in Obesity-related Conditions",
-        "answer": "Type 2 Diabetes: Many patients experience remission or significant improvement in diabetes control. Hypertension: Blood pressure often decreases, reducing the need for medications. Sleep Apnea: Weight loss can resolve or improve obstructive sleep apnea. Cardiovascular Health: There is a reduced risk of heart disease and stroke."
+        "question": "",
+        "answer": "2. Improvement in Obesity-related Conditions: \n Type 2 Diabetes: Many patients experience remission or significant improvement in diabetes control. \n Hypertension: Blood pressure often decreases, reducing the need for medications. \n Sleep Apnea: Weight loss can resolve or improve obstructive sleep apnea. \n Cardiovascular Health: There is a reduced risk of heart disease and stroke. "
       },
       {
-        "question": "3. Better Mobility and Physical Activity",
-        "answer": "Weight loss improves physical movement, reduces joint pain, and increases energy levels."
+        "question": "",
+        "answer": "3. Better Mobility and Physical Activity: Weight loss improves physical movement, reduces joint pain, and increases energy levels."
       },
       {
-        "question": "4. Improved Mental Health",
-        "answer": "Many patients report better self-esteem, less depression, and overall enhanced mental well-being."
+        "question": "",
+        "answer": "4. Improved Mental Health: Many patients report better self-esteem, less depression, and overall enhanced mental well-being."
       },
       {
-        "question": "5. Increased Longevity",
-        "answer": "Studies show that bariatric surgery can increase life expectancy in severely obese individuals compared to those who don't undergo the surgery."
+        "question": "",
+        "answer": "5. Increased Longevity: Studies show that bariatric surgery can increase life expectancy in severely obese individuals compared to those who don't undergo the surgery."
       },
       {
-        "question": "6. Lower Risk of Certain Cancers",
-        "answer": "Obesity is a risk factor for various cancers (e.g., colon, breast, and uterine cancers), and weight loss can reduce this risk."
+        "question": "",
+        "answer": "6. Lower Risk of Certain Cancers: Obesity is a risk factor for various cancers (e.g., colon, breast, and uterine cancers), and weight loss can reduce this risk."
+      },
+      {
+        "question": "",
+        "answer": "However, bariatric surgery is not a quick fix, and patients must commit to long-term lifestyle changes, including diet modifications and regular follow-ups to manage nutritional needs."
       }
     ],
     "path": "Bariatric-Surgery.jpg",
@@ -633,15 +637,15 @@
 
     "path": "16.jpg",
     "images_url": "Surgical-Interventions.jpg",
-    "url": ""
+    "url": "swallowableBalloon"
   },
   {
     "id": 9,
     "title": "Rectal Bleeding",
-    "description": "Rectal bleeding can arise from a variety of conditions, both acute (sudden onset) and chronic (long-term). Understanding these conditions is crucial for effective management.",
+    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term). Here’s an overview of the potential causes in each category:",
     "faqs": [
       {
-    "question": "What are hemorrhoids?",
+    "question": "What causes acute rectal bleeding?",
     "answer": "Hemorrhoids are swollen blood vessels in the rectum or anus that can rupture, resulting in bright red bleeding. This condition is often accompanied by pain or itching."
       },
       {
@@ -651,65 +655,82 @@
     ],
     "types": [
       {
-    "question": "What is hemorrhoidal bleeding?",
-    "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often leading to bright red blood during bowel movements. This is the most common cause of rectal bleeding, frequently caused by constipation, straining, or prolonged sitting.",
+    "question": "What causes acute rectal bleeding?",
+    "answer": "1.Hemorrhoids: Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching.",
     "benefits": "Hemorrhoidal bleeding is usually mild and can be effectively managed with lifestyle changes, over-the-counter medications, or minor procedures."
       },
       {
-    "question": "What is anal fissure bleeding?",
-    "answer": "Anal fissures are small tears in the anal lining, often resulting in pain and bright red bleeding during or after bowel movements. The bleeding is typically minimal.",
+    "question": "",
+    "answer": "2.Anal Fissures: Small tears in the lining of the anus, usually caused by passing hard stools, leading to painful rectal bleeding.",
     "benefits": "Bleeding from anal fissures can often be controlled through dietary adjustments, topical treatments, or minor surgical options for long-term relief."
       },
       {
-    "question": "What is diverticular bleeding?",
-    "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or rupture, causing sudden and sometimes heavy rectal bleeding. This condition is more prevalent in older adults and often requires medical evaluation.",
+    "question": "",
+    "answer": "Diverticular Disease: Diverticula (small pouches in the colon wall) can become inflamed or bleed, leading to significant rectal bleeding.",
     "benefits": "While medical intervention may be necessary, diverticular bleeding typically resolves on its own and can be managed with dietary changes and medications to prevent recurrence."
       },
       {
-    "question": "What is colorectal polyp bleeding?",
-    "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can bleed if they become large or irritated. While the bleeding may be less noticeable, it can signal a potential risk of cancer.",
+    "question": "",
+    "answer": "3.Infectious Colitis: Inflammation of the colon due to bacterial, viral, or parasitic infections, causing diarrhea and rectal bleeding.",
     "benefits": "Polyps can often be removed during a colonoscopy, decreasing the risk of cancer and stopping any bleeding."
       },
       {
-    "question": "What is inflammatory bowel disease (IBD) bleeding?",
-    "answer": "Conditions such as Crohn’s disease and ulcerative colitis can cause rectal bleeding due to chronic inflammation in the digestive tract. This bleeding may accompany diarrhea, abdominal pain, and other symptoms.",
+    "question": "",
+    "answer": "4.Ischemic Colitis: Reduced blood flow to the colon, often causing pain, cramping, and bloody diarrhea.",
     "benefits": "Although IBD is a chronic condition, medications and surgical interventions can help manage symptoms and reduce episodes of bleeding."
       },
       {
-    "question": "What is colorectal cancer bleeding?",
-    "answer": "Rectal bleeding may be an early indicator of colorectal cancer, particularly if accompanied by changes in bowel habits, weight loss, or fatigue. The bleeding can be visible or hidden during bowel movements.",
+    "question": "",
+    "answer": "5.Trauma: Rectal injuries from objects, surgeries, or accidents can lead to acute bleeding.",
+    "benefits": "Early detection of colorectal cancer through screenings and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
+      },
+      {
+    "question": "",
+    "answer": "6.Gastrointestinal Malformations (AVMs): Arteriovenous malformations can result in sudden bleeding in the GI tract."
+      },
+      {
+    "question": "",
+    "answer": "7.Colorectal Polyps: These growths can bleed if they become large or are traumatized.",
     "benefits": "Early detection of colorectal cancer through screenings and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
       }
     ],
     "advantages": [
       {
-    "question": "What are the benefits of early identification of rectal bleeding causes?",
-    "answer": "Identifying the cause of rectal bleeding early allows for prompt treatment of conditions such as hemorrhoids, fissures, or more serious issues like colorectal cancer, thereby reducing the risk of complications."
+    "question": "What causes Chronic Causes of Rectal Bleeding?",
+    "answer": "1.Colorectal Cancer: Persistent or intermittent rectal bleeding can be a sign of cancer in the colon or rectum, especially in people over 50 or those with risk factors like family history."
       },
       {
-    "question": "Can rectal bleeding be treated without surgery?",
-    "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids and anal fissures, can be managed with non-surgical approaches, including dietary changes, medications, or minor outpatient procedures."
+    "question": "",
+    "answer": "2.Inflammatory Bowel Disease (IBD): Conditions like Crohn’s disease and ulcerative colitis cause chronic inflammation and ulcers in the colon, leading to persistent bleeding."
       },
       {
-    "question": "Is surgery always necessary for rectal bleeding?",
-    "answer": "Surgery is not always required. Many cases of hemorrhoidal or fissure bleeding can be treated with non-invasive methods. However, more serious conditions, like colorectal cancer, may necessitate surgical intervention."
+    "question": "",
+    "answer": "3.Angiodysplasia: Abnormal blood vessels in the colon that can cause slow, intermittent bleeding, often seen in elderly patients."
       },
       {
-        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
-    "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgical approaches."
+        "question": "",
+    "answer": "4.Chronic Hemorrhoids: Long-standing hemorrhoids can bleed over time, especially during bowel movements."
       },
       {
-    "question": "Can lifestyle changes help reduce rectal bleeding?",
-    "answer": "Absolutely. Lifestyle modifications such as increasing fiber intake, staying well-hydrated, and avoiding straining during bowel movements can significantly lower the risk of rectal bleeding, especially for hemorrhoids and fissures."
+    "question": "",
+    "answer": "5.Radiation Proctitis: Bleeding from chronic inflammation of the rectum following radiation therapy for cancers in the pelvis (e.g., prostate, cervical cancer)."
       },
       {
-    "question": "How can regular medical screenings assist with rectal bleeding?",
-    "answer": "Regular screenings, like colonoscopies, can help identify the underlying causes of rectal bleeding, such as polyps or early-stage cancer, enabling timely treatment and better health outcomes."
+    "question": "",
+    "answer": "6.Diverticulosis: Though typically asymptomatic, chronic bleeding can occur when diverticula become inflamed or infected over time."
+      },
+      {
+    "question": "",
+    "answer": "7.Rectal Ulcers: These can form due to chronic constipation, straining, or even medical conditions like prolapse."
+      },
+      {
+    "question": "",
+    "answer": "8.Vascular Ectasia: Abnormal blood vessels in the GI tract, more common in older adults, can cause chronic bleeding."
       }
     ], 
-
+    "Questions-d-none":true,
     "path": "18.jpg",
-    "images_url": " Rectal-Bleeding.jpg",
+    "images_url": "Rectal-Bleeding.jpg",
     "url": ""
   },
   {
@@ -860,7 +881,7 @@
   },
  
   {
-    "id": 13,
+    "id": 12,
     "title": "Incisional hernia",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1768,7 +1789,74 @@
       }
     ], 
     "path": "18.jpg",
-    "images_url": " Rectal-Bleeding.jpg",
+    "images_url": "Rectal-Bleeding.jpg",
     "url": "stemcelltherapy"
+  },{
+    "id": 24,
+    "title": "Robotic Surgery",
+    "description": "Introduction Robotic surgery is revolutionizing the field of gastrointestinal (GI) surgery, offering enhanced precision, flexibility, and control compared to traditional open and laparoscopic surgeries. The use of robotics in treating GI diseases has increased significantly over the past few years, providing a minimally invasive approach that reduces recovery time, minimizes complications, and improves patient outcomes",
+    "ext":"What is Robotic Surgery?  Robotic surgery is a type of minimally invasive surgery performed using a robotic system, most commonly the da Vinci Surgical System. The surgeon controls robotic arms equipped with surgical instruments through a console, which provides a 3D, high-definition view of the surgical site. These robotic arms kelp to perform delicate and complex procedures with complex disease with greater accuracy that surpasses traditional human capabilities.",
+    "faqs": [
+      {
+        "question": "What is Robotic Surgery?",
+        "answer": "What is Robotic Surgery? Robotic surgery is a type of minimally invasive surgery performed using a robotic system, most commonly the da Vinci Surgical System. The surgeon controls robotic arms equipped with surgical instruments through a console, which provides a 3D, high-definition view of the surgical site. These robotic arms kelp to perform delicate and complex procedures with complex disease with greater accuracy that surpasses traditional human capabilities."
+      },
+      {
+        "question": "How does robotic surgery enhance precision?",
+        "answer": "Robotic systems allow for greater precision in cutting, suturing, and manipulating tissues, which is particularly useful in complex GI procedures."
+      }
+    ],
+    "types": [
+      {
+        "question": "Applications in Gastrointestinal Diseases",
+        "answer": "Colorectal Surgery: Robotic surgery is used for colon resections in conditions like colorectal cancer, diverticulitis, and inflammatory bowel diseases (Crohn’s disease, ulcerative colitis). The precision of robotic systems helps in sparing surrounding nerves and tissues, which is critical in preserving bowel function and erectile functions",
+        "benefits": "Minimally invasive procedures enhance recovery time and reduce surgical complications."
+      },
+      {
+        "question": "",
+        "answer": "Esophageal Surgery: Conditions like esophageal cancer, achalasia, and gastroesophageal reflux disease (GERD) can be treated using robotic surgery.",
+        "benefits": "Better visualization leads to more precise surgeries, reducing errors and complications."
+      },
+      {
+        "question": "",
+        "answer": "Hepatobiliary Surgery: For diseases of the liver, gallbladder, and pancreas, such as liver tumors, gallstones, and pancreatic cancer, robotic surgery allows for precise resections, often with better outcomes and faster recovery than traditional open surgery.",
+        "benefits": "Fewer complications result in a faster, safer recovery for patients."
+      },
+      {
+        "question": "",
+        "answer": "Gastric Surgery: Robotics are increasingly used in surgeries for gastric cancer, ulcers, and bariatric surgery (for weight loss).",
+        "benefits": "Patients experience shorter hospital stays and quicker returns to normal activity."
+      },{
+        "question": "",
+        "answer": "Rectal Cancer Surgery: Robotic-assisted surgery in rectal cancer is especially advantageous because it allows for fine dissection in the narrow pelvic space, helping to preserve critical structures, including nerves responsible for bowel, bladder, and sexual function",
+        "benefits": "Patients experience shorter hospital stays and quicker returns to normal activity."
+      }
+    ],
+    "advantages": [
+      {
+        "question": "What are the benefits of robotic surgery in colorectal procedures?",
+        "answer": "Minimally Invasive: Smaller incisions compared to open surgery lead to reduced post-operative pain, faster recovery, and less visible scarring."
+      },
+      {
+        "question": "",
+        "answer": "Enhanced Precision: Robotic systems allow for greater precision in cutting, suturing, and manipulating tissues, which is particularly useful in complex GI procedures."
+      },
+      {
+        "question": "",
+        "answer": " Improved Visualization: The 3D, high-definition view of the surgical site improves depth perception and visibility, helping surgeons better navigate intricate complex anatomical diseased structures"
+      },
+      {
+        "question": "",
+        "answer": "  Reduced Complications: With increased precision and control, and better viscibility there is a lower risk of complications like bleeding, infection, and damage to surrounding tissues"
+      },
+      {
+        "question": "",
+        "answer": " Shorter Hospital Stays: Robotic surgery often results in quicker recovery, allowing patients to be discharged sooner compared to traditional surgical approaches."
+      }
+    ],
+    "path": "18.jpg",
+    "images_url": "Rectal-Bleeding.jpg",
+    "url": ""
   }
+  
 ]

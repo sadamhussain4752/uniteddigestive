@@ -74,6 +74,8 @@ const GuthealthDetails = (props) => {
                   <h3 className="blog-title">
                     {expdetails && expdetails?.title}
                   </h3>
+
+                  
                   <div className="blog-info clearfix">
                     <div className="post-left">
                       <ul>
@@ -84,20 +86,14 @@ const GuthealthDetails = (props) => {
                             </Link>
                           </div>
                         </li>
-                        <li>
-                          <i className="far fa-calendar"></i>4 Dec 2019
-                        </li>
-                        <li>
-                          <i className="far fa-comments"></i>12 Comments
-                        </li>
-                        <li>
-                          <i className="fa fa-tags"></i>Health Tips
-                        </li>
+                        
                       </ul>
                     </div>
                   </div>
                   <div className="blog-content">
                     <p className="fs-6">{expdetails && expdetails?.description}</p>
+
+                    <p className="fs-6">{expdetails && expdetails?.ext}</p>
                   </div>
                 </div>
               </div>
@@ -107,31 +103,7 @@ const GuthealthDetails = (props) => {
               <section className=" mor-info ">
                 <div className="container">
                   <div className="row">
-                    <div
-                      className="col-xl-12 col-lg-12 col-md-6 aos"
-                      data-aos="fade-up"
-                    >
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img ">
-                          <ImageWithBasePath
-                            src="assets/img/category/map-location-dot-solid.svg"
-                            alt="kidney-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                          <Link to="#">
-                            <h6 className="mb-0 ">Find the Location</h6>
-                          </Link>
-                          {/* <p>21 Doctors</p> */}
-                        </div>
-                        <div className="specialist-nav ms-auto">
-                          <Link to="#">
-                            <i className="fas fa-long-arrow-alt-right" />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
+                   
                     <div
                       className="col-xl-12 col-lg-12 col-md-6 aos"
                       data-aos="fade-up"
@@ -145,8 +117,8 @@ const GuthealthDetails = (props) => {
                           />
                         </div>
                         <div className="specialist-info">
-                          <a>
-                            <h6>Request an Appointment  {expdetails && expdetails?.title}</h6>
+                        <a href="https://www.eka.care/doctor/dr-shabeer-gastroenterologist-bengaluru" target="_blank">
+                            <h6>Request an Appointment</h6>
                           </a>
                           {/* <p>30 Doctors</p> */}
                         </div>
@@ -170,12 +142,9 @@ const GuthealthDetails = (props) => {
                           />
                         </div>
                         <div className="specialist-info">
-                          <Link to="#">
-                          <a href="https://wa.me/1234567890" target="_blank" rel="noopener noreferrer" className="ms-1">
-                          <h6>Contacts</h6>
-  </a>
-                            
-                          </Link>
+                        <a href="https://wa.me/919900246002" target="_blank" rel="noopener noreferrer">
+  <h6>WhatsApp</h6>
+</a>
                           {/* <p>15 Doctors</p> */}
                         </div>
                         <div className="specialist-nav ms-auto">
@@ -214,7 +183,7 @@ const GuthealthDetails = (props) => {
                 </div>
               </section>
 
-              <section>
+              {/* <section>
                 <h3 className="mt-5"> Related Services</h3>
 
                 <div className="re-ser-card">
@@ -232,7 +201,7 @@ const GuthealthDetails = (props) => {
                     </span>
                   </p>
                 </div>
-              </section>
+              </section> */}
             </div>
             {expdetails?.types?.length > 0 ? <section>
               <div className="blog-content m-4">
@@ -250,7 +219,7 @@ const GuthealthDetails = (props) => {
             {expdetails?.advantages?.length > 0 ?   
             <section>
               <div className="blog-content m-4">
-                <h3 className="mt-3 mb-4">Advantages of {expdetails.title}</h3>
+                {/* <h3 className="mt-3 mb-4">  {expdetails.title}</h3> */}
                 {expdetails?.advantages?.map((item) => (
                   <>
                     <h5>{item.question}</h5>

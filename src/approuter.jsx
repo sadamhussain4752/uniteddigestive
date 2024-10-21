@@ -8,7 +8,6 @@ export const Appcontext = createContext();
 
 const AppRouter = () => {
   const [isAuth, setIsAuth] = useState("user");
-  localStorage.setItem("SplashScreen",true)
   return (
     <Router basename={`${config.publicPath}`}>
 

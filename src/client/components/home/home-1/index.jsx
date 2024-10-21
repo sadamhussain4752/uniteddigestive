@@ -38,7 +38,7 @@ import { useTranslation } from 'react-i18next';
 const Home1 = () => {
   const { t, i18n } = useTranslation();
 
-  const landscreen =  localStorage.getItem("SplashScreen")
+  const landscreen = localStorage.getItem("SplashScreen")
   console.log('====================================');
   console.log(landscreen,"landscreen");
   console.log('====================================');
@@ -283,7 +283,7 @@ const Home1 = () => {
     ],
   };
 
-  if(isVisible && landscreen){
+  if(isVisible && landscreen === false){
    return <SplashScreen allowvideo={(item)=>{
     console.log('====================================');
     console.log(item,"item");
@@ -399,7 +399,7 @@ const Home1 = () => {
                     {t('sec2cont')}
 
                   </p>
-                  <a class="read-more-test" href="/contacts">
+                  <a class="read-more-test" href="/guthealth-details/24">
                     {t('sec2contbtn1')}
                   </a>
                 </div>
@@ -420,7 +420,7 @@ const Home1 = () => {
                   <p className="ban-sub-cont">
                     {t('sec2cont2')}
                   </p>
-                  <a class="read-more-test" href="/contacts">
+                  <a class="read-more-test" href="/guthealth-details/9">
                     {t('sec2contbtn2')}
                   </a>
                 </div>
@@ -804,7 +804,7 @@ const Home1 = () => {
         ))}
       </section> */}
 
-      <section className="doctors-section">
+      {/* <section className="doctors-section">
         <div className="container">
           <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
@@ -815,7 +815,6 @@ const Home1 = () => {
           </div>
           <div className="doctor-slider-one owl-theme aos" data-aos="fade-up">
             <OwlCarousel {...bestDoctorsSlider}>
-              {/* Doctor Item */}
               {abouts.map((its, index) => (
                 <div className="item">
                   <div className="doctor-profile-widget doc-item">
@@ -830,7 +829,6 @@ const Home1 = () => {
                         </div>
                       </Link>
                       <div className="doctor-amount">
-                        {/* <span>$200</span> */}
                       </div>
                     </div>
                     <div className="doc-content">
@@ -839,14 +837,7 @@ const Home1 = () => {
                           <Link to="/teams">{its.title}</Link>
                           <p>{its.author}</p>
                         </div>
-                        {/* <div className="reviews-ratings">
-                 <p>
-                   <span>
-                     <i className="fas fa-star" /> 4.5
-                   </span>{" "}
-                   (35)
-                 </p>
-               </div> */}
+                        
                       </div>
                       <div className="doc-pro-location">
                         <p>
@@ -862,7 +853,6 @@ const Home1 = () => {
                 </div>
               ))}
 
-              {/* /Doctor Item */}
             </OwlCarousel>
           </div>
         </div>
@@ -871,7 +861,7 @@ const Home1 = () => {
 
         </div>
 
-      </section>
+      </section> */}
 
       {/* /Work Section */}
       {/* Articles Section */}

@@ -4,6 +4,7 @@ import AOS from 'aos';
 import 'aos/dist/aos.css';
 import ProgressButton from "../../common/progress/progress";
 import Cursor from "../../common/cursor/cursor";
+import abouts from "../../JSON/about.json";
 
 const Home1Footer = () => {
   AOS.init();
@@ -195,8 +196,19 @@ const Home1Footer = () => {
                   <div className="col-lg-3 col-md-4">
                     <div className="footer-widget footer-menu">
                       <h2 className="footer-title">
-                        Additional Resources
+                      Team of Expertise
                       </h2>
+                      <ul>
+                      {abouts.map((item)=> (
+                         <li>
+                          <a href={item.url}>
+                            {item.title}
+                          </a>
+                        </li>
+                         
+                      ))}
+                      </ul>
+                     
                       {/* <ul>
 
 

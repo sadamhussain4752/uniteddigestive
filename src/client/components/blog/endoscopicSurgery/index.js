@@ -27,14 +27,14 @@ const EndoscopicSurgery = (props) => {
         <div className="container">
           <div className="row align-items-center inner-banner">
             <div className="col-md-12 col-12 text-center">
-              <h2 className="breadcrumb-title">Endoscopic surgery</h2>
+              <h2 className="breadcrumb-title">Gallstones</h2>
               <nav aria-label="breadcrumb" className="page-breadcrumb">
                 <ol className="breadcrumb">
                   <li className="breadcrumb-item">
                     <Link to="/">Home</Link>
                   </li>
                   <li className="breadcrumb-item" aria-current="page">
-                    Endoscopic surgery
+                  Gallstones
                   </li>
                 </ol>
               </nav>

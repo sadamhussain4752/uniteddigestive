@@ -35,7 +35,7 @@ const Home1Header = () => {
     // strings.setLanguage(lang);
     // setLanguage(lang);
     i18n.changeLanguage(lang);
-    setLanguage(lang);
+    setLanguage(lang ==='fr' ? "Ar": "En");
   };
   return (
     <>
