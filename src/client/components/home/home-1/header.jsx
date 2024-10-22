@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState,useEffect } from "react";
 import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
 import { Link, useHistory } from "react-router-dom";
 import strings from "../../../../Lang/strings";
@@ -11,29 +11,54 @@ const Home1Header = () => {
   const [language, setLanguage] = useState("en"); // Default to English
   const { t, i18n } = useTranslation();
 
-  const handleLanguageChange = (event) => {
-    const selectedLanguage = event.target.value;
-    console.log("Selected Language:", selectedLanguage); // Log the selected language
-    changeLanguage(selectedLanguage); // Call the parent language-changing function
-  };
-  const googleTranslateElementInit = () => {
-    new window.google.translate.TranslateElement(
-      {
-        pageLanguage: "en",
-        autoDisplay: false
-      },
-      "google_translate_element"
-    );
-  };
   useEffect(() => {
-    var addScript = document.createElement("script");
+    const addScript = document.createElement("script");
     addScript.setAttribute(
       "src",
       "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
     );
     document.body.appendChild(addScript);
     window.googleTranslateElementInit = googleTranslateElementInit;
+
+    // Remove Google Translate badge
+    const hideBadgeCSS = `
+      .goog-logo-link, .goog-te-gadget-icon, span {
+        display: none !important;
+      } 
+    `;
+    const style = document.createElement("style");
+    style.type = "text/css";
+    style.appendChild(document.createTextNode(hideBadgeCSS));
+    document.head.appendChild(style);
   }, []);
+
+  // Initialize Google Translate
+  const googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      { pageLanguage: "en",      
+        includedLanguages: "en,ar",
+      },
+      "google_translate_element"
+    );
+  };
+
+  // Handle button click to trigger Google Translate
+  const handleTranslate = () => {
+    const translateElement = document.querySelector(".goog-te-combo");
+    if (translateElement) {
+      setLanguage(!language)
+      translateElement.value = !language ? "en" :"ar"; // Change "es" to the desired language code
+      translateElement.dispatchEvent(new Event("change"));
+    }
+  };
+  
+
+  const handleLanguageChange = (event) => {
+    const selectedLanguage = event.target.value;
+    console.log("Selected Language:", selectedLanguage); // Log the selected language
+    changeLanguage(selectedLanguage); // Call the parent language-changing function
+  };
+
   const items = [
     {
       key: "en",
@@ -637,23 +662,7 @@ const Home1Header = () => {
                     </li>
                   </ul>
                 </li> */}
-                <li className="searchbar">
-                  <Link to="#" onClick={toggleSearch}>
-                    <i className="feather icon-search" />
-                  </Link>
-                  <div
-                    className={
-                      searchField
-                        ? "togglesearch d-block"
-                        : "togglesearch d-none"
-                    }
-                  >
-                    <>
-      <div id="google_translate_element"></div>
-      <h4>Start building your app. Happy Coding!</h4>
-    </>
-                  </div>
-                </li>
+               
                 <li className="has-submenu d-flex align-items-center ">
                   <a href="tel:+919900246002" className="ms-1">
                     {" "}
@@ -661,6 +670,13 @@ const Home1Header = () => {
                   </a>
                 </li>
                 <li>
+                <button className="btn btn-secondary me-1 mt-2"  onClick={handleTranslate}>{language ? "English":"Arabic"} </button>
+
+      {/* Placeholder for Google Translate element */}
+      <div id="google_translate_element" style={{ display: "none" }}></div>
+     
+    </li>
+                {/* <li>
                   <a href="#">
                     <select
                       value={language}
@@ -676,7 +692,7 @@ const Home1Header = () => {
                       <option value="fr">Arabic</option>
                     </select>
                   </a>
-                </li>
+                </li> */}
               </ul>
             </div>
             {/* <ul className="nav header-navbar-rht">

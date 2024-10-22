@@ -1,6 +1,5 @@
 import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
-import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
 
 import Home1Footer from "./footer";
 import Home1Header from "./header";
@@ -33,6 +32,7 @@ import SplashScreen from "../../blog/splashscreen";
 import strings from "../../../../Lang/strings";
 
 import { useTranslation } from "react-i18next";
+import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
 
 const Home1 = () => {
   const { t, i18n } = useTranslation();
