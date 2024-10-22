@@ -32,34 +32,30 @@ import SplashScreen from "../../blog/splashscreen";
 
 import strings from "../../../../Lang/strings";
 
-import { useTranslation } from 'react-i18next';
-
+import { useTranslation } from "react-i18next";
 
 const Home1 = () => {
   const { t, i18n } = useTranslation();
 
-  const landscreen = localStorage.getItem("SplashScreen")
-  console.log('====================================');
-  console.log(landscreen,"landscreen");
-  console.log('====================================');
+  const landscreen = localStorage.getItem("SplashScreen");
+  console.log("====================================");
+  console.log(landscreen, "landscreen");
+  console.log("====================================");
 
   const [date1, setDate1] = useState(null);
 
   const [isVisible, setIsVisible] = useState(true);
   const [isVisibles, setIsVisibles] = useState(false);
 
-
   useEffect(() => {
     // Hide splash screen after 2 seconds
     if (isVisibles) {
       setTimeout(() => {
-        setIsVisible(false)
-        localStorage.setItem("SplashScreen",false)
+        setIsVisible(false);
+        localStorage.setItem("SplashScreen", false);
       }, 4000);
     }
-
   }, [isVisibles]);
-
 
   AOS.init();
   useEffect(() => {
@@ -68,7 +64,6 @@ const Home1 = () => {
     });
   }, []);
   const handleScroll = () => {
-
     AOS.refresh();
   };
   useEffect(() => {
@@ -77,15 +72,15 @@ const Home1 = () => {
       window.removeEventListener("scroll", handleScroll);
     };
   }, []);
-  const [language, setLanguage] = useState('en');
+  const [language, setLanguage] = useState("en");
 
   // const changeLanguage = (lang) => {
   //   strings.setLanguage(lang);
   //   setLanguage(lang);
   // };
 
-   // Function to change the language
-   const changeLanguage = (lng) => {
+  // Function to change the language
+  const changeLanguage = (lng) => {
     i18n.changeLanguage(lng);
   };
   const ourExpert = {
@@ -94,7 +89,10 @@ const Home1 = () => {
     dots: false,
     freeDrag: true,
     nav: true,
-    navText: ['<i class="fa-solid fa-chevron-left"></i>', '<i class="fa-solid fa-chevron-right"></i>'],
+    navText: [
+      '<i class="fa-solid fa-chevron-left"></i>',
+      '<i class="fa-solid fa-chevron-right"></i>',
+    ],
     smartSpeed: 500,
     responsive: {
       0: {
@@ -114,9 +112,6 @@ const Home1 = () => {
       },
     },
   };
-
-
-
 
   const populartestslider = {
     loop: true,
@@ -216,7 +211,6 @@ const Home1 = () => {
       768: {
         items: 2,
       },
-
     },
   };
   const partnersSlider = {
@@ -282,15 +276,17 @@ const Home1 = () => {
     ],
   };
 
-  if(isVisible && landscreen === null){
-   return <SplashScreen allowvideo={(item)=>{
-    console.log('====================================');
-    console.log(item,"item");
-    console.log('====================================');
-    setIsVisibles(item)
-   
-   }}/>
-
+  if (isVisible && landscreen === null) {
+    return (
+      <SplashScreen
+        allowvideo={(item) => {
+          console.log("====================================");
+          console.log(item, "item");
+          console.log("====================================");
+          setIsVisibles(item);
+        }}
+      />
+    );
   }
   return (
     <div className="main-wrapper home-one">
@@ -299,7 +295,6 @@ const Home1 = () => {
       {/* Home Banner */}
       <section className="banner-section">
         <div className="col-md-12 position-relative">
-
           {/* <div className="banner-abs">
             <p className="banner-posab-h mb-0">
               How can we help you?
@@ -336,27 +331,42 @@ const Home1 = () => {
         <div className="container position-absolute top-50 start-50 translate-middle">
           <div className="row align-items-center">
             <div className="col-lg-5">
-              <div className="banner-cont-main d-md-block d-none">
+              <div className="banner-cont-main d-md-block d-none ">
                 <div className="banner-content text-center mt-5">
-                  <h1>{t('bnrHed')}</h1>
+                  <h1>{t("bnrHed")}</h1>
                   <p>
-                    <strong>{t('bnrsubhed')} </strong>: {t('bnrsubhedcont')}
+                    <strong>{t("bnrsubhed")} </strong>: {t("bnrsubhedcont")}
                   </p>
-                  <p className="fs-6">
-                    {t('bnrcont')}
-
-                  </p>
+                  <p className="fs-6">{t("bnrcont")}</p>
                   <Link class="discov-innner" to="/introducing">
-                    {t('rdmor')}<i class="fa-solid fa-chevron-right ms-2"></i>
+                    {t("rdmor")}
+                    <i class="fa-solid fa-chevron-right ms-2"></i>
                   </Link>
                 </div>
               </div>
+
+              {/* <div className="banner-cont-main d-block d-md-none ">
+                <div className="banner-content text-center mt-5">
+                  <h4>{t("bnrHed")}</h4>
+                  <p>
+                    <strong>{t("bnrsubhed").substring(0, 25)} </strong>{" "}
+                  
+                  </p>
+                  <p className="fs-6">
+                    {t("bnrcont").substring(0, 25)}{" "}
+                   
+                  </p>
+                  <Link className="discov-innner" to="/introducing">
+                    {t("rdmor")}
+                    <i className="fa-solid fa-chevron-right ms-2"></i>
+                  </Link>
+                </div>
+              </div> */}
             </div>
             <div className="col-lg-7"></div>
           </div>
         </div>
       </section>
-
 
       {/* <section>
         <div>
@@ -378,8 +388,7 @@ const Home1 = () => {
     </div> */}
 
       <section className="banner-sub">
-
-        <div className="container-fluid px-0">
+        <div className="container-fluid px-0 ovr-flw">
           <div className="row">
             <div className="col-md-6 svtm p-4">
               <div className="row d-flex align-items-center">
@@ -388,23 +397,13 @@ const Home1 = () => {
                 </div>
 
                 <div className="col-7">
-                  <p className="ban-sub-hed">
-
-                    {t('sec2hed')}
-
-
-                  </p>
-                  <p className="ban-sub-cont">
-                    {t('sec2cont')}
-
-                  </p>
+                  <p className="ban-sub-hed">{t("sec2hed")}</p>
+                  <p className="ban-sub-cont">{t("sec2cont")}</p>
                   <Link class="read-more-test" to="/guthealth-details/24">
-                    {t('sec2contbtn1')}
+                    {t("sec2contbtn1")}
                   </Link>
                 </div>
-
               </div>
-
             </div>
             <div className="col-md-6 svtm bg-wh-b p-4">
               <div className="row d-flex align-items-center">
@@ -413,26 +412,17 @@ const Home1 = () => {
                 </div>
 
                 <div className="col-7">
-                  <p className="ban-sub-hed">
-                    {t('sec2hed2')}
-                  </p>
-                  <p className="ban-sub-cont">
-                    {t('sec2cont2')}
-                  </p>
+                  <p className="ban-sub-hed">{t("sec2hed2")}</p>
+                  <p className="ban-sub-cont">{t("sec2cont2")}</p>
                   <Link class="read-more-test" to="/guthealth-details/9">
-                    {t('sec2contbtn2')}
+                    {t("sec2contbtn2")}
                   </Link>
                 </div>
-
               </div>
-
             </div>
           </div>
         </div>
-
       </section>
-
-
 
       {/* /Home Banner */}
       <section className="about-section">
@@ -448,27 +438,19 @@ const Home1 = () => {
             <div className="col-lg-6 col-md-12">
               <div className="section-inner-header about-inner-header">
                 {/* <h6> Our About </h6> */}
-                <h2>
-                  {t('drName')}
-                </h2>
+                <h2>{t("drName")}</h2>
               </div>
               <div className="about-content">
                 <div className="about-content-details">
-                  <h4>
-
-                    {t('drExperties')}
-                  </h4>
-                  <p>
-
-                    {t('drAbout')}
-                  </p>
+                  <h4>{t("drExperties")}</h4>
+                  <p>{t("drAbout")}</p>
 
                   <Link to="/aboutus">
                     <Button
                       className="btn text-blue bg-blue mt-2 "
                       variant="outline-dark"
                     >
-                      {t('rdmor')}
+                      {t("rdmor")}
                     </Button>
                     {/* <h6 className="text-blue bg-blue mt-2 ">  </h6> */}
                   </Link>
@@ -478,7 +460,6 @@ const Home1 = () => {
           </div>
         </div>
       </section>
-
 
       <section className="counter-section">
         <div className="ban-bg">
@@ -495,16 +476,10 @@ const Home1 = () => {
         </div>
         <div className="container">
           <div className="text-center mb-4">
-            <h3 className="text-white">
-              {t('achHed')}
-
-            </h3>
+            <h3 className="text-white">{t("achHed")}</h3>
           </div>
           <div className="text-center mb-5">
-            <h5 className="text-white">
-              {t('achCont')}
-
-            </h5>
+            <h5 className="text-white">{t("achCont")}</h5>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
@@ -519,9 +494,9 @@ const Home1 = () => {
                 <div className="count-info">
                   <h3>
                     <CountUp end={38} duration={5} className="count-digit" />{" "}
-                    {t('achYear')}
+                    {t("achYear")}
                   </h3>
-                  <p>{t('achExp')}</p>
+                  <p>{t("achExp")}</p>
                 </div>
               </div>
             </div>
@@ -539,7 +514,7 @@ const Home1 = () => {
                     <CountUp end={15000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t('achLapSurger')}</p>
+                  <p>{t("achLapSurger")}</p>
                 </div>
               </div>
             </div>
@@ -558,7 +533,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t('achHapPat')}</p>
+                  <p>{t("achHapPat")}</p>
                 </div>
               </div>
             </div>
@@ -576,7 +551,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t('achSuccTre')}</p>
+                  <p>{t("achSuccTre")}</p>
                 </div>
               </div>
             </div>
@@ -593,7 +568,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>{t('achNations')}</p>
+                  <p>{t("achNations")}</p>
                 </div>
               </div>
             </div>
@@ -610,7 +585,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>{t('achReseAn')}</p>
+                  <p>{t("achReseAn")}</p>
                 </div>
               </div>
             </div>
@@ -644,7 +619,10 @@ const Home1 = () => {
                   </div>
                   <Link to={`specialites/${index + 1}`}>{item.title}</Link>
                   <p>{item.description?.slice(0, 50)}...</p>
-                  <Link to={`specialites/${index + 1}`} className="discov-innner">
+                  <Link
+                    to={`specialites/${index + 1}`}
+                    className="discov-innner"
+                  >
                     Read More
                     <i className="fa-solid fa-chevron-right ms-2" />
                   </Link>
@@ -676,7 +654,11 @@ const Home1 = () => {
               </div>
             </div>
           </div>
-          <div className="slider slider-sixteen aos" data-aos="zoom-in-up" id="gut-health">
+          <div
+            className="slider slider-sixteen aos"
+            data-aos="zoom-in-up"
+            id="gut-health"
+          >
             <OwlCarousel
               {...ourExpert}
               center={true}
@@ -703,13 +685,23 @@ const Home1 = () => {
                     />
                   </div>
                   <h4 className="fs-5 text-center">
-                    <Link to={item.url === "" ? `guthealth-details/${index + 1}` : `/${item.url}`}>
+                    <Link
+                      to={
+                        item.url === ""
+                          ? `guthealth-details/${index + 1}`
+                          : `/${item.url}`
+                      }
+                    >
                       {item.title}
                     </Link>
                   </h4>
                   <div className="testimonal-contents bg-trans">
                     <Link
-                      to={item.url === "" ? `guthealth-details/${index + 1}` : `/${item.url}`}
+                      to={
+                        item.url === ""
+                          ? `guthealth-details/${index + 1}`
+                          : `/${item.url}`
+                      }
                       className="read-more-test"
                     >
                       Read More
@@ -732,7 +724,6 @@ const Home1 = () => {
                 <i class="fa-solid fa-arrow-right"></i>
               </button> */}
             </div>
-
           </div>
         </div>
       </section>
