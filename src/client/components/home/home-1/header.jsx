@@ -4,12 +4,18 @@ import { Link, useHistory } from "react-router-dom";
 import strings from "../../../../Lang/strings";
 import { DownOutlined, SmileOutlined } from "@ant-design/icons";
 import { Dropdown, Space, MenuProps } from "antd";
-import { useTranslation } from 'react-i18next';
+import { useTranslation } from "react-i18next";
 
 const Home1Header = () => {
   const [searchField, setSearchField] = useState(false);
-  const [language, setLanguage] = useState("En");
+  const [language, setLanguage] = useState("en"); // Default to English
   const { t, i18n } = useTranslation();
+
+  const handleLanguageChange = (event) => {
+    const selectedLanguage = event.target.value;
+    console.log("Selected Language:", selectedLanguage); // Log the selected language
+    changeLanguage(selectedLanguage); // Call the parent language-changing function
+  };
 
   const items = [
     {
@@ -33,9 +39,8 @@ const Home1Header = () => {
 
   const changeLanguage = (lang) => {
     // strings.setLanguage(lang);
-    // setLanguage(lang);
+    setLanguage(lang);
     i18n.changeLanguage(lang);
-    setLanguage(lang ==='fr' ? "Ar": "En");
   };
   return (
     <>
@@ -480,20 +485,20 @@ const Home1Header = () => {
                   </Link>
                   <ul className="submenu">
                     <li>
-                      <Link to="/pages/aboutus">About Us</Link>
+                      <Link to="/aboutus">About Us</Link>
                     </li>
                     <li>
-                      <Link to="/pages/aboutus">News & Updates</Link>
+                      <Link to="/aboutus">News & Updates</Link>
                     </li>
                     <li>
-                      <Link to="/pages/aboutus">Corporate Development</Link>
+                      <Link to="/aboutus">Corporate Development</Link>
                     </li>
 
                     <li>
-                      <Link to="/pages/aboutus">Physician Careers</Link>
+                      <Link to="/aboutus">Physician Careers</Link>
                     </li>
                     <li>
-                      <Link to="/pages/aboutus">All Careers</Link>
+                      <Link to="/aboutus">All Careers</Link>
                     </li>
                     <li>
                       <Link to="/contacts">Contact Us</Link>
@@ -501,7 +506,7 @@ const Home1Header = () => {
                   </ul>
                   {/* <ul className="submenu">
                     <li>
-                      <Link to="/pages/aboutus">About Us</Link>
+                      <Link to="/aboutus">About Us</Link>
                     </li>
                     <li>
                       <Link to="/pages/contactus">Contact Us</Link>
@@ -647,25 +652,21 @@ const Home1Header = () => {
                   </a>
                 </li>
                 <li>
-                  <Dropdown
-                    className="overflow-visible"
-                    menu={{
-                      items,
-                      onClick: (e) => {
-                        console.log("Item clicked:", e); // Logs the clicked item details
-                        changeLanguage(e.key)
-                      },
-                    }}
-                    
-                    
-                  >
-                    <a onClick={(e) => e.preventDefault()}>
-                      <Space>
-                        {language}
-                        <DownOutlined />
-                      </Space>
-                    </a>
-                  </Dropdown>
+                  <a href="#">
+                    <select
+                      value={language}
+                      onChange={handleLanguageChange}
+                      style={{
+                        // padding: '8px',
+                        borderRadius: "4px",
+                        border: "1px solid #ccc",
+                        cursor: "pointer",
+                      }}
+                    >
+                      <option value="en">English</option>
+                      <option value="fr">Arabic</option>
+                    </select>
+                  </a>
                 </li>
               </ul>
             </div>

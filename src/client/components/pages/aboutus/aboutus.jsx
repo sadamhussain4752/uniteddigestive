@@ -53,11 +53,12 @@ import {
 } from "../aboutus/img";
 import CountUp from "react-countup";
 import Home1Header from "../../home/home-1/header";
+import Home1Footer from "../../home/home-1/footer";
 
 const Aboutus = (props) => {
   let pathname = props.location.pathname;
 
-  if (props.location.pathname === "/pages/aboutus") {
+  if (props.location.pathname === "/aboutus") {
     require("../../../assets/css/feather.css");
   }
 
@@ -112,7 +113,7 @@ const Aboutus = (props) => {
                 <nav aria-label="breadcrumb" className="page-breadcrumb">
                   <ol className="breadcrumb">
                     <li className="breadcrumb-item">
-                      <Link to="/home-2">Home</Link>
+                      <Link to="/">Home</Link>
                     </li>
                     <li className="breadcrumb-item" aria-current="page">
                       About Us
@@ -700,7 +701,7 @@ const Aboutus = (props) => {
         {/* /FAQ Section */}
       </>
 
-      <Footer {...props} />
+     <Home1Footer/>
     </>
   );
 };

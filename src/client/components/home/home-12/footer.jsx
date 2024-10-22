@@ -53,7 +53,7 @@ const Home12Footer = () => {
                     <h4>Company</h4>
                     <ul>
                       <li>
-                        <Link to="/pages/aboutus">About Us</Link>
+                        <Link to="//aboutus">About Us</Link>
                       </li>
                       <li>
                         <Link to="/blog/blog-grid">Blogs</Link>

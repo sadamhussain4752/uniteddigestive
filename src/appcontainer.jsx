@@ -406,8 +406,8 @@ const AppContainer = function (props) {
               <Route path="/pages/invoice" exact component={Invoice} />
               <Route path="/doctor/invoices" exact component={Invoice} />
               <Route path="/pages/invoice-view" exact component={InvoiceView} />
-              <Route path="/pages/aboutus" exact component={Aboutus} />
-              <Route path="/pages/abouts" exact component={Abouts} />
+              <Route path="/aboutus" exact component={Aboutus} />
+              <Route path="/abouts" exact component={Abouts} />
               <Route path="/pages/patient-portal" exact component={Patientprotal} />
               <Route path="/pages/contactus" exact component={Contactus} />
               <Route path="/pages/comingsoon" exact component={Comingsoon} />

@@ -93,7 +93,7 @@ const Home10Footer = () => {
                   </div>
                   <ul className="link-foot">
                     <li>
-                      <Link to="/pages/aboutus">About</Link>
+                      <Link to="/aboutus">About</Link>
                     </li>
                     <li>
                       <Link to="#">Faciities</Link>

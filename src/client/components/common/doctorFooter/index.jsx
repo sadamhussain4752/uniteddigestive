@@ -29,7 +29,7 @@ const DoctorFooter = () => {
                                     <h4>Company</h4>
                                     <ul className="pages-links">
                                         <li>
-                                            <Link to="/pages/aboutus">About Dr. Shabeer Ahmed</Link>
+                                            <Link to="/aboutus">About Dr. Shabeer Ahmed</Link>
                                         </li>
                                         <li>
                                             <Link to="#">Customers Speak</Link>

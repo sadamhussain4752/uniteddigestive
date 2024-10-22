@@ -578,7 +578,7 @@ const Home5Header = () => {
                   </Link>
                   <ul className="submenu">
                     <li>
-                      <Link to="/pages/aboutus">About Us</Link>
+                      <Link to="/aboutus">About Us</Link>
                     </li>
                     <li>
                       <Link to="/pages/contactus">Contact Us</Link>

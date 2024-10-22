@@ -39,7 +39,7 @@ const Home11Footer = () => {
                   <h2 className="footer-title">Company</h2>
                   <ul>
                     <li>
-                      <Link to="/pages/aboutus">About us</Link>
+                      <Link to="/aboutus">About us</Link>
                     </li>
                     <li>
                       <Link to="/Pharmacy/cart">Careers</Link>

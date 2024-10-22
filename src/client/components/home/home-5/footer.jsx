@@ -58,7 +58,7 @@ const Home5Footer = () => {
                         <Link to="/Pharmacy/Pharmacy-index">Pharmacy</Link>
                       </li>
                       <li>
-                        <Link to="/pages/aboutus">Pages</Link>
+                        <Link to="/aboutus">Pages</Link>
                       </li>
                     </ul>
                   </div>

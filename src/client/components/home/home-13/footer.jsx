@@ -148,7 +148,7 @@ const Home13Footer = () => {
                       <Link to="/home-1">Home</Link>
                     </li>
                     <li>
-                      <Link to="/pages/aboutus">About us</Link>
+                      <Link to="/aboutus">About us</Link>
                     </li>
                     <li>
                       <Link to="payment.html">Payments</Link>

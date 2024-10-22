@@ -944,7 +944,7 @@ const NavLinks = () => {
             <li
               className={`${pathnames.includes("/voice-call") ? "active" : ""}`}
             >
-              <Link to="/pages/aboutus" onClick={() => onhandleCloseMenu()}>
+              <Link to="/aboutus" onClick={() => onhandleCloseMenu()}>
                 About Us
               </Link>
             </li>

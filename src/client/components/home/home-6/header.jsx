@@ -282,7 +282,7 @@ const Home6Header = () => {
               <li className="has-submenu">
                 <Link to="#">Pages <i className="fas fa-chevron-down" /></Link>
                 <ul className="submenu">
-                  <li><Link to="/pages/aboutus">About Us</Link></li>
+                  <li><Link to="/aboutus">About Us</Link></li>
                   <li><Link to="/pages/contactus">Contact Us</Link></li>
                   <li className="has-submenu">
                     <Link to="#">Call</Link>

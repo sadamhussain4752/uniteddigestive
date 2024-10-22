@@ -29,7 +29,7 @@ if (window.location.pathname.includes("pharmacyadmin")) {
   require("./client/assets/icons/feather/css/iconfont.css");
   require("./client/assets/scss/main.scss");
   require("../src/client/components/customstyleclient.css");
-  localStorage.setItem("SplashScreen",true)
+  localStorage.removeItem("SplashScreen")
 }
 
 const root = ReactDOM.createRoot(document.getElementById("root"));

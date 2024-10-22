@@ -54,6 +54,7 @@ const Home1 = () => {
     if (isVisibles) {
       setTimeout(() => {
         setIsVisible(false)
+        localStorage.setItem("SplashScreen",false)
       }, 4000);
     }
 
@@ -115,9 +116,7 @@ const Home1 = () => {
   };
 
 
-  function nextSlide() {
-    alert("hiii")
-  }
+
 
   const populartestslider = {
     loop: true,
@@ -283,13 +282,13 @@ const Home1 = () => {
     ],
   };
 
-  if(isVisible && landscreen === false){
+  if(isVisible && landscreen === null){
    return <SplashScreen allowvideo={(item)=>{
     console.log('====================================');
     console.log(item,"item");
     console.log('====================================');
     setIsVisibles(item)
-    localStorage.setItem("SplashScreen",false)
+   
    }}/>
 
   }
@@ -347,9 +346,9 @@ const Home1 = () => {
                     {t('bnrcont')}
 
                   </p>
-                  <a class="discov-innner" href="/introducing">
+                  <Link class="discov-innner" to="/introducing">
                     {t('rdmor')}<i class="fa-solid fa-chevron-right ms-2"></i>
-                  </a>
+                  </Link>
                 </div>
               </div>
             </div>
@@ -399,9 +398,9 @@ const Home1 = () => {
                     {t('sec2cont')}
 
                   </p>
-                  <a class="read-more-test" href="/guthealth-details/24">
+                  <Link class="read-more-test" to="/guthealth-details/24">
                     {t('sec2contbtn1')}
-                  </a>
+                  </Link>
                 </div>
 
               </div>
@@ -420,9 +419,9 @@ const Home1 = () => {
                   <p className="ban-sub-cont">
                     {t('sec2cont2')}
                   </p>
-                  <a class="read-more-test" href="/guthealth-details/9">
+                  <Link class="read-more-test" to="/guthealth-details/9">
                     {t('sec2contbtn2')}
-                  </a>
+                  </Link>
                 </div>
 
               </div>
@@ -464,7 +463,7 @@ const Home1 = () => {
                     {t('drAbout')}
                   </p>
 
-                  <Link to="/pages/aboutus">
+                  <Link to="/aboutus">
                     <Button
                       className="btn text-blue bg-blue mt-2 "
                       variant="outline-dark"
@@ -725,9 +724,9 @@ const Home1 = () => {
                 <i class="fa-solid fa-arrow-left"></i>
               </button> */}
 
-              <a href="/guthealth-list" className="mx-4">
+              <Link to="/guthealth-list" className="mx-4">
                 Explore More
-              </a>
+              </Link>
 
               {/* <button >
                 <i class="fa-solid fa-arrow-right"></i>
@@ -787,7 +786,7 @@ const Home1 = () => {
                       Medical Center, USA from 2010 to 2012 {"... "}
                     </p>
 
-                    <Link to="/pages/aboutus">
+                    <Link to="/aboutus">
                       <Button
                         className="btn text-blue bg-blue mt-2 "
                         variant="outline-dark"

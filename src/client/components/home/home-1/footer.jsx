@@ -1,4 +1,6 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
+
 import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
 import AOS from 'aos';
 import 'aos/dist/aos.css';
@@ -201,9 +203,9 @@ const Home1Footer = () => {
                       <ul>
                       {abouts.map((item)=> (
                          <li>
-                          <a href={item.url}>
+                          <Link to={item.url}>
                             {item.title}
-                          </a>
+                          </Link>
                         </li>
                          
                       ))}
