@@ -16,7 +16,24 @@ const Home1Header = () => {
     console.log("Selected Language:", selectedLanguage); // Log the selected language
     changeLanguage(selectedLanguage); // Call the parent language-changing function
   };
-
+  const googleTranslateElementInit = () => {
+    new window.google.translate.TranslateElement(
+      {
+        pageLanguage: "en",
+        autoDisplay: false
+      },
+      "google_translate_element"
+    );
+  };
+  useEffect(() => {
+    var addScript = document.createElement("script");
+    addScript.setAttribute(
+      "src",
+      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
+    );
+    document.body.appendChild(addScript);
+    window.googleTranslateElementInit = googleTranslateElementInit;
+  }, []);
   const items = [
     {
       key: "en",
@@ -631,18 +648,10 @@ const Home1Header = () => {
                         : "togglesearch d-none"
                     }
                   >
-                    <form>
-                      <div className="input-group">
-                        <input type="text" className="form-control" />
-                        <button
-                          type="submit"
-                          className="btn"
-                          onClick={directionPath}
-                        >
-                          Search
-                        </button>
-                      </div>
-                    </form>
+                    <>
+      <div id="google_translate_element"></div>
+      <h4>Start building your app. Happy Coding!</h4>
+    </>
                   </div>
                 </li>
                 <li className="has-submenu d-flex align-items-center ">
