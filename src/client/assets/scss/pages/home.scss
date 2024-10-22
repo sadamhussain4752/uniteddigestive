@@ -3277,3 +3277,43 @@ header{
     }
   
   }
+.banner-section {
+ max-height: 100vh !important;
+    
+}
+.image-sides {
+    position: relative;
+    left: -180px; /* Adjusted for better positioning */
+    width: 160%;  /* Scaled down for better control */
+    margin-top: 16%; /* Adjusted for visual balance */
+    transition: all 0.3s ease; /* Adds a smooth transition when resized */
+  }
+  
+  /* Media Queries for Responsive Design */
+  @media (max-width: 1200px) {
+    .image-sides {
+      left: -50px; /* Less negative offset on medium screens */
+      width: 110%;  /* Adjust width for medium screens */
+      margin-top: 8%; /* Reduce top margin */
+    }
+  }
+  
+  @media (max-width: 768px) {
+    .image-sides {
+      left: 0; /* Reset offset on smaller screens */
+      width: 100%;  /* Set width to normal */
+      margin-top: 5%; /* Smaller top margin */
+    }
+  }
+  
+  @media (max-width: 576px) {
+    .image-sides {
+      width: 100%;  /* Full width on very small screens */
+      margin-top: 2%; /* Small top margin */
+    }
+  }
+  
+  .mt-120 {
+    margin-top: 18% !important;
+  }
+  

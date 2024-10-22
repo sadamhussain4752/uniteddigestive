@@ -55,7 +55,7 @@ const Home1 = () => {
       setTimeout(() => {
         setIsVisible(false)
         localStorage.setItem("SplashScreen",false)
-      }, 4000);
+      }, 2500);
     }
 
   }, [isVisibles]);
@@ -318,9 +318,9 @@ const Home1 = () => {
             </div>
           </div> */}
 
-          <div className="slider-img mt-5">
+          <div className="slider-img">
             <video
-              className="banner-images w-100"
+              className="banner-images"
               autoPlay
               playsInline
               loop
@@ -331,11 +331,9 @@ const Home1 = () => {
               Your browser does not support the video tag.
             </video>
           </div>
-        </div>
-
-        <div className="container position-absolute top-50 start-50 translate-middle">
+          <ImageWithBasePath src="assets/img/banner/black shade.png" className=" position-absolute top-50 start-50 translate-middle bottom-0 mt-5">
           <div className="row align-items-center">
-            <div className="col-lg-5">
+            <div className="col-lg-12">
               <div className="banner-cont-main d-md-block d-none">
                 <div className="banner-content text-center mt-5">
                   <h1>{t('bnrHed')}</h1>
@@ -352,9 +350,12 @@ const Home1 = () => {
                 </div>
               </div>
             </div>
-            <div className="col-lg-7"></div>
+            
           </div>
+        </ImageWithBasePath>
         </div>
+
+
       </section>
 
 

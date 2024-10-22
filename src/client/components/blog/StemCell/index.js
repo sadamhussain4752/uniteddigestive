@@ -23,28 +23,35 @@ const StemCellTherapy = (props) => {
   return (
     <div>
       <Home1Header />
-      <div className="breadcrumb-bar-two">
-        <div className="container">
-          <div className="row align-items-center inner-banner">
-            <div className="col-md-12 col-12 text-center">
-              <h2 className="breadcrumb-title">Stem Cell Therapy
-
-              </h2>
-              <nav aria-label="breadcrumb" className="page-breadcrumb">
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li className="breadcrumb-item" aria-current="page">
-                  Stem Cell Therapy
-
-
-                  </li>
-                </ol>
-              </nav>
-            </div>
-          </div>
+      <div className="breadcrumb-bar-two" 
+     >
+       <div className="">
+      {/* ImageWithBasePath component for the banner image */}
+      <div className="row align-items-center position-relative">
+        <ImageWithBasePath
+          src="assets/img/bannerslider/stemcellinnerbanner.webp"
+          alt="kidney-image"
+          className="img-fluid w-100" // Ensure the image takes the full width and is responsive
+        />
+        
+        {/* Text and breadcrumb inside the banner */}
+        <div className="col-md-12 col-12 text-center position-absolute top-50 start-50 translate-middle">
+          <h2 className="breadcrumb-title text-white fs-1">Stem Cell Therapy</h2>
+          
+          {/* Breadcrumb navigation */}
+          <nav aria-label="breadcrumb" className="page-breadcrumb">
+            <ol className="breadcrumb ">
+              <li className="breadcrumb-item ">
+                <Link className="text-white" to="/">Home</Link>
+              </li>
+              <li className="breadcrumb-item active text-white" aria-current="page">
+                Stem Cell Therapy
+              </li>
+            </ol>
+          </nav>
         </div>
+      </div>
+    </div>
       </div>
 
 
@@ -55,7 +62,13 @@ const StemCellTherapy = (props) => {
           <div className="row">
             <div className="col-lg-8 col-md-12">
               <div className="blog-view row lsre-tret">
-                <p className="txt-just">
+               
+                <p className="txt-just w-75 mt-120">
+               <span>
+               <h3 className="">
+                Stem Cell Therapy
+                </h3>
+               </span>
                 Stem cell therapy is an advanced medical treatment that utilizes the body’s own
 regenerative potential to repair damaged tissues, organs, and cells. Stem cells have
 the unique ability to differentiate into specialized cells, enabling them to treat a
@@ -63,7 +76,7 @@ variety of diseases. At Dr Shabeer Ahmed Clinic, we use ethically sourced stem
 cells to provide personalized treatment plans designed to improve outcomes for our
 patients.
                 </p>
-                <h4>
+                <h4 className="mt-120">
                 Revolutionizing Recovery: Your Path to Regeneration
                 </h4>
                 <p className="txt-just">
@@ -96,7 +109,7 @@ joint replacements or spinal surgeries.
 surgeries, stem cell therapy generally has fewer or no side effects
 and risks.
                 </p>
-                <p className="txt-just">
+                <p className="txt-ju">
                   <strong>Promising Research</strong>  Stem cell therapy is backed by cutting-edge
 research, and ongoing clinical trials are constantly expanding its
 applications for a wide range of diseases.
@@ -212,26 +225,31 @@ benefit from the latest findings in regenerative medicine.
 <strong>Eligibility for Treatment:</strong>
 <p>Conditions Suitable for Treatment: Conditions that are treatable with
 stem cell therapy are given below in detail.</p>
-<h6>Who is a Patient Candidate for Stem Cell Therapy?</h6>
+<h5>Who is a Patient Candidate for Stem Cell Therapy?</h5>
 <p>Medical Conditions:</p>
 <ul>
   <li>
-  Degenerative Diseases: Candidates with conditions like
+ <strong>Degenerative Diseases:</strong>  Candidates with conditions like
   osteoarthritis, rheumatoid arthritis, and
   </li>
 
   <li>
-  Neurological Disorders: Patients with neurological conditions
+ <strong>Neurological Disorders:
+  </strong>  Patients with neurological conditions
 such as Parkinson’s disease, stroke, cerebral palsy, and multiple
 sclerosis are often considered for treatment to enhance
 neurological function and mobility.
   </li>
   <li>
-  Spinal Cord Injuries: Individuals with traumatic or non-traumatic
+  <strong>Spinal Cord Injuries:
+  </strong> 
+   Individuals with traumatic or non-traumatic
 spinal cord injuries may be eligible for therapy aimed at improving
 motor function and sensation.
   </li>
   <li>
+  <strong>Musculoskeletal Injuries:
+  </strong> 
   Musculoskeletal Injuries: Those with ligament injuries, tendon
 tears, or cartilage damage, particularly athletes or active
 individuals, can be candidates for accelerated healing and
@@ -1146,7 +1164,15 @@ health.
               </div>
 
             </div>
-            <div className="col-lg-4 col-md-12">
+            <div className="col-lg-4 col-md-12 text-center">
+              <div className="image-sides">
+              <ImageWithBasePath
+                            src="assets/img/bannerslider/inner image.webp"
+
+                            alt="kidney-image"
+                            className="img-fluid "
+                          />
+              </div>
               <h3> For More Information</h3>
               <section className=" mor-info ">
                 <div className="container">

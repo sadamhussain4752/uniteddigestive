@@ -40,7 +40,7 @@ const SplashScreen = ({ allowvideo }) => {
         {/* Video element */}
         <video
           ref={videoRef}
-          src="/assets/img/banner/logo-reserve.mp4"
+          src="/assets/img/banner/intro.mp4"
           className="logo-image"
           style={{ width: "100%", height: "auto" }}
           muted // Keep the video muted initially
