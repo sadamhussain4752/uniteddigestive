@@ -429,9 +429,8 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section className="counter-section" >
-        <div className="" data-aos="fade-right">
-        <div className="ban-bg" >
+      <section className="counter-section">
+        <div className="ban-bg">
           <ImageWithBasePath
             src="assets/img/bg/counter-bg.png"
             alt="design-image"
@@ -445,10 +444,16 @@ const Home1 = () => {
         </div>
         <div className="container">
           <div className="text-center mb-4">
-            <h3 className="text-white">{t("achHed")}</h3>
+            <h3 className="text-white">
+              {t('achHed')}
+
+            </h3>
           </div>
           <div className="text-center mb-5">
-            <h5 className="text-white">{t("achCont")}</h5>
+            <h5 className="text-white">
+              {t('achCont')}
+
+            </h5>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
@@ -463,9 +468,9 @@ const Home1 = () => {
                 <div className="count-info">
                   <h3>
                     <CountUp end={38} duration={5} className="count-digit" />{" "}
-                    {t("achYear")}
+                    {t('achYear')}
                   </h3>
-                  <p>{t("achExp")}</p>
+                  <p>{t('achExp')}</p>
                 </div>
               </div>
             </div>
@@ -483,7 +488,7 @@ const Home1 = () => {
                     <CountUp end={15000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t("achLapSurger")}</p>
+                  <p>{t('achLapSurger')}</p>
                 </div>
               </div>
             </div>
@@ -502,7 +507,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t("achHapPat")}</p>
+                  <p>{t('achHapPat')}</p>
                 </div>
               </div>
             </div>
@@ -520,7 +525,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t("achSuccTre")}</p>
+                  <p>{t('achSuccTre')}</p>
                 </div>
               </div>
             </div>
@@ -537,7 +542,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>{t("achNations")}</p>
+                  <p>{t('achNations')}</p>
                 </div>
               </div>
             </div>
@@ -554,14 +559,12 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>{t("achReseAn")}</p>
+                  <p>{t('achReseAn')}</p>
                 </div>
               </div>
             </div>
           </div>
         </div>
-        </div>
-       
       </section>
 
       <section className="services-section-sixteen">
