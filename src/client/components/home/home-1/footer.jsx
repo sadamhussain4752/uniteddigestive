@@ -154,30 +154,7 @@ const Home1Footer = () => {
                             Schedule Appointment
                           </a>
                         </li>
-                        <li>
-                          <a href="video-call.html">
-                            Your Visit
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="video-call.html">
-                            Medical Record Information
-                          </a>
-                        </li>
-
-                        <li>
-                          <a href="video-call.html">
-                            Patient Portal
-                          </a>
-                        </li>
-
-
-                        <li>
-                          <a href="video-call.html">
-                            Pay Bill
-                          </a>
-                        </li>
+                       
 
                         <li>
                           <a href="video-call.html">
@@ -185,11 +162,7 @@ const Home1Footer = () => {
                           </a>
                         </li>
 
-                        <li>
-                          <a href="video-call.html">
-                            Procedure Preparation
-                          </a>
-                        </li>
+                       
 
                       </ul>
                     </div>

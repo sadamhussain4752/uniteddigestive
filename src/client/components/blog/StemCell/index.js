@@ -77,7 +77,7 @@ cells to provide personalized treatment plans designed to improve outcomes for o
 patients.
                 </p>
                 <h4 className="mt-120">
-                Revolutionizing Recovery: Your Path to Regeneration
+                Revolutionizing Recovery: 
                 </h4>
                 <p className="txt-just">
                  

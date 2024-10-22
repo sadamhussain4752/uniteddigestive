@@ -3277,7 +3277,7 @@ header{
     }
   
   }
-.banner-section {
+.banner-sections {
  max-height: 100vh !important;
     
 }
@@ -3316,4 +3316,29 @@ header{
   .mt-120 {
     margin-top: 18% !important;
   }
+  .fsw-14 {
+    font-size: 15px !important;
+    line-height: 20px !important;
+   
+  }
   
+.fh-22 {
+    font-size: 80px !important;
+}
+
+.line-height-space {
+    line-height: 15px !important;
+}
+
+.mt-80 {
+    margin-top: 180px !important;
+}
+
+.banner-images {
+    min-width: 100% !important;
+    max-height: 90vh !important;
+    object-fit: cover;
+    object-position: top;
+   
+    margin-top: 5% !important;
+}

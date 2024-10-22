@@ -1,5 +1,5 @@
 {
-    "bnrHed": "Introducing",
+    "bnrHed": "INTRODUCING",
     "bnrsubhed": " United Gut Healthcare ",
     "bnrsubhedcont": "A Multidisciplinary Approach to Digestive Health",
     "bnrcont": "At United Gut Healthcare, we understand that digestive health is crucial to overall well-being. Our comprehensive approach integrates various specialties to provide you with the most effective and personalized care for your gastrointestinal needs.",
@@ -29,7 +29,9 @@
     "achReseAn": "Research Analyst",
     "ExpAr": "My Expertise Area",
      "welcome_message": "Welcome to my application",
-  "description": "This is an example of localization"
+  "description": "This is an example of localization",
+  "Procedure_Preparation":"Procedure Preparation",
+   "about":"About"
 
 
   }
