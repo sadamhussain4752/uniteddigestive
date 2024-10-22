@@ -318,7 +318,7 @@ const Home1 = () => {
             </div>
           </div> */}
 
-          <div className="slider-img">
+          <div className="slider-img position-relative">
             <video
               className="banner-images"
               autoPlay
@@ -331,7 +331,7 @@ const Home1 = () => {
               Your browser does not support the video tag.
             </video>
           </div>
-          <ImageWithBasePath src="assets/img/banner/black shade.png" className=" position-absolute top-50 start-50 translate-middle bottom-0 mt-5">
+          <ImageWithBasePath src="assets/img/banner/blue-hade.png" className=" position-absolute top-50 start-50 translate-middle bottom-0 mt-5">
           <div className="row align-items-center">
             <div className="col-lg-12">
               <div className="banner-cont-main d-md-block d-none">
