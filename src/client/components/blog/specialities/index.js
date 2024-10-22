@@ -41,16 +41,7 @@ const SpecialitesDetails = (props) => {
               <h2 className="breadcrumb-title">
                 {expdetails && expdetails?.title}
               </h2>
-              <nav aria-label="breadcrumb" className="page-breadcrumb">
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li className="breadcrumb-item" aria-current="page">
-                    {expdetails && expdetails?.title}
-                  </li>
-                </ol>
-              </nav>
+            
             </div>
           </div>
         </div>
@@ -66,9 +57,7 @@ const SpecialitesDetails = (props) => {
                       <img alt="" src={IMG01} className="img-fluid" />
                     </Link>
                   </div> */}
-                  <h3 className="blog-title mb-4">
-                   {expdetails.title}
-                  </h3>
+               
                  
                   <div className="blog-content">
                     {/* <p>{expdetails && expdetails?.description}</p> */}
@@ -153,28 +142,25 @@ const SpecialitesDetails = (props) => {
                 <div className="container">
 
                   <div className="row">
-                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                  <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
                       <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img ">
+                        <div className="specialist-img">
                           <ImageWithBasePath
-                            src="assets/img/category/map-location-dot-solid.svg"
-                            alt="kidney-image"
+                            src="assets/img/category/stethoscope-solid.svg"
+                            alt="bone-image"
                             className="img-fluid"
                           />
                         </div>
                         <div className="specialist-info">
-                          <Link to="#">
-                            <h6 className="mb-0 ">Find the Location</h6>
-                          </Link>
-                          {/* <p>21 Doctors</p> */}
+                        <a href="https://www.fortishealthcare.com/doctors/dr-shabeer-ahmed-773?hospital=3514" target="_blank">
+                            <h6>Book Appointment in Fortis Hospital</h6>
+                          </a>
+                         
                         </div>
-                        <div className="specialist-nav ms-auto">
-                          <Link to="#">
-                            <i className="fas fa-long-arrow-alt-right" />
-                          </Link>
-                        </div>
+                       
                       </div>
                     </div>
+
                     <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
                       <div className="specialist-card d-flex align-items-center">
                         <div className="specialist-img">
@@ -247,7 +233,7 @@ const SpecialitesDetails = (props) => {
               </section>
 
 
-              <section>
+              {/* <section>
                 <h3 className="mt-5"> Related Services</h3>
 
                 <div className="re-ser-card">
@@ -266,7 +252,7 @@ const SpecialitesDetails = (props) => {
 
                 </div>
 
-              </section>
+              </section> */}
             </div>
 
             {/* <div className="col-lg-4 col-md-12">

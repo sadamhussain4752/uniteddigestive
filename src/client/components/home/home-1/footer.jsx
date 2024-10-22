@@ -97,7 +97,7 @@ const Home1Footer = () => {
                       </li>
                       <li>
                         <a href="#">
-                          <i className="fab fa-twitter" />
+                          <i className="fab fa-x-twitter" />
                         </a>
                       </li>
                       <li>

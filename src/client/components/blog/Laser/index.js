@@ -352,7 +352,24 @@ const Lasersurgery = (props) => {
                       </div>
                     </div>
 
-
+                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
+                      <div className="specialist-card d-flex align-items-center">
+                        <div className="specialist-img">
+                          <ImageWithBasePath
+                            src="assets/img/category/stethoscope-solid.svg"
+                            alt="bone-image"
+                            className="img-fluid"
+                          />
+                        </div>
+                        <div className="specialist-info">
+                        <a href="https://www.fortishealthcare.com/doctors/dr-shabeer-ahmed-773?hospital=3514" target="_blank">
+                            <h6>Book Appointment in Fortis Hospital</h6>
+                          </a>
+                         
+                        </div>
+                       
+                      </div>
+                    </div>
 
                     <div
                       className="col-xl-12 col-lg-12 col-md-6 aos"

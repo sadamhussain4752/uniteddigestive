@@ -104,29 +104,13 @@ const Abouts = (props) => {
     <>
       <Home1Header />
       <>
-        {/* Breadcrumb */}
-        <div className="breadcrumb-bar-two">
-          <div className="container">
-            <div className="row align-items-center inner-banner">
-              <div className="col-md-12 col-12 text-center">
-                <h2 className="breadcrumb-title">About Us</h2>
-                <nav aria-label="breadcrumb" className="page-breadcrumb">
-                  <ol className="breadcrumb">
-                    <li className="breadcrumb-item">
-                      <Link to="/">Home</Link>
-                    </li>
-                    <li className="breadcrumb-item" aria-current="page">
-                      About Us
-                    </li>
-                  </ol>
-                </nav>
-              </div>
-            </div>
-          </div>
-        </div>
+
         {/* /Breadcrumb */}
         {/* About Us */}
         <section className="about-section">
+        <div className="section-inner-header about-inner-header text-center mt-5">
+          <h2 >About Us</h2>
+          </div>
           <div className="container">
             <div className="row align-items-center">
               <div className="col-lg-6 col-md-12">
@@ -138,7 +122,6 @@ const Abouts = (props) => {
               </div>
               <div className="col-lg-6 col-md-12">
                 <div className="section-inner-header about-inner-header">
-                  <h6> Our About </h6>
                   <h2>
                   Dr. Meghnad G. Joshi
                   </h2>

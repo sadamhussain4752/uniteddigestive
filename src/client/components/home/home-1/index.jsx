@@ -291,8 +291,8 @@ const Home1 = () => {
       <Home1Header />
 
       {/* Home Banner */}
-      <section className="">
-        <div className="col-md-12 position-relative">
+      <section className="" >
+        <div className="col-md-12 position-relative"  data-aos="zoom-in-up">
           {/* <div className="banner-abs">
             <p className="banner-posab-h mb-0">
               How can we help you?
@@ -356,7 +356,7 @@ const Home1 = () => {
       </section>
 
       <section className="banner-sub">
-        <div className="container-fluid px-0">
+        <div className="container-fluid px-0" data-aos="fade-right">
           <div className="row">
             <div className="col-md-6 svtm p-4">
               <div className="row d-flex align-items-center">
@@ -366,7 +366,7 @@ const Home1 = () => {
 
                 <div className="col-7">
                   <p className="ban-sub-hed">{t("sec2hed")}</p>
-                  <p className="ban-sub-cont">{t("sec2cont")}</p>
+                  <p className="ban-sub-cont w-75">{t("sec2cont")}</p>
                   <Link class="read-more-test" to="/guthealth-details/24">
                     {t("sec2contbtn1")}
                   </Link>
@@ -381,7 +381,7 @@ const Home1 = () => {
 
                 <div className="col-7">
                   <p className="ban-sub-hed">{t("sec2hed2")}</p>
-                  <p className="ban-sub-cont">{t("sec2cont2")}</p>
+                  <p className="ban-sub-cont w-75">{t("sec2cont2")}</p>
                   <Link class="read-more-test" to="/guthealth-details/9">
                     {t("sec2contbtn2")}
                   </Link>
@@ -394,7 +394,7 @@ const Home1 = () => {
 
       {/* /Home Banner */}
       <section className="about-section">
-        <div className="container">
+        <div className="container" data-aos="fade-left">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <ImageWithBasePath
@@ -410,7 +410,7 @@ const Home1 = () => {
               </div>
               <div className="about-content">
                 <div className="about-content-details">
-                  <h4>{t("drExperties")}</h4>
+                  <h4 className="w-75">{t("drExperties")}</h4>
                   <p>{t("drAbout")}</p>
 
                   <Link to="/aboutus">
@@ -429,8 +429,9 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section className="counter-section">
-        <div className="ban-bg">
+      <section className="counter-section" >
+        <div className="" data-aos="fade-right">
+        <div className="ban-bg" >
           <ImageWithBasePath
             src="assets/img/bg/counter-bg.png"
             alt="design-image"
@@ -559,18 +560,20 @@ const Home1 = () => {
             </div>
           </div>
         </div>
+        </div>
+       
       </section>
 
       <section className="services-section-sixteen">
-        <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-header-sixteen text-center">
-                {/* <p>Recapture the beauty of self-confidence</p> */}
-                <h2>{t("ExpAr")}</h2>
+        <div className="container" data-aos="fade-left">
+        <div className="row">
+            <div className="col-md-12 aos" data-aos="fade-up">
+              <div className="section-header-one text-center">
+                <h2 className="section-title">{t("ExpAr")}</h2>
               </div>
             </div>
           </div>
+         
           <OwlCarousel
             {...ourNew}
             className="owl-carousel custom-slide discover-slider owl-theme"
@@ -605,23 +608,20 @@ const Home1 = () => {
             className="bg-img-top"
             alt="Section bg"
           />
-          {/* <ImageWithBasePath
-              src="assets/img/bg/vector-bg-03.png"
-              className="bg-img-bottom"
-              alt="Section bg"
-            /> */}
+          
         </div>
       </section>
 
       <section className="experts-section-sixteen testimonial-section">
         <div className="container">
-          <div className="row">
-            <div className="col-md-12">
-              <div className="section-header-sixteen  text-center">
+        <div className="row">
+            <div className="col-md-12 aos" data-aos="fade-up">
+              <div className="section-header-one text-center">
                 <h2 className="section-title">Gut Health Library</h2>
               </div>
             </div>
           </div>
+          
           <div
             className="slider slider-sixteen aos"
             data-aos="zoom-in-up"
@@ -696,71 +696,7 @@ const Home1 = () => {
         </div>
       </section>
 
-      {/* <section className="about-section">
-        <div className="row">
-          <div className="col-md-12">
-            <div className="section-header-sixteen text-center">
-              <h2>Our experts team</h2>
-            </div>
-          </div>
-        </div>
-        {abouts.map((its, index) => (
-          <div className="container mt-5">
-            <div
-              className={`row align-items-center ${index % 2 === 0 ? "flex-row-reverse " : ""
-                }`}
-            >
-              <div
-                className={`col-lg-6 col-md-12 ${index % 2 === 0 ? "text-end" : ""
-                  }`}
-              >
-                <ImageWithBasePath
-                  src="assets/img/about/ID size.jpg"
-                  className="img-fluid"
-                  alt="patient-image"
-                />
-              </div>
-              <div className="col-lg-6 col-md-12">
-                <div className="section-inner-header about-inner-header">
-                  <h3>
-                    Dr. Meghnad G. Joshi <span>M.Sc. Ph.D. PDD</span>
-                  </h3>
-                </div>
-                <div className="about-content">
-                  <div className="about-content-details">
-                    <h5>
-                      Professor and Head, Lead Coordinator, Central Research
-                      Laboratory
-                    </h5>
-                    <p>
-                      Meghnad G Joshi earned a PhD from the Department of
-                      Zoology, Shivaji University, Kolhapur, India in 2006. He
-                      Joined Karolinska Institute, Sweden as a Postdoctoral
-                      fellow in 2007-2008 for fetal and adult hepatocyte
-                      transplantation studies. He worked for Sahlgrenska
-                      University Hospital, Department of transplantation
-                      surgery, Göteborg, Sweden from 2008-2010. In 2009, he was
-                      awarded with TTS New Key Opinion Leader, Sweden. He was
-                      appointed as a visiting Assistant professor by Kansas
-                      Medical Center, USA from 2010 to 2012 {"... "}
-                    </p>
 
-                    <Link to="/aboutus">
-                      <Button
-                        className="btn text-blue bg-blue mt-2 "
-                        variant="outline-dark"
-                      >
-                        Read More
-                      </Button>
-                      
-                    </Link>
-                  </div>
-                </div>
-              </div>
-            </div>
-          </div>
-        ))}
-      </section> */}
 
       {/* <section className="doctors-section">
         <div className="container">
@@ -834,7 +770,7 @@ const Home1 = () => {
           </div>
           <div className="row">
             {Blogslist.map((i, index) => (
-              <div className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-up">
+              <div className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-left">
                 <div className="articles-grid w-100">
                   <div className="articles-info">
                     <div className="articles-left">
@@ -880,7 +816,7 @@ const Home1 = () => {
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="section-header-one aos" data-aos="fade-up">
+              <div className="section-header-one aos text-center" data-aos="fade-right">
                 <h5>Get Your Answer</h5>
                 <h2 className="section-title">Frequently Asked Questions</h2>
               </div>
@@ -1085,15 +1021,21 @@ const Home1 = () => {
       {/* Testimonial Section */}
       <section className="testimonial-section">
         <div className="container">
+        <div className="row">
+            <div className="col-md-12 aos" data-aos="fade-up">
+              <div className="section-header-one text-center">
+                <h2 className="section-title">Testimonials</h2>
+              </div>
+            </div>
+          </div>
           <div className="row">
             <div className="col-md-12">
               <div className="testimonial-slider slick">
                 <Slider {...testimonialSlider}>
-                  <div className="testimonial-grid">
+                  <div className="testimonial-grid" data-aos="fade-right">
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header-one section-header section-inner-header testimonial-header">
-                          <h5>Testimonials</h5>
                           <h2 className="section-title">Arati Sethy</h2>
                         </div>
                         <div className="testimonial-details">
@@ -1124,11 +1066,10 @@ const Home1 = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="testimonial-grid">
+                  <div className="testimonial-grid" data-aos="fade-left">
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
-                          <h5>Testimonials</h5>
                           <h2>Inayathulla Khan Lavani</h2>
                         </div>
                         <div className="testimonial-details">
@@ -1151,11 +1092,10 @@ const Home1 = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="testimonial-grid">
+                  <div className="testimonial-grid" data-aos="fade-right">
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
-                          <h5>Testimonials</h5>
                           <h2>Mir Nasair Hussain</h2>
                         </div>
                         <div className="testimonial-details">
