@@ -1,4 +1,4 @@
-import React, { useState,useEffect } from "react";
+import React, { useState } from "react";
 import ImageWithBasePath from "../../../../core/img/imagewithbasebath";
 import { Link, useHistory } from "react-router-dom";
 import { Drawer } from "antd";
@@ -11,48 +11,6 @@ const Home1Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false); // Drawer state
   const [patientsDropdownOpen, setPatientsDropdownOpen] = useState(false);
   const [aboutDropdownOpen, setAboutDropdownOpen] = useState(false);
-
-  useEffect(() => {
-    const addScript = document.createElement("script");
-    addScript.setAttribute(
-      "src",
-      "//translate.google.com/translate_a/element.js?cb=googleTranslateElementInit"
-    );
-    document.body.appendChild(addScript);
-    window.googleTranslateElementInit = googleTranslateElementInit;
-
-    // Remove Google Translate badge
-    const hideBadgeCSS = `
-      .goog-logo-link, .goog-te-gadget-icon, span {
-        display: none !important;
-      } 
-    `;
-    const style = document.createElement("style");
-    style.type = "text/css";
-    style.appendChild(document.createTextNode(hideBadgeCSS));
-    document.head.appendChild(style);
-  }, []);
-
-  // Initialize Google Translate
-  const googleTranslateElementInit = () => {
-    new window.google.translate.TranslateElement(
-      { pageLanguage: "en",      
-        includedLanguages: "en,ar",
-      },
-      "google_translate_element"
-    );
-  };
-
-  // Handle button click to trigger Google Translate
-  const handleTranslate = () => {
-    const translateElement = document.querySelector(".goog-te-combo");
-    if (translateElement) {
-      setLanguage(!language)
-      translateElement.value = !language ? "en" :"ar"; // Change "es" to the desired language code
-      translateElement.dispatchEvent(new Event("change"));
-    }
-  };
-  
 
   const handleLanguageChange = (event) => {
     const selectedLanguage = event.target.value;
@@ -119,9 +77,9 @@ const Home1Header = () => {
                 </li>
 
                 <li className="has-submenu">
-                  {/* <Link to="#">
+                  <Link to="#">
                     Patients Resources <i className="fas fa-chevron-down" />
-                  </Link> */}
+                  </Link>
                   <ul className="submenu">
                     <li>
                       <Link to="/pages/patient-portal">Patient Portal</Link>
@@ -208,13 +166,6 @@ const Home1Header = () => {
                 </li>
 
                 <li>
-                <button className="btn btn-secondary me-1 mt-2"  onClick={handleTranslate}>{language ? "English":"Arabic"} </button>
-
-      {/* Placeholder for Google Translate element */}
-      <div id="google_translate_element" style={{ display: "none" }}></div>
-     
-    </li>
-                {/* <li>
                   <a href="#">
                     <select
                       value={language}
@@ -229,7 +180,7 @@ const Home1Header = () => {
                       <option value="fr">Arabic</option>
                     </select>
                   </a>
-                </li> */}
+                </li>
               </ul>
             </div>
           </nav>
