@@ -386,7 +386,7 @@ const Home1 = () => {
       <button onClick={() => changeLanguage('fr')}>French</button>
     </div> */}
 
-      <section className="banner-sub">
+      <section className="banner-sub ovr-flw">
         <div className="container-fluid px-0 ovr-flw">
           <div className="row">
             <div className="col-md-6 svtm p-4">
@@ -424,8 +424,8 @@ const Home1 = () => {
       </section>
 
       {/* /Home Banner */}
-      <section className="about-section">
-        <div className="container" data-aos="fade-left">
+      <section className="about-section ovr-flw">
+        <div className="container ovr-flw" data-aos="fade-left">
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-12">
               <ImageWithBasePath
@@ -592,8 +592,8 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section className="services-section-sixteen">
-        <div className="container" data-aos="fade-left">
+      <section className="services-section-sixteen ovr-flw">
+        <div className="container ovr-flw" data-aos="fade-left">
         <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
               <div className="section-header-one text-center">
@@ -604,7 +604,7 @@ const Home1 = () => {
          
           <OwlCarousel
             {...ourNew}
-            className="owl-carousel custom-slide discover-slider owl-theme"
+            className="owl-carousel custom-slide discover-slider owl-theme ovr-flw"
           >
             {expertise.map((item, index) => (
               <Link to={`specialites/${index + 1}`}>
@@ -640,7 +640,7 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section className="experts-section-sixteen testimonial-section">
+      <section className="experts-section-sixteen testimonial-section ovr-flw">
         <div className="container">
         <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
@@ -786,10 +786,10 @@ const Home1 = () => {
 
       {/* /Work Section */}
       {/* Articles Section */}
-      <section className="articles-section">
+      <section className="articles-section ovr-flw">
         <div className="container">
           <div className="row">
-            <div className="col-md-12 aos" data-aos="fade-up">
+            <div className="col-md-12 aos ovr-flw" data-aos="fade-up">
               <div className="section-header-one text-center">
                 <h2 className="section-title">Latest Articles</h2>
               </div>
@@ -797,7 +797,7 @@ const Home1 = () => {
           </div>
           <div className="row">
             {Blogslist.map((i, index) => (
-              <div className="col-lg-6 col-md-6 d-flex aos" data-aos="fade-left">
+              <div className="col-lg-6 col-md-6 d-flex aos ovr-flw" data-aos="fade-left">
                 <div className="articles-grid w-100">
                   <div className="articles-info">
                     <div className="articles-left">
@@ -839,11 +839,11 @@ const Home1 = () => {
         </div>
       </section>
 
-      <section className="faq-section">
+      <section className="faq-section ovr-flw">
         <div className="container">
           <div className="row">
             <div className="col-md-12">
-              <div className="section-header-one aos text-center" data-aos="fade-right">
+              <div className="section-header-one aos text-center ovr-flw" data-aos="fade-right">
                 <h5>Get Your Answer</h5>
                 <h2 className="section-title">Frequently Asked Questions</h2>
               </div>
@@ -1046,7 +1046,7 @@ const Home1 = () => {
       </section>
       {/* /FAQ Section */}
       {/* Testimonial Section */}
-      <section className="testimonial-section">
+      <section className="testimonial-section ovr-flw">
         <div className="container">
         <div className="row">
             <div className="col-md-12 aos" data-aos="fade-up">
@@ -1059,7 +1059,7 @@ const Home1 = () => {
             <div className="col-md-12">
               <div className="testimonial-slider slick">
                 <Slider {...testimonialSlider}>
-                  <div className="testimonial-grid" data-aos="fade-right">
+                  <div className="testimonial-grid ovr-flw" data-aos="fade-right">
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header-one section-header section-inner-header testimonial-header">
@@ -1093,7 +1093,7 @@ const Home1 = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="testimonial-grid" data-aos="fade-left">
+                  <div className="testimonial-grid ovr-flw" data-aos="fade-left">
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
@@ -1119,7 +1119,7 @@ const Home1 = () => {
                       </div>
                     </div>
                   </div>
-                  <div className="testimonial-grid" data-aos="fade-right">
+                  <div className="testimonial-grid ovr-flw" data-aos="fade-right">
                     <div className="testimonial-info">
                       <div className="testimonial-content">
                         <div className="section-header section-inner-header testimonial-header">
