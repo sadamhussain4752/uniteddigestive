@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Diarrhoea",
+    "title": "Diarrhea",
     "description": "Frequent and watery bowel movements characterize diarrhoea, which involves an increased fluid content in the stool. This common condition is typically not serious and can arise from various factors. Common causes include viral infections, bacterial infections, food allergies, food poisoning, certain medications, artificial sweeteners, and excessive alcohol consumption. Additionally, diarrhoea may be linked to chronic gastrointestinal conditions such as Crohn’s disease and ulcerative colitis.",
     "services": [
       "Dietary Counseling",
@@ -728,6 +728,9 @@
     "answer": "8.Vascular Ectasia: Abnormal blood vessels in the GI tract, more common in older adults, can cause chronic bleeding."
       }
     ], 
+    "bannerimage" : "Rectal Bleeding.webp",
+    "sider_image" :"Robotic Surgery inner image box.webp",
+
     "Questions-d-none":true,
     "path": "18.jpg",
     "images_url": "Rectal-Bleeding.jpg",
@@ -1791,11 +1794,12 @@
     "path": "stem cell small size.webp",
     "images_url": "Rectal-Bleeding.jpg",
     "url": "stemcelltherapy"
-  },{
+  },
+  {
     "id": 24,
     "title": "Robotic Surgery",
     "description": "Introduction Robotic surgery is revolutionizing the field of gastrointestinal (GI) surgery, offering enhanced precision, flexibility, and control compared to traditional open and laparoscopic surgeries. The use of robotics in treating GI diseases has increased significantly over the past few years, providing a minimally invasive approach that reduces recovery time, minimizes complications, and improves patient outcomes",
-    "ext":"What is Robotic Surgery?  Robotic surgery is a type of minimally invasive surgery performed using a robotic system, most commonly the da Vinci Surgical System. The surgeon controls robotic arms equipped with surgical instruments through a console, which provides a 3D, high-definition view of the surgical site. These robotic arms kelp to perform delicate and complex procedures with complex disease with greater accuracy that surpasses traditional human capabilities.",
+    "ext":"Robotic surgery is a type of minimally invasive surgery performed using a robotic system, most commonly the da Vinci Surgical System. The surgeon controls robotic arms equipped with surgical instruments through a console, which provides a 3D, high-definition view of the surgical site. These robotic arms kelp to perform delicate and complex procedures with complex disease with greater accuracy that surpasses traditional human capabilities.",
     "faqs": [
       {
         "question": "What is Robotic Surgery?",
@@ -1810,29 +1814,42 @@
       {
         "question": "Applications in Gastrointestinal Diseases",
         "answer": "Colorectal Surgery: Robotic surgery is used for colon resections in conditions like colorectal cancer, diverticulitis, and inflammatory bowel diseases (Crohn’s disease, ulcerative colitis). The precision of robotic systems helps in sparing surrounding nerves and tissues, which is critical in preserving bowel function and erectile functions",
-        "benefits": "Minimally invasive procedures enhance recovery time and reduce surgical complications."
+        "benefits": "Minimally invasive procedures enhance recovery time and reduce surgical complications.",
+        "images_url":"Colorectal Surgery 1.webp"
       },
       {
         "question": "",
         "answer": "Esophageal Surgery: Conditions like esophageal cancer, achalasia, and gastroesophageal reflux disease (GERD) can be treated using robotic surgery.",
-        "benefits": "Better visualization leads to more precise surgeries, reducing errors and complications."
+        "benefits": "Better visualization leads to more precise surgeries, reducing errors and complications.",
+        "images_url":"Colorectal Surgery 1.webp"
+
       },
       {
         "question": "",
         "answer": "Hepatobiliary Surgery: For diseases of the liver, gallbladder, and pancreas, such as liver tumors, gallstones, and pancreatic cancer, robotic surgery allows for precise resections, often with better outcomes and faster recovery than traditional open surgery.",
-        "benefits": "Fewer complications result in a faster, safer recovery for patients."
+        "benefits": "Fewer complications result in a faster, safer recovery for patients.",
+        "images_url":"Colorectal Surgery 1.webp"
+
       },
       {
         "question": "",
         "answer": "Gastric Surgery: Robotics are increasingly used in surgeries for gastric cancer, ulcers, and bariatric surgery (for weight loss).",
-        "benefits": "Patients experience shorter hospital stays and quicker returns to normal activity."
+        "benefits": "Patients experience shorter hospital stays and quicker returns to normal activity.",
+        "images_url":"Colorectal Surgery 1.webp"
+
       },{
         "question": "",
         "answer": "Rectal Cancer Surgery: Robotic-assisted surgery in rectal cancer is especially advantageous because it allows for fine dissection in the narrow pelvic space, helping to preserve critical structures, including nerves responsible for bowel, bladder, and sexual function",
-        "benefits": "Patients experience shorter hospital stays and quicker returns to normal activity."
+        "benefits": "Patients experience shorter hospital stays and quicker returns to normal activity.",
+        "images_url":"Colorectal Surgery 1.webp"
+
       }
+      
     ],
-    "advantages": [
+    "bannerimage" : "Robotic_Surgery.webp",
+    
+     "sider_image" :"Robotic Surgery inner image box.webp",
+     "advantages": [
       {
         "question": "What are the benefits of robotic surgery in colorectal procedures?",
         "answer": "Minimally Invasive: Smaller incisions compared to open surgery lead to reduced post-operative pain, faster recovery, and less visible scarring."

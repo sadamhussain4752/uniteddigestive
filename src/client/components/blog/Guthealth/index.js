@@ -36,169 +36,61 @@ const GuthealthDetails = (props) => {
     <div>
       <Home1Header />
       <div className="breadcrumb-bar-two">
-        <div className="container">
-          <div className="row align-items-center inner-banner">
-            <div className="col-md-12 col-12 text-center">
-              <h2 className="breadcrumb-title">
-                {expdetails && expdetails?.title}
-              </h2>
-              <nav aria-label="breadcrumb" className="page-breadcrumb">
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li className="breadcrumb-item" aria-current="page">
-                    {expdetails && expdetails?.title}
-                  </li>
-                </ol>
-              </nav>
+        {expdetails?.bannerimage !== undefined ? (
+          <div className="">
+            <div className="row align-items-center position-relative">
+              <ImageWithBasePath
+                src={`assets/img/bannerslider/${expdetails?.bannerimage}`}
+                alt="kidney-image"
+                className="img-fluid w-100" // Ensure the image takes the full width and is responsive
+              />
+
+              {/* Text and breadcrumb inside the banner */}
+              <div className="col-md-12 col-12 text-center position-absolute top-50 start-50 translate-middle">
+                <h2 className="breadcrumb-title text-white fs-1 font-upper-case">
+                  {expdetails && expdetails?.title}
+                </h2>
+              </div>\
             </div>
           </div>
-        </div>
+        ) : (
+          <div className="container">
+            <div className="row align-items-center inner-banner">
+              <div className="col-md-12 col-12 text-center">
+                <h2 className="breadcrumb-title">
+                  {expdetails && expdetails?.title}
+                </h2>
+                <nav aria-label="breadcrumb" className="page-breadcrumb">
+                  <ol className="breadcrumb">
+                    <li className="breadcrumb-item">
+                      <Link to="/">Home</Link>
+                    </li>
+                    <li className="breadcrumb-item" aria-current="page">
+                      {expdetails && expdetails?.title}
+                    </li>
+                  </ol>
+                </nav>
+              </div>
+            </div>
+          </div>
+        )}
       </div>
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 col-md-12">
-              <div className="blog-view">
-                <div className="blog blog-single-post">
-                  <div className="blog-image">
-                    <Link to="#0">
-                      <img
-                        alt=""
-                        src={`../../../assets/img/icons/${expdetails.images_url}`}
-                        className="img-fluid w-100 "
-                      />
-                    </Link>
-                  </div>
-                  <h3 className="blog-title">
-                    {expdetails && expdetails?.title}
-                  </h3>
-
-                  
-                  <div className="blog-info clearfix">
-                    <div className="post-left">
-                      <ul>
-                        <li>
-                          <div className="post-author">
-                            <Link to="/patient/doctor-profile">
-                              <img src={IMG02} alt="Post Author" />
-                            </Link>
-                          </div>
-                        </li>
-                        
-                      </ul>
-                    </div>
-                  </div>
-                  <div className="blog-content">
-                    <p className="fs-6">{expdetails && expdetails?.description}</p>
-
-                    <p className="fs-6">{expdetails && expdetails?.ext}</p>
-                  </div>
-                </div>
-              </div>
-            </div>
+        
             <div className="col-lg-4 col-md-12">
-              <h3> For More Information</h3>
-              <section className=" mor-info ">
-                <div className="container">
-                  <div className="row">
-                  <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img">
-                          <ImageWithBasePath
-                            src="assets/img/category/stethoscope-solid.svg"
-                            alt="bone-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                        <a href="https://www.fortishealthcare.com/doctors/dr-shabeer-ahmed-773?hospital=3514" target="_blank">
-                            <h6>Book Appointment in Fortis Hospital</h6>
-                          </a>
-                         
-                        </div>
-                       
-                      </div>
-                    </div>
-                    <div
-                      className="col-xl-12 col-lg-12 col-md-6 aos"
-                      data-aos="fade-up"
-                    >
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img">
-                          <ImageWithBasePath
-                            src="assets/img/category/stethoscope-solid.svg"
-                            alt="bone-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                        <a href="https://www.eka.care/doctor/dr-shabeer-gastroenterologist-bengaluru" target="_blank">
-                            <h6>Request an Appointment</h6>
-                          </a>
-                          {/* <p>30 Doctors</p> */}
-                        </div>
-                        <div className="specialist-nav ms-auto">
-                          <Link to="#">
-                            <i className="fas fa-long-arrow-alt-right" />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xl-12 col-lg-12 col-md-6 aos"
-                      data-aos="fade-up"
-                    >
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img">
-                          <ImageWithBasePath
-                            src="assets/img/category/phone-solid.svg"
-                            alt="heart-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                        <a href="https://wa.me/919900246002" target="_blank" rel="noopener noreferrer">
-  <h6>WhatsApp</h6>
-</a>
-                          {/* <p>15 Doctors</p> */}
-                        </div>
-                        <div className="specialist-nav ms-auto">
-                          <Link to="#">
-                            <i className="fas fa-long-arrow-alt-right" />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xl-12 col-lg-12 col-md-6 aos"
-                      data-aos="fade-up"
-                    >
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img">
-                          <ImageWithBasePath
-                            src="assets/img/category/user-check-solid.svg"
-                            alt="brain-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                          <Link to="#">
-                            <h6>{expdetails && expdetails?.title} Questions</h6>
-                          </Link>
-                          {/* <p>35 Doctors</p> */}
-                        </div>
-                        <div className="specialist-nav ms-auto">
-                          <Link to="#">
-                            <i className="fas fa-long-arrow-alt-right" />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
+              {expdetails.sider_image !== undefined ? (
+                <div className="image-sides ">
+                  <ImageWithBasePath
+                    src={`assets/img/bannerslider/${expdetails.sider_image}`}
+                    alt="kidney-image"
+                    className="img-fluid "
+                  />
                 </div>
-              </section>
+              ) : null}
+
+          
 
               {/* <section>
                 <h3 className="mt-5"> Related Services</h3>
@@ -219,35 +111,89 @@ const GuthealthDetails = (props) => {
                   </p>
                 </div>
               </section> */}
-            </div>
-            {expdetails?.types?.length > 0 ? <section>
-              <div className="blog-content m-4">
-                <h3 className="mt-3 mb-4">Types of {expdetails.title}</h3>
-                {expdetails?.types?.map((item) => (
-                  <>
-                    <h5>{item.question}</h5>
-                    <p>{item.answer}</p>
-                  </>
-                ))}
-                <p></p>
-              </div>
-            </section> : null }
+            </div>    <div className="col-lg-8 col-md-12">
+              <div className="blog-view mt-3">
+                <div className="blog blog-single-post border-0">
+                <div className="blog-content">
+                    <p className="fs-6 fontp-justiy-center ">
+                      {expdetails && expdetails?.description}
+                    </p>
 
-            {expdetails?.advantages?.length > 0 ?   
-            <section>
-              <div className="blog-content m-4">
-                {/* <h3 className="mt-3 mb-4">  {expdetails.title}</h3> */}
-                {expdetails?.advantages?.map((item) => (
-                  <>
-                    <h5>{item.question}</h5>
-                    <p>{item.answer}</p>
-                  </>
-                ))}
-                <p></p>
+                    <p className="fs-6 fontp-justiy-center ">{expdetails && expdetails?.ext}</p>
+                  </div>
+                  {/* <div className="blog-image mt-5">
+                  <img
+                        alt=""
+                        src={`../../../assets/img/icons/${expdetails.images_url}`}
+                        className="img-fluid w-100 mt-5"
+                      />
+                  </div> */}
+
+                 
+                </div>
               </div>
-            </section> : null}
-            
-           
+            </div>
+            {expdetails?.types?.length > 0 ? (
+  <section>
+    <div className="blog-content m-4">
+      <h3 className="mt-3 mb-4">Types of {expdetails.title}</h3>
+      {expdetails?.types?.map((item, index) => (
+        <div key={index} className={`d-flex ${index % 2 === 0 ? 'row' : 'flex-row-reverse justify-content-between'} image-size-gul`}>
+          {/* Question */}
+          <h5>{item.question}</h5>
+
+          {/* Answer */}
+          <p className="col-md-9">
+            {item.answer.includes(":") ? (
+              <>
+                <strong>{item.answer.split(":")[0]}:</strong>
+                {item.answer.split(":").slice(1).join(":")}
+              </>
+            ) : (
+              item.answer
+            )}
+          </p>
+
+          {/* Image */}
+          <div className="col-md-3">
+            {item.images_url !== undefined ? (
+              <ImageWithBasePath
+                src={`assets/img/bannerslider/${item.images_url}`}
+                alt="kidney-image"
+                className="img-fluid "
+              />
+            ) : null}
+          </div>
+        </div>
+      ))}
+    </div>
+  </section>
+) : null}
+
+
+            {expdetails?.advantages?.length > 0 ? (
+              <section>
+                <div className="blog-content m-4">
+                  {/* <h3 className="mt-3 mb-4">  {expdetails.title}</h3> */}
+                  {expdetails?.advantages?.map((item, index) => (
+                    <div key={index}>
+                      <h5>{item.question}</h5>
+                      <p>
+                        {item.answer.includes(":") ? (
+                          <>
+                            <strong>{item.answer.split(":")[0]}:</strong>
+                            {item.answer.split(":").slice(1).join(":")}
+                          </>
+                        ) : (
+                          item.answer
+                        )}
+                      </p>
+                    </div>
+                  ))}
+                </div>
+              </section>
+            ) : null}
+
             <section className="faq-section">
               <div className="container">
                 <div className="row">

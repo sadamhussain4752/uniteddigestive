@@ -26,10 +26,10 @@ const StemCellTherapy = (props) => {
       <div className="breadcrumb-bar-two" 
      >
        <div className="">
-      {/* ImageWithBasePath component for the banner image */}
+     
       <div className="row align-items-center position-relative">
         <ImageWithBasePath
-          src="assets/img/bannerslider/stemcellinnerbanner.webp"
+          src="assets/img/bannerslider/stemcellbanner2.webp"
           alt="kidney-image"
           className="img-fluid w-100" // Ensure the image takes the full width and is responsive
         />
@@ -39,7 +39,7 @@ const StemCellTherapy = (props) => {
           <h2 className="breadcrumb-title text-white fs-1">Stem Cell Therapy</h2>
           
           {/* Breadcrumb navigation */}
-          <nav aria-label="breadcrumb" className="page-breadcrumb">
+          {/* <nav aria-label="breadcrumb" className="page-breadcrumb">
             <ol className="breadcrumb ">
               <li className="breadcrumb-item ">
                 <Link className="text-white" to="/">Home</Link>
@@ -48,7 +48,7 @@ const StemCellTherapy = (props) => {
                 Stem Cell Therapy
               </li>
             </ol>
-          </nav>
+          </nav> */}
         </div>
       </div>
     </div>

@@ -276,18 +276,18 @@ const Home1 = () => {
     ],
   };
 
-  if (isVisible && landscreen === null) {
-    return (
-      <SplashScreen
-        allowvideo={(item) => {
-          console.log("====================================");
-          console.log(item, "item");
-          console.log("====================================");
-          setIsVisibles(item);
-        }}
-      />
-    );
-  }
+  // if (isVisible && landscreen === null) {
+  //   return (
+  //     <SplashScreen
+  //       allowvideo={(item) => {
+  //         console.log("====================================");
+  //         console.log(item, "item");
+  //         console.log("====================================");
+  //         setIsVisibles(item);
+  //       }}
+  //     />
+  //   );
+  // }
   return (
     <div className="main-wrapper home-one">
       <Home1Header />
@@ -392,7 +392,7 @@ const Home1 = () => {
             <div className="col-md-6 svtm p-4">
               <div className="row d-flex align-items-center">
                 <div className="col-5">
-                  <img src="assets/img/bg/1 (1).png" className="" alt="" />
+                  <img src="assets/img/bg/Rectal Bleeding.webp" className="rounded-circle" alt="" />
                 </div>
 
                 <div className="col-7">
@@ -407,7 +407,7 @@ const Home1 = () => {
             <div className="col-md-6 svtm bg-wh-b p-4">
               <div className="row d-flex align-items-center">
                 <div className="col-5">
-                  <img src="assets/img/bg/2 (1).png" className="" alt="" />
+                  <img src="assets/img/bg/RoboticSurgery_home.webp" className="rounded-circle" alt="" />
                 </div>
 
                 <div className="col-7">

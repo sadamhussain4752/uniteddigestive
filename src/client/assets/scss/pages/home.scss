@@ -3310,3 +3310,24 @@ header {
 //         font-size: 16px !important;
 //     }
 // }
+
+
+.font-upper-case {
+
+    text-transform: uppercase !important;
+}
+
+
+.fontp-justiy-center {
+    text-align: justify ;
+}
+
+.image-size-gul {
+    justify-content: flex-start ;
+    align-items: center;
+}
+
+.image-size-gul img {
+    width: 75%;
+    height:  75%;
+}
