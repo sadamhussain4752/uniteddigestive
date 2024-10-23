@@ -276,23 +276,25 @@ const Home1 = () => {
     ],
   };
 
-  // if(isVisible && landscreen === null){
-  //  return <SplashScreen allowvideo={(item)=>{
-  //   console.log('====================================');
-  //   console.log(item,"item");
-  //   console.log('====================================');
-  //   setIsVisibles(item)
-
-  //  }}/>
-
-  // }
+  if (isVisible && landscreen === null) {
+    return (
+      <SplashScreen
+        allowvideo={(item) => {
+          console.log("====================================");
+          console.log(item, "item");
+          console.log("====================================");
+          setIsVisibles(item);
+        }}
+      />
+    );
+  }
   return (
     <div className="main-wrapper home-one">
       <Home1Header />
 
       {/* Home Banner */}
-      <section className="" >
-        <div className="col-md-12 position-relative"  data-aos="zoom-in-up">
+      <section className="banner-section">
+        <div className="col-md-12 position-relative">
           {/* <div className="banner-abs">
             <p className="banner-posab-h mb-0">
               How can we help you?
@@ -323,40 +325,69 @@ const Home1 = () => {
               <source src="assets/img/bg/banner1.mp4" type="video/mp4" />
               Your browser does not support the video tag.
             </video>
-            <div
-              style={{
-                backgroundImage: "url('assets/img/banner/blue-hade.png')",
-                backgroundSize: "cover", // Ensures the image covers the entire background
-                backgroundPosition: "center", // Centers the background image
-              }}
-              className=" position-absolute  left-0 right-0 bottom-0"
-            >
-              <div className="row align-items-end mt-120">
-                <div className="col-lg-12">
-                  <div className="banner-cont-main ">
-                    <div className=" text-center mb-3">
-                      <h4 className="text-white  fh-22 ">{t("bnrHed")}</h4>
-                      <p className="text-white fsw-14 line-height-space">
-                        <strong>{t("bnrsubhed")} </strong>: {t("bnrsubhedcont")}
-                      </p>
-                      <p className="fsw-14 text-white w-75 d-block mx-auto line-height-space">
-                        {t("bnrcont")}
-                      </p>
-                      <Link class="discov-innner text-white" to="/introducing">
-                        {t("rdmor")}
-                        <i class="fa-solid fa-chevron-right ms-2"></i>
-                      </Link>
-                    </div>
-                  </div>
+          </div>
+        </div>
+
+        <div className="container position-absolute top-50 start-50 translate-middle">
+          <div className="row align-items-center">
+            <div className="col-lg-5">
+              <div className="banner-cont-main d-md-block d-none ">
+                <div className="banner-content text-center mt-5">
+                  <h1>{t("bnrHed")}</h1>
+                  <p>
+                    <strong>{t("bnrsubhed")} </strong>: {t("bnrsubhedcont")}
+                  </p>
+                  <p className="fs-6">{t("bnrcont")}</p>
+                  <Link class="discov-innner" to="/introducing">
+                    {t("rdmor")}
+                    <i class="fa-solid fa-chevron-right ms-2"></i>
+                  </Link>
                 </div>
               </div>
+
+              {/* <div className="banner-cont-main d-block d-md-none ">
+                <div className="banner-content text-center mt-5">
+                  <h4>{t("bnrHed")}</h4>
+                  <p>
+                    <strong>{t("bnrsubhed").substring(0, 25)} </strong>{" "}
+                  
+                  </p>
+                  <p className="fs-6">
+                    {t("bnrcont").substring(0, 25)}{" "}
+                   
+                  </p>
+                  <Link className="discov-innner" to="/introducing">
+                    {t("rdmor")}
+                    <i className="fa-solid fa-chevron-right ms-2"></i>
+                  </Link>
+                </div>
+              </div> */}
             </div>
           </div>
         </div>
       </section>
 
+      {/* <section>
+        <div>
+          <h1>{strings.greeting}</h1>
+          <p>{strings.welcome}</p>
+
+          <button onClick={() => changeLanguage('en')}>English</button>
+          <button onClick={() => changeLanguage('fr')}>Arabic</button>
+          <button onClick={() => changeLanguage('es')}>Español</button>
+        </div>
+
+      </section> */}
+      {/* <div>
+      <h1>{t('welcome_message')}</h1>
+      <p>{t('description')}</p>
+
+      <button onClick={() => changeLanguage('en')}>English</button>
+      <button onClick={() => changeLanguage('fr')}>French</button>
+    </div> */}
+
       <section className="banner-sub">
-        <div className="container-fluid px-0" data-aos="fade-right">
+        <div className="container-fluid px-0 ovr-flw">
           <div className="row">
             <div className="col-md-6 svtm p-4">
               <div className="row d-flex align-items-center">
@@ -366,7 +397,7 @@ const Home1 = () => {
 
                 <div className="col-7">
                   <p className="ban-sub-hed">{t("sec2hed")}</p>
-                  <p className="ban-sub-cont w-75">{t("sec2cont")}</p>
+                  <p className="ban-sub-cont">{t("sec2cont")}</p>
                   <Link class="read-more-test" to="/guthealth-details/24">
                     {t("sec2contbtn1")}
                   </Link>
@@ -381,7 +412,7 @@ const Home1 = () => {
 
                 <div className="col-7">
                   <p className="ban-sub-hed">{t("sec2hed2")}</p>
-                  <p className="ban-sub-cont w-75">{t("sec2cont2")}</p>
+                  <p className="ban-sub-cont">{t("sec2cont2")}</p>
                   <Link class="read-more-test" to="/guthealth-details/9">
                     {t("sec2contbtn2")}
                   </Link>
@@ -410,7 +441,7 @@ const Home1 = () => {
               </div>
               <div className="about-content">
                 <div className="about-content-details">
-                  <h4 className="w-75">{t("drExperties")}</h4>
+                  <h4>{t("drExperties")}</h4>
                   <p>{t("drAbout")}</p>
 
                   <Link to="/aboutus">
@@ -444,16 +475,10 @@ const Home1 = () => {
         </div>
         <div className="container">
           <div className="text-center mb-4">
-            <h3 className="text-white">
-              {t('achHed')}
-
-            </h3>
+            <h3 className="text-white">{t("achHed")}</h3>
           </div>
           <div className="text-center mb-5">
-            <h5 className="text-white">
-              {t('achCont')}
-
-            </h5>
+            <h5 className="text-white">{t("achCont")}</h5>
           </div>
           <div className="row">
             <div className="col-lg-4 col-sm-6">
@@ -468,9 +493,9 @@ const Home1 = () => {
                 <div className="count-info">
                   <h3>
                     <CountUp end={38} duration={5} className="count-digit" />{" "}
-                    {t('achYear')}
+                    {t("achYear")}
                   </h3>
-                  <p>{t('achExp')}</p>
+                  <p>{t("achExp")}</p>
                 </div>
               </div>
             </div>
@@ -488,7 +513,7 @@ const Home1 = () => {
                     <CountUp end={15000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t('achLapSurger')}</p>
+                  <p>{t("achLapSurger")}</p>
                 </div>
               </div>
             </div>
@@ -507,7 +532,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t('achHapPat')}</p>
+                  <p>{t("achHapPat")}</p>
                 </div>
               </div>
             </div>
@@ -525,7 +550,7 @@ const Home1 = () => {
                     <CountUp end={50000} duration={5} className="count-digit" />
                     +
                   </h3>
-                  <p>{t('achSuccTre')}</p>
+                  <p>{t("achSuccTre")}</p>
                 </div>
               </div>
             </div>
@@ -542,7 +567,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>{t('achNations')}</p>
+                  <p>{t("achNations")}</p>
                 </div>
               </div>
             </div>
@@ -559,7 +584,7 @@ const Home1 = () => {
                   <h3>
                     <CountUp end={20} duration={5} className="count-digit" />+
                   </h3>
-                  <p>{t('achReseAn')}</p>
+                  <p>{t("achReseAn")}</p>
                 </div>
               </div>
             </div>
@@ -624,7 +649,6 @@ const Home1 = () => {
               </div>
             </div>
           </div>
-          
           <div
             className="slider slider-sixteen aos"
             data-aos="zoom-in-up"
