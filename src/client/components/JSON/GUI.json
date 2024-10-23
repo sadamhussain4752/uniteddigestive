@@ -813,78 +813,8 @@
     "images_url": " Rectal-Bleeding.jpg",
     "url": "endoscopicSurgery"
   },
- 
   {
     "id": 11,
-    "title": "Stomach Surgery",
-    "description": "Stomach surgery can address various conditions affecting the stomach, including ulcers, cancers, and obesity. The procedures aim to alleviate symptoms and improve overall health.",
-    "faqs": [
-      {
-    "question": "What are common types of stomach surgery?",
-    "answer": "Common types include gastric bypass, sleeve gastrectomy, and surgeries to remove tumors or repair ulcers."
-      },
-      {
-    "question": "What are the risks associated with stomach surgery?",
-    "answer": "Risks can include infection, bleeding, complications from anesthesia, and issues related to nutritional deficiencies."
-      }
-    ],
-    "types": [
-      {
-    "question": "What is Gastric Bypass Surgery?",
-    "answer": "Gastric bypass surgery involves creating a small pouch from the stomach and connecting it directly to the small intestine, reducing food intake and nutrient absorption.",
-    "benefits": "This surgery can lead to significant weight loss and improvements in obesity-related conditions, such as type 2 diabetes."
-      },
-      {
-    "question": "What is Sleeve Gastrectomy?",
-    "answer": "Sleeve gastrectomy involves removing a portion of the stomach to create a tube-like structure, significantly reducing stomach size and hunger hormone levels.",
-    "benefits": "This procedure can help with weight loss and has shown positive effects on metabolic health."
-      },
-      {
-    "question": "What is Stomach Ulcer Surgery?",
-    "answer": "Surgery for stomach ulcers may involve removing the affected portion of the stomach or repairing damage caused by the ulcer.",
-    "benefits": "This can relieve pain, prevent complications, and promote healing of the digestive tract."
-      },
-      {
-    "question": "What is Gastrectomy for Cancer?",
-    "answer": "Gastrectomy involves the partial or total removal of the stomach due to cancer, aimed at eliminating cancerous cells.",
-    "benefits": "This procedure can be crucial for managing stomach cancer and improving survival rates."
-      },
-      {
-    "question": "What is Endoscopic Surgery for Stomach Issues?",
-    "answer": "Endoscopic surgery uses a camera and specialized instruments to perform minimally invasive procedures on the stomach, addressing issues like strictures or polyps.",
-    "benefits": "Endoscopic procedures typically result in shorter recovery times and reduced pain compared to traditional surgery."
-      }
-    ],
-    "advantages": [
-      {
-    "question": "What are the benefits of stomach surgery for weight loss?",
-    "answer": "Stomach surgery can lead to significant weight loss, improving quality of life and reducing the risk of obesity-related diseases."
-      },
-      {
-    "question": "Can stomach surgery be performed laparoscopically?",
-    "answer": "Yes, many stomach surgeries can be performed laparoscopically, which is less invasive and typically offers faster recovery."
-      },
-      {
-    "question": "What are the advantages of minimally invasive techniques for stomach surgery?",
-    "answer": "Minimally invasive techniques result in smaller incisions, less pain, shorter hospital stays, and quicker recovery times compared to open surgery."
-      },
-      {
-    "question": "How can lifestyle changes support recovery after stomach surgery?",
-    "answer": "Post-surgery, adopting a healthy diet and exercise routine is crucial for long-term weight management and recovery."
-      },
-      {
-    "question": "How important is follow-up care after stomach surgery?",
-    "answer": "Follow-up care is essential to monitor recovery, manage any complications, and ensure proper nutrition and weight loss goals are being met."
-      }
-    ], 
-
-    "path": "18.jpg",
-    "images_url": " Rectal-Bleeding.jpg",
-    "url": "stomachSurgery"
-  },
- 
-  {
-    "id": 12,
     "title": "Incisional hernia",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -960,7 +890,7 @@
     "url": "incisional-hernia"
   },
   {
-    "id": 14,
+    "id": 12,
     "title": "Inguinal hernia",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1036,7 +966,7 @@
     "url": "inguinal-hernia"
   },
   {
-    "id": 15,
+    "id": 13,
     "title": "Ulcerative Colitis Surgery",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1112,7 +1042,7 @@
     "url": "ulcerative"
   },
   {
-    "id": 16,
+    "id": 14,
     "title": "Ulcerative Colitis Surgery",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1188,7 +1118,7 @@
     "url": "Incisionalhernia"
   },
   {
-    "id": 17,
+    "id": 15,
     "title": "Anal fissure, anal fistula",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1263,84 +1193,9 @@
     "images_url": " Rectal-Bleeding.jpg",
     "url": "fissure"
   },
+
   {
-    "id": 18,
-    "title": "Hemorrhoid",
-    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
-    "faqs": [
-      {
-        "question": "Hemorrhoids ?",
-        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
-      },
-      {
-        "question": "Anal Fissures ?",
-        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
-      }
-    ],
-    "types": [
-      {
-        "question": "What is Hemorrhoidal Bleeding?",
-        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
-        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
-      },
-      {
-        "question": "What is Anal Fissure Bleeding?",
-        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
-        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
-      },
-      {
-        "question": "What is Diverticular Bleeding?",
-        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
-        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
-      },
-      {
-        "question": "What is Colorectal Polyp Bleeding?",
-        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
-        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
-      },
-      {
-        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
-        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
-        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
-      },
-      {
-        "question": "What is Colorectal Cancer Bleeding?",
-        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
-        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
-      }
-    ],
-    "advantages": [
-      {
-        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
-        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
-      },
-      {
-        "question": "Can rectal bleeding be treated with non-surgical methods?",
-        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
-      },
-      {
-        "question": "Is surgery always required for rectal bleeding?",
-        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
-      },
-      {
-        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
-        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
-      },
-      {
-        "question": "Can lifestyle changes reduce rectal bleeding?",
-        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
-      },
-      {
-        "question": "How can medical screening help with rectal bleeding?",
-        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
-      }
-    ], 
-    "path": "18.jpg",
-    "images_url": " Rectal-Bleeding.jpg",
-    "url": "hemorrhoid"
-  },
-  {
-    "id": 19,
+    "id": 16,
     "title": "Abdominal Pain/ Acute And Chronic",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1416,7 +1271,7 @@
     "url": "abdominal"
   },
   {
-    "id": 20,
+    "id": 17,
     "title": "Gastroscopy Abnormal",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1492,7 +1347,7 @@
     "url": "gastroscopy"
   },
   {
-    "id": 21,
+    "id": 18,
     "title": "Surgery For Reflux Disease",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1568,7 +1423,7 @@
     "url": "reflux"
   },
   {
-    "id": 22,
+    "id": 19,
     "title": "Irritable Bowel Syndrome",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1644,7 +1499,7 @@
     "url": "irritable"
   },
   {
-    "id": 23,
+    "id": 20,
     "title": "Surgery For Cancers",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1720,7 +1575,7 @@
     "url": "cancers"
   },
   {
-    "id": 23,
+    "id": 21,
     "title": "Stem Cell Therapy",
     "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
     "faqs": [
@@ -1796,7 +1651,7 @@
     "url": "stemcelltherapy"
   },
   {
-    "id": 24,
+    "id": 22,
     "title": "Robotic Surgery",
     "description": "Introduction Robotic surgery is revolutionizing the field of gastrointestinal (GI) surgery, offering enhanced precision, flexibility, and control compared to traditional open and laparoscopic surgeries. The use of robotics in treating GI diseases has increased significantly over the past few years, providing a minimally invasive approach that reduces recovery time, minimizes complications, and improves patient outcomes",
     "ext":"Robotic surgery is a type of minimally invasive surgery performed using a robotic system, most commonly the da Vinci Surgical System. The surgeon controls robotic arms equipped with surgical instruments through a console, which provides a 3D, high-definition view of the surgical site. These robotic arms kelp to perform delicate and complex procedures with complex disease with greater accuracy that surpasses traditional human capabilities.",

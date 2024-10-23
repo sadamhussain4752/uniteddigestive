@@ -68,7 +68,7 @@ const Home1Header = () => {
               </Link>
             </div>
 
-            <div className="main-menu-wrapper">
+            {/* <div className="main-menu-wrapper">
               <ul className="main-nav">
                 <li className="has-submenu megamenu active">
                   <Link to="/">
@@ -182,7 +182,7 @@ const Home1Header = () => {
                   </a>
                 </li>
               </ul>
-            </div>
+            </div> */}
           </nav>
         </div>
       </header>

@@ -398,7 +398,7 @@ const Home1 = () => {
                 <div className="col-7">
                   <p className="ban-sub-hed">{t("sec2hed")}</p>
                   <p className="ban-sub-cont">{t("sec2cont")}</p>
-                  <Link class="read-more-test" to="/guthealth-details/24">
+                  <Link class="read-more-test" to="/guthealth-details/22">
                     {t("sec2contbtn1")}
                   </Link>
                 </div>
