@@ -8,7 +8,7 @@ const SplashScreen = ({ allowvideo }) => {
     try {
       if (videoRef.current) {
         videoRef.current.muted = false; // Unmute the video
-        await videoRef.current.play();  // Play the video
+        await videoRef.current.play(); // Play the video
         setShowButtons(false); // Hide the buttons after selecting Yes
         console.log("Video started playing");
         allowvideo(true);
@@ -46,7 +46,6 @@ const SplashScreen = ({ allowvideo }) => {
           muted // Keep the video muted initially
           loop // Loop the video
         />
-
       </div>
 
       {/* Bottom-left pop-up */}
@@ -68,15 +67,23 @@ const SplashScreen = ({ allowvideo }) => {
           }}
         >
           <h3 className="text-center">Disclaimer</h3>
-
-          Welcome to United Gut Health Care, led by Dr. Shabeer Ahmed and his team. The information provided on this website (www.drshabeerahmed.com) is for general informational purposes only and should not be considered medical advice. Always consult with a qualified healthcare provider for diagnosis and treatment of any medical condition. We strive to keep the information on our site up-to-date, but we make no warranties regarding the accuracy or completeness of the content. <br />
-
-          <p className="mt-4 fw-bold ps-3">
-            By proceeding, you acknowledge that you have read and understood this disclaimer. Do you agree?
+          <p className="txt-fon">Welcome to United Gut Health Care, led by Dr. Shabeer Ahmed and his
+          team. The information provided on this website
+          (www.drshabeerahmed.com) is for general informational purposes only
+          and should not be considered medical advice. Always consult with a
+          qualified healthcare provider for diagnosis and treatment of any
+          medical condition. We strive to keep the information on our site
+          up-to-date, but we make no warranties regarding the accuracy or
+          completeness of the content. <br /></p>
+          <p className="mt-4 fw-bold txt-fon ps-3">
+            By proceeding, you acknowledge that you have read and understood
+            this disclaimer. Do you agree?
           </p>
-
           {/* Yes/No buttons */}
-          <div className="d-flex justify-content-between" style={{ marginTop: "10px" }}>
+          <div
+            className="d-flex justify-content-between"
+            style={{ marginTop: "10px" }}
+          >
             <button
               onClick={handleYesClick}
               className="d-block mx-auto"
