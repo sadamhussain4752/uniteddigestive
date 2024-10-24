@@ -657,7 +657,7 @@ const Home1 = () => {
             <OwlCarousel
               {...ourExpert}
               center={true}
-              autoplay={true} // Enable autoplay
+              // autoplay={true} // Enable autoplay
               autoplayTimeout={3000} // Set interval to 3 seconds (3000ms)
               autoplaySpeed={800} // Set speed for smooth transitions (800ms)
               loop={true} // Enable looping of slides
@@ -683,7 +683,7 @@ const Home1 = () => {
                     <Link
                       to={
                         item.url === ""
-                          ? `guthealth-details/${index + 1}`
+                          ? `guthealth-details/${item.id}`
                           : `/${item.url}`
                       }
                     >

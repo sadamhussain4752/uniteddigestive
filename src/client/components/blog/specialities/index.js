@@ -171,9 +171,10 @@ const SpecialitesDetails = (props) => {
                           />
                         </div>
                         <div className="specialist-info">
-                          <Link to="#">
-                            <h6>Request an Appointment for {expdetails && expdetails?.title}</h6>
-                          </Link>
+                        <a href="https://www.eka.care/doctor/dr-shabeer-ahmed-gastroenterologist-bengaluru" target="_blank">
+                        <h6>Request an Appointment for {expdetails && expdetails?.title}</h6>
+                          </a>
+                         
                           {/* <p>30 Doctors</p> */}
                         </div>
                         <div className="specialist-nav ms-auto">

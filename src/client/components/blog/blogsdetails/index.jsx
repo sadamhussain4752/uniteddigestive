@@ -36,16 +36,7 @@ const BlogDetailsdynimc = (props) => {
           <div className="row align-items-center inner-banner">
             <div className="col-md-12 col-12 text-center">
               <h2 className="breadcrumb-title">{expdetails?.title}</h2>
-              <nav aria-label="breadcrumb" className="page-breadcrumb">
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">
-                    <Link to="/home-2">Home</Link>
-                  </li>
-                  <li className="breadcrumb-item" aria-current="page">
-                  {expdetails?.title}
-                  </li>
-                </ol>
-              </nav>
+             
             </div>
           </div>
         </div>
@@ -53,7 +44,7 @@ const BlogDetailsdynimc = (props) => {
       <div className="content">
         <div className="container">
           <div className="row">
-            <div className="col-lg-8 col-md-12">
+            <div className="col-lg-12 col-md-12">
               <div className="blog-view">
                 <div className="blog blog-single-post">
                   <div className="blog-image">
@@ -109,73 +100,7 @@ const BlogDetailsdynimc = (props) => {
                 </div>
 
               
-                <div className="card author-widget clearfix">
-                  <div className="card-header">
-                    <h4 className="card-title">About Author</h4>
-                  </div>
-                  <div className="card-body">
-                    <div className="about-author">
-                      <div className="about-author-img">
-                        <div className="author-img-wrap">
-                          <Link to="/patient/doctor-profile">
-                            <img
-                              className="img-fluid rounded-circle"
-                              alt=""
-                              src={IMG03}
-                            />
-                          </Link>
-                        </div>
-                      </div>
-                      <div className="author-details">
-                        <Link
-                          to="/patient/doctor-profile"
-                          className="blog-author-name"
-                        >
-                         {expdetails?.author}
-                        </Link>
-                        <p className="mb-0">
-                        {expdetails?.title}
-                        </p>
-                      </div>
-                    </div>
-                  </div>
-                </div>
-             
-
-                <div className="card new-comment clearfix">
-                  <div className="card-header">
-                    <h4 className="card-title">Leave Comment</h4>
-                  </div>
-                  <div className="card-body">
-                    <form>
-                      <div className="form-group">
-                        <label>
-                          Name <span className="text-danger">*</span>
-                        </label>
-                        <input type="text" className="form-control" />
-                      </div>
-                      <div className="form-group">
-                        <label>
-                          Your Email Address{" "}
-                          <span className="text-danger">*</span>
-                        </label>
-                        <input type="email" className="form-control" />
-                      </div>
-                      <div className="form-group">
-                        <label>Comments</label>
-                        <textarea rows="4" className="form-control"></textarea>
-                      </div>
-                      <div className="submit-section">
-                        <button
-                          className="btn btn-primary submit-btn"
-                          type="submit"
-                        >
-                          Submit
-                        </button>
-                      </div>
-                    </form>
-                  </div>
-                </div>
+               
               </div>
             </div>
             {/* <div className="col-lg-4 col-md-12">

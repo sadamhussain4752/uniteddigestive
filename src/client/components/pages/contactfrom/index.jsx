@@ -18,16 +18,7 @@ const Contacts = (props) => {
             <div className="row align-items-center inner-banner">
               <div className="col-md-12 col-12 text-center">
                 <h2 className="breadcrumb-title">Contact Us</h2>
-                <nav aria-label="breadcrumb" className="page-breadcrumb">
-                  <ol className="breadcrumb">
-                    <li className="breadcrumb-item">
-                      <Link to="/">Home</Link>
-                    </li>
-                    <li className="breadcrumb-item" aria-current="page">
-                      Contact Us
-                    </li>
-                  </ol>
-                </nav>
+                
               </div>
             </div>
           </div>
@@ -48,71 +39,77 @@ const Contacts = (props) => {
                       <div className="row">
                         <div className="col-md-6">
                           <div className="form-group">
-                            <label>First Name</label>
                             <input
                               type="text"
                               className="form-control"
-                              placeholder="Enter Your First Name"
+                              placeholder="First Name"
                             />
                           </div>
                         </div>
                         <div className="col-md-6">
                           <div className="form-group">
-                            <label>Last Name</label>
                             <input
                               type="text"
                               className="form-control"
-                              placeholder="Enter Email Address"
+                              placeholder="Last Name"
                             />
                           </div>
                         </div>
                         <div className="col-md-6">
                           <div className="form-group">
-                            <label>Birthday</label>
                             <input
                               type="text"
                               className="form-control"
-                              placeholder="Enter DOB"
+                              placeholder="DOB"
                             />
                           </div>
                         </div>
                         <div className="col-md-6">
                           <div className="form-group">
-                            <label>Age</label>
                             <input
                               type="text"
                               className="form-control"
-                              placeholder="Enter Age"
+                              placeholder="Age"
                             />
                           </div>
                         </div>
-                        <div className="col-md-4">
+                        <div className="col-md-6">
                           <div className="form-group">
-                            <label>Zip Code</label>
                             <input
                               type="text"
                               className="form-control"
-                              placeholder="Enter Zip Code"
+                              placeholder="City"
                             />
                           </div>
                         </div>
-                        <div className="col-md-4">
+                         {/* Phone Number with Country Code */}
+  <div className="col-md-6">
+    <div className="form-group">
+      <div className="input-group">
+        {/* Country Code Dropdown */}
+        <select className="form-select" style={{ maxWidth: '140px' }}>
+          <option value="+1">+1 (USA)</option>
+          <option value="+91">+91 (India)</option>
+          <option value="+44">+44 (UK)</option>
+          <option value="+61">+61 (Australia)</option>
+          <option value="+81">+81 (Japan)</option>
+          {/* Add more country codes as needed */}
+        </select>
+        {/* Phone Number Input */}
+        <input
+          type="text"
+          className="form-control"
+          placeholder="Phone Number"
+        />
+      </div>
+    </div>
+  </div>
+                        <div className="col-md-6">
                           <div className="form-group">
-                            <label>Phone Number</label>
                             <input
                               type="text"
                               className="form-control"
-                              placeholder="Enter Phone Number"
-                            />
-                          </div>
-                        </div>
-                        <div className="col-md-4">
-                          <div className="form-group">
-                            <label>Email</label>
-                            <input
-                              type="text"
-                              className="form-control"
-                              placeholder="Enter the Email"
+                              placeholder="Email"
                             />
                           </div>
                         </div>

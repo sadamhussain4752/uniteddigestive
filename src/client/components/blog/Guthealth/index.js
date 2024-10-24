@@ -44,13 +44,13 @@ const GuthealthDetails = (props) => {
                 alt="kidney-image"
                 className="img-fluid w-100" // Ensure the image takes the full width and is responsive
               />
-
               {/* Text and breadcrumb inside the banner */}
               <div className="col-md-12 col-12 text-center position-absolute top-50 start-50 translate-middle">
                 <h2 className="breadcrumb-title text-white fs-1 font-upper-case">
                   {expdetails && expdetails?.title}
                 </h2>
-              </div>\
+              </div>
+              \
             </div>
           </div>
         ) : (
@@ -78,7 +78,6 @@ const GuthealthDetails = (props) => {
       <div className="content">
         <div className="container">
           <div className="row">
-        
             <div className="col-lg-4 col-md-12">
               {expdetails.sider_image !== undefined ? (
                 <div className="image-sides ">
@@ -89,8 +88,6 @@ const GuthealthDetails = (props) => {
                   />
                 </div>
               ) : null}
-
-          
 
               {/* <section>
                 <h3 className="mt-5"> Related Services</h3>
@@ -111,15 +108,18 @@ const GuthealthDetails = (props) => {
                   </p>
                 </div>
               </section> */}
-            </div>    <div className="col-lg-8 col-md-12">
+            </div>{" "}
+            <div className="col-lg-8 col-md-12">
               <div className="blog-view mt-3">
                 <div className="blog blog-single-post border-0">
-                <div className="blog-content">
+                  <div className="blog-content">
                     <p className="fs-6 fontp-justiy-center ">
                       {expdetails && expdetails?.description}
                     </p>
 
-                    <p className="fs-6 fontp-justiy-center ">{expdetails && expdetails?.ext}</p>
+                    <p className="fs-6 fontp-justiy-center ">
+                      {expdetails && expdetails?.ext}
+                    </p>
                   </div>
                   {/* <div className="blog-image mt-5">
                   <img
@@ -128,49 +128,46 @@ const GuthealthDetails = (props) => {
                         className="img-fluid w-100 mt-5"
                       />
                   </div> */}
-
-                 
                 </div>
               </div>
             </div>
             {expdetails?.types?.length > 0 ? (
-  <section>
-    <div className="blog-content m-4">
-      <h3 className="mt-3 mb-4">Types of {expdetails.title}</h3>
-      {expdetails?.types?.map((item, index) => (
-        <div key={index} className={`d-flex ${index % 2 === 0 ? 'row' : 'flex-row-reverse justify-content-between'} image-size-gul`}>
-          {/* Question */}
-          <h5>{item.question}</h5>
+              <section>
+                <div className="blog-content m-4">
+                  <h3 className="mt-3 mb-4">Types of {expdetails.title}</h3>
+                  {expdetails?.types?.map((item, index) => (
+                    <div key={index} className={`d-flex ${index % 2 === 0 ? 'row' : 'flex-row-reverse justify-content-between'} image-size-gul`}>
+          
+                      {/* Question */}
+                      <h5>{item.question}</h5>
 
-          {/* Answer */}
-          <p className="col-md-9">
-            {item.answer.includes(":") ? (
-              <>
-                <strong>{item.answer.split(":")[0]}:</strong>
-                {item.answer.split(":").slice(1).join(":")}
-              </>
-            ) : (
-              item.answer
-            )}
-          </p>
+                      {/* Answer */}
+                      <div className="col-md-9  rounded-pill p-5 text-white ">
+                        {item.answer.includes(":") ? (
+                          <>
+                            <strong>{item.answer.split(":")[0]}:</strong>
+                            {item.answer.split(":").slice(1).join(":")}
+                          </>
+                        ) : (
+                          item.answer
+                        )}
+                      </div>
 
-          {/* Image */}
-          <div className="col-md-3">
-            {item.images_url !== undefined ? (
-              <ImageWithBasePath
-                src={`assets/img/bannerslider/${item.images_url}`}
-                alt="kidney-image"
-                className="img-fluid "
-              />
+                      {/* Image */}
+                      <div className="col-md-3">
+                        {item.images_url !== undefined ? (
+                          <ImageWithBasePath
+                            src={`assets/img/bannerslider/${item.images_url}`}
+                            alt="kidney-image"
+                            className="img-fluid "
+                          />
+                        ) : null}
+                      </div>
+                    </div>
+                  ))}
+                </div>
+              </section>
             ) : null}
-          </div>
-        </div>
-      ))}
-    </div>
-  </section>
-) : null}
-
-
             {expdetails?.advantages?.length > 0 ? (
               <section>
                 <div className="blog-content m-4">
@@ -193,7 +190,6 @@ const GuthealthDetails = (props) => {
                 </div>
               </section>
             ) : null}
-
             <section className="faq-section">
               <div className="container">
                 <div className="row">

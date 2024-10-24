@@ -2,7 +2,7 @@
   {
     "id": 1,
     "title": "Diarrhea",
-    "description": "Frequent and watery bowel movements characterize diarrhoea, which involves an increased fluid content in the stool. This common condition is typically not serious and can arise from various factors. Common causes include viral infections, bacterial infections, food allergies, food poisoning, certain medications, artificial sweeteners, and excessive alcohol consumption. Additionally, diarrhoea may be linked to chronic gastrointestinal conditions such as Crohn’s disease and ulcerative colitis.",
+    "description": "Diarrhea is the passage of loose, watery stools occurring more than 3 or more stools a day. It can be acute ( episode is lasting less than 2 weeks) and infection is usually is the cause, persistent (2-4 weeks), or chronic (lasting more than 4 weeks). Diarrhea that lasts this long may indicate a more serious condition that warrants a visit with your healthcare provider.Diarrhea can lead to dehydration, electrolyte imbalances, and malnutrition if untreated.",
     "services": [
       "Dietary Counseling",
       "Gut Health Evaluation",
@@ -81,7 +81,9 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day without the need for an overnight stay."
       }
     ],
-    "path": "Diarrhoea.jpg",
+    "bannerimage" : "Diarrhea BANNER.webp",
+    "sider_image" :"Robotic Surgery inner image box.webp",
+    "path": "Diarrhoea 1.webp",
     "images_url": "Diarrhoea.jpg",
     "url": ""
   },
@@ -155,9 +157,11 @@
         "answer": "Yes, procedures like EGD and ERCP are minimally invasive, offering quick recovery times and minimal discomfort while providing accurate diagnostic information crucial for managing gastritis effectively."
       }
     ],
-    "path": "gestritis.jpg",
+    "path": "Gastritis 1.webp",
     "images_url": "gestritis.jpg",
-    "url": ""
+    "url": "",
+    "bannerimage" : "Gastritis 2.webp",
+    "sider_image" :"Robotic Surgery inner image box.webp"
   },
   {
     "id": 3,
@@ -257,9 +261,11 @@
         "answer": "However, bariatric surgery is not a quick fix, and patients must commit to long-term lifestyle changes, including diet modifications and regular follow-ups to manage nutritional needs."
       }
     ],
-    "path": "Bariatric-Surgery.jpg",
+    "path": "Bariatric Surgery 1.webp",
     "images_url": "Bariatric-Surgery.jpg",
-    "url": ""
+    "url": "",
+     "bannerimage" : "Bariatric Surgery 2.webp",
+    "sider_image" :"Robotic Surgery inner image box.webp"
   },
   {
     "id": 4,
@@ -334,9 +340,11 @@
         "answer": "Yes, most laparoscopic procedures allow for a shorter hospital stay, and many patients are discharged the same day or within 1-2 days post-surgery."
       }
     ],
-    "path": "Laparoscopic.jpg",
+    "path": "Laparoscopic 1.webp",
     "images_url": "Laparoscopic.jpg",
-    "url": ""
+    "url": "",
+      "bannerimage" : "laroscopic 2.webp",
+    "sider_image" :"Robotic Surgery inner image box.webp"
   },
   {
     "id": 5,
@@ -422,9 +430,11 @@
         "answer": "Yes, laser surgery tends to lower the risk of post-operative infections as the laser sterilizes the tissue during the procedure."
       }
     ],
-    "path": "2.jpg",
+    "path": "Proctology 1.webp",
     "images_url": "Gastroenterology.jpg",
-    "url": ""
+    "url": "",
+      "bannerimage" : "Proctology 2.webp",
+    "sider_image" :"Robotic Surgery inner image box.webp"
   },
   {
     "id": 6,
@@ -492,9 +502,11 @@
         "answer": "Most laser surgeries for anorectal conditions are performed as outpatient or daycare procedures, meaning patients can go home the same day."
       }
     ],
-    "path": "6.jpg",
+    "path": "Obesity 1.webp",
     "images_url": "Genetic-Factors.jpg",
-    "url": "Obesity"
+    "url": "Obesity",
+     "bannerimage" : "Obesity 2.webp",
+    "sider_image" :"Robotic Surgery inner image box.webp"
   },
   {
     "id": 7,
@@ -563,13 +575,15 @@
       }
     ],
 
-    "path": "Laser-Surgery.jpg",
+    "path": "laser surgery 1.webp",
     "images_url": " 19.jpg",
-    "url": "Lasersurgery"
+    "url": "Lasersurgery",
+     "bannerimage" : "laser surgery 2.webp",
+    "sider_image" :"Robotic Surgery inner image box.webp"
   },
   {
     "id": 8,
-    "title": "Gastric Balloons",
+    "title": "Gastritis Balloon",
    "description": "Gastric balloon procedures have become an increasingly popular non-surgical option for weight loss due to their effectiveness, minimal invasiveness, and relatively quick recovery times. These procedures involve the placement of a soft, expandable balloon in the stomach, which helps to reduce capacity and promotes a feeling of fullness with smaller food portions. Below is an overview of the common types of gastric balloons, their benefits, and general information regarding their use.",
     "faqs": [
       {
@@ -635,7 +649,7 @@
       }
     ],
 
-    "path": "16.jpg",
+    "path": "Gastric Balloons 1.webp",
     "images_url": "Surgical-Interventions.jpg",
     "url": "swallowableBalloon"
   },
@@ -732,7 +746,7 @@
     "sider_image" :"Robotic Surgery inner image box.webp",
 
     "Questions-d-none":true,
-    "path": "18.jpg",
+    "path": "Rectal Bleeding 1.webp",
     "images_url": "Rectal-Bleeding.jpg",
     "url": ""
   },
@@ -809,7 +823,7 @@
       }
 ]
 , 
-    "path": "18.jpg",
+    "path": "Endoscopic 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "endoscopicSurgery"
   },
@@ -885,7 +899,7 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Incisional hernia 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "incisional-hernia"
   },
@@ -961,86 +975,11 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Inguinal hernia 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "inguinal-hernia"
   },
-  {
-    "id": 13,
-    "title": "Ulcerative Colitis Surgery",
-    "description": "Rectal bleeding can be caused by various conditions, both acute (sudden onset) and chronic (long-term).",
-    "faqs": [
-      {
-        "question": "Hemorrhoids ?",
-        "answer": "Swollen blood vessels in the rectum or anus that may rupture and cause bright red bleeding, often associated with pain or itching."
-      },
-      {
-        "question": "Anal Fissures ?",
-        "answer": "It can treat conditions such as skin abnormalities, tumors, eye disorders, and more."
-      }
-    ],
-    "types": [
-      {
-        "question": "What is Hemorrhoidal Bleeding?",
-        "answer": "Hemorrhoidal bleeding occurs when the blood vessels in the rectum or anus become swollen and irritated, often resulting in bright red blood during bowel movements. This is the most common cause of rectal bleeding and can be caused by constipation, straining, or prolonged sitting.",
-        "benefits": "Hemorrhoidal bleeding is usually mild and can be treated with lifestyle changes, over-the-counter medications, or minor procedures."
-      },
-      {
-        "question": "What is Anal Fissure Bleeding?",
-        "answer": "Anal fissures are small tears in the lining of the anus, often causing pain and bleeding during or after bowel movements. The bleeding is typically bright red and occurs in small amounts.",
-        "benefits": "Anal fissure bleeding can often be managed with dietary changes, topical treatments, or minor surgical procedures for long-term relief."
-      },
-      {
-        "question": "What is Diverticular Bleeding?",
-        "answer": "Diverticular bleeding occurs when small pouches (diverticula) in the colon wall become inflamed or burst, leading to sudden and sometimes heavy rectal bleeding. This condition is more common in older adults and often requires medical attention.",
-        "benefits": "Though it may require medical intervention, diverticular bleeding usually resolves on its own and can be managed with diet and medications to prevent recurrence."
-      },
-      {
-        "question": "What is Colorectal Polyp Bleeding?",
-        "answer": "Colorectal polyps are abnormal growths in the colon or rectum that can cause bleeding if they become large or irritated. The bleeding is typically less noticeable but can indicate a risk of cancer.",
-        "benefits": "Polyps can often be removed during a colonoscopy, reducing the risk of cancer and stopping the bleeding."
-      },
-      {
-        "question": "What is Inflammatory Bowel Disease (IBD) Bleeding?",
-        "answer": "Inflammatory Bowel Diseases, like Crohn’s disease and ulcerative colitis, can cause rectal bleeding due to chronic inflammation in the digestive tract. Bleeding may occur with diarrhea, abdominal pain, and other symptoms.",
-        "benefits": "Though IBD is a chronic condition, medications and surgery can help manage symptoms and reduce bleeding episodes."
-      },
-      {
-        "question": "What is Colorectal Cancer Bleeding?",
-        "answer": "Rectal bleeding can be an early symptom of colorectal cancer, especially if it occurs with changes in bowel habits, weight loss, or fatigue. The bleeding may be hidden or visible during bowel movements.",
-        "benefits": "Early detection of colorectal cancer through screening and addressing symptoms like rectal bleeding can significantly improve treatment outcomes."
-      }
-    ],
-    "advantages": [
-      {
-        "question": "What are the benefits of identifying the cause of rectal bleeding early?",
-        "answer": "Early identification of rectal bleeding can lead to prompt treatment of conditions like hemorrhoids, fissures, or more serious issues like colorectal cancer, reducing the risk of complications."
-      },
-      {
-        "question": "Can rectal bleeding be treated with non-surgical methods?",
-        "answer": "Yes, many causes of rectal bleeding, such as hemorrhoids or anal fissures, can be treated with non-surgical methods like dietary changes, medications, or minor outpatient procedures."
-      },
-      {
-        "question": "Is surgery always required for rectal bleeding?",
-        "answer": "Surgery is not always required. In cases like hemorrhoidal or fissure bleeding, non-invasive treatments are often sufficient. However, conditions like colorectal cancer may require surgical intervention."
-      },
-      {
-        "question": "What are the advantages of minimally invasive procedures for rectal bleeding?",
-        "answer": "Minimally invasive procedures, such as rubber band ligation for hemorrhoids or laser surgery for polyps, offer faster recovery, less pain, and lower risks compared to traditional surgery."
-      },
-      {
-        "question": "Can lifestyle changes reduce rectal bleeding?",
-        "answer": "Yes, lifestyle changes such as increasing fiber intake, staying hydrated, and avoiding straining during bowel movements can significantly reduce the risk of rectal bleeding, especially for hemorrhoids and fissures."
-      },
-      {
-        "question": "How can medical screening help with rectal bleeding?",
-        "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
-      }
-    ], 
-    "path": "18.jpg",
-    "images_url": " Rectal-Bleeding.jpg",
-    "url": "ulcerative"
-  },
+ 
   {
     "id": 14,
     "title": "Ulcerative Colitis Surgery",
@@ -1113,7 +1052,7 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Ulcerative colitis surgery 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "Incisionalhernia"
   },
@@ -1189,7 +1128,7 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Anal fissure, anal fistula 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "fissure"
   },
@@ -1266,7 +1205,7 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Abdominal Pain 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "abdominal"
   },
@@ -1342,7 +1281,7 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Gastroscopy 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "gastroscopy"
   },
@@ -1418,7 +1357,7 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Surgery For Reflux 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "reflux"
   },
@@ -1494,7 +1433,7 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Irritable Bowel 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "irritable"
   },
@@ -1570,7 +1509,7 @@
         "answer": "Regular medical screenings, such as colonoscopies, can help detect the underlying causes of rectal bleeding, such as polyps or early-stage cancer, allowing for early treatment and better outcomes."
       }
     ], 
-    "path": "18.jpg",
+    "path": "Surgery For 1.webp",
     "images_url": " Rectal-Bleeding.jpg",
     "url": "cancers"
   },
@@ -1701,7 +1640,7 @@
       }
       
     ],
-    "bannerimage" : "Robotic_Surgery.webp",
+    "bannerimage" : "Robotic Surgery 1960 x 430 (2).webp",
     
      "sider_image" :"Robotic Surgery inner image box.webp",
      "advantages": [
@@ -1726,7 +1665,7 @@
         "answer": " Shorter Hospital Stays: Robotic surgery often results in quicker recovery, allowing patients to be discharged sooner compared to traditional surgical approaches."
       }
     ],
-    "path": "18.jpg",
+    "path": "Robotic Surgery 1 (1).webp",
     "images_url": "Rectal-Bleeding.jpg",
     "url": ""
   }

@@ -24,23 +24,33 @@ const Obesity = (props) => {
     <div>
       <Home1Header />
       <div className="breadcrumb-bar-two">
-        <div className="container">
-          <div className="row align-items-center inner-banner">
-            <div className="col-md-12 col-12 text-center">
-              <h2 className="breadcrumb-title">Obesity</h2>
-              <nav aria-label="breadcrumb" className="page-breadcrumb">
-                <ol className="breadcrumb">
-                  <li className="breadcrumb-item">
-                    <Link to="/">Home</Link>
-                  </li>
-                  <li className="breadcrumb-item" aria-current="page">
-                    Obesity
-                  </li>
-                </ol>
-              </nav>
-            </div>
-          </div>
-        </div>
+      <div className="">
+     
+     <div className="row align-items-center position-relative">
+       <ImageWithBasePath
+         src="assets/img/bannerslider/Obesity 2.webp"
+         alt="kidney-image"
+         className="img-fluid w-100" // Ensure the image takes the full width and is responsive
+       />
+       
+       {/* Text and breadcrumb inside the banner */}
+       <div className="col-md-12 col-12 text-center position-absolute top-50 start-50 translate-middle">
+         <h2 className="breadcrumb-title text-white fs-1">Obesity</h2>
+         
+         {/* Breadcrumb navigation */}
+         {/* <nav aria-label="breadcrumb" className="page-breadcrumb">
+           <ol className="breadcrumb ">
+             <li className="breadcrumb-item ">
+               <Link className="text-white" to="/">Home</Link>
+             </li>
+             <li className="breadcrumb-item active text-white" aria-current="page">
+               Stem Cell Therapy
+             </li>
+           </ol>
+         </nav> */}
+       </div>
+     </div>
+   </div>
       </div>
 
 
