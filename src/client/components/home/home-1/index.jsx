@@ -276,24 +276,24 @@ const Home1 = () => {
     ],
   };
 
-  // if (isVisible && landscreen === null) {
-  //   return (
-  //     <SplashScreen
-  //       allowvideo={(item) => {
-  //         console.log("====================================");
-  //         console.log(item, "item");
-  //         console.log("====================================");
-  //         setIsVisibles(item);
-  //       }}
-  //     />
-  //   );
-  // }
+  if (isVisible && landscreen === null) {
+    return (
+      <SplashScreen
+        allowvideo={(item) => {
+          console.log("====================================");
+          console.log(item, "item");
+          console.log("====================================");
+          setIsVisibles(item);
+        }}
+      />
+    );
+  }
   return (
     <div className="main-wrapper home-one">
       <Home1Header />
 
       {/* Home Banner */}
-      <section className="banner-section">
+      <section className="banner-section pt-0">
         <div className="col-md-12 position-relative">
           {/* <div className="banner-abs">
             <p className="banner-posab-h mb-0">
@@ -694,7 +694,7 @@ const Home1 = () => {
                     <Link
                       to={
                         item.url === ""
-                          ? `guthealth-details/${index + 1}`
+                          ? `guthealth-details/${item.id}`
                           : `/${item.url}`
                       }
                       className="read-more-test"

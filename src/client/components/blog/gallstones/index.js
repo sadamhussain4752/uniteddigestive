@@ -49,7 +49,7 @@ const Gallstones = (props) => {
 
 
           <div className="row">
-            <div className="col-lg-8 col-md-12">
+            <div className="col-lg-12 col-md-12">
               <div className="blog-view row lsre-tret">
                 <p className="txt-just">
                   Gall stone  form when substances in bile (such as cholesterol or bilirubin) become imbalanced and crystallize, creating solid particles in the gallbladder. There are two main types of gallstones: cholesterol and pigments stone  and most common are cholesterol and does not mean one who has abnormal lipid profile will form stone.
@@ -165,114 +165,7 @@ const Gallstones = (props) => {
               </div>
 
             </div>
-            <div className="col-lg-4 col-md-12">
-              <h3> For More Information</h3>
-              <section className=" mor-info ">
-                <div className="container">
-                  <div className="row">
-                    <div
-                      className="col-xl-12 col-lg-12 col-md-6 aos"
-                      data-aos="fade-up"
-                    >
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img ">
-                          <ImageWithBasePath
-                            src="assets/img/category/map-location-dot-solid.svg"
-                            alt="kidney-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                          <Link to="#">
-                            <h6 className="mb-0 ">Do you want a Laser surgery Test?</h6>
-                          </Link>
-                          {/* <p>21 Doctors</p> */}
-                        </div>
-                        <div className="specialist-nav ms-auto">
-                          <Link to="#">
-                            <i className="fas fa-long-arrow-alt-right" />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-
-                    <div className="col-xl-12 col-lg-12 col-md-6 aos" data-aos="fade-up">
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img">
-                          <ImageWithBasePath
-                            src="assets/img/category/stethoscope-solid.svg"
-                            alt="bone-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                        <a href="https://www.fortishealthcare.com/doctors/dr-shabeer-ahmed-773?hospital=3514" target="_blank">
-                            <h6>Book Appointment in Fortis Hospital</h6>
-                          </a>
-                         
-                        </div>
-                       
-                      </div>
-                    </div>
-
-                    <div
-                      className="col-xl-12 col-lg-12 col-md-6 aos"
-                      data-aos="fade-up"
-                    >
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img">
-                          <ImageWithBasePath
-                            src="assets/img/category/stethoscope-solid.svg"
-                            alt="bone-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                          
-                          <a href="https://www.eka.care/doctor/dr-shabeer-gastroenterologist-bengaluru" target="_blank">
-                            <h6>Request an Appointment</h6>
-                          </a>
-                          {/* <p>30 Doctors</p> */}
-                        </div>
-                        <div className="specialist-nav ms-auto">
-                          <Link to="#">
-                            <i className="fas fa-long-arrow-alt-right" />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-                    <div
-                      className="col-xl-12 col-lg-12 col-md-6 aos"
-                      data-aos="fade-up"
-                    >
-                      <div className="specialist-card d-flex align-items-center">
-                        <div className="specialist-img">
-                          <ImageWithBasePath
-                            src="assets/img/category/phone-solid.svg"
-                            alt="heart-image"
-                            className="img-fluid"
-                          />
-                        </div>
-                        <div className="specialist-info">
-                        <a href="https://wa.me/919900246002" target="_blank" rel="noopener noreferrer">
-  <h6>WhatsApp</h6>
-</a>
-                          {/* <p>15 Doctors</p> */}
-                        </div>
-                        <div className="specialist-nav ms-auto">
-                          <Link to="#">
-                            <i className="fas fa-long-arrow-alt-right" />
-                          </Link>
-                        </div>
-                      </div>
-                    </div>
-
-                  </div>
-                </div>
-              </section>
-
-
-            </div>
+          
           </div>
         </div>
       </div>

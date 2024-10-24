@@ -368,7 +368,7 @@ const AppContainer = function (props) {
               
               <Route path="/gallstones" exact component={Gallstones} />
               <Route path="/introducing/" exact component={Introducing} />
-              <Route path="/teams" exact component={Teams} />Gallstones
+              <Route path="/teams" exact component={Teams} />
 
 
               <Route path="/doctor-blog" exact component={Doctorblog} />

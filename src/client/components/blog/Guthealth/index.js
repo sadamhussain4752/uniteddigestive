@@ -133,36 +133,42 @@ const GuthealthDetails = (props) => {
             </div>
             {expdetails?.types?.length > 0 ? (
               <section>
-                <div className="blog-content m-4">
+                <div className="blog-content m-4 ">
                   <h3 className="mt-3 mb-4">Types of {expdetails.title}</h3>
                   {expdetails?.types?.map((item, index) => (
-                    <div key={index} className={`d-flex ${index % 2 === 0 ? 'row' : 'flex-row-reverse justify-content-between'} image-size-gul`}>
-          
-                      {/* Question */}
-                      <h5>{item.question}</h5>
-
-                      {/* Answer */}
-                      <div className="col-md-9  rounded-pill p-5 text-white ">
-                        {item.answer.includes(":") ? (
-                          <>
-                            <strong>{item.answer.split(":")[0]}:</strong>
-                            {item.answer.split(":").slice(1).join(":")}
-                          </>
-                        ) : (
-                          item.answer
-                        )}
+                    <div
+                      key={index}
+                      className={`row align-items-center mb-4`}
+                    >
+                      <h5 className="col-md-12 mb-4">{item.question}</h5>
+                      <div className="col-md-12">
+                      <div
+                        className={`rounded-pill bg-drak-lig text-black d-flex justify-content-center align-items-center ${
+                          index % 2 === 0 ? "" : "flex-row-reverse text-end"
+                        }`}
+                      >
+                        <div className="col-md-3 ">
+                          {item.images_url ? (
+                            <ImageWithBasePath
+                              src={`assets/img/bannerslider/${item.images_url}`}
+                              alt="image"
+                              className="img-fluid w-75"
+                            />
+                          ) : null}
+                        </div>
+                        <div className="col-md-9 ">
+                          {item.answer.includes(":") ? (
+                            <>
+                              <strong>{item.answer.split(":")[0]}:</strong>
+                              {item.answer.split(":").slice(1).join(":")}
+                            </>
+                          ) : (
+                            item.answer
+                          )}
+                        </div>
                       </div>
-
-                      {/* Image */}
-                      <div className="col-md-3">
-                        {item.images_url !== undefined ? (
-                          <ImageWithBasePath
-                            src={`assets/img/bannerslider/${item.images_url}`}
-                            alt="kidney-image"
-                            className="img-fluid "
-                          />
-                        ) : null}
-                      </div>
+                        </div>
+                     
                     </div>
                   ))}
                 </div>
